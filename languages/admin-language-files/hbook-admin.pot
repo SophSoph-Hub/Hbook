@@ -1,0 +1,6468 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HBook\n"
+"POT-Creation-Date: 2025-06-03 09:19-0400\n"
+"PO-Revision-Date: 2017-06-27 13:53+0100\n"
+"Last-Translator: Maestrel <contact@maestrel.com>\n"
+"Language-Team: Maestrel\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_html_x:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;__\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: .\n"
+
+#: accom-post-type/accom-post-type.php:17 admin-pages/pages/fees/fees.php:106
+#: admin-pages/pages/ical/ical.php:156 admin-pages/pages/options/options.php:97
+#: admin-pages/pages/rates/rates.php:193 admin-pages/pages/rates/rates.php:235
+#: admin-pages/pages/rates/rates.php:416
+#: admin-pages/pages/reservations/blocked-accom-display.php:71
+#: admin-pages/pages/rules/rules.php:68 admin-pages/pages/rules/rules.php:124
+#: admin-pages/pages/rules/rules.php:180 admin-pages/pages/rules/rules.php:236
+#: admin-pages/pages/rules/rules.php:299 blocks/blocks.php:64
+#: blocks/blocks.php:70 utils/strings-utils.php:121 utils/utils.php:4793
+msgid "Accommodation"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:18
+msgid "All Accommodation"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:19
+#: accom-post-type/accom-post-type.php:20
+msgid "Add New Accommodation"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:21
+msgid "Edit Accommodation"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:22
+msgid "New Accommodation"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:23
+msgid "View Accommodation post"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:24
+msgid "Search Accommodation"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:25
+msgid "No accommodation found."
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:26
+msgid "No accommodation post found in trash."
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:58
+msgid "HBook Accommodation settings"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:74
+msgid "Number of accommodation of this type"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:79
+msgid "Edit accommodation numbering"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:92 admin-pages/admin-page.php:53
+#: admin-pages/admin-page.php:55 admin-pages/admin-page.php:57
+#: admin-pages/pages/customers/customers.php:92
+#: admin-pages/pages/reservations/blocked-accom-display.php:86
+#: admin-pages/pages/reservations/resa-display.php:197
+#: admin-pages/pages/reservations/resa-display.php:233
+#: admin-pages/pages/reservations/resa-display.php:793 hbook.php:471
+msgid "Delete"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:100
+msgid "Occupancy settings"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:103 utils/options-utils.php:459
+msgid "Normal occupancy"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:105
+msgid "Extra people might pay a fee as defined in the \"Rates\" page."
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:110 utils/options-utils.php:460
+msgid "Maximum occupancy"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:114
+msgid "Minimum occupancy"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:117
+msgid "Specify a maximum number of adults or children"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:133
+msgid "Maximum adults"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:141
+msgid "Maximum children"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:159
+msgid "Descriptions"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:161
+msgid "Description displayed in search results"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:165
+msgid "Description displayed in Accommodation list"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:171
+msgid "Accommodation short name"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:173
+msgid "If set this name will be used in the calendar of the Reservations page."
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:179
+msgid "Accommodation abbreviated name"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:181
+msgid ""
+"If set this name will be used in the calendar of the Reservations page (on "
+"narrow screen)."
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:189
+msgid "Display options"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:193
+msgid "Accommodation display"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:205
+msgid "Use this post to display the accommodation"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:213
+msgid "Use another post or page to display the accommodation"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:217
+msgid "ID of the page used for displaying the accommodation"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:228
+msgid "Accommodation display template"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:231
+msgid "Post"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:232
+msgid "Page"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:250 blocks/blocks.php:90
+msgid "Starting price"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:262
+msgid "Automatic blockings"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:265
+#: database-actions/database-actions.php:1400
+#: database-actions/database-actions.php:1406
+#: database-actions/database-actions.php:1410
+#: database-actions/database-actions.php:1416
+msgid "Preparation time"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:267
+msgid ""
+"Enter the number of nights that should be blocked before and after a "
+"reservation."
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:273
+msgid ""
+"Accommodation that need to be blocked when this type of accommodation is "
+"booked"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:275
+msgid ""
+"Enter accommodation id. Separate multiple values with comma. You can "
+"indicate the number of accommodation that should be blocked between "
+"parentheses."
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:284
+#: admin-pages/pages/emails/emails.php:245
+#: admin-pages/pages/emails/emails.php:385 utils/options-utils.php:435
+msgid "Multiple accommodation booking"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:287
+msgid "Exclude this accommodation from multiple accommodation bookings"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:300
+msgid "Always"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:308
+msgid "On global search only"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:316 utils/options-utils.php:565
+msgid "Never"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:327
+msgid "Override default opening dates"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:536
+msgid "Accommodation id: "
+msgstr ""
+
+#: admin-pages/admin-ajax-actions.php:24
+msgid "Your session has expired. Please refresh the page."
+msgstr ""
+
+#: admin-pages/admin-ajax-actions.php:683
+#: front-end/front-end-ajax-actions.php:185
+#, php-format
+msgid "The %s (%s) is no longer available."
+msgstr ""
+
+#: admin-pages/admin-ajax-actions.php:942
+msgid "from"
+msgstr ""
+
+#: admin-pages/admin-ajax-actions.php:942
+msgid "to"
+msgstr ""
+
+#: admin-pages/admin-page.php:17 admin-pages/admin-page.php:103
+#: admin-pages/pages/emails/emails.php:22 admin-pages/pages/rates/rates.php:431
+#: admin-pages/pages/reservations/blocked-accom-display.php:28
+#: admin-pages/pages/reservations/resa-display.php:162
+#: admin-pages/pages/reservations/reservations.php:59 blocks/blocks.php:119
+#: front-end/booking-form/search-form.php:274 utils/options-utils.php:431
+msgid "All"
+msgstr ""
+
+#: admin-pages/admin-page.php:18 admin-pages/pages/customers/customers.php:100
+#: admin-pages/pages/customers/customers.php:106
+#: admin-pages/pages/ical/ical.php:229
+#: admin-pages/pages/reservations/resa-display.php:342
+#: admin-pages/pages/reservations/resa-display.php:366
+#: admin-pages/pages/reservations/resa-display.php:407
+#: admin-pages/pages/reservations/resa-display.php:432
+#: admin-pages/pages/reservations/resa-display.php:454
+#: admin-pages/pages/reservations/resa-display.php:476
+#: admin-pages/pages/reservations/resa-display.php:482
+#: admin-pages/pages/reservations/resa-display.php:502
+#: admin-pages/pages/reservations/resa-display.php:528
+#: admin-pages/pages/reservations/resa-display.php:734
+msgid "Save"
+msgstr ""
+
+#: admin-pages/admin-page.php:19 admin-pages/pages/text/text.php:265
+#: utils/options-utils.php:1633
+msgid "Saving..."
+msgstr ""
+
+#: admin-pages/admin-page.php:20
+#, php-format
+msgid "Delete '%setting_name'?"
+msgstr ""
+
+#: admin-pages/admin-page.php:21
+msgid "Confirm deletion?"
+msgstr ""
+
+#: admin-pages/admin-page.php:22
+msgid "It seems some changes have not been saved."
+msgstr ""
+
+#: admin-pages/admin-page.php:23
+msgid "No accommodation selected"
+msgstr ""
+
+#: admin-pages/admin-page.php:41
+msgid "Add season dates"
+msgstr ""
+
+#: admin-pages/admin-page.php:44
+msgid "Add option choice"
+msgstr ""
+
+#: admin-pages/admin-page.php:51 admin-pages/pages/customers/customers.php:91
+#: admin-pages/pages/reservations/resa-display.php:331
+#: admin-pages/pages/reservations/resa-display.php:358
+#: admin-pages/pages/reservations/resa-display.php:381
+#: admin-pages/pages/reservations/resa-display.php:425
+#: admin-pages/pages/reservations/resa-display.php:449
+#: admin-pages/pages/reservations/resa-display.php:466
+msgid "Edit"
+msgstr ""
+
+#: admin-pages/admin-page.php:61 admin-pages/pages/customers/customers.php:95
+#: admin-pages/pages/reservations/blocked-accom-display.php:89
+msgid "Deleting..."
+msgstr ""
+
+#: admin-pages/admin-page.php:69 admin-pages/admin-page.php:71
+#: admin-pages/admin-page.php:73 admin-pages/admin-page.php:75
+#: admin-pages/admin-page.php:175 admin-pages/admin-page.php:184
+#: admin-pages/pages/customers/customers.php:102
+#: admin-pages/pages/customers/customers.php:108
+#: admin-pages/pages/customers/customers.php:162
+#: admin-pages/pages/emails/emails.php:363 admin-pages/pages/ical/ical.php:215
+#: admin-pages/pages/ical/ical.php:230
+#: admin-pages/pages/reservations/resa-display.php:344
+#: admin-pages/pages/reservations/resa-display.php:367
+#: admin-pages/pages/reservations/resa-display.php:409
+#: admin-pages/pages/reservations/resa-display.php:434
+#: admin-pages/pages/reservations/resa-display.php:456
+#: admin-pages/pages/reservations/resa-display.php:478
+#: admin-pages/pages/reservations/resa-display.php:484
+#: admin-pages/pages/reservations/resa-display.php:504
+#: admin-pages/pages/reservations/resa-display.php:530
+#: admin-pages/pages/reservations/resa-display.php:736
+#: admin-pages/pages/reservations/resa-display.php:806
+#: admin-pages/pages/reservations/resa-display.php:857
+#: admin-pages/pages/reservations/resa-exporter-display.php:170
+msgid "Cancel"
+msgstr ""
+
+#: admin-pages/admin-page.php:94 admin-pages/admin-page.php:123
+#: admin-pages/pages/customers/customers.php:140
+#: admin-pages/pages/rates/rates.php:454
+#: admin-pages/pages/reservations/resa-exporter-display.php:70
+#: admin-pages/pages/reservations/resa-exporter-display.php:97
+#: admin-pages/pages/reservations/resa-exporter-display.php:123
+msgid "Select all"
+msgstr ""
+
+#: admin-pages/admin-page.php:95 admin-pages/admin-page.php:128
+#: admin-pages/pages/customers/customers.php:141
+#: admin-pages/pages/rates/rates.php:441 admin-pages/pages/rates/rates.php:455
+#: admin-pages/pages/reservations/resa-exporter-display.php:71
+#: admin-pages/pages/reservations/resa-exporter-display.php:98
+#: admin-pages/pages/reservations/resa-exporter-display.php:124
+msgid "Unselect all"
+msgstr ""
+
+#: admin-pages/admin-page.php:135
+msgid "Amount type"
+msgstr ""
+
+#: admin-pages/admin-page.php:136
+#: admin-pages/pages/reservations/resa-display.php:700
+#: admin-pages/pages/reservations/resa-display.php:722
+#: front-end/booking-form/details-form.php:152 utils/options-utils.php:131
+msgid "Fixed"
+msgstr ""
+
+#: admin-pages/admin-page.php:137 front-end/booking-form/details-form.php:159
+#: utils/options-utils.php:129
+msgid "Percentage"
+msgstr ""
+
+#: admin-pages/admin-page.php:150 utils/options-utils.php:206
+msgid "Text"
+msgstr ""
+
+#: admin-pages/admin-page.php:151 admin-pages/pages/customers/customers.php:78
+#: admin-pages/pages/reservations/resa-display.php:777
+#: database-actions/database-creation.php:651
+msgid "Email"
+msgstr ""
+
+#: admin-pages/admin-page.php:152
+#: admin-pages/pages/reservations/resa-display.php:263
+msgid "Number"
+msgstr ""
+
+#: admin-pages/admin-page.php:153
+msgid "Text area"
+msgstr ""
+
+#: admin-pages/admin-page.php:154 admin-pages/pages/emails/emails.php:286
+#: front-end/booking-form/available-accom.php:50
+msgid "Select"
+msgstr ""
+
+#: admin-pages/admin-page.php:155
+msgid "Radio buttons"
+msgstr ""
+
+#: admin-pages/admin-page.php:156
+msgid "Check boxes"
+msgstr ""
+
+#: admin-pages/admin-page.php:157 admin-pages/admin-page.php:216
+msgid "Country select"
+msgstr ""
+
+#: admin-pages/admin-page.php:158 utils/strings-utils.php:102
+#: utils/strings-utils.php:116
+msgid "Title"
+msgstr ""
+
+#: admin-pages/admin-page.php:159
+msgid "Sub-title"
+msgstr ""
+
+#: admin-pages/admin-page.php:160
+msgid "Explanation"
+msgstr ""
+
+#: admin-pages/admin-page.php:161
+msgid "Separator"
+msgstr ""
+
+#: admin-pages/admin-page.php:162
+msgid "Column break"
+msgstr ""
+
+#: admin-pages/admin-page.php:168
+msgid "Remove field"
+msgstr ""
+
+#: admin-pages/admin-page.php:169
+msgid "Form title"
+msgstr ""
+
+#: admin-pages/admin-page.php:173
+msgid "Edit field name"
+msgstr ""
+
+#: admin-pages/admin-page.php:174 admin-pages/admin-page.php:183
+#: admin-pages/admin-page.php:256 admin-pages/pages/emails/emails.php:361
+#: admin-pages/pages/emails/emails.php:510
+msgid "OK"
+msgstr ""
+
+#: admin-pages/admin-page.php:178 admin-pages/pages/customers/customers.php:75
+#: admin-pages/pages/reservations/resa-display.php:257
+#: admin-pages/pages/reservations/resa-display.php:624 utils/utils.php:4453
+#: utils/utils.php:4457
+msgid "Id"
+msgstr ""
+
+#: admin-pages/admin-page.php:182
+msgid "Edit field Id"
+msgstr ""
+
+#: admin-pages/admin-page.php:187
+msgid "Displayed?"
+msgstr ""
+
+#: admin-pages/admin-page.php:189 admin-pages/admin-page.php:198
+#: admin-pages/admin-page.php:207 admin-pages/pages/fees/fees.php:182
+#: admin-pages/pages/misc/misc.php:236 admin-pages/pages/options/options.php:12
+#: admin-pages/pages/options/options.php:156
+#: admin-pages/pages/options/options.php:194
+#: admin-pages/pages/payment/payment.php:53
+#: admin-pages/pages/rates/rates.php:56 admin-pages/pages/rates/rates.php:388
+#: admin-pages/pages/rules/rules.php:23
+#: front-end/booking-form/search-form.php:297 payment/stripe/stripe.php:84
+#: payment/stripe/stripe.php:93 utils/options-utils.php:27
+#: utils/options-utils.php:48 utils/options-utils.php:58
+#: utils/options-utils.php:68 utils/options-utils.php:78
+#: utils/options-utils.php:95 utils/options-utils.php:105
+#: utils/options-utils.php:153 utils/options-utils.php:353
+#: utils/options-utils.php:374 utils/options-utils.php:441
+#: utils/options-utils.php:450 utils/options-utils.php:468
+#: utils/options-utils.php:478 utils/options-utils.php:493
+#: utils/options-utils.php:502 utils/options-utils.php:573
+#: utils/options-utils.php:582 utils/options-utils.php:643
+#: utils/options-utils.php:653 utils/options-utils.php:682
+#: utils/options-utils.php:816 utils/options-utils.php:856
+#: utils/options-utils.php:866 utils/options-utils.php:886
+#: utils/options-utils.php:895 utils/options-utils.php:904
+#: utils/options-utils.php:928 utils/options-utils.php:944
+#: utils/options-utils.php:954 utils/options-utils.php:963
+#: utils/options-utils.php:973 utils/options-utils.php:983
+#: utils/options-utils.php:992 utils/options-utils.php:1022
+#: utils/options-utils.php:1046 utils/options-utils.php:1063
+#: utils/options-utils.php:1072 utils/options-utils.php:1102
+#: utils/options-utils.php:1112 utils/options-utils.php:1122
+#: utils/options-utils.php:1140 utils/options-utils.php:1150
+#: utils/options-utils.php:1159 utils/options-utils.php:1168
+#: utils/options-utils.php:1189 utils/options-utils.php:1198
+#: utils/options-utils.php:1207 utils/options-utils.php:1225
+#: utils/options-utils.php:1234
+msgid "Yes"
+msgstr ""
+
+#: admin-pages/admin-page.php:192 admin-pages/admin-page.php:201
+#: admin-pages/admin-page.php:210 admin-pages/pages/fees/fees.php:180
+#: admin-pages/pages/misc/misc.php:244 admin-pages/pages/options/options.php:13
+#: admin-pages/pages/options/options.php:158
+#: admin-pages/pages/options/options.php:192
+#: admin-pages/pages/payment/payment.php:54
+#: admin-pages/pages/rates/rates.php:57 admin-pages/pages/rates/rates.php:390
+#: admin-pages/pages/rules/rules.php:24
+#: front-end/booking-form/search-form.php:296 payment/stripe/stripe.php:85
+#: payment/stripe/stripe.php:94 utils/options-utils.php:28
+#: utils/options-utils.php:49 utils/options-utils.php:59
+#: utils/options-utils.php:69 utils/options-utils.php:79
+#: utils/options-utils.php:96 utils/options-utils.php:106
+#: utils/options-utils.php:154 utils/options-utils.php:354
+#: utils/options-utils.php:375 utils/options-utils.php:442
+#: utils/options-utils.php:451 utils/options-utils.php:469
+#: utils/options-utils.php:479 utils/options-utils.php:494
+#: utils/options-utils.php:503 utils/options-utils.php:574
+#: utils/options-utils.php:583 utils/options-utils.php:644
+#: utils/options-utils.php:654 utils/options-utils.php:683
+#: utils/options-utils.php:817 utils/options-utils.php:857
+#: utils/options-utils.php:867 utils/options-utils.php:887
+#: utils/options-utils.php:896 utils/options-utils.php:905
+#: utils/options-utils.php:929 utils/options-utils.php:945
+#: utils/options-utils.php:955 utils/options-utils.php:964
+#: utils/options-utils.php:974 utils/options-utils.php:984
+#: utils/options-utils.php:993 utils/options-utils.php:1023
+#: utils/options-utils.php:1047 utils/options-utils.php:1064
+#: utils/options-utils.php:1073 utils/options-utils.php:1103
+#: utils/options-utils.php:1113 utils/options-utils.php:1123
+#: utils/options-utils.php:1141 utils/options-utils.php:1151
+#: utils/options-utils.php:1160 utils/options-utils.php:1169
+#: utils/options-utils.php:1190 utils/options-utils.php:1199
+#: utils/options-utils.php:1208 utils/options-utils.php:1226
+#: utils/options-utils.php:1235
+msgid "No"
+msgstr ""
+
+#: admin-pages/admin-page.php:196
+msgid "Admin only?"
+msgstr ""
+
+#: admin-pages/admin-page.php:205
+msgid "Required?"
+msgstr ""
+
+#: admin-pages/admin-page.php:215 admin-pages/admin-page.php:241
+msgid "Field type"
+msgstr ""
+
+#: admin-pages/admin-page.php:219
+msgid "Default country"
+msgstr ""
+
+#: admin-pages/admin-page.php:249
+msgid "Choices"
+msgstr ""
+
+#: admin-pages/admin-page.php:250
+msgid "Add a choice"
+msgstr ""
+
+#: admin-pages/admin-page.php:255
+msgid "Edit choice"
+msgstr ""
+
+#: admin-pages/admin-page.php:257
+msgid "Remove choice"
+msgstr ""
+
+#: admin-pages/admin-page.php:265
+msgid "Data about?"
+msgstr ""
+
+#: admin-pages/admin-page.php:267
+#: admin-pages/pages/reservations/resa-display.php:280
+msgid "Customer"
+msgstr ""
+
+#: admin-pages/admin-page.php:270
+msgid "Booking"
+msgstr ""
+
+#: admin-pages/admin-page.php:273
+msgid "Column width"
+msgstr ""
+
+#: admin-pages/admin-page.php:275
+msgid "Full"
+msgstr ""
+
+#: admin-pages/admin-page.php:276
+msgid "One half"
+msgstr ""
+
+#: admin-pages/admin-page.php:277
+msgid "One third"
+msgstr ""
+
+#: admin-pages/admin-page.php:291
+msgid "HBook settings"
+msgstr ""
+
+#: admin-pages/admin-page.php:314
+msgid "Reservation variables"
+msgstr ""
+
+#: admin-pages/admin-page.php:315
+msgid "Customer variables"
+msgstr ""
+
+#: admin-pages/admin-page.php:316
+msgid "Payment link variables"
+msgstr ""
+
+#: admin-pages/admin-page.php:317 utils/options-utils.php:676
+#: utils/utils.php:4868
+msgid "Misc"
+msgstr ""
+
+#: admin-pages/pages/appearance/appearance.php:7
+#: admin-pages/pages/forms/forms.php:7 admin-pages/pages/misc/misc.php:11
+#: admin-pages/pages/payment/payment.php:11
+msgid "Settings have been saved."
+msgstr ""
+
+#: admin-pages/pages/appearance/appearance.php:20 utils/utils.php:4858
+msgid "Appearance"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:17
+msgid "Delete customer?"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:18
+#: admin-pages/pages/reservations/reservations.php:55
+msgid "Please select the data you want to export."
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:19
+msgid "1 reservation"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:20
+#: admin-pages/pages/reservations/reservations.php:48
+#, php-format
+msgid "%s reservations"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:21
+#: admin-pages/pages/reservations/reservations.php:97
+#: database-actions/database-creation.php:657
+#: front-end/renders/payment-link-form-render.php:211
+msgid "Country"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:22
+#: admin-pages/pages/reservations/reservations.php:98
+#: database-actions/database-actions.php:2521
+msgid "State"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:23
+#: admin-pages/pages/reservations/reservations.php:99
+#: database-actions/database-actions.php:2522
+msgid "Province"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:24
+#: admin-pages/pages/reservations/reservations.php:100
+msgid "Former data"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:44 utils/utils.php:4853
+msgid "Customers"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:50
+msgid "Customer list"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:55
+msgid "There are no customers."
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:61
+#: admin-pages/pages/reservations/resa-display.php:500
+#: front-end/booking-form/details-form.php:389
+msgid "Search a customer..."
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:63
+msgid "Sort by Last name &rarr;"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:64
+msgid "Sort by Last name &larr;"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:65
+msgid "Sort by Id &rarr;"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:66
+msgid "Sort by Id &larr;"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:76
+#: database-actions/database-creation.php:649
+msgid "First name"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:77
+#: database-actions/database-creation.php:650
+msgid "Last name"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:79
+msgid "Other informations"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:80
+#: admin-pages/pages/documents/documents.php:61
+#: admin-pages/pages/emails/emails.php:204 admin-pages/pages/fees/fees.php:107
+#: admin-pages/pages/options/options.php:98
+#: admin-pages/pages/rates/rates.php:197 admin-pages/pages/rates/rates.php:243
+#: admin-pages/pages/rates/rates.php:422
+#: admin-pages/pages/reservations/blocked-accom-display.php:75
+#: admin-pages/pages/rules/rules.php:70 admin-pages/pages/rules/rules.php:126
+#: admin-pages/pages/rules/rules.php:182 admin-pages/pages/rules/rules.php:238
+#: admin-pages/pages/rules/rules.php:301
+#: admin-pages/pages/seasons/seasons.php:79
+msgid "Actions"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:99
+#: admin-pages/pages/reservations/resa-display.php:475
+msgid "Customer details"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:101
+#: admin-pages/pages/customers/customers.php:107
+#: admin-pages/pages/reservations/resa-display.php:343
+#: admin-pages/pages/reservations/resa-display.php:408
+#: admin-pages/pages/reservations/resa-display.php:433
+#: admin-pages/pages/reservations/resa-display.php:455
+#: admin-pages/pages/reservations/resa-display.php:477
+#: admin-pages/pages/reservations/resa-display.php:483
+#: admin-pages/pages/reservations/resa-display.php:503
+#: admin-pages/pages/reservations/resa-display.php:529
+#: admin-pages/pages/reservations/resa-display.php:735
+msgid "Saving"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:128
+msgid "Export customers"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:137
+msgid "Select data to be exported"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:160
+#: admin-pages/pages/reservations/resa-exporter-display.php:168
+msgid "Download file"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:191
+#: admin-pages/pages/reservations/resa-display.php:877
+#, php-format
+msgid "Viewing page %s of %s"
+msgstr ""
+
+#: admin-pages/pages/details/details.php:7
+msgid "The Details form settings have been saved."
+msgstr ""
+
+#: admin-pages/pages/details/details.php:8
+msgid "New field"
+msgstr ""
+
+#: admin-pages/pages/details/details.php:9
+#, php-format
+msgid "Remove '%field_name' field?"
+msgstr ""
+
+#: admin-pages/pages/details/details.php:10
+msgid "Remove field?"
+msgstr ""
+
+#: admin-pages/pages/details/details.php:11
+msgid "New choice"
+msgstr ""
+
+#: admin-pages/pages/details/details.php:12
+#, php-format
+msgid "Remove '%choice_name'?"
+msgstr ""
+
+#: admin-pages/pages/details/details.php:13
+msgid "There is already a \"Country select\" field."
+msgstr ""
+
+#: admin-pages/pages/details/details.php:14
+msgid "There is already a field with this id."
+msgstr ""
+
+#: admin-pages/pages/details/details.php:28
+msgid "Customer and booking details form"
+msgstr ""
+
+#: admin-pages/pages/details/details.php:35
+msgid "Customize the Details form."
+msgstr ""
+
+#: admin-pages/pages/details/details.php:36
+msgid ""
+"You can add new fields, change fields settings and Drag and Drop fields to "
+"reorder them."
+msgstr ""
+
+#: admin-pages/pages/details/details.php:42
+#: admin-pages/pages/details/details.php:47
+msgid "Add a field"
+msgstr ""
+
+#: admin-pages/pages/documents/documents.php:9
+msgid "Admin language"
+msgstr ""
+
+#: admin-pages/pages/documents/documents.php:20
+msgid "New document template"
+msgstr ""
+
+#: admin-pages/pages/documents/documents.php:34
+msgid "Document templates"
+msgstr ""
+
+#: admin-pages/pages/documents/documents.php:35
+#: admin-pages/pages/documents/documents.php:101
+msgid "Add new document template"
+msgstr ""
+
+#: admin-pages/pages/documents/documents.php:44
+msgid "No document templates set yet."
+msgstr ""
+
+#: admin-pages/pages/documents/documents.php:58
+#: admin-pages/pages/emails/emails.php:199
+#: admin-pages/pages/rules/rules.php:293
+msgid "Name"
+msgstr ""
+
+#: admin-pages/pages/documents/documents.php:59
+#: admin-pages/pages/emails/emails.php:483
+#: admin-pages/pages/reservations/resa-display.php:755
+msgid "Template"
+msgstr ""
+
+#: admin-pages/pages/documents/documents.php:60
+#: admin-pages/pages/text/text.php:197
+msgid "Language"
+msgstr ""
+
+#: admin-pages/pages/documents/documents.php:105
+#: admin-pages/pages/emails/emails.php:456
+msgid "Variables"
+msgstr ""
+
+#: admin-pages/pages/documents/documents.php:107
+msgid "You can use the following variables in the documents."
+msgstr ""
+
+#: admin-pages/pages/documents/documents.php:108
+#: admin-pages/pages/emails/emails.php:459 admin-pages/pages/ical/ical.php:303
+#, php-format
+msgid ""
+"Please check %s this section %s of our documentation to have a description "
+"of each variable."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:47
+#: admin-pages/pages/emails/emails.php:55
+#: database-actions/database-creation.php:690 utils/utils.php:1179
+#: utils/utils.php:1185
+msgid "New reservation"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:49 utils/utils.php:1181
+msgid "from customers"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:57 utils/utils.php:1187
+msgid "from admin"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:62
+#: database-actions/database-creation.php:191
+#: database-actions/database-creation.php:731 utils/utils.php:1190
+msgid "Reservation confirmation"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:66 utils/utils.php:1191
+msgid "Reservation cancellation"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:70
+msgid "Payment via Payment link"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:74
+msgid "New payment method via Payment link"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:79
+#: admin-pages/pages/reservations/resa-display.php:151
+#: admin-pages/pages/reservations/reservations.php:23
+#: front-end/booking-form/details-form.php:431 utils/options-utils.php:518
+#: utils/options-utils.php:527 utils/options-utils.php:536
+#: utils/options-utils.php:775
+msgid "New"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:80
+#: admin-pages/pages/reservations/resa-display.php:150
+#: admin-pages/pages/reservations/reservations.php:24
+#: front-end/booking-form/details-form.php:429 utils/options-utils.php:517
+#: utils/options-utils.php:774
+msgid "Pending"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:81
+#: admin-pages/pages/reservations/resa-display.php:148
+#: admin-pages/pages/reservations/reservations.php:25
+#: front-end/booking-form/details-form.php:433 utils/options-utils.php:519
+#: utils/options-utils.php:528 utils/options-utils.php:537
+#: utils/options-utils.php:773
+msgid "Confirmed"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:84
+#: admin-pages/pages/reservations/reservations.php:29
+msgid "Paid"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:85
+#: admin-pages/pages/reservations/reservations.php:31
+msgid "Not fully paid"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:88
+#: admin-pages/pages/reservations/reservations.php:32
+msgid "Bond not paid"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:90
+#: admin-pages/pages/reservations/reservations.php:30
+msgid "Unpaid"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:92
+#: admin-pages/pages/reservations/resa-display.php:643
+msgid "Delayed payment"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:97
+msgid "New email template"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:98
+msgid "This e-mail address does not seem valid."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:99
+msgid "Please seperate multiple e-mail addresses with commas."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:100
+msgid "Please use a complete e-mail address eg. Your Name <email@domain.com>"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:101
+#: admin-pages/pages/reservations/reservations.php:80
+msgid "Select attachments"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:102
+#: admin-pages/pages/reservations/reservations.php:81
+msgid "Remove all attachments?"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:103
+#: admin-pages/pages/emails/emails.php:273
+msgid "Message:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:104
+#: admin-pages/pages/emails/emails.php:276
+msgid "Format:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:105
+#: admin-pages/pages/emails/emails.php:284
+msgid "Attachments:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:106
+#: admin-pages/pages/emails/emails.php:294
+msgid "Upon event"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:107
+#: admin-pages/pages/emails/emails.php:296
+msgid "Scheduled"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:108
+#: admin-pages/pages/emails/emails.php:220
+#: admin-pages/pages/emails/emails.php:298
+#: admin-pages/pages/reservations/reservations.php:86 utils/utils.php:1175
+msgid "Manually"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:109 utils/utils.php:1205
+msgid "day"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:110
+#: admin-pages/pages/emails/emails.php:336 utils/utils.php:1207
+msgid "days"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:111
+#: admin-pages/pages/emails/emails.php:339 utils/utils.php:1211
+msgid "before"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:112
+#: admin-pages/pages/emails/emails.php:342 utils/utils.php:1213
+msgid "after"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:113
+#: admin-pages/pages/emails/emails.php:345 utils/utils.php:1217
+msgid "check-in"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:114
+#: admin-pages/pages/emails/emails.php:348 utils/utils.php:1219
+msgid "check-out"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:115
+msgid "on check-in day"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:116
+msgid "on check-out day"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:117
+msgid "The number of days is not valid."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:118
+msgid "This schedule already exists."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:119
+msgid "Delete schedule?"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:120
+msgid "Select at least one Event."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:121
+msgid "Select at least one Reservation status."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:122
+msgid "Select at least one Reservation payment status."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:123
+msgid "Select at least one Accommodation or Multiple accommodation booking."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:124
+msgid "Delete email logs?"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:125
+msgid "Payment links can not be used in TEXT format emails."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:148
+msgid "Email logs have been deleted."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:154
+msgid "An error occured. Email logs could not be deleted."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:168
+msgid "Email templates"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:169
+#: admin-pages/pages/emails/emails.php:402
+msgid "Add new email template"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:180
+#, php-format
+msgid ""
+"We strongly recommend using %s to send emails, in order to increase email "
+"deliverability. Please check %s this article from our knowledgebase %s."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:185
+msgid "No email templates set yet."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:200
+msgid "Addresses"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:201
+#: admin-pages/pages/reservations/resa-display.php:816
+msgid "Subject"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:202
+#: admin-pages/pages/reservations/resa-display.php:818
+#: utils/strings-utils.php:103
+msgid "Message"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:203
+msgid "Sending"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:212
+#: admin-pages/pages/emails/emails.php:262
+msgid "To:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:213
+#: admin-pages/pages/emails/emails.php:264
+msgid "Reply-to:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:214
+#: admin-pages/pages/emails/emails.php:266
+msgid "From:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:215
+#: admin-pages/pages/emails/emails.php:268
+msgid "Bcc:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:224
+msgid "Add at least one Schedule"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:233
+#: admin-pages/pages/emails/emails.php:368
+msgid "For reservation status:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:237
+#: admin-pages/pages/emails/emails.php:374
+msgid "For reservation payment status:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:241
+#: admin-pages/pages/emails/emails.php:379
+msgid "For accommodation:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:250
+#: admin-pages/pages/emails/emails.php:389
+msgid "For language:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:278
+msgid "TEXT"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:281
+msgid "HTML"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:287
+msgid "Remove all"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:329
+msgid "Add schedule"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:352
+msgid "Only if before check-out date"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:357
+msgid "Only if after check-in date"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:360
+#: admin-pages/pages/reservations/resa-display.php:422
+msgid "Add"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:406
+msgid "Email headers"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:408
+msgid "\"To address\" field:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:413
+#: admin-pages/pages/emails/emails.php:450
+#, php-format
+msgid "If the field is blank %s will be used."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:418
+#, php-format
+msgid ""
+"If the field is blank the email address of the WordPress administrator (%s) "
+"will be used."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:427
+#, php-format
+msgid "Separate multiple e-mail addresses with commas, for example: %s"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:428
+msgid "email-1@domain.com,email-2@domain.com"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:434
+msgid "\"Reply-To address\", \"From address\" fields:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:438
+#, php-format
+msgid ""
+"Insert a complete e-mail address (a name followed by an email address "
+"wrapped between %s and %s, for example: %s)"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:441
+msgid "Your Name <your.email@domain.com>"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:446
+msgid "\"From address\" fields:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:458
+msgid ""
+"You can use the following variables in the email headers, subject and body."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:475
+msgid "Email logs"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:481
+#: admin-pages/pages/reservations/resa-display.php:756
+msgid "Sent on"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:482
+msgid "Resa id"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:484
+#: admin-pages/pages/reservations/resa-display.php:757
+msgid "Trigger"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:485
+#: admin-pages/pages/reservations/resa-display.php:266 utils/utils.php:4433
+msgid "Status"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:512
+#: admin-pages/pages/reservations/resa-display.php:652
+msgid "Failed"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:531
+msgid "Delete email logs"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:12 admin-pages/pages/options/options.php:25
+#: admin-pages/pages/options/options.php:51
+msgid "Per person"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:16 admin-pages/pages/options/options.php:29
+msgid "Per person / per day"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:20
+msgid "Per accommodation / per day"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:24
+msgid "Per accommodation"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:28
+msgid "Per booking"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:34
+msgid "Percentage (on Accommodation)"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:35 admin-pages/pages/rates/rates.php:58
+#: admin-pages/pages/rates/rates.php:340 utils/strings-utils.php:123
+msgid "Accommodation price"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:39
+msgid "Percentage (on Extra Services)"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:40
+msgid "Extra Services price"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:44
+msgid "Percentage (global)"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:45 admin-pages/pages/rates/rates.php:59
+#: admin-pages/pages/rates/rates.php:343
+msgid "Global price"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:51
+msgid "New fee"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:52 admin-pages/pages/options/options.php:14
+#: admin-pages/pages/rates/rates.php:46
+#: admin-pages/pages/reservations/reservations.php:103
+msgid "Invalid amount."
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:53 admin-pages/pages/fees/fees.php:200
+#: admin-pages/pages/options/options.php:15
+#: admin-pages/pages/options/options.php:218
+#: admin-pages/pages/options/options.php:265
+#: admin-pages/pages/reservations/resa-display.php:388
+#: admin-pages/pages/reservations/reservations.php:44
+#: front-end/booking-form/available-accom.php:48
+#: front-end/booking-form/search-form.php:26 utils/resa-summary.php:35
+msgid "Adults:"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:54 admin-pages/pages/fees/fees.php:204
+#: admin-pages/pages/options/options.php:16
+#: admin-pages/pages/options/options.php:222
+#: admin-pages/pages/options/options.php:269
+#: admin-pages/pages/reservations/resa-display.php:391
+#: admin-pages/pages/reservations/reservations.php:45
+#: front-end/booking-form/available-accom.php:49
+#: front-end/booking-form/search-form.php:27 utils/resa-summary.php:36
+msgid "Children:"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:55 admin-pages/pages/fees/fees.php:209
+msgid "Minimum amount:"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:56 admin-pages/pages/fees/fees.php:211
+msgid "Maximum amount:"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:57
+msgid "Included in Accommodation price"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:58
+msgid "Included in Extra Services price"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:59
+msgid "Included in prices"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:60
+msgid "Added to Accommodation price"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:61
+msgid "Added to Extra Services price"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:62
+msgid "Added to prices"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:63 admin-pages/pages/fees/fees.php:187
+msgid "Added to final price"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:64 admin-pages/pages/fees/fees.php:217
+#: utils/options-utils.php:130 utils/strings-utils.php:120 utils/utils.php:4421
+msgid "Number of nights"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:65 admin-pages/pages/fees/fees.php:219
+msgid "Number of adults and children"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:66 admin-pages/pages/fees/fees.php:221
+msgid "Number of adults"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:67 admin-pages/pages/fees/fees.php:223
+msgid "Number of children"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:86 utils/utils.php:4818
+msgid "Fees"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:87 admin-pages/pages/fees/fees.php:117
+msgid "Add new fee"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:96
+msgid "No fees have been created yet."
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:103
+msgid "Fee name"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:104 admin-pages/pages/options/options.php:95
+msgid "Type"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:105 admin-pages/pages/options/options.php:96
+#: admin-pages/pages/rates/rates.php:196 admin-pages/pages/rates/rates.php:242
+#: admin-pages/pages/rates/rates.php:421
+#: admin-pages/pages/reservations/resa-display.php:574
+#: admin-pages/pages/reservations/resa-display.php:626 utils/utils.php:2774
+msgid "Amount"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:145 admin-pages/pages/fees/fees.php:185
+msgid "Fee is:"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:162
+msgid "Fee applies on:"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:178
+msgid "Apply on Accommodation per person per night price?"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:197
+msgid "Percentage:"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:215
+msgid "Multiply per:"
+msgstr ""
+
+#: admin-pages/pages/forms/forms.php:27
+msgid "Search form and Accommodation selection"
+msgstr ""
+
+#: admin-pages/pages/forms/forms.php:32 utils/utils.php:4823
+msgid "Search form"
+msgstr ""
+
+#: admin-pages/pages/forms/forms.php:45 admin-pages/pages/text/text.php:28
+msgid "Accommodation selection"
+msgstr ""
+
+#: admin-pages/pages/help/help.php:16 utils/utils.php:4878 utils/utils.php:4891
+msgid "Help"
+msgstr ""
+
+#: admin-pages/pages/help/help.php:22
+msgid "If you need help using HBook plugin here are some useful ressources."
+msgstr ""
+
+#: admin-pages/pages/help/help.php:42
+msgid ""
+"Before setting up the plugin you should have a look at its documentation. "
+"You will find all the basic information you need to use HBook."
+msgstr ""
+
+#: admin-pages/pages/help/help.php:43
+msgid "Go to the documentation"
+msgstr ""
+
+#: admin-pages/pages/help/help.php:47
+msgid ""
+"If you need to solve a specific issue you can try to enter your question in "
+"the search engine of our knowledge base and you might directly find the "
+"answer."
+msgstr ""
+
+#: admin-pages/pages/help/help.php:48
+msgid "Go to the knowledgebase"
+msgstr ""
+
+#: admin-pages/pages/help/help.php:52
+msgid ""
+"If you can not find the answer you are looking for in the documentation or "
+"in the knowledgebase, feel free to send us a message via our contact form."
+msgstr ""
+
+#: admin-pages/pages/help/help.php:53
+msgid "Go to the helpdesk"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:12
+msgid "Stop synchronizing with this calendar?"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:13
+msgid ""
+"The frequency is not valid. Value should not be lower than 5 minutes (300s)."
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:24
+msgid "ICal synchronization and import/export"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:36
+#, php-format
+msgid ""
+"HBook iCal calendars URLs are currently cached, which is not recommended as "
+"it will delay the updates of your external calendars. To correctly adjust "
+"any caching plugin with HBook, please read %s"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:38
+msgid "this article from our knowldgebase."
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:47
+#, php-format
+msgid ""
+"For iCal synchronization to work properly, we strongly recommend that %s is "
+"used as your main calendar. Synchronize each HBook calendar with the "
+"matching external calendars both ways. Do not sync your external calendars "
+"together."
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:50
+#, php-format
+msgid ""
+"If there are dates that you need to block, you should set these unavailable "
+"dates using %s and do not add them manually in the external calendars."
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:50
+msgid "Reservations > Block accommodation"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:51
+msgid ""
+"With the synchronization, they will be set automatically as unavailable in "
+"your other calendars."
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:94
+#, php-format
+msgid ""
+"There seems to be a problem : %s Check that you have entered a valid URL."
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:132
+msgid ""
+"At least one accommodation must be created in order to set iCal "
+"synchronization."
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:140
+msgid "Update calendars"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:145
+msgid "Last synchronized on: "
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:155
+#: admin-pages/pages/reservations/blocked-accom-display.php:26
+#: utils/utils.php:4422
+msgid "Accommodation type"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:157
+msgid "Export calendars"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:158
+msgid "Import calendars"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:159
+msgid "Synchronized calendars"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:197
+msgid "Download .ics file"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:199
+msgid "Get export url"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:200
+msgid "Hide export url"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:201
+msgid "URL to add to your external calendars"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:205
+msgid "Upload .ics file"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:207
+msgid "Import a calendar file"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:208
+msgid "Calendar name: "
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:214 admin-pages/pages/text/text.php:224
+msgid "Import"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:217
+msgid "Sync with a new calendar"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:219
+msgid "Add your external calendar"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:220
+msgid "Calendar name:"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:221
+msgid "Calendar URL:"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:228
+msgid "Sync"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:273
+msgid "Get url of the calendar containing all HBook calendars in one"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:302
+msgid ""
+"You can use the following variables in the \"Summary\" field and the "
+"\"Description\" field."
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:7
+msgid "Remove purchase code for this website?"
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:18 utils/utils.php:4873
+#: utils/utils.php:4886
+msgid "Licence"
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:23
+msgid "Where can I find my purchase code?"
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:25
+msgid "Activate your HBook licence"
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:33
+#, php-format
+msgid ""
+"To activate your licence, you will need a validation code. Click on this "
+"link: https://maestrel.com/hbook-licence-validation. Follow the steps to "
+"obtain your validation code and paste it below. Check %s for step by step "
+"guidance."
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:43
+msgid "this article of the knowledgebase"
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:50
+#: admin-pages/pages/licence/licence.php:154
+#, php-format
+msgid ""
+"The code you entered is not valid. Please try again. You can also contact %s "
+"if you need further help."
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:51
+#: admin-pages/pages/licence/licence.php:147
+#: admin-pages/pages/licence/licence.php:155
+msgid "Maestrel support"
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:63
+msgid "Your website url:"
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:67
+msgid "Enter validation code"
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:83
+#: admin-pages/pages/licence/licence.php:178
+msgid "Enter your purchase code"
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:85
+#: admin-pages/pages/licence/licence.php:181
+msgid "Verify purchase code"
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:93
+#: admin-pages/pages/licence/licence.php:189
+msgid "Your purchase code is valid."
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:95
+#: admin-pages/pages/licence/licence.php:191
+msgid "Your purchase code is not valid."
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:97
+#: admin-pages/pages/licence/licence.php:193
+msgid "This purchase code is already in use."
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:99
+#: admin-pages/pages/licence/licence.php:195
+msgid "The purchase code has been removed."
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:102
+#: admin-pages/pages/licence/licence.php:198
+msgid "This purchase code has not been verified."
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:116
+#: admin-pages/pages/licence/licence.php:212
+msgid "Remove purchase code for this website."
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:132
+#, php-format
+msgid "Activate your %s licence"
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:146
+#, php-format
+msgid ""
+"There seems to be an error when we try to validate your licence for this add-"
+"on. Would you please contact %s so we can assist you with that?"
+msgstr ""
+
+#: admin-pages/pages/logs/logs.php:16
+msgid "Logs"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:12
+msgid "The date is not valid (use a yyyy-mm-dd format)."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:13 admin-pages/pages/text/text.php:13
+msgid "Choose a file to import."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:14
+msgid ""
+"Importing a setting file will delete all current HBook settings (including "
+"Accommodation Posts and Reservations). Do you want to continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:15
+msgid ""
+"This action will delete permanently all reservations, blocked dates and "
+"customers. Reservations and customers numbering will be reset. Do you wish "
+"to continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:16
+msgid ""
+"This action will delete permanently all reservations and blocked dates. "
+"Reservations numbering will be reset. Do you wish to continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:17
+msgid ""
+"This action will delete permanently all reservations that have been imported "
+"into HBook via the iCal synchronization. Do you wish to continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:18
+msgid ""
+"This action will delete permanently all reservations that have the status "
+"\"Cancelled\". Do you wish to continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:19
+msgid ""
+"This action will delete permanently all past reservations. Do you wish to "
+"continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:20
+msgid ""
+"This action will delete permanently all past block dates. Do you wish to "
+"continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:46
+msgid "Miscellaneous"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:83
+msgid "View all filters default values"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:86
+msgid "Hide filters default values"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:153
+#, php-format
+msgid "Usual setting: first day is %s and date format is %s"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:166
+msgid "First day of the week"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:178
+msgid "Date format"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:226
+msgid "Set specific dates settings for admin"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:249
+msgid "First day of the week for admin"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:261
+msgid "Date format for admin"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:281
+msgid "Reset HBook (customers, blocked dates and reservations)"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:282
+msgid "Reset reservations and blocked dates"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:283
+msgid "Delete only reservations imported from external calendars"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:284
+msgid "Delete only reservations with status \"Cancelled\""
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:285
+msgid "Delete only past reservations"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:286
+msgid "Delete only past blocked dates"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:289
+msgid ""
+"None of the actions below can be rolled back. Reservations, blocked dates or/"
+"and customers will be deleted permanently."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:325
+msgid "All done! Reservations, customers and blocked dates have been reset."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:340
+msgid "All done! Blocked dates and reservations have been reset."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:360
+msgid ""
+"All done! Reservations imported from external calendars have been deleted."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:401
+msgid "All done! Reservations with status \"Cancelled\" have been deleted."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:443
+msgid "All done! Past reservations have been deleted."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:457
+msgid "All done! Past blocked dates have been deleted."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:470
+msgid "An error occured. The action could not be completed."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:486
+msgid ""
+"Modify Accommodation Post ID when importing (you may have to update HBook "
+"shortcodes accordingly)."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:490
+msgid "Import settings file"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:494
+msgid ""
+"Importing all settings may take several minutes. Please do not refresh or "
+"exit this page before completion."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:497
+msgid "Download settings file"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:518 admin-pages/pages/misc/misc.php:534
+#: admin-pages/pages/misc/misc.php:562
+msgid "Settings could not be imported."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:536
+#, php-format
+msgid "The file %s is not a correct HBook settings file."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:566
+msgid ""
+"The following posts/pages/attachments prevented HBook from importing the "
+"settings:"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:575
+msgid ""
+"You can either delete these posts/pages/attachments (which is the "
+"recommanded method) or start importing again with the \"Modify Accommodation "
+"Post ID\" option activated."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:645
+msgid "HBook settings have been imported."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:649
+msgid "Please take note that the following Accommodation Post have new IDs:"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:658
+msgid "You may have to update HBook shortcodes accordingly."
+msgstr ""
+
+#: admin-pages/pages/options/options.php:10
+msgid "New extra"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:11
+msgid "New extra choice"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:17
+#: admin-pages/pages/options/options.php:170
+msgid "For accommodation"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:18
+#: admin-pages/pages/options/options.php:174
+msgid "For booking"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:33
+#: admin-pages/pages/options/options.php:59
+msgid "Once"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:37
+msgid "Per day"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:41
+#: admin-pages/pages/options/options.php:63
+msgid "Quantity"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:45
+msgid "Quantity per day"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:55
+msgid "Per accom."
+msgstr ""
+
+#: admin-pages/pages/options/options.php:76 utils/utils.php:4813
+msgid "Extra services"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:77
+#: admin-pages/pages/options/options.php:108
+msgid "Add new extra"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:86
+msgid "No extra services have been created yet."
+msgstr ""
+
+#: admin-pages/pages/options/options.php:93
+msgid "Extra name"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:94
+msgid "Multiple choice"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:159
+msgid "Save to add choices."
+msgstr ""
+
+#: admin-pages/pages/options/options.php:190
+msgid "Set a maximum quantity?"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:196
+msgid "Yes, per person"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:200
+msgid "Maximum quantity"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:201
+msgid "(per adult)"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:206
+msgid "Maximum quantity (per child):"
+msgstr ""
+
+#: admin-pages/pages/payment/payment.php:12
+msgid "The deposit is not valid. Enter a number only."
+msgstr ""
+
+#: admin-pages/pages/payment/payment.php:13
+msgid "The security bond is not valid. Enter a number only."
+msgstr ""
+
+#: admin-pages/pages/payment/payment.php:14
+msgid "Deposit percentage"
+msgstr ""
+
+#: admin-pages/pages/payment/payment.php:28 utils/utils.php:4833
+msgid "Payment"
+msgstr ""
+
+#: admin-pages/pages/payment/payment.php:35
+msgid "Active payment gateways"
+msgstr ""
+
+#: admin-pages/pages/payment/payment.php:36
+#, php-format
+msgid ""
+"Stripe and PayPal gateways are included. We have developed add-ons to "
+"integrate other payment gateways for HBook: %s view available payment "
+"gateways %s."
+msgstr ""
+
+#: admin-pages/pages/payment/payment.php:50
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:29
+msgid "accommodation"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:30
+msgid "Accommodation rates"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:34
+msgid "extra adults"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:35
+msgid "Price per adult above normal occupancy"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:39
+msgid "extra children"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:40
+msgid "Price per child above normal occupancy"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:47 admin-pages/pages/rules/rules.php:25
+msgid "No seasons selected"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:49
+msgid "No discounts selected"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:50
+msgid "per night"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:51
+#, php-format
+msgid "for a %s-night stay"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:52
+msgid "Unset"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:53
+msgid "nights and more"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:54
+msgid "No maximum"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:55
+msgid "No date limit"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:79 blocks/blocks.php:66
+#: utils/utils.php:4808
+msgid "Rates"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:93
+#, php-format
+msgid "It seems Polylang is not set properly. Please read %s"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:95
+msgid "HBook documentation about setting up Polylang and HBook"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:102
+#, php-format
+msgid "It seems WPML is not set properly. Please read %s"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:104
+msgid "HBook documentation about setting up WPML and HBook"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:109
+msgid ""
+"At least one accommodation which uses the default website language must be "
+"created in order to set rates."
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:113
+msgid ""
+"At least one accommodation and one season must be created in order to set "
+"rates."
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:115
+msgid "At least one accommodation must be created in order to set rates."
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:119
+msgid "At least one one season must be created in order to set rates."
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:127 admin-pages/pages/rates/rates.php:150
+msgid "Add rate"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:133
+#, php-format
+msgid "No %s rates have been defined yet."
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:161 admin-pages/pages/rates/rates.php:192
+msgid "Discounts"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:163 admin-pages/pages/rates/rates.php:209
+msgid "Add discount rate"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:173
+#, php-format
+msgid ""
+"No discount rules have been defined yet. You can define a discount rule on "
+"the %s."
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:175
+msgid "Booking rules page"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:184
+msgid "No discount rates have been defined yet."
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:194 admin-pages/pages/rates/rates.php:236
+#: admin-pages/pages/rates/rates.php:417 admin-pages/pages/rules/rules.php:69
+#: admin-pages/pages/rules/rules.php:125 admin-pages/pages/rules/rules.php:181
+#: admin-pages/pages/rules/rules.php:237 admin-pages/pages/rules/rules.php:300
+#: admin-pages/pages/seasons/seasons.php:22 utils/utils.php:4798
+msgid "Seasons"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:195
+msgid "Applies on"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:220 admin-pages/pages/text/text.php:44
+msgid "Coupons"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:221 admin-pages/pages/rates/rates.php:255
+msgid "Add coupon"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:226
+msgid "No coupons have been defined yet."
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:234 utils/utils.php:2773
+msgid "Code"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:237
+msgid "Rule"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:238
+msgid "Use count"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:239
+msgid "Max use"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:240
+msgid "Date limit"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:241
+msgid "Multiple use per customer"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:319
+msgid "for"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:321
+msgid "night(s)"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:364 blocks/blocks.php:143
+#: utils/options-utils.php:128
+msgid "None"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:419
+msgid "Special rates"
+msgstr ""
+
+#: admin-pages/pages/reservations/admin-add-resa.php:22
+msgid "Add a reservation"
+msgstr ""
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:16
+msgid "Block accommodation"
+msgstr ""
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:35
+#: utils/strings-utils.php:82 utils/utils.php:4423
+msgid "Accommodation number"
+msgstr ""
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:39
+#: admin-pages/pages/reservations/blocked-accom-display.php:72
+#: admin-pages/pages/seasons/seasons.php:76
+msgid "Start date"
+msgstr ""
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:44
+#: admin-pages/pages/reservations/blocked-accom-display.php:73
+#: admin-pages/pages/seasons/seasons.php:77
+msgid "End date"
+msgstr ""
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:49
+#: admin-pages/pages/reservations/blocked-accom-display.php:74
+#: admin-pages/pages/reservations/resa-display.php:278
+#: admin-pages/pages/reservations/resa-display.php:592
+#: admin-pages/pages/reservations/resa-display.php:628 utils/utils.php:4434
+msgid "Comment"
+msgstr ""
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:53
+msgid "Block"
+msgstr ""
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:62
+msgid "There are no blocked accommodation at the moment"
+msgstr ""
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:66
+msgid "Blocked accommodation"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:31
+msgid "Calendar"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:34
+msgid "All accommodations"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:64
+msgid "Reservation details"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:67
+msgid "Click on a number in the calendar to view the reservation details"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:72
+msgid "Hide"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:88
+msgid "View all reservations included in this Multiple reservation"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:106
+msgid "Reservation list"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:109
+msgid "No reservations yet."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:116
+#: utils/options-utils.php:402
+msgid "No filter"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:117
+#: utils/options-utils.php:403
+msgid "Filter by Reservation id"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:119
+#: utils/options-utils.php:404
+msgid "Filter by Reservation number"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:121
+#: utils/options-utils.php:405
+msgid "Filter by Customer"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:122
+#: utils/options-utils.php:406
+msgid "Filter by Check-in date"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:123
+#: utils/options-utils.php:407
+msgid "Filter by Check-out date"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:124
+#: utils/options-utils.php:408
+msgid "Filter by Check-in and check-out dates"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:125
+#: utils/options-utils.php:409
+msgid "Filter by Active reservations"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:126
+#: utils/options-utils.php:410
+msgid "Filter by Accommodation"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:127
+#: utils/options-utils.php:411
+msgid "Filter by Status"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:128
+#: utils/options-utils.php:412
+msgid "Filter by Origin"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:131
+msgid "Sort by Received date &larr;"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:132
+msgid "Sort by Received date &rarr;"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:133
+msgid "Sort by Check-in date &larr;"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:134
+msgid "Sort by Check-in date &rarr;"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:138
+msgid "Enter reservation id"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:141
+msgid "Enter reservation number"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:144
+msgid "Enter customer name or email"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:149
+#: admin-pages/pages/reservations/reservations.php:26
+msgid "Cancelled"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:156
+#: utils/options-utils.php:784
+msgid "Website"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:157
+#: utils/options-utils.php:785
+msgid "iCal sync"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:183
+msgid "Between"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:185
+#: admin-pages/pages/reservations/resa-exporter-display.php:36
+#: admin-pages/pages/reservations/resa-exporter-display.php:45
+#: admin-pages/pages/reservations/resa-exporter-display.php:54
+msgid "and"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:194
+#: admin-pages/pages/reservations/resa-display.php:230
+msgid "Bulk actions"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:195
+#: admin-pages/pages/reservations/resa-display.php:231
+#: admin-pages/pages/reservations/resa-display.php:775
+msgid "Confirm"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:196
+#: admin-pages/pages/reservations/resa-display.php:232
+msgctxt "reservation bulk cancelation"
+msgid "Cancel"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:199
+#: admin-pages/pages/reservations/resa-display.php:235
+msgid "Apply"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:269
+msgid "Check-in / Check-out"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:271
+#: front-end/booking-form/search-form.php:280
+msgid "Accom. type"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:272
+msgid "(number)"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:274
+msgid "Information"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:276
+msgid "Extras"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:283
+msgid "Price / Payment"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:285
+msgid "Received on / Emails sent"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:299
+msgid "Multiple reservation"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:302
+msgid "Multiple reservation id"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:307
+msgid "Reservation id"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:325
+#: admin-pages/pages/reservations/resa-display.php:340
+msgid "night"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:326
+#: admin-pages/pages/reservations/resa-display.php:341
+#: admin-pages/pages/rules/rules.php:194 admin-pages/pages/rules/rules.php:203
+#: admin-pages/pages/rules/rules.php:250 admin-pages/pages/rules/rules.php:259
+#: admin-pages/pages/rules/rules.php:321 admin-pages/pages/rules/rules.php:329
+#: admin-pages/pages/rules/rules.php:423 admin-pages/pages/rules/rules.php:427
+msgid "nights"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:333
+#: front-end/booking-form/search-form.php:23 utils/resa-summary.php:32
+msgid "Check-in:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:336
+#: front-end/booking-form/search-form.php:24 utils/resa-summary.php:33
+msgid "Check-out:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:353
+msgid "Current accom.:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:360
+msgid "Updating..."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:361
+msgid "Fetching available accom..."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:364
+msgid "Select new accom.:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:370
+msgid "No other accommodation available!"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:397
+#: admin-pages/pages/reservations/reservations.php:74
+#: front-end/booking-form/details-form.php:439
+msgid "Reservation language:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:443
+msgid "View reservation"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:448
+msgid "Add a comment"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:489
+msgid "Create customer"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:490
+#: front-end/booking-form/details-form.php:368
+msgid "Select existing customer"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:491
+msgid "Creating customer..."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:520
+msgid "Edit price"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:525
+#: database-actions/database-creation.php:722
+#: database-actions/database-creation.php:744 utils/resa-summary.php:40
+msgid "Price:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:540
+msgid "Edit payments"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:544
+msgid "View payments"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:551
+msgid "Add a payment"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:555
+#: admin-pages/pages/reservations/reservations.php:104 utils/utils.php:1575
+#: utils/utils.php:1584
+msgid "Remaining balance"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:558
+#: admin-pages/pages/reservations/reservations.php:105
+#: utils/options-utils.php:92 utils/strings-utils.php:132
+#: utils/strings-utils.php:330
+msgid "Security bond"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:561
+#: admin-pages/pages/reservations/reservations.php:106
+msgid "Full refund"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:564
+#: admin-pages/pages/reservations/reservations.php:107
+msgid "Full Stripe refund"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:567
+#: admin-pages/pages/reservations/reservations.php:108
+msgid "Security bond refund"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:570
+#: admin-pages/pages/reservations/resa-display.php:625 utils/utils.php:4435
+msgid "Received on"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:579
+#: admin-pages/pages/reservations/resa-display.php:627
+msgid "Method"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:598
+msgid "Add payment"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:599
+msgid "Add refund"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:602
+msgid "Adding payment..."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:603
+msgid "Adding refund..."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:608
+msgid "Charge"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:609
+msgid "Charging..."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:612
+#: admin-pages/pages/reservations/resa-display.php:613
+msgid "Refund"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:614
+msgid "Refunding..."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:645
+msgid "Delayed"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:650
+msgid "Failed payment"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:660
+msgid "Delete payment"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:668
+msgid "Refund payment"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:687
+msgid "Edit discount"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:691
+#: admin-pages/pages/reservations/reservations.php:78
+msgid "Accom. discount:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:693
+#: admin-pages/pages/reservations/resa-display.php:715
+#: front-end/booking-form/details-form.php:148
+msgid "Amount type:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:709
+#: admin-pages/pages/reservations/resa-display.php:731
+msgid "Percent"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:713
+#: admin-pages/pages/reservations/reservations.php:79
+msgid "Global discount:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:748
+msgid "Fetching logs..."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:776
+msgctxt "reservation cancelation"
+msgid "Cancel"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:788
+msgid "Open documents"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:801
+msgid "Email sent."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:804
+msgid "Send an email"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:805
+#: admin-pages/pages/reservations/resa-display.php:856
+msgid "Send"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:811
+#: utils/strings-utils.php:302
+msgid "To"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:814
+msgid "If this field is blank the email will be sent to the customer."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:821
+msgid "Add payment link"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:835
+#: front-end/booking-form/details-form.php:144
+msgid "Amount:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:839
+msgid "Insert"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:844
+msgid "Add attachments"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:847
+msgid "Remove all attachments"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:853
+msgid ""
+"Delete added attachment files from the Media Library after email has been "
+"sent"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:898
+msgid "Archived reservations"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:16
+msgid "Export reservations"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:25
+msgid "Select reservations to be exported:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:29
+msgid "All dates"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:33
+msgid "Received between"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:42
+msgid "Check-in between"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:51
+msgid "Check-out between"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:68
+#: database-actions/database-creation.php:721
+#: database-actions/database-creation.php:743 utils/resa-summary.php:38
+msgid "Accommodation:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:95
+msgid "Select status of the reservations to be exported:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:120
+msgid "Select data to be exported:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:146
+msgid "Customer information:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-sync-errors-display.php:24
+#, php-format
+msgid ""
+"%1$s : The signature of the calendar could not be validated for the calendar "
+"named %2$s and with the url %3$s for the accommodation %4$s (%5$s)."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-sync-errors-display.php:38
+#, php-format
+msgid ""
+"%1$s : There was an error to synchronize the calendar named %2$s and with "
+"the url %3$s for the accommodation %4$s (%5$s). The error that was returned "
+"is : %6$s"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-sync-errors-display.php:53
+#, php-format
+msgid ""
+"%1$s : A reservation of the calendar named %2$s could not be imported as the "
+"accommodation %3$s (%4$s) is not available for a check-in on %5$s and a "
+"check-out on %6$s"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-sync-errors-display.php:68
+#, php-format
+msgid ""
+"%1$s : A reservation of the calendar named %2$s has been modified. Changes "
+"have not been reflected in the Reservation list below. This reservation is "
+"for the accommodation %3$s (%4$s) and appears in the Reservation list with a "
+"check-in on %5$s and a check-out on %6$s."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:27
+#: utils/strings-utils.php:261
+msgid "Processing"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:28
+msgid "(not allocated)"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:33
+msgid "Delayed payments"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:34
+msgid "Failed payments"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:35
+msgid "Paid:"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:36
+msgid "Unpaid:"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:37
+msgid "Unpaid bond:"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:38
+msgid "Delete reservation?"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:39
+msgid "Cancel reservation?"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:40
+msgid "Select accommodation:"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:41
+msgid "Please select an accommodation."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:42
+msgid ""
+"Please select a customer (or select \"Enter customer details\" and provide "
+"customer details)."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:43
+msgid "No accommodation available."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:46
+msgid "Invalid price."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:47
+#: admin-pages/pages/reservations/reservations.php:421
+msgid "Customer id:"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:49
+msgid "More information"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:50
+msgid "Less information"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:51
+#: front-end/booking-form/details-form.php:413
+msgid "Comment:"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:52
+msgid "Error:"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:53
+msgid ""
+"The reservation could not be confirmed because there is no accommodation "
+"available for the reservation dates."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:54
+msgid ""
+"A reservation could not be confirmed because there is no accommodation "
+"available for the reservation dates."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:56
+msgid "Please select which accommodation you want to export data for."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:57
+msgid "Please select which status you want to export data for."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:58
+msgid "Remove blocked dates?"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:60
+msgid "Delete synchronization errors messages?"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:61
+msgid ""
+"The charge amount is above the amount due by the customer (%amount). Do you "
+"wish to proceed?"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:62
+msgid "The charge amount can not be null or below zero."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:63
+msgid "The refund amount can not be above %amount"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:64
+msgid "The amount should be negative."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:65
+msgid ""
+"Dates have not modified because the accommodation is not available for the "
+"new dates."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:66
+msgid "Check-out must be after check-in."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:67
+msgid "Invalid date."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:68
+msgid "Id:"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:69
+msgid "Templates..."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:70
+msgid "To refund:"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:71
+msgid "Are you sure you want to block all accommodation for all days?"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:72
+msgid "The \"To\" date must be after the \"From\" date."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:73
+msgid "Accommodation already blocked for these dates."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:75
+#: utils/strings-utils.php:304 utils/utils.php:4426
+msgid "Price"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:76
+msgid "Price with bond"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:77
+msgid "Previous price"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:82
+msgid "Fetching extras..."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:83
+msgid "1 email sent"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:84
+#, php-format
+msgid "%s emails sent"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:85
+msgid "Email could not be sent."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:87
+msgid "Select a bulk action."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:88
+msgid "No reservations selected."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:89
+msgid ""
+"There are no reservations to confirm in the selected reservations (only "
+"\"New\" or \"Pending\" reservations can be confirmed)."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:90
+msgid "There are no reservations to cancel in the selected reservations."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:91
+msgid "Confirm reservations?"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:92
+msgid "Cancel reservations?"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:93
+msgid "Delete reservations?"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:94
+msgid "Reservations confirmed."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:95
+msgid "Reservations cancelled."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:96
+msgid "Reservations deleted."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:101
+msgid "Delete payment?"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:102
+msgid "Refund payment?"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:110
+msgid "Select a check-in date."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:111
+msgid "Select a check-out date."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:112
+#: utils/strings-utils.php:281
+msgid "Past"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:113
+msgid "There was a connection error."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:114
+msgid "Please enter a check-in date and a check-out date."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:115
+msgid "Please enter a check-in date."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:116
+msgid "Please enter a check-out date."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:117
+msgid "Please select the number of adults."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:118
+msgid "Please select the number of adults and the number of children."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:119
+msgid "Please select the number of children."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:120
+msgid "The check-out date must be after the check-in date."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:121
+msgid "(1 adult)"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:122
+msgid "(%nb_adults adults)"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:123
+msgid "(%nb_persons persons)"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:280
+msgid ""
+"January,February,March,April,May,June,July,August,September,October,November,"
+"December"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:282
+msgid "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:284
+msgid "Sun,Mon,Tue,Wed,Thu,Fri,Sat"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:341
+#: admin-pages/pages/reservations/reservations.php:342
+msgid "Offline payment"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:416 hbook.php:565
+#: utils/utils.php:4788
+msgid "Reservations"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:429
+#, php-format
+msgid "(Check-out in %s)"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:12
+msgid "Compulsory"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:13
+msgid "Special rate"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:14
+msgid "Compulsory and special rate"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:15 utils/strings-utils.php:316
+msgid "Discount"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:16 utils/strings-utils.php:326
+#: utils/utils.php:2778
+msgid "Coupon"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:20
+#: front-end/booking-form/search-form.php:16
+msgid "Any"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:21 admin-pages/pages/seasons/seasons.php:8
+msgid "No days selected"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:22
+msgid "New rule"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:42 utils/utils.php:4803
+msgid "Booking rules"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:53 admin-pages/pages/rules/rules.php:295
+msgid "Check-in days"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:54 admin-pages/pages/rules/rules.php:110
+#: admin-pages/pages/rules/rules.php:166 admin-pages/pages/rules/rules.php:222
+#: admin-pages/pages/rules/rules.php:278
+msgid "Add rule"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:59
+msgid "Customers can check-in any day."
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:67
+msgid "Allowed check-in days"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:109 admin-pages/pages/rules/rules.php:296
+msgid "Check-out days"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:115
+msgid "Customers can check-out any day."
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:123
+msgid "Allowed check-out days"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:165
+msgid "Minimum stay length"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:171
+msgid "There are no minimum stay rules."
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:179 admin-pages/pages/rules/rules.php:297
+msgid "Minimum stay"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:221
+msgid "Maximum stay length"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:227
+msgid "There are no maximum stay rules."
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:235 admin-pages/pages/rules/rules.php:298
+msgid "Maximum stay"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:277
+msgid "Advanced rules"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:282
+msgid ""
+"You may define advanced rules to create compulsory settings for stays, or to "
+"create special rates or discounts, or to add a rule for a coupon."
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:285
+msgid "There are no advanced rules."
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:294
+msgid "Rule type"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:367
+msgid "Guests who check-in on:"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:370
+msgid "Apply a special rate when check-in is on:"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:373
+msgid "Apply a discount when check-in is on:"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:376
+msgid "Apply a coupon when check-in is on:"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:382
+msgid "...must check-out on:"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:385
+msgid "...and must have a minimum stay of:"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:388
+msgid "...and must have a maximum stay of:"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:391
+msgid "...for accommodation:"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:394
+msgid "...and for seasons:"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:400
+msgid "...and check-out is on:"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:403
+msgid "...and minimum stay is:"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:406
+msgid "...and maximum stay is:"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:409
+msgid "Select accommodation and seasons in the Rates page."
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:424
+msgid "(leave empty for no minimum stay)"
+msgstr ""
+
+#: admin-pages/pages/rules/rules.php:428
+msgid "(leave empty for no maximum stay)"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:7
+msgid "New season"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:23
+#: admin-pages/pages/seasons/seasons.php:151
+msgid "Add new season"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:40
+#, php-format
+msgid ""
+"Visitors can not book on your website as the \"Maximum selectable date\" is "
+"set to %s. You can change this on %s."
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:43
+#: admin-pages/pages/seasons/seasons.php:57
+msgid "Misc page"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:54
+#, php-format
+msgid ""
+"Visitors can book on your website until %s. You can modify the \"Maximum "
+"selectable date\" on %s."
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:68
+msgid "No seasons set yet."
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:75 utils/strings-utils.php:300
+msgid "Season"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:78
+msgid "Days"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:88
+msgid "Priority"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:91
+msgid "Default"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:106
+msgid "Name:"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:111
+msgid "Priority season"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:113
+msgid "Regular season"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:115
+msgid "Default season"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:12
+msgid "Select a language."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:14
+msgid "All text has been saved."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:20
+msgid "Search form text"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:24
+msgid "Search form messages"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:32
+msgid "Extra services selection"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:36
+msgid "Booking details form text"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:40
+msgid "Booking details form messages"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:48
+msgid "Summary"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:52
+msgid "Payment choice"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:56
+msgid "Stripe payment"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:60
+msgid "Paypal payment"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:64
+msgid "External payment description"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:68
+msgid "Book now area"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:72
+msgid "Error messages"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:76
+msgid "Calendars legend"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:80
+msgid "Rates table"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:84
+msgid "Invoice table"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:88
+msgid "Payments history table"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:92 blocks/blocks.php:49
+msgid "Accommodation list"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:96 blocks/blocks.php:93
+msgid "Payment link form"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:100
+msgid "Payment link button"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:115 utils/utils.php:4863
+msgid "Text/Translations"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:119
+#, php-format
+msgid ""
+"HBook includes front-end translation files for many languages and they can "
+"be found in the folder %s."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:120
+#, php-format
+msgid ""
+"You will see the imported strings in the %s section below, where you can "
+"edit any text displayed by HBook and translate HBook strings for all "
+"languages."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:144
+msgid "The language file is not valid."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:180
+msgid "No new strings have been imported."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:182
+msgid "The import was successful (1 string has been imported)."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:184
+#, php-format
+msgid "The import was successful (%d strings have been imported)."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:194
+msgid "Import a file"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:221
+msgid "Overwrite existing strings"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:231
+msgid "Export a file"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:258
+msgid "Front-end strings"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:261 utils/options-utils.php:1639
+msgid "Save changes"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:271
+msgid "Here you can modify any front-end strings for any set language."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:274
+msgid "Show untranslated strings only"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:276
+msgid "Text sections"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:317
+msgid "Leave the following fields blank to use their default name."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:333
+msgid "You can use these variables:"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:335
+msgid "You can use this variable:"
+msgstr ""
+
+#: blocks/blocks.php:18
+msgid "HBook Blocks"
+msgstr ""
+
+#: blocks/blocks.php:47
+msgid "Accommodation id:"
+msgstr ""
+
+#: blocks/blocks.php:50
+msgid "Accommodation list settings"
+msgstr ""
+
+#: blocks/blocks.php:51
+msgid "Accommodation list block."
+msgstr ""
+
+#: blocks/blocks.php:52
+msgid "Number of columns (maximum)"
+msgstr ""
+
+#: blocks/blocks.php:53
+msgid "Display thumbnail"
+msgstr ""
+
+#: blocks/blocks.php:54
+msgid "Link thumbnail to accommodation"
+msgstr ""
+
+#: blocks/blocks.php:55
+msgid "Link title to accommodation"
+msgstr ""
+
+#: blocks/blocks.php:56 utils/options-utils.php:1174
+msgid "Thumbnail width (in px)"
+msgstr ""
+
+#: blocks/blocks.php:57 utils/options-utils.php:1180
+msgid "Thumbnail height (in px)"
+msgstr ""
+
+#: blocks/blocks.php:58
+msgid "Display a button to view accommodation"
+msgstr ""
+
+#: blocks/blocks.php:59
+msgid "Display a button to book accommodation"
+msgstr ""
+
+#: blocks/blocks.php:61
+msgid "Availability calendar"
+msgstr ""
+
+#: blocks/blocks.php:62
+msgid "Availability calendar settings"
+msgstr ""
+
+#: blocks/blocks.php:63
+msgid "Availability calendar block."
+msgstr ""
+
+#: blocks/blocks.php:67
+msgid "Rates settings"
+msgstr ""
+
+#: blocks/blocks.php:68
+msgid "Rates block."
+msgstr ""
+
+#: blocks/blocks.php:69
+msgid "Rates type"
+msgstr ""
+
+#: blocks/blocks.php:71
+msgid "Extra adults"
+msgstr ""
+
+#: blocks/blocks.php:72
+msgid "Extra children"
+msgstr ""
+
+#: blocks/blocks.php:73
+msgid "Rates sorting"
+msgstr ""
+
+#: blocks/blocks.php:74
+msgid "Grouped"
+msgstr ""
+
+#: blocks/blocks.php:75
+msgid "Chronological"
+msgstr ""
+
+#: blocks/blocks.php:76
+msgid "Show season name"
+msgstr ""
+
+#: blocks/blocks.php:77
+msgid "Please select an accommodation"
+msgstr ""
+
+#: blocks/blocks.php:79
+msgid "Booking form"
+msgstr ""
+
+#: blocks/blocks.php:80
+msgid "Booking form settings"
+msgstr ""
+
+#: blocks/blocks.php:81
+msgid "Booking form block."
+msgstr ""
+
+#: blocks/blocks.php:82
+msgid "Search only"
+msgstr ""
+
+#: blocks/blocks.php:83
+msgid "Redirection"
+msgstr ""
+
+#: blocks/blocks.php:84
+msgid "Please select a redirection page"
+msgstr ""
+
+#: blocks/blocks.php:85
+msgid "Thank you page"
+msgstr ""
+
+#: blocks/blocks.php:87
+msgid "Reservation summary"
+msgstr ""
+
+#: blocks/blocks.php:88
+msgid "Reservation summary block."
+msgstr ""
+
+#: blocks/blocks.php:91
+msgid "Starting price block."
+msgstr ""
+
+#: blocks/blocks.php:94
+msgid "Payment link form settings"
+msgstr ""
+
+#: blocks/blocks.php:95
+msgid "Payment link form block."
+msgstr ""
+
+#: blocks/blocks.php:112
+msgid "Current"
+msgstr ""
+
+#: blocks/blocks.php:149
+msgid "One column"
+msgstr ""
+
+#: blocks/blocks.php:150
+msgid "Two columnns"
+msgstr ""
+
+#: blocks/blocks.php:151
+msgid "Three columns"
+msgstr ""
+
+#: blocks/blocks.php:152
+msgid "Four columns"
+msgstr ""
+
+#: blocks/blocks.php:385
+msgid "Please select an Accommodation in the Rates settings."
+msgstr ""
+
+#: database-actions/database-actions.php:1355
+#: database-actions/database-actions.php:1361
+#: database-actions/database-actions.php:1372
+#: database-actions/database-actions.php:1378
+msgid "Blocked automatically"
+msgstr ""
+
+#: database-actions/database-creation.php:189
+#: database-actions/database-creation.php:686
+msgid "Admin notification"
+msgstr ""
+
+#: database-actions/database-creation.php:190
+#: database-actions/database-creation.php:709
+msgid "Customer notification"
+msgstr ""
+
+#: database-actions/database-creation.php:648
+msgid "Enter your details"
+msgstr ""
+
+#: database-actions/database-creation.php:652
+msgid "Phone"
+msgstr ""
+
+#: database-actions/database-creation.php:653
+msgid "Address line 1"
+msgstr ""
+
+#: database-actions/database-creation.php:654
+msgid "Address line 2"
+msgstr ""
+
+#: database-actions/database-creation.php:655
+msgid "City"
+msgstr ""
+
+#: database-actions/database-creation.php:656
+msgid "Zip code"
+msgstr ""
+
+#: database-actions/database-creation.php:658
+msgid "State / province"
+msgstr ""
+
+#: database-actions/database-creation.php:692
+msgid "New reservation:"
+msgstr ""
+
+#: database-actions/database-creation.php:693
+msgid "- Customer first name:"
+msgstr ""
+
+#: database-actions/database-creation.php:694
+msgid "- Customer last name:"
+msgstr ""
+
+#: database-actions/database-creation.php:695
+msgid "- Customer email:"
+msgstr ""
+
+#: database-actions/database-creation.php:696
+msgid "- Check-in date:"
+msgstr ""
+
+#: database-actions/database-creation.php:697
+msgid "- Check-out date:"
+msgstr ""
+
+#: database-actions/database-creation.php:698
+msgid "- Number of adults:"
+msgstr ""
+
+#: database-actions/database-creation.php:699
+msgid "- Number of children:"
+msgstr ""
+
+#: database-actions/database-creation.php:700
+msgid "- Accommodation:"
+msgstr ""
+
+#: database-actions/database-creation.php:701
+msgid "- Price:"
+msgstr ""
+
+#: database-actions/database-creation.php:713
+#: database-actions/database-creation.php:735
+msgid "Your reservation"
+msgstr ""
+
+#: database-actions/database-creation.php:715
+#: database-actions/database-creation.php:737
+msgid "Hello"
+msgstr ""
+
+#: database-actions/database-creation.php:716
+#: database-actions/database-creation.php:738
+msgid ""
+"Thank you for choosing to stay with us! We are pleased to confirm your "
+"reservation as follows:"
+msgstr ""
+
+#: database-actions/database-creation.php:717
+#: database-actions/database-creation.php:739
+msgid "Check-in date:"
+msgstr ""
+
+#: database-actions/database-creation.php:718
+#: database-actions/database-creation.php:740
+msgid "Check-out date:"
+msgstr ""
+
+#: database-actions/database-creation.php:719
+#: database-actions/database-creation.php:741
+msgid "Number of adults:"
+msgstr ""
+
+#: database-actions/database-creation.php:720
+#: database-actions/database-creation.php:742
+msgid "Number of children:"
+msgstr ""
+
+#: database-actions/database-creation.php:723
+#: database-actions/database-creation.php:745
+msgid "See you soon!"
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:45
+msgid "Could not find any accommodation that would suit one person only."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:46
+msgid "Could not find any accommodation that would suit %persons_nb persons."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:47
+msgid ""
+"Could not find any accommodation that would suit %persons_nb persons only."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:51
+#: front-end/booking-form/available-accom.php:873
+msgid "This accommodation is selected."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:52
+#: front-end/booking-form/available-accom.php:665
+#: front-end/booking-form/search-form.php:17 utils/resa-options.php:59
+msgid "Accommodation %n"
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:53
+#: front-end/booking-form/available-accom.php:54
+msgid "Select accommodation number"
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:94
+msgid "Show unavailable accommodation at the chosen dates"
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:107
+msgid "Show accommodation not suitable for 1 person"
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:109
+#, php-format
+msgid "Show accommodation not suitable for %s persons"
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:112
+#, php-format
+msgid "Show accommodation not suitable for %s adult(s) and %s child(ren)"
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:643
+msgid ""
+"Could not find any result matching the search criteria. Check the suggestion "
+"below."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:753
+msgid "Not available at the chosen dates."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:759
+msgid "Not suitable for 1 person."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:761
+#, php-format
+msgid "Not suitable for %s persons."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:767
+#, php-format
+msgid "Not suitable for %s adult(s) and %s child(ren)."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:881
+msgid ""
+"You have already selected %selected_accom_nb %accom_name. There are no more "
+"%accom_name available."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:1012 utils/resa-summary.php:39
+msgid "Accommodation number:"
+msgstr ""
+
+#: front-end/booking-form/details-form.php:55
+msgid "The selected accommodation is not available at the chosen dates."
+msgstr ""
+
+#: front-end/booking-form/details-form.php:141
+msgid "Discount:"
+msgstr ""
+
+#: front-end/booking-form/details-form.php:262
+msgid ""
+"There are no active payment gateways. Please activate at least one payment "
+"gateway in HBook settings (HBook > Payment)."
+msgstr ""
+
+#: front-end/booking-form/details-form.php:307
+msgid "Loading summary..."
+msgstr ""
+
+#: front-end/booking-form/details-form.php:363
+msgid "Customer:"
+msgstr ""
+
+#: front-end/booking-form/details-form.php:372
+msgid "Enter customer details"
+msgstr ""
+
+#: front-end/booking-form/details-form.php:404
+msgid "Additional information:"
+msgstr ""
+
+#: front-end/booking-form/details-form.php:423
+msgid "Status:"
+msgstr ""
+
+#: front-end/booking-form/details-form.php:486
+msgid "Create reservation"
+msgstr ""
+
+#: front-end/booking-form/details-form.php:491
+msgid "Updating database..."
+msgstr ""
+
+#: front-end/booking-form/search-form.php:18 utils/utils.php:4424
+msgid "Adults"
+msgstr ""
+
+#: front-end/booking-form/search-form.php:19 utils/utils.php:4425
+msgid "Children"
+msgstr ""
+
+#: front-end/booking-form/search-form.php:20 utils/strings-utils.php:18
+msgid "Number of accommodation"
+msgstr ""
+
+#: front-end/booking-form/search-form.php:21 utils/utils.php:4419
+msgid "Check-in"
+msgstr ""
+
+#: front-end/booking-form/search-form.php:22 utils/utils.php:4420
+msgid "Check-out"
+msgstr ""
+
+#: front-end/booking-form/search-form.php:25
+msgid "Number of accommodation:"
+msgstr ""
+
+#: front-end/booking-form/search-form.php:28
+msgid "Change search"
+msgstr ""
+
+#: front-end/booking-form/search-form.php:288
+msgid "Accom. type:"
+msgstr ""
+
+#: front-end/booking-form/search-form.php:293
+msgid "Multi. accom."
+msgstr ""
+
+#: front-end/booking-form/search-form.php:302
+msgid "Check price and availability"
+msgstr ""
+
+#: front-end/booking-form/search-form.php:303
+msgid "Searching..."
+msgstr ""
+
+#: front-end/booking-form/search-form.php:304
+msgid "Multi. accom.:"
+msgstr ""
+
+#: front-end/front-end-ajax-actions.php:70
+#: front-end/front-end-ajax-actions.php:230
+msgid "Error. Could not calculate price."
+msgstr ""
+
+#: front-end/front-end-ajax-actions.php:135
+msgid "Error. Could not create customer."
+msgstr ""
+
+#: front-end/front-end-ajax-actions.php:526
+msgid "Error. Could not find payment gateway."
+msgstr ""
+
+#: front-end/front-end-ajax-actions.php:633
+msgid "Error. Could not create reservation."
+msgstr ""
+
+#: front-end/renders/availability-render.php:17
+msgid "Invalid shortcode. Use: [hb_availability accom_id=\"ID\"]"
+msgstr ""
+
+#: front-end/renders/availability-render.php:19
+#: front-end/renders/rates-render.php:18
+#: front-end/renders/starting-price-render.php:19
+msgid ""
+"Invalid shortcode. Please use the id of an accommodation which is set in the "
+"website default language."
+msgstr ""
+
+#: front-end/renders/availability-render.php:21
+#: front-end/renders/rates-render.php:20
+#: front-end/renders/starting-price-render.php:21
+#, php-format
+msgid "Invalid shortcode. Could not find an accommodation whose id is %s."
+msgstr ""
+
+#: front-end/renders/rates-render.php:16
+msgid "Invalid shortcode. Use: [hb_rates accom_id=\"ID\"]"
+msgstr ""
+
+#: front-end/renders/resa-summary-render.php:24
+msgid "Could not display Reservation summary"
+msgstr ""
+
+#: front-end/renders/starting-price-render.php:17
+msgid "Invalid shortcode. Use: [hb_starting_price accom_id=\"ID\"]"
+msgstr ""
+
+#: hbook.php:314
+msgid "HBook iCal custom frequency"
+msgstr ""
+
+#: hbook.php:324
+msgid "HBook check delayed payments custom frequency"
+msgstr ""
+
+#: hbook.php:336
+msgid "Settings"
+msgstr ""
+
+#: hbook.php:356
+msgid "Thanks for using HBook plugin."
+msgstr ""
+
+#: hbook.php:374
+#, php-format
+msgid "Before setting the plugin up do not forget to have a look at the %s."
+msgstr ""
+
+#: hbook.php:375
+msgid "documentation"
+msgstr ""
+
+#: hbook.php:381
+#, php-format
+msgid "For any specific issue you can consult our %s."
+msgstr ""
+
+#: hbook.php:382 utils/options-utils.php:692
+msgid "knowledgebase"
+msgstr ""
+
+#: hbook.php:472
+#, php-format
+msgid ""
+"Delete accommodation %s? Note that all reservations linked to the %s will "
+"also be deleted."
+msgstr ""
+
+#: hbook.php:473
+msgid ""
+"Move this accommodation type to trash? Note that all reservations linked to "
+"this accommodtion will also be deleted when you will empty the trash."
+msgstr ""
+
+#: hbook.php:474
+msgid "Starting price should be a number (without currency symbol)."
+msgstr ""
+
+#: hbook.php:475
+msgid "There must be at least one accommodation."
+msgstr ""
+
+#: payment/paypal/paypal.php:46
+msgid "Paypal settings"
+msgstr ""
+
+#: payment/paypal/paypal.php:50
+msgid "Paypal mode"
+msgstr ""
+
+#: payment/paypal/paypal.php:53 payment/stripe/stripe.php:46
+msgid "Live"
+msgstr ""
+
+#: payment/paypal/paypal.php:54
+msgid "Sandbox"
+msgstr ""
+
+#: payment/paypal/paypal.php:59
+msgid "Sandbox API Username"
+msgstr ""
+
+#: payment/paypal/paypal.php:64
+msgid "Sandbox API Password"
+msgstr ""
+
+#: payment/paypal/paypal.php:69
+msgid "Sandbox API Signature"
+msgstr ""
+
+#: payment/paypal/paypal.php:74
+msgid "Live API Username"
+msgstr ""
+
+#: payment/paypal/paypal.php:79
+msgid "Live API Password"
+msgstr ""
+
+#: payment/paypal/paypal.php:84
+msgid "Live API Signature"
+msgstr ""
+
+#: payment/paypal/paypal.php:89
+msgid "Displayed icons"
+msgstr ""
+
+#: payment/paypal/paypal.php:92
+msgid "PayPal"
+msgstr ""
+
+#: payment/paypal/paypal.php:93
+msgid "Credit cards"
+msgstr ""
+
+#: payment/stripe/stripe.php:39
+msgid "Stripe settings"
+msgstr ""
+
+#: payment/stripe/stripe.php:43
+msgid "Stripe mode"
+msgstr ""
+
+#: payment/stripe/stripe.php:47
+msgid "Test"
+msgstr ""
+
+#: payment/stripe/stripe.php:52
+msgid "Test Publishable Key"
+msgstr ""
+
+#: payment/stripe/stripe.php:57
+msgid "Test Secret Key"
+msgstr ""
+
+#: payment/stripe/stripe.php:62
+msgid "Live Publishable Key"
+msgstr ""
+
+#: payment/stripe/stripe.php:67
+msgid "Live Secret Key"
+msgstr ""
+
+#: payment/stripe/stripe.php:72
+msgid "Payment methods"
+msgstr ""
+
+#: payment/stripe/stripe.php:75
+msgid "Credit card only"
+msgstr ""
+
+#: payment/stripe/stripe.php:76
+msgid "All payment methods enabled in Stripe"
+msgstr ""
+
+#: payment/stripe/stripe.php:81
+msgid "Store payment method"
+msgstr ""
+
+#: payment/stripe/stripe.php:90
+msgid "Display a \"Powered by Stripe\" icon"
+msgstr ""
+
+#: payment/stripe/stripe.php:162
+msgid ""
+"When using Stripe you need to add a Required Country Field in the Details "
+"form."
+msgstr ""
+
+#: utils/options-utils.php:21
+msgid "Booking payment settings"
+msgstr ""
+
+#: utils/options-utils.php:24
+msgid "Customers can choose between different payment options"
+msgstr ""
+
+#: utils/options-utils.php:33
+msgid "Booking payment"
+msgstr ""
+
+#: utils/options-utils.php:36
+msgid ""
+"Customers do not have to pay online to book an accommodation (payment on "
+"arrival or offline - e.g. bank wire)"
+msgstr ""
+
+#: utils/options-utils.php:37
+msgid ""
+"Customers have to leave their credit card details to book an accommodation "
+"(this option is available only with Stripe)"
+msgstr ""
+
+#: utils/options-utils.php:38
+msgid "Customers have to pay a deposit online to book an accommodation"
+msgstr ""
+
+#: utils/options-utils.php:39
+msgid ""
+"Customers have to pay the full stay price online to book an accommodation"
+msgstr ""
+
+#: utils/options-utils.php:45
+msgid "Customers can pay on arrival or offline - e.g.bank wire"
+msgstr ""
+
+#: utils/options-utils.php:55
+msgid ""
+"Customers can leave their credit card details for a later charge (this "
+"option is available only with Stripe)"
+msgstr ""
+
+#: utils/options-utils.php:65
+msgid "Customers can pay an online deposit"
+msgstr ""
+
+#: utils/options-utils.php:75
+msgid "Customers can pay the full amount online"
+msgstr ""
+
+#: utils/options-utils.php:88
+msgid "Security bond settings"
+msgstr ""
+
+#: utils/options-utils.php:89
+msgid ""
+"A security bond is a sum of money which is held during the length of the "
+"stay to cover the cost of any damages or loss caused by the customer."
+msgstr ""
+
+#: utils/options-utils.php:102
+msgid "Security bond has to be paid"
+msgstr ""
+
+#: utils/options-utils.php:112
+msgid "Security bond amount"
+msgstr ""
+
+#: utils/options-utils.php:121
+msgid "Deposit settings"
+msgstr ""
+
+#: utils/options-utils.php:122
+msgid ""
+"A deposit corresponds to the part of the total price of the stay that is "
+"payed in advance by the customer to secure the booking."
+msgstr ""
+
+#: utils/options-utils.php:125
+msgid "Deposit type"
+msgstr ""
+
+#: utils/options-utils.php:137
+msgid "Deposit amount"
+msgstr ""
+
+#: utils/options-utils.php:143
+msgid ""
+"Deposit option must be replaced by full payment option if check-in is within"
+msgstr ""
+
+#: utils/options-utils.php:144
+msgid "Enter a number of days from current date."
+msgstr ""
+
+#: utils/options-utils.php:150
+msgid "Security bond must be paid along with deposit"
+msgstr ""
+
+#: utils/options-utils.php:163
+msgid "Price settings"
+msgstr ""
+
+#: utils/options-utils.php:166
+msgid "Payment currency"
+msgstr ""
+
+#: utils/options-utils.php:172
+msgid "Currency symbol position"
+msgstr ""
+
+#: utils/options-utils.php:175
+msgid "Before price"
+msgstr ""
+
+#: utils/options-utils.php:176
+msgid "After price"
+msgstr ""
+
+#: utils/options-utils.php:181
+msgid "Price precision"
+msgstr ""
+
+#: utils/options-utils.php:184
+msgid "Two decimals"
+msgstr ""
+
+#: utils/options-utils.php:185
+msgid "No decimals"
+msgstr ""
+
+#: utils/options-utils.php:193
+msgid "Payment link settings"
+msgstr ""
+
+#: utils/options-utils.php:196
+msgid "Page where customers following a payment link will be redirected"
+msgstr ""
+
+#: utils/options-utils.php:197
+msgid ""
+"The payment link page should contain a \"Payment link form\" block or a "
+"[hb_payment_link_form] shortcode."
+msgstr ""
+
+#: utils/options-utils.php:202
+msgid "Payment link appearance"
+msgstr ""
+
+#: utils/options-utils.php:205
+msgid "Button"
+msgstr ""
+
+#: utils/options-utils.php:214
+msgid "Offline payment methods"
+msgstr ""
+
+#: utils/options-utils.php:217
+msgid "List of offline payment methods separated with comma"
+msgstr ""
+
+#: utils/options-utils.php:218
+msgid "Used in the \"Add a payment\" form of the admin Reservation page."
+msgstr ""
+
+#: utils/options-utils.php:220
+msgid "Cash, Wire transfer"
+msgstr ""
+
+#: utils/options-utils.php:230
+msgid "General settings"
+msgstr ""
+
+#: utils/options-utils.php:233
+msgid "Accommodation links opening"
+msgstr ""
+
+#: utils/options-utils.php:236
+msgid "Same page"
+msgstr ""
+
+#: utils/options-utils.php:237
+msgid "New page"
+msgstr ""
+
+#: utils/options-utils.php:242
+msgid "Sticky header/menu height"
+msgstr ""
+
+#: utils/options-utils.php:244
+msgid "If your website has a sticky header insert its height in pixels below."
+msgstr ""
+
+#: utils/options-utils.php:246
+msgid ""
+"This will prevent HBook forms to appear under the header when automatic "
+"scrolling occurs."
+msgstr ""
+
+#: utils/options-utils.php:252
+msgid "Forms position"
+msgstr ""
+
+#: utils/options-utils.php:255
+msgid "Left"
+msgstr ""
+
+#: utils/options-utils.php:256
+msgid "Center"
+msgstr ""
+
+#: utils/options-utils.php:261
+msgid "Search form maximum width"
+msgstr ""
+
+#: utils/options-utils.php:262 utils/options-utils.php:269
+#: utils/options-utils.php:276
+msgid "Leave blank for no maximum."
+msgstr ""
+
+#: utils/options-utils.php:268
+msgid "Accommodation selection form maximum width"
+msgstr ""
+
+#: utils/options-utils.php:275
+msgid "Details form maximum width"
+msgstr ""
+
+#: utils/options-utils.php:282
+msgid "Minimum width required for displaying a horizontal search form"
+msgstr ""
+
+#: utils/options-utils.php:283
+msgid ""
+"If the available space is less than the minimum width the form will be "
+"displayed vertically."
+msgstr ""
+
+#: utils/options-utils.php:289
+msgid "Minimum width required for displaying columns in the details form"
+msgstr ""
+
+#: utils/options-utils.php:290
+msgid ""
+"If the available space is less than the minimum width the columns will be "
+"stacked."
+msgstr ""
+
+#: utils/options-utils.php:299
+msgid "Buttons appearance"
+msgstr ""
+
+#: utils/options-utils.php:302
+msgid "Buttons style"
+msgstr ""
+
+#: utils/options-utils.php:305 utils/options-utils.php:321
+#: utils/options-utils.php:337
+msgid "Use theme styles"
+msgstr ""
+
+#: utils/options-utils.php:306 utils/options-utils.php:322
+msgid "Custom"
+msgstr ""
+
+#: utils/options-utils.php:315
+msgid "Inputs and selects appearance"
+msgstr ""
+
+#: utils/options-utils.php:318
+msgid "Inputs and selects style"
+msgstr ""
+
+#: utils/options-utils.php:331
+msgid "Tables appearance"
+msgstr ""
+
+#: utils/options-utils.php:334
+msgid "Tables style"
+msgstr ""
+
+#: utils/options-utils.php:338
+msgid "Use plugin styles"
+msgstr ""
+
+#: utils/options-utils.php:346
+msgid "Calendars appearance"
+msgstr ""
+
+#: utils/options-utils.php:350
+msgid "Add a shadow to calendars"
+msgstr ""
+
+#: utils/options-utils.php:362
+msgid "Number of persons pop-up appearance"
+msgstr ""
+
+#: utils/options-utils.php:365 utils/utils.php:3642
+msgid "Background color"
+msgstr ""
+
+#: utils/options-utils.php:371
+msgid "Add a shadow to pop-up"
+msgstr ""
+
+#: utils/options-utils.php:383
+msgid "Custom CSS"
+msgstr ""
+
+#: utils/options-utils.php:387
+msgid "Custom CSS for the front-end pages"
+msgstr ""
+
+#: utils/options-utils.php:391
+msgid "Custom CSS for the admin pages"
+msgstr ""
+
+#: utils/options-utils.php:418
+msgid ""
+"Filter default \"From date\" (enter a fixed date (yyyy-mm-dd format), a "
+"number of days (from current date), or leave empty for Today's date)."
+msgstr ""
+
+#: utils/options-utils.php:424
+msgid ""
+"Filter default \"To date\" (enter a fixed date (yyyy-mm-dd format), a number "
+"of days (from current date), or leave empty for Today's date)."
+msgstr ""
+
+#: utils/options-utils.php:438
+msgid "Enable multiple accommodation booking"
+msgstr ""
+
+#: utils/options-utils.php:447
+msgid "Enable multiple accommodation booking on front-end"
+msgstr ""
+
+#: utils/options-utils.php:456
+msgid "Preferred type of occupancy when suggesting accommodation"
+msgstr ""
+
+#: utils/options-utils.php:465
+msgid ""
+"When possible use maximum occupancy to prevent singleton person in search "
+"results suggestion"
+msgstr ""
+
+#: utils/options-utils.php:475
+msgid "Disable suggestions in global search form results"
+msgstr ""
+
+#: utils/options-utils.php:487
+msgid "Confirmation settings"
+msgstr ""
+
+#: utils/options-utils.php:490
+msgid "Unpaid reservations have to be confirmed before dates are blocked out"
+msgstr ""
+
+#: utils/options-utils.php:499
+msgid "Paid reservations have to be confirmed before dates are blocked out"
+msgstr ""
+
+#: utils/options-utils.php:511
+msgid "Reservations status"
+msgstr ""
+
+#: utils/options-utils.php:514
+msgid "Reservations created from admin"
+msgstr ""
+
+#: utils/options-utils.php:524
+msgid "Reservations received from website"
+msgstr ""
+
+#: utils/options-utils.php:533
+msgid "Reservations imported from an external iCal calendar"
+msgstr ""
+
+#: utils/options-utils.php:545
+msgid "Invoice id and reservation number"
+msgstr ""
+
+#: utils/options-utils.php:548
+msgid "Invoice id structure"
+msgstr ""
+
+#: utils/options-utils.php:549
+msgid "You can use the following variables: %year, %month, %counter"
+msgstr ""
+
+#: utils/options-utils.php:554
+msgid "Invoice id counter next value"
+msgstr ""
+
+#: utils/options-utils.php:560
+msgid "Invoice id counter reset frequency"
+msgstr ""
+
+#: utils/options-utils.php:563
+msgid "Yearly"
+msgstr ""
+
+#: utils/options-utils.php:564
+msgid "Monthly"
+msgstr ""
+
+#: utils/options-utils.php:570
+msgid ""
+"Ignore reservations imported from an external iCal calendar for invoice id "
+"counter"
+msgstr ""
+
+#: utils/options-utils.php:579
+msgid "Display an alphanumeric reservation number"
+msgstr ""
+
+#: utils/options-utils.php:591
+msgid "Opening dates"
+msgstr ""
+
+#: utils/options-utils.php:594
+msgid "Minimum selectable date for a reservation"
+msgstr ""
+
+#: utils/options-utils.php:595
+msgid "Enter a number of <u>days</u> from current date..."
+msgstr ""
+
+#: utils/options-utils.php:600 utils/options-utils.php:612
+msgid "...or enter a fixed date (yyyy-mm-dd format)"
+msgstr ""
+
+#: utils/options-utils.php:605
+msgid "Maximum selectable date for a reservation"
+msgstr ""
+
+#: utils/options-utils.php:606
+msgid "Enter the maximum number of <u>months</u> ahead..."
+msgstr ""
+
+#: utils/options-utils.php:620
+msgid "Dates settings"
+msgstr ""
+
+#: utils/options-utils.php:636
+msgid "Terms and conditions, Privacy policy"
+msgstr ""
+
+#: utils/options-utils.php:639
+msgid "Display a terms and conditions checkbox"
+msgstr ""
+
+#: utils/options-utils.php:640
+#, php-format
+msgid ""
+"You can change the text of the terms and conditions checkbox on the %s Text "
+"page%s."
+msgstr ""
+
+#: utils/options-utils.php:649
+msgid "Display a privacy policy checkbox"
+msgstr ""
+
+#: utils/options-utils.php:650
+#, php-format
+msgid ""
+"You can change the text of the privacy policy checkbox on the %s Text page%s."
+msgstr ""
+
+#: utils/options-utils.php:662
+msgid "Import / Export HBook settings"
+msgstr ""
+
+#: utils/options-utils.php:669
+msgid "HBook reset"
+msgstr ""
+
+#: utils/options-utils.php:679
+msgid "Allow accommodation with children only"
+msgstr ""
+
+#: utils/options-utils.php:688
+msgid "HBook admin language"
+msgstr ""
+
+#: utils/options-utils.php:694
+#, php-format
+msgid "You can check available languages on our %s."
+msgstr ""
+
+#: utils/options-utils.php:698
+msgid "English"
+msgstr ""
+
+#: utils/options-utils.php:699
+msgid "User language (if available)"
+msgstr ""
+
+#: utils/options-utils.php:704
+msgid "Reservations list default filter"
+msgstr ""
+
+#: utils/options-utils.php:711
+msgid "Reservations list \"By Check-in date\" filter default dates"
+msgstr ""
+
+#: utils/options-utils.php:724
+msgid "Reservations list \"By Check-out date\" filter default dates"
+msgstr ""
+
+#: utils/options-utils.php:737
+msgid ""
+"Reservations list \"By Check-in and Check-out dates\" filter default dates"
+msgstr ""
+
+#: utils/options-utils.php:750
+msgid "Reservations list \"By Active reservations\" filter default dates"
+msgstr ""
+
+#: utils/options-utils.php:763
+msgid "Reservations list \"By Accommodation\" filter default value"
+msgstr ""
+
+#: utils/options-utils.php:770
+msgid "Reservations list \"By Status\" filter default value"
+msgstr ""
+
+#: utils/options-utils.php:781
+msgid "Reservations list \"By Origin\" filter default value"
+msgstr ""
+
+#: utils/options-utils.php:790
+msgid "Reservations archiving delay"
+msgstr ""
+
+#: utils/options-utils.php:791 utils/options-utils.php:797
+msgid "Enter a number of months."
+msgstr ""
+
+#: utils/options-utils.php:796
+msgid "Email logs archiving delay"
+msgstr ""
+
+#: utils/options-utils.php:802
+msgid "Email default address"
+msgstr ""
+
+#: utils/options-utils.php:807
+msgid "Accommodation url slug"
+msgstr ""
+
+#: utils/options-utils.php:808
+msgid ""
+"The url slug can not be blank. If you leave this field empty the slug will "
+"be set to \"hb_accommodation\"."
+msgstr ""
+
+#: utils/options-utils.php:813
+msgid "Delete all stored information on uninstall"
+msgstr ""
+
+#: utils/options-utils.php:822
+msgid "Image resizing"
+msgstr ""
+
+#: utils/options-utils.php:825
+msgid "Dynamic"
+msgstr ""
+
+#: utils/options-utils.php:826
+msgid "Static"
+msgstr ""
+
+#: utils/options-utils.php:831
+msgid "Delay before a timeout error occurs (in ms)"
+msgstr ""
+
+#: utils/options-utils.php:837
+msgid "Delay before a timeout error occurs (for admin pages - in ms)"
+msgstr ""
+
+#: utils/options-utils.php:850
+msgid "Notifications settings"
+msgstr ""
+
+#: utils/options-utils.php:853
+msgid "Keep records of sync errors"
+msgstr ""
+
+#: utils/options-utils.php:863
+msgid "Show notification messages in Reservations page"
+msgstr ""
+
+#: utils/options-utils.php:875
+msgid "Import settings"
+msgstr ""
+
+#: utils/options-utils.php:878
+msgid "HBook synchronization frequency (in seconds)"
+msgstr ""
+
+#: utils/options-utils.php:883
+msgid ""
+"Update the dates of a reservation when it has been modified in the external "
+"calendar"
+msgstr ""
+
+#: utils/options-utils.php:892
+msgid ""
+"Update the status of a reservation when it has been cancelled in the "
+"external calendar"
+msgstr ""
+
+#: utils/options-utils.php:901
+msgid "Exclude blocked dates from the import"
+msgstr ""
+
+#: utils/options-utils.php:911
+msgid "Import window minimum date"
+msgstr ""
+
+#: utils/options-utils.php:914
+msgid ""
+"Set the number of nights from current date. HBook will not import any "
+"reservation with check-in within this advanced notice period of time."
+msgstr ""
+
+#: utils/options-utils.php:918
+msgid "Import window maximum date"
+msgstr ""
+
+#: utils/options-utils.php:921
+msgid ""
+"Set the number of months ahead from current date. HBook will import only "
+"reservations with check-in within this import window."
+msgstr ""
+
+#: utils/options-utils.php:925
+msgid "Exclude one nights reservations from the import"
+msgstr ""
+
+#: utils/options-utils.php:932
+msgid ""
+"Set this to \"Yes\" if you do not accept one-night reservations in any of "
+"your external calendars."
+msgstr ""
+
+#: utils/options-utils.php:938
+msgid "Export settings"
+msgstr ""
+
+#: utils/options-utils.php:941
+msgid "Include reservations with status Cancelled in the export"
+msgstr ""
+
+#: utils/options-utils.php:951
+msgid "Add a random key to HBook export url"
+msgstr ""
+
+#: utils/options-utils.php:960
+msgid "Include blocked dates in the export"
+msgstr ""
+
+#: utils/options-utils.php:970
+msgid "Include \"Preparation time\" blocked dates in the export"
+msgstr ""
+
+#: utils/options-utils.php:980
+msgid "Include only reservations with status \"Confirmed\" in the export"
+msgstr ""
+
+#: utils/options-utils.php:989
+msgid ""
+"Include only reservations from the website (added from admin or received on "
+"front end) in the export"
+msgstr ""
+
+#: utils/options-utils.php:999
+msgid "Summary of reservation in the export"
+msgstr ""
+
+#: utils/options-utils.php:1004
+msgid "Description of reservation in the export"
+msgstr ""
+
+#: utils/options-utils.php:1019
+msgid "Display a field \"Number of accommodation\" in front-end Search form"
+msgstr ""
+
+#: utils/options-utils.php:1029
+msgid "\"Number of accommodation\" field minimum number"
+msgstr ""
+
+#: utils/options-utils.php:1036
+msgid "\"Number of accommodation\" field maximum number"
+msgstr ""
+
+#: utils/options-utils.php:1043
+msgid ""
+"Use accommodation quantity as \"Number of accommodation\" field maximum "
+"number on Accommodation pages"
+msgstr ""
+
+#: utils/options-utils.php:1053
+msgid "Admin form \"Number of accommodation\" field maximum number"
+msgstr ""
+
+#: utils/options-utils.php:1060
+msgid "Display a field \"Adults\""
+msgstr ""
+
+#: utils/options-utils.php:1069
+msgid "Display a field \"Children\""
+msgstr ""
+
+#: utils/options-utils.php:1078
+msgid "\"Adults\" field minimum number"
+msgstr ""
+
+#: utils/options-utils.php:1085
+msgid "\"Adults\" field maximum number"
+msgstr ""
+
+#: utils/options-utils.php:1092
+msgid "\"Children\" field maximum number"
+msgstr ""
+
+#: utils/options-utils.php:1099
+msgid ""
+"Use Accommodation minimum occupancy for Search form fields on Accommodation "
+"pages"
+msgstr ""
+
+#: utils/options-utils.php:1109
+msgid ""
+"Use Accommodation maximum occupancy for Search form fields on Accommodation "
+"pages"
+msgstr ""
+
+#: utils/options-utils.php:1119
+msgid "Display placeholders instead of labels"
+msgstr ""
+
+#: utils/options-utils.php:1137
+msgid "Customers can choose the accommodation number"
+msgstr ""
+
+#: utils/options-utils.php:1144
+msgid ""
+"You will enable this option if you wish to allow your customer to pick a "
+"specific accommodation if several of the same type are available."
+msgstr ""
+
+#: utils/options-utils.php:1147
+msgid "Link title towards accommodation pages"
+msgstr ""
+
+#: utils/options-utils.php:1156
+msgid "Display an accommodation thumbnail"
+msgstr ""
+
+#: utils/options-utils.php:1165
+msgid "Link thumbnail towards accommodation pages"
+msgstr ""
+
+#: utils/options-utils.php:1186
+msgid "Display a button that links towards accommodation pages"
+msgstr ""
+
+#: utils/options-utils.php:1195
+msgid "Display price"
+msgstr ""
+
+#: utils/options-utils.php:1204
+msgid "Display price breakdown"
+msgstr ""
+
+#: utils/options-utils.php:1213
+msgid "Price breakdown default state"
+msgstr ""
+
+#: utils/options-utils.php:1216
+msgid "Opened"
+msgstr ""
+
+#: utils/options-utils.php:1217 utils/strings-utils.php:282
+msgid "Closed"
+msgstr ""
+
+#: utils/options-utils.php:1222
+msgid "Display detailed accommodation price"
+msgstr ""
+
+#: utils/options-utils.php:1231
+msgid "Display number of available accommodation"
+msgstr ""
+
+#: utils/options-utils.php:1240
+msgid "Threshold to display number of available accommodation"
+msgstr ""
+
+#: utils/resa-ical.php:258 utils/resa-ical.php:260
+msgid "Accommodation blocked"
+msgstr ""
+
+#: utils/resa-ical.php:411 utils/resa-ical.php:421
+msgid "It seems that this file is not a valid calendar file."
+msgstr ""
+
+#: utils/resa-ical.php:436
+msgid ""
+"The calendar has been added. For your information, it currently does not "
+"contain any event that could be imported."
+msgstr ""
+
+#: utils/resa-ical.php:443
+#, php-format
+msgid "Your calendar has been imported: %1$s reservation(s) have been added."
+msgstr ""
+
+#: utils/resa-ical.php:448
+#, php-format
+msgid ""
+"The following reservation(s) could not be imported as the accommodation %1$s "
+"(%2$s) is not available:"
+msgstr ""
+
+#: utils/resa-ical.php:452
+#, php-format
+msgid "A reservation with check-in on %1$s and check-out on %2$s"
+msgstr ""
+
+#: utils/resa-options.php:38
+msgid "Extra services:"
+msgstr ""
+
+#: utils/resa-options.php:72
+msgid "This accommodation does not have any extra services."
+msgstr ""
+
+#: utils/resa-options.php:87
+msgid "Global options"
+msgstr ""
+
+#: utils/resa-options.php:230
+msgid "Options total price:"
+msgstr ""
+
+#: utils/resa-summary.php:31
+msgid "Summary:"
+msgstr ""
+
+#: utils/resa-summary.php:34
+msgid "Number of nights:"
+msgstr ""
+
+#: utils/resa-summary.php:37
+msgid "Accommodation %n:"
+msgstr ""
+
+#: utils/resa-summary.php:41
+msgid "Global options price:"
+msgstr ""
+
+#: utils/resa-summary.php:42
+msgid "Deposit amount:"
+msgstr ""
+
+#: utils/resa-summary.php:43
+msgid "Total price:"
+msgstr ""
+
+#: utils/resa-summary.php:44
+msgid "Security bond amount:"
+msgstr ""
+
+#: utils/resa-summary.php:45
+msgid "Accommodation price:"
+msgstr ""
+
+#: utils/resa-summary.php:46
+msgid "Options price:"
+msgstr ""
+
+#: utils/resa-summary.php:47 utils/resa-summary.php:631
+msgid "Discount amount:"
+msgstr ""
+
+#: utils/resa-summary.php:48
+msgid "Price includes:"
+msgstr ""
+
+#: utils/strings-utils.php:12
+msgid "Default form title"
+msgstr ""
+
+#: utils/strings-utils.php:13
+msgid "Form title on accommodation page"
+msgstr ""
+
+#: utils/strings-utils.php:14
+msgid "Check-in date"
+msgstr ""
+
+#: utils/strings-utils.php:15
+msgid "Check-out date"
+msgstr ""
+
+#: utils/strings-utils.php:16
+msgid "Adults number"
+msgstr ""
+
+#: utils/strings-utils.php:17
+msgid "Children number"
+msgstr ""
+
+#: utils/strings-utils.php:19
+msgid "Any (in number of accommodation)"
+msgstr ""
+
+#: utils/strings-utils.php:20 utils/strings-utils.php:118
+msgid "Chosen check-in date"
+msgstr ""
+
+#: utils/strings-utils.php:21 utils/strings-utils.php:119
+msgid "Chosen check-out date"
+msgstr ""
+
+#: utils/strings-utils.php:22
+msgid "Chosen number of accommodation"
+msgstr ""
+
+#: utils/strings-utils.php:23
+msgid "1 adult chosen (in number of accommodation)"
+msgstr ""
+
+#: utils/strings-utils.php:24
+msgid "Chosen adults number (in number of accommodation)"
+msgstr ""
+
+#: utils/strings-utils.php:25
+msgid "Chosen persons number (in number of accommodation)"
+msgstr ""
+
+#: utils/strings-utils.php:26
+msgid "Chosen adults number"
+msgstr ""
+
+#: utils/strings-utils.php:27
+msgid "Chosen children number"
+msgstr ""
+
+#: utils/strings-utils.php:28
+msgid "Search button"
+msgstr ""
+
+#: utils/strings-utils.php:29
+msgid "Change search button"
+msgstr ""
+
+#: utils/strings-utils.php:35
+msgid "One type of accommodation found"
+msgstr ""
+
+#: utils/strings-utils.php:36
+msgid "Several types of accommodation found"
+msgstr ""
+
+#: utils/strings-utils.php:37
+msgid "Multiple accommodation introduction text"
+msgstr ""
+
+#: utils/strings-utils.php:38
+msgid "Accommodation suggestion (single accommodation search)"
+msgstr ""
+
+#: utils/strings-utils.php:39
+msgid "Accommodation suggestion (multiple accommodation search)"
+msgstr ""
+
+#: utils/strings-utils.php:40
+msgid "Link to search for a specific number of accommodation"
+msgstr ""
+
+#: utils/strings-utils.php:41
+msgid "Accommodation selection title"
+msgstr ""
+
+#: utils/strings-utils.php:42
+msgid "Accommodation selection title (multiple accommodation booking)"
+msgstr ""
+
+#: utils/strings-utils.php:43
+msgid "Accommodation title (multiple accommodation booking)"
+msgstr ""
+
+#: utils/strings-utils.php:44
+msgid "Accommodation not selected (multiple accommodation booking)"
+msgstr ""
+
+#: utils/strings-utils.php:45
+msgid "The accommodation is available at the chosen dates"
+msgstr ""
+
+#: utils/strings-utils.php:46
+msgid "Price for 1 night"
+msgstr ""
+
+#: utils/strings-utils.php:47
+msgid "Price for several nights"
+msgstr ""
+
+#: utils/strings-utils.php:48
+msgid "View price breakdown link"
+msgstr ""
+
+#: utils/strings-utils.php:49
+msgid "Hide price breakdown link"
+msgstr ""
+
+#: utils/strings-utils.php:50
+msgid "Nights (several - in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:51
+msgid "Night (one - in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:52
+msgid "Multiple nights (in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:53
+msgid "Accommodation price (in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:54
+msgid "Extra adults (several - in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:55
+msgid "Extra adult (one - in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:56
+msgid "Adults (several - in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:57
+msgid "Adult (one - in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:58
+msgid "Extra children (several - in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:59
+msgid "Extra child (one - in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:60
+msgid "Children (several - in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:61
+msgid "Child (one - in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:62
+msgid "Dates (in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:63
+msgid "Discount (in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:64
+msgid "Adults (several - in fee details)"
+msgstr ""
+
+#: utils/strings-utils.php:65
+msgid "Adult (one - in fee details)"
+msgstr ""
+
+#: utils/strings-utils.php:66
+msgid "Children (several - in fee details)"
+msgstr ""
+
+#: utils/strings-utils.php:67
+msgid "Child (one - in fee details)"
+msgstr ""
+
+#: utils/strings-utils.php:68
+msgid "Persons (in fee details)"
+msgstr ""
+
+#: utils/strings-utils.php:69
+msgid "Select accommodation button"
+msgstr ""
+
+#: utils/strings-utils.php:70
+msgid "Previous step button"
+msgstr ""
+
+#: utils/strings-utils.php:71
+msgid "Next step button"
+msgstr ""
+
+#: utils/strings-utils.php:72
+msgid "View accommodation button"
+msgstr ""
+
+#: utils/strings-utils.php:73
+msgid "Selected accommodation"
+msgstr ""
+
+#: utils/strings-utils.php:74
+msgid "Number of accommodation left"
+msgstr ""
+
+#: utils/strings-utils.php:75
+msgid "One accommodation left"
+msgstr ""
+
+#: utils/strings-utils.php:76
+msgid "No accommodation left"
+msgstr ""
+
+#: utils/strings-utils.php:77
+msgid "Number of accommodation selected"
+msgstr ""
+
+#: utils/strings-utils.php:78
+msgid "Fees (in price breakdown)"
+msgstr ""
+
+#: utils/strings-utils.php:79
+msgid "Accommodation number selection title"
+msgstr ""
+
+#: utils/strings-utils.php:80
+msgid "Accommodation number selection explanation text"
+msgstr ""
+
+#: utils/strings-utils.php:81
+msgid "Accommodation number select field title"
+msgstr ""
+
+#: utils/strings-utils.php:88
+msgid "Extra services selection title"
+msgstr ""
+
+#: utils/strings-utils.php:89
+msgid "Global extra services title"
+msgstr ""
+
+#: utils/strings-utils.php:90
+msgid "Chosen extra services title"
+msgstr ""
+
+#: utils/strings-utils.php:91
+msgid "Accommodation has no extras"
+msgstr ""
+
+#: utils/strings-utils.php:92
+msgid "Extra price and maximum"
+msgstr ""
+
+#: utils/strings-utils.php:93
+msgid "Free extra"
+msgstr ""
+
+#: utils/strings-utils.php:94
+msgid "Each (in extra price and maximum)"
+msgstr ""
+
+#: utils/strings-utils.php:95
+msgid "Maximum (in extra price and maximum)"
+msgstr ""
+
+#: utils/strings-utils.php:96
+msgid "Total extra services price"
+msgstr ""
+
+#: utils/strings-utils.php:104
+msgid "Apply coupon button"
+msgstr ""
+
+#: utils/strings-utils.php:105
+msgid "Verifying coupon"
+msgstr ""
+
+#: utils/strings-utils.php:106
+msgid "Valid coupon message"
+msgstr ""
+
+#: utils/strings-utils.php:107
+msgid "Invalid coupon message"
+msgstr ""
+
+#: utils/strings-utils.php:108
+msgid "Coupon no longer valid message"
+msgstr ""
+
+#: utils/strings-utils.php:109
+msgid "No coupon message"
+msgstr ""
+
+#: utils/strings-utils.php:115
+msgid "Loading"
+msgstr ""
+
+#: utils/strings-utils.php:122
+msgid "Price breakdown"
+msgstr ""
+
+#: utils/strings-utils.php:124
+msgid "Options price"
+msgstr ""
+
+#: utils/strings-utils.php:125
+msgid "Global options price"
+msgstr ""
+
+#: utils/strings-utils.php:126
+msgid "Included fees"
+msgstr ""
+
+#: utils/strings-utils.php:127 utils/utils.php:4431
+msgid "Coupon amount"
+msgstr ""
+
+#: utils/strings-utils.php:128
+msgid "Discount amount"
+msgstr ""
+
+#: utils/strings-utils.php:129
+msgid "Accommodation total price"
+msgstr ""
+
+#: utils/strings-utils.php:130
+msgid "Total price"
+msgstr ""
+
+#: utils/strings-utils.php:131 utils/utils.php:1573 utils/utils.php:1583
+msgid "Deposit"
+msgstr ""
+
+#: utils/strings-utils.php:133
+msgid "Security bond explanation"
+msgstr ""
+
+#: utils/strings-utils.php:134 utils/utils.php:4428
+msgid "Payments history"
+msgstr ""
+
+#: utils/strings-utils.php:135
+msgid "Text displayed at the bottom of the summary"
+msgstr ""
+
+#: utils/strings-utils.php:136
+msgid "Thanks message (unpaid) - above summary"
+msgstr ""
+
+#: utils/strings-utils.php:137
+msgid "Thanks message (unpaid)- below summary"
+msgstr ""
+
+#: utils/strings-utils.php:138
+msgid "Thanks message (payment made) - above summary"
+msgstr ""
+
+#: utils/strings-utils.php:139
+msgid "Thanks message (payment made) - below summary"
+msgstr ""
+
+#: utils/strings-utils.php:145
+msgid "Payment section title"
+msgstr ""
+
+#: utils/strings-utils.php:146
+msgid "Select payment type"
+msgstr ""
+
+#: utils/strings-utils.php:147
+msgid "Payment type offline"
+msgstr ""
+
+#: utils/strings-utils.php:148
+msgid "Payment type store credit card"
+msgstr ""
+
+#: utils/strings-utils.php:149
+msgid "Payment type deposit"
+msgstr ""
+
+#: utils/strings-utils.php:150
+msgid "Payment type full"
+msgstr ""
+
+#: utils/strings-utils.php:151
+msgid "Explanation text for offline payment"
+msgstr ""
+
+#: utils/strings-utils.php:152
+msgid "Explanation text for stored credit card"
+msgstr ""
+
+#: utils/strings-utils.php:153
+msgid "Explanation text for deposit payment"
+msgstr ""
+
+#: utils/strings-utils.php:154
+msgid "Explanation text for full payment"
+msgstr ""
+
+#: utils/strings-utils.php:155
+msgid "Select payment method"
+msgstr ""
+
+#: utils/strings-utils.php:161 utils/strings-utils.php:172
+msgid "Payment method label"
+msgstr ""
+
+#: utils/strings-utils.php:162
+msgid "Text before form"
+msgstr ""
+
+#: utils/strings-utils.php:163
+msgid "Loading form text"
+msgstr ""
+
+#: utils/strings-utils.php:164
+msgid "Processing error"
+msgstr ""
+
+#: utils/strings-utils.php:165
+msgid "Declined payment"
+msgstr ""
+
+#: utils/strings-utils.php:166
+msgid "Text at the bottom of the form"
+msgstr ""
+
+#: utils/strings-utils.php:173
+msgid "Explanation text"
+msgstr ""
+
+#: utils/strings-utils.php:174
+msgid "Bottom text line 1"
+msgstr ""
+
+#: utils/strings-utils.php:175
+msgid "Bottom text line 2"
+msgstr ""
+
+#: utils/strings-utils.php:181
+msgid "Description"
+msgstr ""
+
+#: utils/strings-utils.php:182
+#, php-format
+msgid "%deposit_txt"
+msgstr ""
+
+#: utils/strings-utils.php:183
+msgid "%nights_txt (one)"
+msgstr ""
+
+#: utils/strings-utils.php:184
+msgid "%nights_txt (several)"
+msgstr ""
+
+#: utils/strings-utils.php:185
+msgid "%adults_txt (one)"
+msgstr ""
+
+#: utils/strings-utils.php:186
+msgid "%adults_txt (several)"
+msgstr ""
+
+#: utils/strings-utils.php:187
+#, php-format
+msgid "%children_txt (one)"
+msgstr ""
+
+#: utils/strings-utils.php:188
+#, php-format
+msgid "%children_txt (several)"
+msgstr ""
+
+#: utils/strings-utils.php:194
+msgid "Searching"
+msgstr ""
+
+#: utils/strings-utils.php:195
+msgid "No check-in date"
+msgstr ""
+
+#: utils/strings-utils.php:196
+msgid "No check-out date"
+msgstr ""
+
+#: utils/strings-utils.php:197
+msgid "No check-in date and no check-out date"
+msgstr ""
+
+#: utils/strings-utils.php:198
+msgid "No adults number"
+msgstr ""
+
+#: utils/strings-utils.php:199
+msgid "No children number"
+msgstr ""
+
+#: utils/strings-utils.php:200
+msgid "No adults and children number"
+msgstr ""
+
+#: utils/strings-utils.php:201
+msgid "Invalid check-in date"
+msgstr ""
+
+#: utils/strings-utils.php:202
+msgid "Invalid check-out date"
+msgstr ""
+
+#: utils/strings-utils.php:203
+msgid "Invalid check-in date and invalid check-out date"
+msgstr ""
+
+#: utils/strings-utils.php:204
+msgid "Check-in date in the past"
+msgstr ""
+
+#: utils/strings-utils.php:205
+msgid "Check-in date before specific date"
+msgstr ""
+
+#: utils/strings-utils.php:206
+msgid "Check-out date after specific date"
+msgstr ""
+
+#: utils/strings-utils.php:207
+msgid "Check-out date before check-in date"
+msgstr ""
+
+#: utils/strings-utils.php:208
+msgid "Check-in date on a not allowed day"
+msgstr ""
+
+#: utils/strings-utils.php:209
+msgid "Check-in date on a not allowed day (seasonal)"
+msgstr ""
+
+#: utils/strings-utils.php:210
+msgid "Check-out date on a not allowed day"
+msgstr ""
+
+#: utils/strings-utils.php:211
+msgid "Check-out date on a not allowed day (seasonal)"
+msgstr ""
+
+#: utils/strings-utils.php:212
+msgid "Minimum stay policy"
+msgstr ""
+
+#: utils/strings-utils.php:213
+msgid "Minimum stay policy (seasonal)"
+msgstr ""
+
+#: utils/strings-utils.php:214
+msgid "Maximum stay policy"
+msgstr ""
+
+#: utils/strings-utils.php:215
+msgid "Maximum stay policy (seasonal)"
+msgstr ""
+
+#: utils/strings-utils.php:216
+msgid ""
+"Check-out date on a not allowed day for specific check-in day (conditional "
+"rule)"
+msgstr ""
+
+#: utils/strings-utils.php:217
+msgid ""
+"Check-out date on a not allowed day for specific check-in day (conditional "
+"rule - seasonal)"
+msgstr ""
+
+#: utils/strings-utils.php:218
+msgid "Minimum stay for specific check-in day (conditional rule)"
+msgstr ""
+
+#: utils/strings-utils.php:219
+msgid "Minimum stay for specific check-in day (conditional rule - seasonal)"
+msgstr ""
+
+#: utils/strings-utils.php:220
+msgid "Maximum stay for specific check-in day (conditional rule)"
+msgstr ""
+
+#: utils/strings-utils.php:221
+msgid "Maximum stay for specific check-in day (conditional rule - seasonal)"
+msgstr ""
+
+#: utils/strings-utils.php:222
+msgid "The accommodation can not suit one adult"
+msgstr ""
+
+#: utils/strings-utils.php:223
+msgid "The accommodation can not suit one child"
+msgstr ""
+
+#: utils/strings-utils.php:224
+msgid "The accommodation can not suit the number of adults"
+msgstr ""
+
+#: utils/strings-utils.php:225
+msgid "The accommodation can not suit the number of children"
+msgstr ""
+
+#: utils/strings-utils.php:226
+msgid "The accommodation can not suit the number of people"
+msgstr ""
+
+#: utils/strings-utils.php:227
+msgid "No accommodation can suit the number of people"
+msgstr ""
+
+#: utils/strings-utils.php:228
+msgid "No accommodation can suit the number of people (minimum not reach)"
+msgstr ""
+
+#: utils/strings-utils.php:229
+msgid "Link to all accommodation which suit the number of people"
+msgstr ""
+
+#: utils/strings-utils.php:230
+msgid "The accommodation can not suit one person"
+msgstr ""
+
+#: utils/strings-utils.php:231
+msgid "No accommodation can suit one person"
+msgstr ""
+
+#: utils/strings-utils.php:232
+msgid "Link to all accommodation which suit one person"
+msgstr ""
+
+#: utils/strings-utils.php:233
+msgid "No accommodation available at the chosen dates"
+msgstr ""
+
+#: utils/strings-utils.php:234
+msgid "The accommodation is not available at the chosen dates"
+msgstr ""
+
+#: utils/strings-utils.php:235
+msgid "Not enough accommodation"
+msgstr ""
+
+#: utils/strings-utils.php:236
+msgid "Not enough accommodation available at the chosen dates"
+msgstr ""
+
+#: utils/strings-utils.php:237
+msgid "Not enough accommodation for number of people"
+msgstr ""
+
+#: utils/strings-utils.php:238
+msgid ""
+"Not enough accommodation available for number of people at the chosen dates"
+msgstr ""
+
+#: utils/strings-utils.php:239
+msgid "Accommodation is excluded from multiple accommodation booking"
+msgstr ""
+
+#: utils/strings-utils.php:240
+msgid "Link to all accommodation available at the chosen dates"
+msgstr ""
+
+#: utils/strings-utils.php:246
+msgid "Policies title"
+msgstr ""
+
+#: utils/strings-utils.php:247
+msgid "Text after policies title"
+msgstr ""
+
+#: utils/strings-utils.php:248
+msgid "Terms and conditions text"
+msgstr ""
+
+#: utils/strings-utils.php:249
+msgid "Terms and conditions error"
+msgstr ""
+
+#: utils/strings-utils.php:250
+msgid "Privacy policy text"
+msgstr ""
+
+#: utils/strings-utils.php:251
+msgid "Privacy policy error"
+msgstr ""
+
+#: utils/strings-utils.php:252
+msgid "Text before \"Book now\" button"
+msgstr ""
+
+#: utils/strings-utils.php:253
+msgid "\"Book now\" button"
+msgstr ""
+
+#: utils/strings-utils.php:259
+msgid "Selected accommodation no longer available"
+msgstr ""
+
+#: utils/strings-utils.php:260
+msgid "Selected accommodation number no longer available"
+msgstr ""
+
+#: utils/strings-utils.php:267
+msgid "Required field"
+msgstr ""
+
+#: utils/strings-utils.php:268
+msgid "Invalid email"
+msgstr ""
+
+#: utils/strings-utils.php:269
+msgid "Invalid number"
+msgstr ""
+
+#: utils/strings-utils.php:270
+msgid "Connection error"
+msgstr ""
+
+#: utils/strings-utils.php:271
+msgid "Timeout error"
+msgstr ""
+
+#: utils/strings-utils.php:272
+msgid "Season not defined error"
+msgstr ""
+
+#: utils/strings-utils.php:273
+msgid "Rate not defined error"
+msgstr ""
+
+#: utils/strings-utils.php:279
+msgid "Occupied"
+msgstr ""
+
+#: utils/strings-utils.php:283
+msgid "Available"
+msgstr ""
+
+#: utils/strings-utils.php:284
+msgid "Before check-in day"
+msgstr ""
+
+#: utils/strings-utils.php:285
+msgid "Not available for check-in"
+msgstr ""
+
+#: utils/strings-utils.php:286
+msgid "Not available for check-out"
+msgstr ""
+
+#: utils/strings-utils.php:287
+msgid "Available for check-in only"
+msgstr ""
+
+#: utils/strings-utils.php:288
+msgid "Available for check-out only"
+msgstr ""
+
+#: utils/strings-utils.php:289
+msgid "Not available for check-out (due to minimum-stay requirement)"
+msgstr ""
+
+#: utils/strings-utils.php:290
+msgid "Not available for check-out (due to maximum-stay requirement)"
+msgstr ""
+
+#: utils/strings-utils.php:291
+msgid "Chosen check-in day"
+msgstr ""
+
+#: utils/strings-utils.php:292
+msgid "Chosen check-out day"
+msgstr ""
+
+#: utils/strings-utils.php:293
+msgid "Select a check-in date"
+msgstr ""
+
+#: utils/strings-utils.php:294
+msgid "Select a check-out date"
+msgstr ""
+
+#: utils/strings-utils.php:301
+msgid "From"
+msgstr ""
+
+#: utils/strings-utils.php:303
+msgid "Nights"
+msgstr ""
+
+#: utils/strings-utils.php:305
+msgid "Per night"
+msgstr ""
+
+#: utils/strings-utils.php:306
+msgid "All nights"
+msgstr ""
+
+#: utils/strings-utils.php:307
+msgid "For x-night stay"
+msgstr ""
+
+#: utils/strings-utils.php:313
+msgid "Description table head"
+msgstr ""
+
+#: utils/strings-utils.php:314 utils/strings-utils.php:341
+msgid "Amount table head"
+msgstr ""
+
+#: utils/strings-utils.php:315
+msgid "Accommodation section title"
+msgstr ""
+
+#: utils/strings-utils.php:317
+msgid "Surcharge"
+msgstr ""
+
+#: utils/strings-utils.php:318
+msgid "Accommodation subtotal"
+msgstr ""
+
+#: utils/strings-utils.php:319
+msgid "Accommodation total"
+msgstr ""
+
+#: utils/strings-utils.php:320
+msgid "Accommodation and extras total"
+msgstr ""
+
+#: utils/strings-utils.php:321
+msgid "Global extra services section title"
+msgstr ""
+
+#: utils/strings-utils.php:322
+msgid "Extra services section title"
+msgstr ""
+
+#: utils/strings-utils.php:323
+msgid "Extra services subtotal"
+msgstr ""
+
+#: utils/strings-utils.php:324
+msgid "Extra services total"
+msgstr ""
+
+#: utils/strings-utils.php:325
+msgid "Global extra services total"
+msgstr ""
+
+#: utils/strings-utils.php:327
+msgid "Subtotal"
+msgstr ""
+
+#: utils/strings-utils.php:328
+msgid "Total"
+msgstr ""
+
+#: utils/strings-utils.php:329
+msgid "Included fee text"
+msgstr ""
+
+#: utils/strings-utils.php:331
+msgid "Total including security bond"
+msgstr ""
+
+#: utils/strings-utils.php:332 utils/utils.php:4427
+msgid "Amount paid"
+msgstr ""
+
+#: utils/strings-utils.php:333
+msgid "Total due"
+msgstr ""
+
+#: utils/strings-utils.php:339
+msgid "Payment date table head"
+msgstr ""
+
+#: utils/strings-utils.php:340
+msgid "Payment method table head"
+msgstr ""
+
+#: utils/strings-utils.php:342
+msgid "Total amount paid"
+msgstr ""
+
+#: utils/strings-utils.php:348
+msgid "Price starting at"
+msgstr ""
+
+#: utils/strings-utils.php:349
+msgid "Starting price duration unit"
+msgstr ""
+
+#: utils/strings-utils.php:350
+msgid "Book now button"
+msgstr ""
+
+#: utils/strings-utils.php:351
+msgid "View details button"
+msgstr ""
+
+#: utils/strings-utils.php:357
+msgid "Payment form title"
+msgstr ""
+
+#: utils/strings-utils.php:358
+msgid "Payment type (text before payment form)"
+msgstr ""
+
+#: utils/strings-utils.php:359
+msgid "Payment type: total price"
+msgstr ""
+
+#: utils/strings-utils.php:360
+msgid "Payment type: total price including bond"
+msgstr ""
+
+#: utils/strings-utils.php:361
+msgid "Payment type: deposit"
+msgstr ""
+
+#: utils/strings-utils.php:362
+msgid "Payment type: deposit including bond"
+msgstr ""
+
+#: utils/strings-utils.php:363
+msgid "Payment type: remaining balance"
+msgstr ""
+
+#: utils/strings-utils.php:364
+msgid "Payment type: remaining balance including bond"
+msgstr ""
+
+#: utils/strings-utils.php:365
+msgid "Payment type: bond"
+msgstr ""
+
+#: utils/strings-utils.php:366
+msgid "Amount (text before payment form)"
+msgstr ""
+
+#: utils/strings-utils.php:367
+msgid "Explanation text before add or update payment method form"
+msgstr ""
+
+#: utils/strings-utils.php:368
+msgid "Text before \"Pay now\" button"
+msgstr ""
+
+#: utils/strings-utils.php:369
+msgid "Pay now button"
+msgstr ""
+
+#: utils/strings-utils.php:370
+msgid "Text before \"Submit\" button"
+msgstr ""
+
+#: utils/strings-utils.php:371
+msgid "Submit button"
+msgstr ""
+
+#: utils/strings-utils.php:372
+msgid "Thanks message for payment"
+msgstr ""
+
+#: utils/strings-utils.php:373
+msgid "Thanks message for adding or updating payment method"
+msgstr ""
+
+#: utils/strings-utils.php:374
+msgid "Payment form could not be loaded"
+msgstr ""
+
+#: utils/strings-utils.php:375
+msgid "Payment already made"
+msgstr ""
+
+#: utils/strings-utils.php:381
+msgid "Payment link button text"
+msgstr ""
+
+#: utils/strings-utils.php:382
+msgid "Add or update payment method button text"
+msgstr ""
+
+#: utils/utils.php:86
+msgid "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
+msgstr ""
+
+#: utils/utils.php:92
+msgid "Mon,Tue,Wed,Thu,Fri,Sat,Sun"
+msgstr ""
+
+#: utils/utils.php:107
+msgid "Error: price should be a numerical value."
+msgstr ""
+
+#: utils/utils.php:772
+msgid "[customer_email] in \"To address\" could not be processed."
+msgstr ""
+
+#: utils/utils.php:777
+msgid "[customer_email] in \"To address\" was empty."
+msgstr ""
+
+#: utils/utils.php:1197
+msgid "Check-in day"
+msgstr ""
+
+#: utils/utils.php:1199
+msgid "Check-out day"
+msgstr ""
+
+#: utils/utils.php:1571 utils/utils.php:1582
+msgctxt "payment link"
+msgid "Total price"
+msgstr ""
+
+#: utils/utils.php:1572
+msgid "Total price including bond"
+msgstr ""
+
+#: utils/utils.php:1574
+msgid "Deposit including bond"
+msgstr ""
+
+#: utils/utils.php:1576
+msgid "Remaining balance including bond"
+msgstr ""
+
+#: utils/utils.php:1577
+msgid "Bond"
+msgstr ""
+
+#: utils/utils.php:1578 utils/utils.php:1585
+msgid "Custom amount"
+msgstr ""
+
+#: utils/utils.php:1589
+msgid "No payments (store payment method only)"
+msgstr ""
+
+#: utils/utils.php:2784
+msgid "Reservation origin"
+msgstr ""
+
+#: utils/utils.php:3033
+msgid "Partially refunded"
+msgstr ""
+
+#: utils/utils.php:3041 utils/utils.php:3043
+msgid "Refunded"
+msgstr ""
+
+#: utils/utils.php:3285
+msgid "Next %arrow"
+msgstr ""
+
+#: utils/utils.php:3287
+msgid "%arrow Previous"
+msgstr ""
+
+#: utils/utils.php:3648
+msgid "Background color on hover"
+msgstr ""
+
+#: utils/utils.php:3655
+msgid "Text color"
+msgstr ""
+
+#: utils/utils.php:3659
+msgid "White"
+msgstr ""
+
+#: utils/utils.php:3660
+msgid "Black"
+msgstr ""
+
+#: utils/utils.php:3665
+msgid "Border radius"
+msgstr ""
+
+#: utils/utils.php:3671 utils/utils.php:3718
+msgid "Side padding"
+msgstr ""
+
+#: utils/utils.php:3677 utils/utils.php:3724
+msgid "Height padding"
+msgstr ""
+
+#: utils/utils.php:3688
+msgid "Borders color"
+msgstr ""
+
+#: utils/utils.php:3694
+msgid "Borders color when active"
+msgstr ""
+
+#: utils/utils.php:3700
+msgid "Borders width"
+msgstr ""
+
+#: utils/utils.php:3706
+msgid "Borders radius"
+msgstr ""
+
+#: utils/utils.php:3712
+msgid "Height"
+msgstr ""
+
+#: utils/utils.php:3735
+msgid "Calendar background"
+msgstr ""
+
+#: utils/utils.php:3741
+msgid "Available day background"
+msgstr ""
+
+#: utils/utils.php:3747
+msgid "Not selectable day background"
+msgstr ""
+
+#: utils/utils.php:3755
+msgid "Not selectable day number"
+msgstr ""
+
+#: utils/utils.php:3761
+msgid "Selected day background"
+msgstr ""
+
+#: utils/utils.php:3767
+msgid "Occupied day background"
+msgstr ""
+
+#: utils/utils.php:3773
+msgid "Buttons background"
+msgstr ""
+
+#: utils/utils.php:3779
+msgid "Buttons background on hover"
+msgstr ""
+
+#: utils/utils.php:3785
+msgid "Disabled buttons background"
+msgstr ""
+
+#: utils/utils.php:3791
+msgid "Button arrows"
+msgstr ""
+
+#: utils/utils.php:3797
+msgid "Calendar inner borders"
+msgstr ""
+
+#: utils/utils.php:4418
+msgid "Num"
+msgstr ""
+
+#: utils/utils.php:4429
+msgid "Payment type"
+msgstr ""
+
+#: utils/utils.php:4430
+msgid "Coupon code"
+msgstr ""
+
+#: utils/utils.php:4432
+msgid "Currency"
+msgstr ""
+
+#: utils/utils.php:4436
+msgid "Origin"
+msgstr ""
+
+#: utils/utils.php:4437
+msgid "Alphanum id"
+msgstr ""
+
+#: utils/utils.php:4472
+msgid "price"
+msgstr ""
+
+#: utils/utils.php:4684
+msgid "Reservation reader"
+msgstr ""
+
+#: utils/utils.php:4692
+msgid "Reservation manager"
+msgstr ""
+
+#: utils/utils.php:4704
+msgid "Pricing manager"
+msgstr ""
+
+#: utils/utils.php:4736
+msgid "HBook manager"
+msgstr ""
+
+#: utils/utils.php:4828
+msgid "Details form"
+msgstr ""
+
+#: utils/utils.php:4838
+msgid "ICal sync"
+msgstr ""
+
+#: utils/utils.php:4843
+msgid "Emails"
+msgstr ""
+
+#: utils/utils.php:4848
+msgid "Documents"
+msgstr ""

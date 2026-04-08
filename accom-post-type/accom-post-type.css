@@ -1,0 +1,10 @@
+.hb-accom-settings-label {
+	display: table;
+	margin-bottom: 3px;
+}
+
+#hb-accom-num-name-wrapper,
+#hb-opening-dates-wrapper,
+.hb-sensitive-accom-occupancy {
+	display: none;
+}

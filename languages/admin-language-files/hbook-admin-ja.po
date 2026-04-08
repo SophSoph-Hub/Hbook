@@ -1,0 +1,7772 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HBook\n"
+"POT-Creation-Date: 2025-06-03 09:19-0400\n"
+"PO-Revision-Date: 2025-06-03 09:22-0400\n"
+"Last-Translator: Maestrel <contact@maestrel.com>\n"
+"Language-Team: Maestrel <contact@maestrel.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr_e;esc_attr__;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: accom-post-type/accom-post-type.php:17 admin-pages/pages/fees/fees.php:106
+#: admin-pages/pages/ical/ical.php:156 admin-pages/pages/options/options.php:97
+#: admin-pages/pages/rates/rates.php:193 admin-pages/pages/rates/rates.php:235
+#: admin-pages/pages/rates/rates.php:416
+#: admin-pages/pages/reservations/blocked-accom-display.php:71
+#: admin-pages/pages/rules/rules.php:68 admin-pages/pages/rules/rules.php:124
+#: admin-pages/pages/rules/rules.php:180 admin-pages/pages/rules/rules.php:236
+#: admin-pages/pages/rules/rules.php:299 blocks/blocks.php:64
+#: blocks/blocks.php:70 utils/strings-utils.php:121 utils/utils.php:4793
+msgid "Accommodation"
+msgstr "宿泊施設"
+
+#: accom-post-type/accom-post-type.php:18
+#, fuzzy
+msgid "All Accommodation"
+msgstr "すべての宿泊施設"
+
+#: accom-post-type/accom-post-type.php:19
+#: accom-post-type/accom-post-type.php:20
+#, fuzzy
+msgid "Add New Accommodation"
+msgstr "新しい宿泊施設の追加"
+
+#: accom-post-type/accom-post-type.php:21
+#, fuzzy
+msgid "Edit Accommodation"
+msgstr "宿泊施設の編集"
+
+#: accom-post-type/accom-post-type.php:22
+#, fuzzy
+msgid "New Accommodation"
+msgstr "新しい宿泊施設"
+
+#: accom-post-type/accom-post-type.php:23
+#, fuzzy
+msgid "View Accommodation post"
+msgstr "宿泊施設の投稿を表示"
+
+#: accom-post-type/accom-post-type.php:24
+#, fuzzy
+msgid "Search Accommodation"
+msgstr "宿泊施設を検索"
+
+#: accom-post-type/accom-post-type.php:25
+#, fuzzy
+msgid "No accommodation found."
+msgstr "宿泊施設が見つかりません。"
+
+#: accom-post-type/accom-post-type.php:26
+#, fuzzy
+msgid "No accommodation post found in trash."
+msgstr "ゴミ箱には宿泊施設の投稿がありません。"
+
+#: accom-post-type/accom-post-type.php:58
+#, fuzzy
+msgid "HBook Accommodation settings"
+msgstr "宿泊施設の設定"
+
+#: accom-post-type/accom-post-type.php:74
+#, fuzzy
+msgid "Number of accommodation of this type"
+msgstr "このタイプの宿泊施設の数:"
+
+#: accom-post-type/accom-post-type.php:79
+#, fuzzy
+msgid "Edit accommodation numbering"
+msgstr "宿泊番号の編集"
+
+#: accom-post-type/accom-post-type.php:92 admin-pages/admin-page.php:53
+#: admin-pages/admin-page.php:55 admin-pages/admin-page.php:57
+#: admin-pages/pages/customers/customers.php:92
+#: admin-pages/pages/reservations/blocked-accom-display.php:86
+#: admin-pages/pages/reservations/resa-display.php:197
+#: admin-pages/pages/reservations/resa-display.php:233
+#: admin-pages/pages/reservations/resa-display.php:793 hbook.php:471
+msgid "Delete"
+msgstr "削除"
+
+#: accom-post-type/accom-post-type.php:100
+#, fuzzy
+msgid "Occupancy settings"
+msgstr "Paypal の設定"
+
+#: accom-post-type/accom-post-type.php:103 utils/options-utils.php:459
+#, fuzzy
+msgid "Normal occupancy"
+msgstr "通常の利用人数:"
+
+#: accom-post-type/accom-post-type.php:105
+#, fuzzy
+msgid "Extra people might pay a fee as defined in the \"Rates\" page."
+msgstr "追加の人は、「料金ページ」で定義されている料金を支払う場合があります。"
+
+#: accom-post-type/accom-post-type.php:110 utils/options-utils.php:460
+#, fuzzy
+msgid "Maximum occupancy"
+msgstr "最大宿泊人数:"
+
+#: accom-post-type/accom-post-type.php:114
+#, fuzzy
+msgid "Minimum occupancy"
+msgstr "最小宿泊人数:"
+
+#: accom-post-type/accom-post-type.php:117
+#, fuzzy
+msgid "Specify a maximum number of adults or children"
+msgstr "子供の数:"
+
+#: accom-post-type/accom-post-type.php:133
+#, fuzzy
+msgid "Maximum adults"
+msgstr "最大宿泊人数:"
+
+#: accom-post-type/accom-post-type.php:141
+#, fuzzy
+#| msgid "extra children"
+msgid "Maximum children"
+msgstr "追加子供"
+
+#: accom-post-type/accom-post-type.php:159
+#, fuzzy
+#| msgid "Reservations"
+msgid "Descriptions"
+msgstr "予約"
+
+#: accom-post-type/accom-post-type.php:161
+#, fuzzy
+msgid "Description displayed in search results"
+msgstr "検索結果に表示される説明:"
+
+#: accom-post-type/accom-post-type.php:165
+#, fuzzy
+msgid "Description displayed in Accommodation list"
+msgstr "宿泊施設一覧に表示される説明:"
+
+#: accom-post-type/accom-post-type.php:171
+#, fuzzy
+msgid "Accommodation short name"
+msgstr "宿泊の短い名前:"
+
+#: accom-post-type/accom-post-type.php:173
+#, fuzzy
+msgid "If set this name will be used in the calendar of the Reservations page."
+msgstr "設定した場合、この名前は予約ページのカレンダーで使用されます。"
+
+#: accom-post-type/accom-post-type.php:179
+#, fuzzy
+msgid "Accommodation abbreviated name"
+msgstr "宿泊の短い名前:"
+
+#: accom-post-type/accom-post-type.php:181
+#, fuzzy
+msgid ""
+"If set this name will be used in the calendar of the Reservations page (on "
+"narrow screen)."
+msgstr "設定した場合、この名前は予約ページのカレンダーで使用されます。"
+
+#: accom-post-type/accom-post-type.php:189
+#, fuzzy
+#| msgid "Displayed?"
+msgid "Display options"
+msgstr "表示しますか？"
+
+#: accom-post-type/accom-post-type.php:193
+#, fuzzy
+msgid "Accommodation display"
+msgstr "宿泊施設の表示:"
+
+#: accom-post-type/accom-post-type.php:205
+#, fuzzy
+msgid "Use this post to display the accommodation"
+msgstr "この投稿を使用して宿泊施設を表示する"
+
+#: accom-post-type/accom-post-type.php:213
+#, fuzzy
+msgid "Use another post or page to display the accommodation"
+msgstr "別の投稿またはページを使用して宿泊施設を表示する"
+
+#: accom-post-type/accom-post-type.php:217
+#, fuzzy
+msgid "ID of the page used for displaying the accommodation"
+msgstr "宿泊施設の表示に使用されるページの ID:"
+
+#: accom-post-type/accom-post-type.php:228
+#, fuzzy
+msgid "Accommodation display template"
+msgstr "宿泊施設の表示テンプレート:"
+
+#: accom-post-type/accom-post-type.php:231
+msgid "Post"
+msgstr "投稿"
+
+#: accom-post-type/accom-post-type.php:232
+msgid "Page"
+msgstr "ページ"
+
+#: accom-post-type/accom-post-type.php:250 blocks/blocks.php:90
+#, fuzzy
+msgid "Starting price"
+msgstr "開始価格:"
+
+#: accom-post-type/accom-post-type.php:262
+#, fuzzy
+msgid "Automatic blockings"
+msgstr "ブロックされた宿泊施設"
+
+#: accom-post-type/accom-post-type.php:265
+#: database-actions/database-actions.php:1400
+#: database-actions/database-actions.php:1406
+#: database-actions/database-actions.php:1410
+#: database-actions/database-actions.php:1416
+#, fuzzy
+#| msgid "Expiration date"
+msgid "Preparation time"
+msgstr "有効期限"
+
+#: accom-post-type/accom-post-type.php:267
+msgid ""
+"Enter the number of nights that should be blocked before and after a "
+"reservation."
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:273
+#, fuzzy
+msgid ""
+"Accommodation that need to be blocked when this type of accommodation is "
+"booked"
+msgstr ""
+"このタイプの宿泊施設が予約されている場合、ブロックする必要がある宿泊施設:"
+
+#: accom-post-type/accom-post-type.php:275
+#, fuzzy
+msgid ""
+"Enter accommodation id. Separate multiple values with comma. You can "
+"indicate the number of accommodation that should be blocked between "
+"parentheses."
+msgstr ""
+"宿泊施設 id を入力します。複数の値はコンマで区切ります。括弧の間にブロックす"
+"る必要がある宿泊施設の数を指定できます。"
+
+#: accom-post-type/accom-post-type.php:284
+#: admin-pages/pages/emails/emails.php:245
+#: admin-pages/pages/emails/emails.php:385 utils/options-utils.php:435
+#, fuzzy
+msgid "Multiple accommodation booking"
+msgstr "[宿泊施設の表示] ボタン"
+
+#: accom-post-type/accom-post-type.php:287
+msgid "Exclude this accommodation from multiple accommodation bookings"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:300
+msgid "Always"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:308
+#, fuzzy
+msgid "On global search only"
+msgstr "検索のみ"
+
+#: accom-post-type/accom-post-type.php:316 utils/options-utils.php:565
+msgid "Never"
+msgstr ""
+
+#: accom-post-type/accom-post-type.php:327
+#, fuzzy
+msgid "Override default opening dates"
+msgstr "開館日"
+
+#: accom-post-type/accom-post-type.php:536
+#, fuzzy
+msgid "Accommodation id: "
+msgstr "宿泊施設の id:"
+
+#: admin-pages/admin-ajax-actions.php:24
+#, fuzzy
+msgid "Your session has expired. Please refresh the page."
+msgstr "セッションの有効期限が切れました。ページを更新してください。"
+
+#: admin-pages/admin-ajax-actions.php:683
+#: front-end/front-end-ajax-actions.php:185
+#, fuzzy, php-format
+msgid "The %s (%s) is no longer available."
+msgstr "%s ( %s) は使用できなくなりました。"
+
+#: admin-pages/admin-ajax-actions.php:942
+msgid "from"
+msgstr "から"
+
+#: admin-pages/admin-ajax-actions.php:942
+msgid "to"
+msgstr "から"
+
+#: admin-pages/admin-page.php:17 admin-pages/admin-page.php:103
+#: admin-pages/pages/emails/emails.php:22 admin-pages/pages/rates/rates.php:431
+#: admin-pages/pages/reservations/blocked-accom-display.php:28
+#: admin-pages/pages/reservations/resa-display.php:162
+#: admin-pages/pages/reservations/reservations.php:59 blocks/blocks.php:119
+#: front-end/booking-form/search-form.php:274 utils/options-utils.php:431
+msgid "All"
+msgstr "すべて"
+
+#: admin-pages/admin-page.php:18 admin-pages/pages/customers/customers.php:100
+#: admin-pages/pages/customers/customers.php:106
+#: admin-pages/pages/ical/ical.php:229
+#: admin-pages/pages/reservations/resa-display.php:342
+#: admin-pages/pages/reservations/resa-display.php:366
+#: admin-pages/pages/reservations/resa-display.php:407
+#: admin-pages/pages/reservations/resa-display.php:432
+#: admin-pages/pages/reservations/resa-display.php:454
+#: admin-pages/pages/reservations/resa-display.php:476
+#: admin-pages/pages/reservations/resa-display.php:482
+#: admin-pages/pages/reservations/resa-display.php:502
+#: admin-pages/pages/reservations/resa-display.php:528
+#: admin-pages/pages/reservations/resa-display.php:734
+msgid "Save"
+msgstr "保存"
+
+#: admin-pages/admin-page.php:19 admin-pages/pages/text/text.php:265
+#: utils/options-utils.php:1633
+msgid "Saving..."
+msgstr "保存中…"
+
+#: admin-pages/admin-page.php:20
+#, fuzzy, php-format
+msgid "Delete '%setting_name'?"
+msgstr "%setting_name を削除しますか?"
+
+#: admin-pages/admin-page.php:21
+#, fuzzy
+msgid "Confirm deletion?"
+msgstr "削除の確認"
+
+#: admin-pages/admin-page.php:22
+#, fuzzy
+msgid "It seems some changes have not been saved."
+msgstr "いくつかの変更が保存されていないようです。"
+
+#: admin-pages/admin-page.php:23
+msgid "No accommodation selected"
+msgstr "宿泊施設が選択されていません"
+
+#: admin-pages/admin-page.php:41
+#, fuzzy
+msgid "Add season dates"
+msgstr "季節の日付を追加する"
+
+#: admin-pages/admin-page.php:44
+#, fuzzy
+msgid "Add option choice"
+msgstr "オプションの選択を追加"
+
+#: admin-pages/admin-page.php:51 admin-pages/pages/customers/customers.php:91
+#: admin-pages/pages/reservations/resa-display.php:331
+#: admin-pages/pages/reservations/resa-display.php:358
+#: admin-pages/pages/reservations/resa-display.php:381
+#: admin-pages/pages/reservations/resa-display.php:425
+#: admin-pages/pages/reservations/resa-display.php:449
+#: admin-pages/pages/reservations/resa-display.php:466
+msgid "Edit"
+msgstr "編集"
+
+#: admin-pages/admin-page.php:61 admin-pages/pages/customers/customers.php:95
+#: admin-pages/pages/reservations/blocked-accom-display.php:89
+msgid "Deleting..."
+msgstr "削除中･･･"
+
+#: admin-pages/admin-page.php:69 admin-pages/admin-page.php:71
+#: admin-pages/admin-page.php:73 admin-pages/admin-page.php:75
+#: admin-pages/admin-page.php:175 admin-pages/admin-page.php:184
+#: admin-pages/pages/customers/customers.php:102
+#: admin-pages/pages/customers/customers.php:108
+#: admin-pages/pages/customers/customers.php:162
+#: admin-pages/pages/emails/emails.php:363 admin-pages/pages/ical/ical.php:215
+#: admin-pages/pages/ical/ical.php:230
+#: admin-pages/pages/reservations/resa-display.php:344
+#: admin-pages/pages/reservations/resa-display.php:367
+#: admin-pages/pages/reservations/resa-display.php:409
+#: admin-pages/pages/reservations/resa-display.php:434
+#: admin-pages/pages/reservations/resa-display.php:456
+#: admin-pages/pages/reservations/resa-display.php:478
+#: admin-pages/pages/reservations/resa-display.php:484
+#: admin-pages/pages/reservations/resa-display.php:504
+#: admin-pages/pages/reservations/resa-display.php:530
+#: admin-pages/pages/reservations/resa-display.php:736
+#: admin-pages/pages/reservations/resa-display.php:806
+#: admin-pages/pages/reservations/resa-display.php:857
+#: admin-pages/pages/reservations/resa-exporter-display.php:170
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: admin-pages/admin-page.php:94 admin-pages/admin-page.php:123
+#: admin-pages/pages/customers/customers.php:140
+#: admin-pages/pages/rates/rates.php:454
+#: admin-pages/pages/reservations/resa-exporter-display.php:70
+#: admin-pages/pages/reservations/resa-exporter-display.php:97
+#: admin-pages/pages/reservations/resa-exporter-display.php:123
+msgid "Select all"
+msgstr "すべて選択"
+
+#: admin-pages/admin-page.php:95 admin-pages/admin-page.php:128
+#: admin-pages/pages/customers/customers.php:141
+#: admin-pages/pages/rates/rates.php:441 admin-pages/pages/rates/rates.php:455
+#: admin-pages/pages/reservations/resa-exporter-display.php:71
+#: admin-pages/pages/reservations/resa-exporter-display.php:98
+#: admin-pages/pages/reservations/resa-exporter-display.php:124
+msgid "Unselect all"
+msgstr "すべて解除"
+
+#: admin-pages/admin-page.php:135
+#, fuzzy
+msgid "Amount type"
+msgstr "金額の種類:"
+
+#: admin-pages/admin-page.php:136
+#: admin-pages/pages/reservations/resa-display.php:700
+#: admin-pages/pages/reservations/resa-display.php:722
+#: front-end/booking-form/details-form.php:152 utils/options-utils.php:131
+msgid "Fixed"
+msgstr "固定"
+
+#: admin-pages/admin-page.php:137 front-end/booking-form/details-form.php:159
+#: utils/options-utils.php:129
+msgid "Percentage"
+msgstr "パーセンテージ"
+
+#: admin-pages/admin-page.php:150 utils/options-utils.php:206
+msgid "Text"
+msgstr "テキスト"
+
+#: admin-pages/admin-page.php:151 admin-pages/pages/customers/customers.php:78
+#: admin-pages/pages/reservations/resa-display.php:777
+#: database-actions/database-creation.php:651
+msgid "Email"
+msgstr "メールアドレス"
+
+#: admin-pages/admin-page.php:152
+#: admin-pages/pages/reservations/resa-display.php:263
+msgid "Number"
+msgstr "番号"
+
+#: admin-pages/admin-page.php:153
+msgid "Text area"
+msgstr "ناحیه متنی"
+
+#: admin-pages/admin-page.php:154 admin-pages/pages/emails/emails.php:286
+#: front-end/booking-form/available-accom.php:50
+msgid "Select"
+msgstr "選択"
+
+#: admin-pages/admin-page.php:155
+msgid "Radio buttons"
+msgstr "ラジオボタン"
+
+#: admin-pages/admin-page.php:156
+#, fuzzy
+msgid "Check boxes"
+msgstr "チェックボックス"
+
+#: admin-pages/admin-page.php:157 admin-pages/admin-page.php:216
+#, fuzzy
+msgid "Country select"
+msgstr "割引は選択されません"
+
+#: admin-pages/admin-page.php:158 utils/strings-utils.php:102
+#: utils/strings-utils.php:116
+msgid "Title"
+msgstr "タイトル"
+
+#: admin-pages/admin-page.php:159
+#, fuzzy
+msgid "Sub-title"
+msgstr "サブタイトル"
+
+#: admin-pages/admin-page.php:160
+msgid "Explanation"
+msgstr "解説"
+
+#: admin-pages/admin-page.php:161
+msgid "Separator"
+msgstr "区切り"
+
+#: admin-pages/admin-page.php:162
+#, fuzzy
+msgid "Column break"
+msgstr "段区切り"
+
+#: admin-pages/admin-page.php:168
+#, fuzzy
+msgid "Remove field"
+msgstr "フィールドの削除"
+
+#: admin-pages/admin-page.php:169
+#, fuzzy
+msgid "Form title"
+msgstr "フォームのタイトル"
+
+#: admin-pages/admin-page.php:173
+#, fuzzy
+msgid "Edit field name"
+msgstr "フィールド名の編集"
+
+#: admin-pages/admin-page.php:174 admin-pages/admin-page.php:183
+#: admin-pages/admin-page.php:256 admin-pages/pages/emails/emails.php:361
+#: admin-pages/pages/emails/emails.php:510
+msgid "OK"
+msgstr "OK"
+
+#: admin-pages/admin-page.php:178 admin-pages/pages/customers/customers.php:75
+#: admin-pages/pages/reservations/resa-display.php:257
+#: admin-pages/pages/reservations/resa-display.php:624 utils/utils.php:4453
+#: utils/utils.php:4457
+msgid "Id"
+msgstr "ID"
+
+#: admin-pages/admin-page.php:182
+#, fuzzy
+msgid "Edit field Id"
+msgstr "フィールド名の編集"
+
+#: admin-pages/admin-page.php:187
+msgid "Displayed?"
+msgstr "表示しますか？"
+
+#: admin-pages/admin-page.php:189 admin-pages/admin-page.php:198
+#: admin-pages/admin-page.php:207 admin-pages/pages/fees/fees.php:182
+#: admin-pages/pages/misc/misc.php:236 admin-pages/pages/options/options.php:12
+#: admin-pages/pages/options/options.php:156
+#: admin-pages/pages/options/options.php:194
+#: admin-pages/pages/payment/payment.php:53
+#: admin-pages/pages/rates/rates.php:56 admin-pages/pages/rates/rates.php:388
+#: admin-pages/pages/rules/rules.php:23
+#: front-end/booking-form/search-form.php:297 payment/stripe/stripe.php:84
+#: payment/stripe/stripe.php:93 utils/options-utils.php:27
+#: utils/options-utils.php:48 utils/options-utils.php:58
+#: utils/options-utils.php:68 utils/options-utils.php:78
+#: utils/options-utils.php:95 utils/options-utils.php:105
+#: utils/options-utils.php:153 utils/options-utils.php:353
+#: utils/options-utils.php:374 utils/options-utils.php:441
+#: utils/options-utils.php:450 utils/options-utils.php:468
+#: utils/options-utils.php:478 utils/options-utils.php:493
+#: utils/options-utils.php:502 utils/options-utils.php:573
+#: utils/options-utils.php:582 utils/options-utils.php:643
+#: utils/options-utils.php:653 utils/options-utils.php:682
+#: utils/options-utils.php:816 utils/options-utils.php:856
+#: utils/options-utils.php:866 utils/options-utils.php:886
+#: utils/options-utils.php:895 utils/options-utils.php:904
+#: utils/options-utils.php:928 utils/options-utils.php:944
+#: utils/options-utils.php:954 utils/options-utils.php:963
+#: utils/options-utils.php:973 utils/options-utils.php:983
+#: utils/options-utils.php:992 utils/options-utils.php:1022
+#: utils/options-utils.php:1046 utils/options-utils.php:1063
+#: utils/options-utils.php:1072 utils/options-utils.php:1102
+#: utils/options-utils.php:1112 utils/options-utils.php:1122
+#: utils/options-utils.php:1140 utils/options-utils.php:1150
+#: utils/options-utils.php:1159 utils/options-utils.php:1168
+#: utils/options-utils.php:1189 utils/options-utils.php:1198
+#: utils/options-utils.php:1207 utils/options-utils.php:1225
+#: utils/options-utils.php:1234
+msgid "Yes"
+msgstr "はい"
+
+#: admin-pages/admin-page.php:192 admin-pages/admin-page.php:201
+#: admin-pages/admin-page.php:210 admin-pages/pages/fees/fees.php:180
+#: admin-pages/pages/misc/misc.php:244 admin-pages/pages/options/options.php:13
+#: admin-pages/pages/options/options.php:158
+#: admin-pages/pages/options/options.php:192
+#: admin-pages/pages/payment/payment.php:54
+#: admin-pages/pages/rates/rates.php:57 admin-pages/pages/rates/rates.php:390
+#: admin-pages/pages/rules/rules.php:24
+#: front-end/booking-form/search-form.php:296 payment/stripe/stripe.php:85
+#: payment/stripe/stripe.php:94 utils/options-utils.php:28
+#: utils/options-utils.php:49 utils/options-utils.php:59
+#: utils/options-utils.php:69 utils/options-utils.php:79
+#: utils/options-utils.php:96 utils/options-utils.php:106
+#: utils/options-utils.php:154 utils/options-utils.php:354
+#: utils/options-utils.php:375 utils/options-utils.php:442
+#: utils/options-utils.php:451 utils/options-utils.php:469
+#: utils/options-utils.php:479 utils/options-utils.php:494
+#: utils/options-utils.php:503 utils/options-utils.php:574
+#: utils/options-utils.php:583 utils/options-utils.php:644
+#: utils/options-utils.php:654 utils/options-utils.php:683
+#: utils/options-utils.php:817 utils/options-utils.php:857
+#: utils/options-utils.php:867 utils/options-utils.php:887
+#: utils/options-utils.php:896 utils/options-utils.php:905
+#: utils/options-utils.php:929 utils/options-utils.php:945
+#: utils/options-utils.php:955 utils/options-utils.php:964
+#: utils/options-utils.php:974 utils/options-utils.php:984
+#: utils/options-utils.php:993 utils/options-utils.php:1023
+#: utils/options-utils.php:1047 utils/options-utils.php:1064
+#: utils/options-utils.php:1073 utils/options-utils.php:1103
+#: utils/options-utils.php:1113 utils/options-utils.php:1123
+#: utils/options-utils.php:1141 utils/options-utils.php:1151
+#: utils/options-utils.php:1160 utils/options-utils.php:1169
+#: utils/options-utils.php:1190 utils/options-utils.php:1199
+#: utils/options-utils.php:1208 utils/options-utils.php:1226
+#: utils/options-utils.php:1235
+msgid "No"
+msgstr "いいえ"
+
+#: admin-pages/admin-page.php:196
+msgid "Admin only?"
+msgstr ""
+
+#: admin-pages/admin-page.php:205
+msgid "Required?"
+msgstr "必須入力?"
+
+#: admin-pages/admin-page.php:215 admin-pages/admin-page.php:241
+#, fuzzy
+#| msgid "Field type:"
+msgid "Field type"
+msgstr "フィールドタイプ："
+
+#: admin-pages/admin-page.php:219
+#, fuzzy
+msgid "Default country"
+msgstr "ニューシーズン"
+
+#: admin-pages/admin-page.php:249
+#, fuzzy
+msgid "Choices"
+msgstr "選択肢："
+
+#: admin-pages/admin-page.php:250
+#, fuzzy
+msgid "Add a choice"
+msgstr "選択肢を追加する"
+
+#: admin-pages/admin-page.php:255
+#, fuzzy
+msgid "Edit choice"
+msgstr "選択の編集"
+
+#: admin-pages/admin-page.php:257
+#, fuzzy
+msgid "Remove choice"
+msgstr "選択項目の削除"
+
+#: admin-pages/admin-page.php:265
+#, fuzzy
+msgid "Data about?"
+msgstr "データは?"
+
+#: admin-pages/admin-page.php:267
+#: admin-pages/pages/reservations/resa-display.php:280
+msgid "Customer"
+msgstr "顧客"
+
+#: admin-pages/admin-page.php:270
+msgid "Booking"
+msgstr "予約"
+
+#: admin-pages/admin-page.php:273
+#, fuzzy
+msgid "Column width"
+msgstr "列の幅:"
+
+#: admin-pages/admin-page.php:275
+msgid "Full"
+msgstr "フルサイズ"
+
+#: admin-pages/admin-page.php:276
+#, fuzzy
+msgid "One half"
+msgstr "1つの半分"
+
+#: admin-pages/admin-page.php:277
+#, fuzzy
+msgid "One third"
+msgstr "3分の1"
+
+#: admin-pages/admin-page.php:291
+#, fuzzy
+msgid "HBook settings"
+msgstr "HBook の設定"
+
+#: admin-pages/admin-page.php:314
+#, fuzzy
+msgid "Reservation variables"
+msgstr "予約の詳細"
+
+#: admin-pages/admin-page.php:315
+#, fuzzy
+#| msgid "Customer details"
+msgid "Customer variables"
+msgstr "お客様情報"
+
+#: admin-pages/admin-page.php:316
+#, fuzzy
+msgid "Payment link variables"
+msgstr "支払セクションのタイトル"
+
+#: admin-pages/admin-page.php:317 utils/options-utils.php:676
+#: utils/utils.php:4868
+msgid "Misc"
+msgstr "その他"
+
+#: admin-pages/pages/appearance/appearance.php:7
+#: admin-pages/pages/forms/forms.php:7 admin-pages/pages/misc/misc.php:11
+#: admin-pages/pages/payment/payment.php:11
+#, fuzzy
+msgid "Settings have been saved."
+msgstr "設定が保存されました。"
+
+#: admin-pages/pages/appearance/appearance.php:20 utils/utils.php:4858
+msgid "Appearance"
+msgstr "外観"
+
+#: admin-pages/pages/customers/customers.php:17
+#, fuzzy
+msgid "Delete customer?"
+msgstr "顧客を削除しますか?"
+
+#: admin-pages/pages/customers/customers.php:18
+#: admin-pages/pages/reservations/reservations.php:55
+#, fuzzy
+msgid "Please select the data you want to export."
+msgstr "エクスポートするデータを選択してください。"
+
+#: admin-pages/pages/customers/customers.php:19
+#, fuzzy
+msgid "1 reservation"
+msgstr "新規予約"
+
+#: admin-pages/pages/customers/customers.php:20
+#: admin-pages/pages/reservations/reservations.php:48
+#, fuzzy, php-format
+#| msgid "Reservations"
+msgid "%s reservations"
+msgstr "予約"
+
+#: admin-pages/pages/customers/customers.php:21
+#: admin-pages/pages/reservations/reservations.php:97
+#: database-actions/database-creation.php:657
+#: front-end/renders/payment-link-form-render.php:211
+#, fuzzy
+#| msgid "Amount"
+msgid "Country"
+msgstr "金額"
+
+#: admin-pages/pages/customers/customers.php:22
+#: admin-pages/pages/reservations/reservations.php:98
+#: database-actions/database-actions.php:2521
+#, fuzzy
+#| msgid "Status"
+msgid "State"
+msgstr "ステータス"
+
+#: admin-pages/pages/customers/customers.php:23
+#: admin-pages/pages/reservations/reservations.php:99
+#: database-actions/database-actions.php:2522
+msgid "Province"
+msgstr ""
+
+#: admin-pages/pages/customers/customers.php:24
+#: admin-pages/pages/reservations/reservations.php:100
+#, fuzzy
+#| msgid "Format"
+msgid "Former data"
+msgstr "フォーマット"
+
+#: admin-pages/pages/customers/customers.php:44 utils/utils.php:4853
+msgid "Customers"
+msgstr "お客様"
+
+#: admin-pages/pages/customers/customers.php:50
+msgid "Customer list"
+msgstr "顧客リスト"
+
+#: admin-pages/pages/customers/customers.php:55
+#, fuzzy
+msgid "There are no customers."
+msgstr "お客様はいません。"
+
+#: admin-pages/pages/customers/customers.php:61
+#: admin-pages/pages/reservations/resa-display.php:500
+#: front-end/booking-form/details-form.php:389
+#, fuzzy
+msgid "Search a customer..."
+msgstr "顧客の検索..."
+
+#: admin-pages/pages/customers/customers.php:63
+#, fuzzy
+msgid "Sort by Last name &rarr;"
+msgstr "受信日順に並べ替え &rarr;"
+
+#: admin-pages/pages/customers/customers.php:64
+#, fuzzy
+msgid "Sort by Last name &larr;"
+msgstr "受信日順に並べ替え &larr;"
+
+#: admin-pages/pages/customers/customers.php:65
+#, fuzzy
+msgid "Sort by Id &rarr;"
+msgstr "受信日順に並べ替え &rarr;"
+
+#: admin-pages/pages/customers/customers.php:66
+#, fuzzy
+msgid "Sort by Id &larr;"
+msgstr "受信日順に並べ替え &larr;"
+
+#: admin-pages/pages/customers/customers.php:76
+#: database-actions/database-creation.php:649
+msgid "First name"
+msgstr "名"
+
+#: admin-pages/pages/customers/customers.php:77
+#: database-actions/database-creation.php:650
+msgid "Last name"
+msgstr "姓"
+
+#: admin-pages/pages/customers/customers.php:79
+#, fuzzy
+msgid "Other informations"
+msgstr "その他の情報"
+
+#: admin-pages/pages/customers/customers.php:80
+#: admin-pages/pages/documents/documents.php:61
+#: admin-pages/pages/emails/emails.php:204 admin-pages/pages/fees/fees.php:107
+#: admin-pages/pages/options/options.php:98
+#: admin-pages/pages/rates/rates.php:197 admin-pages/pages/rates/rates.php:243
+#: admin-pages/pages/rates/rates.php:422
+#: admin-pages/pages/reservations/blocked-accom-display.php:75
+#: admin-pages/pages/rules/rules.php:70 admin-pages/pages/rules/rules.php:126
+#: admin-pages/pages/rules/rules.php:182 admin-pages/pages/rules/rules.php:238
+#: admin-pages/pages/rules/rules.php:301
+#: admin-pages/pages/seasons/seasons.php:79
+msgid "Actions"
+msgstr "アクション"
+
+#: admin-pages/pages/customers/customers.php:99
+#: admin-pages/pages/reservations/resa-display.php:475
+msgid "Customer details"
+msgstr "お客様情報"
+
+#: admin-pages/pages/customers/customers.php:101
+#: admin-pages/pages/customers/customers.php:107
+#: admin-pages/pages/reservations/resa-display.php:343
+#: admin-pages/pages/reservations/resa-display.php:408
+#: admin-pages/pages/reservations/resa-display.php:433
+#: admin-pages/pages/reservations/resa-display.php:455
+#: admin-pages/pages/reservations/resa-display.php:477
+#: admin-pages/pages/reservations/resa-display.php:483
+#: admin-pages/pages/reservations/resa-display.php:503
+#: admin-pages/pages/reservations/resa-display.php:529
+#: admin-pages/pages/reservations/resa-display.php:735
+msgid "Saving"
+msgstr "保存中   "
+
+#: admin-pages/pages/customers/customers.php:128
+msgid "Export customers"
+msgstr "お客様エクスポート"
+
+#: admin-pages/pages/customers/customers.php:137
+#, fuzzy
+msgid "Select data to be exported"
+msgstr "エクスポートするデータを選択してください:"
+
+#: admin-pages/pages/customers/customers.php:160
+#: admin-pages/pages/reservations/resa-exporter-display.php:168
+msgid "Download file"
+msgstr "ファイルをダウンロードする"
+
+#: admin-pages/pages/customers/customers.php:191
+#: admin-pages/pages/reservations/resa-display.php:877
+#, php-format
+msgid "Viewing page %s of %s"
+msgstr "%sの%sページを表示しています"
+
+#: admin-pages/pages/details/details.php:7
+#, fuzzy
+msgid "The Details form settings have been saved."
+msgstr "フォームの設定が保存されました。"
+
+#: admin-pages/pages/details/details.php:8
+#, fuzzy
+msgid "New field"
+msgstr "新しいフィールド"
+
+#: admin-pages/pages/details/details.php:9
+#, fuzzy, php-format
+#| msgid "Remove '%field_name'?"
+msgid "Remove '%field_name' field?"
+msgstr "%field_name を削除しますか?"
+
+#: admin-pages/pages/details/details.php:10
+#, fuzzy
+msgid "Remove field?"
+msgstr "フィールドを削除しますか?"
+
+#: admin-pages/pages/details/details.php:11
+#, fuzzy
+msgid "New choice"
+msgstr "新しい選択"
+
+#: admin-pages/pages/details/details.php:12
+#, php-format
+msgid "Remove '%choice_name'?"
+msgstr "%choice_name を削除しますか?"
+
+#: admin-pages/pages/details/details.php:13
+msgid "There is already a \"Country select\" field."
+msgstr ""
+
+#: admin-pages/pages/details/details.php:14
+msgid "There is already a field with this id."
+msgstr ""
+
+#: admin-pages/pages/details/details.php:28
+#, fuzzy
+msgid "Customer and booking details form"
+msgstr "顧客の詳細フォーム"
+
+#: admin-pages/pages/details/details.php:35
+#, fuzzy
+msgid "Customize the Details form."
+msgstr "顧客の詳細フォームをカスタマイズします。"
+
+#: admin-pages/pages/details/details.php:36
+msgid ""
+"You can add new fields, change fields settings and Drag and Drop fields to "
+"reorder them."
+msgstr ""
+
+#: admin-pages/pages/details/details.php:42
+#: admin-pages/pages/details/details.php:47
+msgid "Add a field"
+msgstr "フィールドを追加する"
+
+#: admin-pages/pages/documents/documents.php:9
+#, fuzzy
+msgid "Admin language"
+msgstr "言語の"
+
+#: admin-pages/pages/documents/documents.php:20
+#, fuzzy
+msgid "New document template"
+msgstr "新しい電子メールテンプレート"
+
+#: admin-pages/pages/documents/documents.php:34
+#, fuzzy
+msgid "Document templates"
+msgstr "電子メールテンプレート"
+
+#: admin-pages/pages/documents/documents.php:35
+#: admin-pages/pages/documents/documents.php:101
+#, fuzzy
+msgid "Add new document template"
+msgstr "新しい電子メールテンプレートの追加"
+
+#: admin-pages/pages/documents/documents.php:44
+#, fuzzy
+msgid "No document templates set yet."
+msgstr "電子メールテンプレートはまだ設定されていません。"
+
+#: admin-pages/pages/documents/documents.php:58
+#: admin-pages/pages/emails/emails.php:199
+#: admin-pages/pages/rules/rules.php:293
+msgid "Name"
+msgstr "名前"
+
+#: admin-pages/pages/documents/documents.php:59
+#: admin-pages/pages/emails/emails.php:483
+#: admin-pages/pages/reservations/resa-display.php:755
+#, fuzzy
+msgid "Template"
+msgstr "テンプレート。。。"
+
+#: admin-pages/pages/documents/documents.php:60
+#: admin-pages/pages/text/text.php:197
+msgid "Language"
+msgstr "言語"
+
+#: admin-pages/pages/documents/documents.php:105
+#: admin-pages/pages/emails/emails.php:456
+#, fuzzy
+#| msgid "Available"
+msgid "Variables"
+msgstr "利用可能"
+
+#: admin-pages/pages/documents/documents.php:107
+#, fuzzy
+msgid "You can use the following variables in the documents."
+msgstr "次の変数を使用できます。"
+
+#: admin-pages/pages/documents/documents.php:108
+#: admin-pages/pages/emails/emails.php:459 admin-pages/pages/ical/ical.php:303
+#, php-format
+msgid ""
+"Please check %s this section %s of our documentation to have a description "
+"of each variable."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:47
+#: admin-pages/pages/emails/emails.php:55
+#: database-actions/database-creation.php:690 utils/utils.php:1179
+#: utils/utils.php:1185
+#, fuzzy
+msgid "New reservation"
+msgstr "新規予約"
+
+#: admin-pages/pages/emails/emails.php:49 utils/utils.php:1181
+#, fuzzy
+#| msgid "Export customers"
+msgid "from customers"
+msgstr "お客様エクスポート"
+
+#: admin-pages/pages/emails/emails.php:57 utils/utils.php:1187
+msgid "from admin"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:62
+#: database-actions/database-creation.php:191
+#: database-actions/database-creation.php:731 utils/utils.php:1190
+#, fuzzy
+msgid "Reservation confirmation"
+msgstr "予約確認"
+
+#: admin-pages/pages/emails/emails.php:66 utils/utils.php:1191
+#, fuzzy
+msgid "Reservation cancellation"
+msgstr "予約のキャンセル"
+
+#: admin-pages/pages/emails/emails.php:70
+#, fuzzy
+msgid "Payment via Payment link"
+msgstr "支払タイプオフライン"
+
+#: admin-pages/pages/emails/emails.php:74
+#, fuzzy
+msgid "New payment method via Payment link"
+msgstr "支払方法ラベル"
+
+#: admin-pages/pages/emails/emails.php:79
+#: admin-pages/pages/reservations/resa-display.php:151
+#: admin-pages/pages/reservations/reservations.php:23
+#: front-end/booking-form/details-form.php:431 utils/options-utils.php:518
+#: utils/options-utils.php:527 utils/options-utils.php:536
+#: utils/options-utils.php:775
+msgid "New"
+msgstr "新規"
+
+#: admin-pages/pages/emails/emails.php:80
+#: admin-pages/pages/reservations/resa-display.php:150
+#: admin-pages/pages/reservations/reservations.php:24
+#: front-end/booking-form/details-form.php:429 utils/options-utils.php:517
+#: utils/options-utils.php:774
+msgid "Pending"
+msgstr "保留中"
+
+#: admin-pages/pages/emails/emails.php:81
+#: admin-pages/pages/reservations/resa-display.php:148
+#: admin-pages/pages/reservations/reservations.php:25
+#: front-end/booking-form/details-form.php:433 utils/options-utils.php:519
+#: utils/options-utils.php:528 utils/options-utils.php:537
+#: utils/options-utils.php:773
+msgid "Confirmed"
+msgstr "確認済み"
+
+#: admin-pages/pages/emails/emails.php:84
+#: admin-pages/pages/reservations/reservations.php:29
+msgid "Paid"
+msgstr "支払い済み"
+
+#: admin-pages/pages/emails/emails.php:85
+#: admin-pages/pages/reservations/reservations.php:31
+#, fuzzy
+msgid "Not fully paid"
+msgstr "全額支払われていない"
+
+#: admin-pages/pages/emails/emails.php:88
+#: admin-pages/pages/reservations/reservations.php:32
+#, fuzzy
+msgid "Bond not paid"
+msgstr "支払われない債券"
+
+#: admin-pages/pages/emails/emails.php:90
+#: admin-pages/pages/reservations/reservations.php:30
+msgid "Unpaid"
+msgstr "未払い"
+
+#: admin-pages/pages/emails/emails.php:92
+#: admin-pages/pages/reservations/resa-display.php:643
+#, fuzzy
+#| msgid "Paypal payment"
+msgid "Delayed payment"
+msgstr "Paypalペイメント"
+
+#: admin-pages/pages/emails/emails.php:97
+#, fuzzy
+msgid "New email template"
+msgstr "新しい電子メールテンプレート"
+
+#: admin-pages/pages/emails/emails.php:98
+#, fuzzy
+msgid "This e-mail address does not seem valid."
+msgstr "この電子メールアドレスは有効ではないと思われます。"
+
+#: admin-pages/pages/emails/emails.php:99
+#, fuzzy
+msgid "Please seperate multiple e-mail addresses with commas."
+msgstr "複数の電子メールアドレスをカンマで区切ってください。"
+
+#: admin-pages/pages/emails/emails.php:100
+#, fuzzy
+msgid "Please use a complete e-mail address eg. Your Name <email@domain.com>"
+msgstr ""
+"完全な電子メールアドレスなどを使用してください。あなたの名前 <email@domain."
+"com>"
+
+#: admin-pages/pages/emails/emails.php:101
+#: admin-pages/pages/reservations/reservations.php:80
+#, fuzzy
+#| msgid "Select a check-in date"
+msgid "Select attachments"
+msgstr "チェックイン日を選択"
+
+#: admin-pages/pages/emails/emails.php:102
+#: admin-pages/pages/reservations/reservations.php:81
+#, fuzzy
+msgid "Remove all attachments?"
+msgstr "ブロック日を削除しますか?"
+
+#: admin-pages/pages/emails/emails.php:103
+#: admin-pages/pages/emails/emails.php:273
+#, fuzzy
+#| msgid "Message"
+msgid "Message:"
+msgstr "メッセージ"
+
+#: admin-pages/pages/emails/emails.php:104
+#: admin-pages/pages/emails/emails.php:276
+#, fuzzy
+#| msgid "Format"
+msgid "Format:"
+msgstr "フォーマット"
+
+#: admin-pages/pages/emails/emails.php:105
+#: admin-pages/pages/emails/emails.php:284
+msgid "Attachments:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:106
+#: admin-pages/pages/emails/emails.php:294
+msgid "Upon event"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:107
+#: admin-pages/pages/emails/emails.php:296
+msgid "Scheduled"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:108
+#: admin-pages/pages/emails/emails.php:220
+#: admin-pages/pages/emails/emails.php:298
+#: admin-pages/pages/reservations/reservations.php:86 utils/utils.php:1175
+msgid "Manually"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:109 utils/utils.php:1205
+msgid "day"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:110
+#: admin-pages/pages/emails/emails.php:336 utils/utils.php:1207
+msgid "days"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:111
+#: admin-pages/pages/emails/emails.php:339 utils/utils.php:1211
+msgid "before"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:112
+#: admin-pages/pages/emails/emails.php:342 utils/utils.php:1213
+msgid "after"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:113
+#: admin-pages/pages/emails/emails.php:345 utils/utils.php:1217
+#, fuzzy
+#| msgid "Check-in"
+msgid "check-in"
+msgstr "チェックイン"
+
+#: admin-pages/pages/emails/emails.php:114
+#: admin-pages/pages/emails/emails.php:348 utils/utils.php:1219
+#, fuzzy
+#| msgid "Check-out"
+msgid "check-out"
+msgstr "チェックアウト"
+
+#: admin-pages/pages/emails/emails.php:115
+#, fuzzy
+msgid "on check-in day"
+msgstr "選択したチェックイン日"
+
+#: admin-pages/pages/emails/emails.php:116
+#, fuzzy
+msgid "on check-out day"
+msgstr "選択されたチェックアウト日"
+
+#: admin-pages/pages/emails/emails.php:117
+#, fuzzy
+msgid "The number of days is not valid."
+msgstr "言語ファイルが無効です。"
+
+#: admin-pages/pages/emails/emails.php:118
+#, fuzzy
+msgid "This schedule already exists."
+msgstr "この購入コードは既に使用されています。"
+
+#: admin-pages/pages/emails/emails.php:119
+#, fuzzy
+msgid "Delete schedule?"
+msgstr "顧客を削除しますか?"
+
+#: admin-pages/pages/emails/emails.php:120
+#, fuzzy
+msgid "Select at least one Event."
+msgstr "言語を選択します。"
+
+#: admin-pages/pages/emails/emails.php:121
+#, fuzzy
+msgid "Select at least one Reservation status."
+msgstr "予約状況"
+
+#: admin-pages/pages/emails/emails.php:122
+msgid "Select at least one Reservation payment status."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:123
+msgid "Select at least one Accommodation or Multiple accommodation booking."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:124
+#, fuzzy
+msgid "Delete email logs?"
+msgstr "予約を削除しますか?"
+
+#: admin-pages/pages/emails/emails.php:125
+msgid "Payment links can not be used in TEXT format emails."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:148
+#, fuzzy
+msgid "Email logs have been deleted."
+msgstr "設定が保存されました。"
+
+#: admin-pages/pages/emails/emails.php:154
+msgid "An error occured. Email logs could not be deleted."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:168
+#, fuzzy
+msgid "Email templates"
+msgstr "電子メールテンプレート"
+
+#: admin-pages/pages/emails/emails.php:169
+#: admin-pages/pages/emails/emails.php:402
+#, fuzzy
+msgid "Add new email template"
+msgstr "新しい電子メールテンプレートの追加"
+
+#: admin-pages/pages/emails/emails.php:180
+#, php-format
+msgid ""
+"We strongly recommend using %s to send emails, in order to increase email "
+"deliverability. Please check %s this article from our knowledgebase %s."
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:185
+#, fuzzy
+msgid "No email templates set yet."
+msgstr "電子メールテンプレートはまだ設定されていません。"
+
+#: admin-pages/pages/emails/emails.php:200
+msgid "Addresses"
+msgstr "マイアカウント"
+
+#: admin-pages/pages/emails/emails.php:201
+#: admin-pages/pages/reservations/resa-display.php:816
+msgid "Subject"
+msgstr "件名"
+
+#: admin-pages/pages/emails/emails.php:202
+#: admin-pages/pages/reservations/resa-display.php:818
+#: utils/strings-utils.php:103
+msgid "Message"
+msgstr "メッセージ"
+
+#: admin-pages/pages/emails/emails.php:203
+#, fuzzy
+#| msgid "Pending"
+msgid "Sending"
+msgstr "保留中"
+
+#: admin-pages/pages/emails/emails.php:212
+#: admin-pages/pages/emails/emails.php:262
+msgid "To:"
+msgstr "宛先:"
+
+#: admin-pages/pages/emails/emails.php:213
+#: admin-pages/pages/emails/emails.php:264
+#, fuzzy
+msgid "Reply-to:"
+msgstr "返信先:"
+
+#: admin-pages/pages/emails/emails.php:214
+#: admin-pages/pages/emails/emails.php:266
+msgid "From:"
+msgstr "送信元:"
+
+#: admin-pages/pages/emails/emails.php:215
+#: admin-pages/pages/emails/emails.php:268
+msgid "Bcc:"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:224
+msgid "Add at least one Schedule"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:233
+#: admin-pages/pages/emails/emails.php:368
+#, fuzzy
+#| msgid "Your reservation"
+msgid "For reservation status:"
+msgstr "あなたの予約"
+
+#: admin-pages/pages/emails/emails.php:237
+#: admin-pages/pages/emails/emails.php:374
+#, fuzzy
+msgid "For reservation payment status:"
+msgstr "まだ予約はありません。"
+
+#: admin-pages/pages/emails/emails.php:241
+#: admin-pages/pages/emails/emails.php:379
+#, fuzzy
+msgid "For accommodation:"
+msgstr "宿泊施設の場合:"
+
+#: admin-pages/pages/emails/emails.php:250
+#: admin-pages/pages/emails/emails.php:389
+#, fuzzy
+msgid "For language:"
+msgstr "言語の"
+
+#: admin-pages/pages/emails/emails.php:278
+msgid "TEXT"
+msgstr "TEXT"
+
+#: admin-pages/pages/emails/emails.php:281
+msgid "HTML"
+msgstr "HTML"
+
+#: admin-pages/pages/emails/emails.php:287
+#, fuzzy
+msgid "Remove all"
+msgstr "フィールドの削除"
+
+#: admin-pages/pages/emails/emails.php:329
+#, fuzzy
+#| msgid "Add rule"
+msgid "Add schedule"
+msgstr "ルールを追加"
+
+#: admin-pages/pages/emails/emails.php:352
+#, fuzzy
+msgid "Only if before check-out date"
+msgstr "チェックアウト日が無効です"
+
+#: admin-pages/pages/emails/emails.php:357
+#, fuzzy
+msgid "Only if after check-in date"
+msgstr "チェックイン日が無効です"
+
+#: admin-pages/pages/emails/emails.php:360
+#: admin-pages/pages/reservations/resa-display.php:422
+msgid "Add"
+msgstr "追加"
+
+#: admin-pages/pages/emails/emails.php:406
+#, fuzzy
+msgid "Email headers"
+msgstr "電子メールテンプレート"
+
+#: admin-pages/pages/emails/emails.php:408
+msgid "\"To address\" field:"
+msgstr "【宛先アドレス】フィールド"
+
+#: admin-pages/pages/emails/emails.php:413
+#: admin-pages/pages/emails/emails.php:450
+#, php-format
+msgid "If the field is blank %s will be used."
+msgstr "フィールドが空白の場合、%sが使用されます。"
+
+#: admin-pages/pages/emails/emails.php:418
+#, php-format
+msgid ""
+"If the field is blank the email address of the WordPress administrator (%s) "
+"will be used."
+msgstr ""
+"フィールドが空白の場合は、WordPress管理者の電子メールアドレス(%s)が使用されま"
+"す"
+
+#: admin-pages/pages/emails/emails.php:427
+#, fuzzy, php-format
+msgid "Separate multiple e-mail addresses with commas, for example: %s"
+msgstr "複数の電子メールアドレスをコンマで区切ってください: %s"
+
+#: admin-pages/pages/emails/emails.php:428
+#, fuzzy
+msgid "email-1@domain.com,email-2@domain.com"
+msgstr "email-1@domain.com、email-2@domain.com"
+
+#: admin-pages/pages/emails/emails.php:434
+msgid "\"Reply-To address\", \"From address\" fields:"
+msgstr "【返信先アドレス】【差出人アドレス】フィールド:"
+
+#: admin-pages/pages/emails/emails.php:438
+#, fuzzy, php-format
+msgid ""
+"Insert a complete e-mail address (a name followed by an email address "
+"wrapped between %s and %s, for example: %s)"
+msgstr ""
+"完全な電子メールアドレス (名前の後に %s と %s の間に折り返された電子メールア"
+"ドレスを挿入します。"
+
+#: admin-pages/pages/emails/emails.php:441
+#, fuzzy
+msgid "Your Name <your.email@domain.com>"
+msgstr "あなたの名前 <your.email@domain.com>"
+
+#: admin-pages/pages/emails/emails.php:446
+#, fuzzy
+msgid "\"From address\" fields:"
+msgstr "「From アドレス」フィールド:"
+
+#: admin-pages/pages/emails/emails.php:458
+#, fuzzy
+#| msgid ""
+#| "You can use the following variables in the \"Summary\" field and the "
+#| "\"Description\" field:"
+msgid ""
+"You can use the following variables in the email headers, subject and body."
+msgstr "[要約]フィールドと[説明]フィールドには、次の変数を使用できます。"
+
+#: admin-pages/pages/emails/emails.php:475
+#, fuzzy
+#| msgid "Emails"
+msgid "Email logs"
+msgstr "メール"
+
+#: admin-pages/pages/emails/emails.php:481
+#: admin-pages/pages/reservations/resa-display.php:756
+msgid "Sent on"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:482
+msgid "Resa id"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:484
+#: admin-pages/pages/reservations/resa-display.php:757
+msgid "Trigger"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:485
+#: admin-pages/pages/reservations/resa-display.php:266 utils/utils.php:4433
+msgid "Status"
+msgstr "ステータス"
+
+#: admin-pages/pages/emails/emails.php:512
+#: admin-pages/pages/reservations/resa-display.php:652
+msgid "Failed"
+msgstr ""
+
+#: admin-pages/pages/emails/emails.php:531
+#, fuzzy
+msgid "Delete email logs"
+msgstr "予約を削除しますか?"
+
+#: admin-pages/pages/fees/fees.php:12 admin-pages/pages/options/options.php:25
+#: admin-pages/pages/options/options.php:51
+#, fuzzy
+msgid "Per person"
+msgstr "1名様"
+
+#: admin-pages/pages/fees/fees.php:16 admin-pages/pages/options/options.php:29
+#, fuzzy
+msgid "Per person / per day"
+msgstr "1名/1 日あたり"
+
+#: admin-pages/pages/fees/fees.php:20
+#, fuzzy
+msgid "Per accommodation / per day"
+msgstr "1施設あたり/1 日"
+
+#: admin-pages/pages/fees/fees.php:24
+#, fuzzy
+msgid "Per accommodation"
+msgstr "1施設あたり"
+
+#: admin-pages/pages/fees/fees.php:28
+#, fuzzy
+#| msgid "Booking"
+msgid "Per booking"
+msgstr "予約"
+
+#: admin-pages/pages/fees/fees.php:34
+#, fuzzy
+msgid "Percentage (on Accommodation)"
+msgstr "1施設あたり"
+
+#: admin-pages/pages/fees/fees.php:35 admin-pages/pages/rates/rates.php:58
+#: admin-pages/pages/rates/rates.php:340 utils/strings-utils.php:123
+#, fuzzy
+msgid "Accommodation price"
+msgstr "宿泊料金"
+
+#: admin-pages/pages/fees/fees.php:39
+msgid "Percentage (on Extra Services)"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:40
+#, fuzzy
+msgid "Extra Services price"
+msgstr "追加サービス"
+
+#: admin-pages/pages/fees/fees.php:44
+#, fuzzy
+#| msgid "Percentage"
+msgid "Percentage (global)"
+msgstr "パーセンテージ"
+
+#: admin-pages/pages/fees/fees.php:45 admin-pages/pages/rates/rates.php:59
+#: admin-pages/pages/rates/rates.php:343
+#, fuzzy
+#| msgid "Total price"
+msgid "Global price"
+msgstr "合計金額"
+
+#: admin-pages/pages/fees/fees.php:51
+#, fuzzy
+msgid "New fee"
+msgstr "新しいフィールド"
+
+#: admin-pages/pages/fees/fees.php:52 admin-pages/pages/options/options.php:14
+#: admin-pages/pages/rates/rates.php:46
+#: admin-pages/pages/reservations/reservations.php:103
+msgid "Invalid amount."
+msgstr "金額が無効"
+
+#: admin-pages/pages/fees/fees.php:53 admin-pages/pages/fees/fees.php:200
+#: admin-pages/pages/options/options.php:15
+#: admin-pages/pages/options/options.php:218
+#: admin-pages/pages/options/options.php:265
+#: admin-pages/pages/reservations/resa-display.php:388
+#: admin-pages/pages/reservations/reservations.php:44
+#: front-end/booking-form/available-accom.php:48
+#: front-end/booking-form/search-form.php:26 utils/resa-summary.php:35
+msgid "Adults:"
+msgstr "大人:"
+
+#: admin-pages/pages/fees/fees.php:54 admin-pages/pages/fees/fees.php:204
+#: admin-pages/pages/options/options.php:16
+#: admin-pages/pages/options/options.php:222
+#: admin-pages/pages/options/options.php:269
+#: admin-pages/pages/reservations/resa-display.php:391
+#: admin-pages/pages/reservations/reservations.php:45
+#: front-end/booking-form/available-accom.php:49
+#: front-end/booking-form/search-form.php:27 utils/resa-summary.php:36
+msgid "Children:"
+msgstr "子供："
+
+#: admin-pages/pages/fees/fees.php:55 admin-pages/pages/fees/fees.php:209
+#, fuzzy
+msgid "Minimum amount:"
+msgstr "最小宿泊人数:"
+
+#: admin-pages/pages/fees/fees.php:56 admin-pages/pages/fees/fees.php:211
+#, fuzzy
+msgid "Maximum amount:"
+msgstr "最大宿泊人数:"
+
+#: admin-pages/pages/fees/fees.php:57
+#, fuzzy
+msgid "Included in Accommodation price"
+msgstr "宿泊料金"
+
+#: admin-pages/pages/fees/fees.php:58
+#, fuzzy
+msgid "Included in Extra Services price"
+msgstr "追加サービス料金合計"
+
+#: admin-pages/pages/fees/fees.php:59
+#, fuzzy
+msgid "Included in prices"
+msgstr "無効な価格です。"
+
+#: admin-pages/pages/fees/fees.php:60
+#, fuzzy
+msgid "Added to Accommodation price"
+msgstr "宿泊料金"
+
+#: admin-pages/pages/fees/fees.php:61
+#, fuzzy
+msgid "Added to Extra Services price"
+msgstr "追加サービス料金合計"
+
+#: admin-pages/pages/fees/fees.php:62
+#, fuzzy
+msgid "Added to prices"
+msgstr "無効な価格です。"
+
+#: admin-pages/pages/fees/fees.php:63 admin-pages/pages/fees/fees.php:187
+msgid "Added to final price"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:64 admin-pages/pages/fees/fees.php:217
+#: utils/options-utils.php:130 utils/strings-utils.php:120 utils/utils.php:4421
+#, fuzzy
+msgid "Number of nights"
+msgstr "宿泊日数"
+
+#: admin-pages/pages/fees/fees.php:65 admin-pages/pages/fees/fees.php:219
+#, fuzzy
+msgid "Number of adults and children"
+msgstr "子供の数:"
+
+#: admin-pages/pages/fees/fees.php:66 admin-pages/pages/fees/fees.php:221
+#, fuzzy
+msgid "Number of adults"
+msgstr "大人の人数:"
+
+#: admin-pages/pages/fees/fees.php:67 admin-pages/pages/fees/fees.php:223
+#, fuzzy
+msgid "Number of children"
+msgstr "子供の数:"
+
+#: admin-pages/pages/fees/fees.php:86 utils/utils.php:4818
+msgid "Fees"
+msgstr "手数料"
+
+#: admin-pages/pages/fees/fees.php:87 admin-pages/pages/fees/fees.php:117
+#, fuzzy
+msgid "Add new fee"
+msgstr "新しい手数料の追加"
+
+#: admin-pages/pages/fees/fees.php:96
+#, fuzzy
+msgid "No fees have been created yet."
+msgstr "手数料はまだ作成されていません。"
+
+#: admin-pages/pages/fees/fees.php:103
+#, fuzzy
+msgid "Fee name"
+msgstr "料金名"
+
+#: admin-pages/pages/fees/fees.php:104 admin-pages/pages/options/options.php:95
+msgid "Type"
+msgstr "タイプ"
+
+#: admin-pages/pages/fees/fees.php:105 admin-pages/pages/options/options.php:96
+#: admin-pages/pages/rates/rates.php:196 admin-pages/pages/rates/rates.php:242
+#: admin-pages/pages/rates/rates.php:421
+#: admin-pages/pages/reservations/resa-display.php:574
+#: admin-pages/pages/reservations/resa-display.php:626 utils/utils.php:2774
+msgid "Amount"
+msgstr "金額"
+
+#: admin-pages/pages/fees/fees.php:145 admin-pages/pages/fees/fees.php:185
+msgid "Fee is:"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:162
+msgid "Fee applies on:"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:178
+msgid "Apply on Accommodation per person per night price?"
+msgstr ""
+
+#: admin-pages/pages/fees/fees.php:197
+#, fuzzy
+#| msgid "Percentage"
+msgid "Percentage:"
+msgstr "パーセンテージ"
+
+#: admin-pages/pages/fees/fees.php:215
+#, fuzzy
+#| msgid "Multiple choice"
+msgid "Multiply per:"
+msgstr "複数選択"
+
+#: admin-pages/pages/forms/forms.php:27
+#, fuzzy
+msgid "Search form and Accommodation selection"
+msgstr "宿泊施設の選択"
+
+#: admin-pages/pages/forms/forms.php:32 utils/utils.php:4823
+msgid "Search form"
+msgstr "検索のフォーム"
+
+#: admin-pages/pages/forms/forms.php:45 admin-pages/pages/text/text.php:28
+#, fuzzy
+msgid "Accommodation selection"
+msgstr "宿泊施設の選択"
+
+#: admin-pages/pages/help/help.php:16 utils/utils.php:4878 utils/utils.php:4891
+msgid "Help"
+msgstr "ヘルプ"
+
+#: admin-pages/pages/help/help.php:22
+#, fuzzy
+msgid "If you need help using HBook plugin here are some useful ressources."
+msgstr ""
+"HBook プラグインを使用してヘルプが必要な場合は、いくつかの有用な使うがありま"
+"す。"
+
+#: admin-pages/pages/help/help.php:42
+#, fuzzy
+msgid ""
+"Before setting up the plugin you should have a look at its documentation. "
+"You will find all the basic information you need to use HBook."
+msgstr ""
+"プラグインを設定する前に、そのドキュメントを見ている必要があります。あなたは "
+"HBook を使用する必要があるすべての基本的な情報を見つけるでしょう。"
+
+#: admin-pages/pages/help/help.php:43
+#, fuzzy
+msgid "Go to the documentation"
+msgstr "ドキュメントに移動します。"
+
+#: admin-pages/pages/help/help.php:47
+#, fuzzy
+msgid ""
+"If you need to solve a specific issue you can try to enter your question in "
+"the search engine of our knowledge base and you might directly find the "
+"answer."
+msgstr ""
+"あなたは、特定の問題を解決する必要がある場合は、私たちの知識ベースの検索エン"
+"ジンにあなたの質問を入力しようとすることができますし、直接答えを見つけるかも"
+"しれません。"
+
+#: admin-pages/pages/help/help.php:48
+#, fuzzy
+msgid "Go to the knowledgebase"
+msgstr "ナレッジベースに移動する"
+
+#: admin-pages/pages/help/help.php:52
+#, fuzzy
+msgid ""
+"If you can not find the answer you are looking for in the documentation or "
+"in the knowledgebase, feel free to send us a message via our contact form."
+msgstr ""
+"あなたが探している答えがドキュメントまたはナレッジベースに見つからない場合"
+"は、お問い合わせフォームを介して私たちにメッセージを送信すること自由に感じま"
+"す。"
+
+#: admin-pages/pages/help/help.php:53
+#, fuzzy
+msgid "Go to the helpdesk"
+msgstr "ナレッジベースに移動する"
+
+#: admin-pages/pages/ical/ical.php:12
+#, fuzzy
+msgid "Stop synchronizing with this calendar?"
+msgstr "このカレンダーとの同期を停止しますか?"
+
+#: admin-pages/pages/ical/ical.php:13
+msgid ""
+"The frequency is not valid. Value should not be lower than 5 minutes (300s)."
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:24
+#, fuzzy
+msgid "ICal synchronization and import/export"
+msgstr "Ical 同期とインポート/エクスポート"
+
+#: admin-pages/pages/ical/ical.php:36
+#, php-format
+msgid ""
+"HBook iCal calendars URLs are currently cached, which is not recommended as "
+"it will delay the updates of your external calendars. To correctly adjust "
+"any caching plugin with HBook, please read %s"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:38
+#, fuzzy
+msgid "this article from our knowldgebase."
+msgstr "ナレッジベースのこの記事"
+
+#: admin-pages/pages/ical/ical.php:47
+#, fuzzy, php-format
+msgid ""
+"For iCal synchronization to work properly, we strongly recommend that %s is "
+"used as your main calendar. Synchronize each HBook calendar with the "
+"matching external calendars both ways. Do not sync your external calendars "
+"together."
+msgstr ""
+"iCal 同期が正常に動作するためには、 %s をメインの予定表として使用することを強"
+"くお勧めします。"
+
+#: admin-pages/pages/ical/ical.php:50
+#, fuzzy, php-format
+msgid ""
+"If there are dates that you need to block, you should set these unavailable "
+"dates using %s and do not add them manually in the external calendars."
+msgstr ""
+"ブロックする必要がある日付がある場合は、 %s を使用してこれらの使用できない日"
+"付を設定し、外部カレンダーに手動で追加しないようにする必要があります。"
+
+#: admin-pages/pages/ical/ical.php:50
+#, fuzzy
+msgid "Reservations > Block accommodation"
+msgstr "予約-> 宿泊施設をブロック"
+
+#: admin-pages/pages/ical/ical.php:51
+#, fuzzy
+msgid ""
+"With the synchronization, they will be set automatically as unavailable in "
+"your other calendars."
+msgstr ""
+"同期を使用すると、他のカレンダーでは自動的に使用不可として設定されます。"
+
+#: admin-pages/pages/ical/ical.php:94
+#, fuzzy, php-format
+msgid ""
+"There seems to be a problem : %s Check that you have entered a valid URL."
+msgstr ""
+"問題があるようです: %s 有効な URL が入力されているかどうかを確認してくださ"
+"い。"
+
+#: admin-pages/pages/ical/ical.php:132
+#, fuzzy
+msgid ""
+"At least one accommodation must be created in order to set iCal "
+"synchronization."
+msgstr ""
+"iCal 同期を設定するために、少なくとも1つの宿泊施設を作成する必要があります。"
+
+#: admin-pages/pages/ical/ical.php:140
+#, fuzzy
+msgid "Update calendars"
+msgstr "カレンダーの更新"
+
+#: admin-pages/pages/ical/ical.php:145
+#, fuzzy
+msgid "Last synchronized on: "
+msgstr "最終同期日:"
+
+#: admin-pages/pages/ical/ical.php:155
+#: admin-pages/pages/reservations/blocked-accom-display.php:26
+#: utils/utils.php:4422
+#, fuzzy
+msgid "Accommodation type"
+msgstr "宿泊タイプ"
+
+#: admin-pages/pages/ical/ical.php:157
+#, fuzzy
+msgid "Export calendars"
+msgstr "カレンダーの更新"
+
+#: admin-pages/pages/ical/ical.php:158
+#, fuzzy
+msgid "Import calendars"
+msgstr "カレンダーの更新"
+
+#: admin-pages/pages/ical/ical.php:159
+#, fuzzy
+msgid "Synchronized calendars"
+msgstr "カレンダーの同期"
+
+#: admin-pages/pages/ical/ical.php:197
+msgid "Download .ics file"
+msgstr "ICS ファイルのダウンロード"
+
+#: admin-pages/pages/ical/ical.php:199
+#, fuzzy
+msgid "Get export url"
+msgstr "url の取得"
+
+#: admin-pages/pages/ical/ical.php:200
+msgid "Hide export url"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:201
+msgid "URL to add to your external calendars"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:205
+#, fuzzy
+#| msgid "Download .ics file"
+msgid "Upload .ics file"
+msgstr "ICS ファイルのダウンロード"
+
+#: admin-pages/pages/ical/ical.php:207
+#, fuzzy
+msgid "Import a calendar file"
+msgstr "ファイルをインポートする"
+
+#: admin-pages/pages/ical/ical.php:208
+#, fuzzy
+msgid "Calendar name: "
+msgstr "カレンダー名:"
+
+#: admin-pages/pages/ical/ical.php:214 admin-pages/pages/text/text.php:224
+msgid "Import"
+msgstr "インポート"
+
+#: admin-pages/pages/ical/ical.php:217
+#, fuzzy
+msgid "Sync with a new calendar"
+msgstr "カレンダーの同期"
+
+#: admin-pages/pages/ical/ical.php:219
+#, fuzzy
+msgid "Add your external calendar"
+msgstr "カレンダーに影を追加する:"
+
+#: admin-pages/pages/ical/ical.php:220
+#, fuzzy
+msgid "Calendar name:"
+msgstr "カレンダー名:"
+
+#: admin-pages/pages/ical/ical.php:221
+#, fuzzy
+#| msgid "Calendar"
+msgid "Calendar URL:"
+msgstr "カレンダー"
+
+#: admin-pages/pages/ical/ical.php:228
+msgid "Sync"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:273
+msgid "Get url of the calendar containing all HBook calendars in one"
+msgstr ""
+
+#: admin-pages/pages/ical/ical.php:302
+#, fuzzy
+#| msgid ""
+#| "You can use the following variables in the \"Summary\" field and the "
+#| "\"Description\" field:"
+msgid ""
+"You can use the following variables in the \"Summary\" field and the "
+"\"Description\" field."
+msgstr "[要約]フィールドと[説明]フィールドには、次の変数を使用できます。"
+
+#: admin-pages/pages/licence/licence.php:7
+#, fuzzy
+msgid "Remove purchase code for this website?"
+msgstr "この web サイトの購入コードを削除しますか?"
+
+#: admin-pages/pages/licence/licence.php:18 utils/utils.php:4873
+#: utils/utils.php:4886
+#, fuzzy
+msgid "Licence"
+msgstr "ライセンス"
+
+#: admin-pages/pages/licence/licence.php:23
+#, fuzzy
+msgid "Where can I find my purchase code?"
+msgstr "購入コードはどこで確認できますか?"
+
+#: admin-pages/pages/licence/licence.php:25
+msgid "Activate your HBook licence"
+msgstr ""
+
+#: admin-pages/pages/licence/licence.php:33
+#, php-format
+msgid ""
+"To activate your licence, you will need a validation code. Click on this "
+"link: https://maestrel.com/hbook-licence-validation. Follow the steps to "
+"obtain your validation code and paste it below. Check %s for step by step "
+"guidance."
+msgstr ""
+"ライセンスをアクティベートするには、バリデーションコードが必要です。このリン"
+"クをクリックしてください: https://maestrel.com/hbook-licence-validation.手順"
+"に従って検証コードを取得し、下に貼り付けます。 %s のステップバイステップガイ"
+"ダンスを確認してください。"
+
+#: admin-pages/pages/licence/licence.php:43
+#, fuzzy
+msgid "this article of the knowledgebase"
+msgstr "ナレッジベースのこの記事"
+
+#: admin-pages/pages/licence/licence.php:50
+#: admin-pages/pages/licence/licence.php:154
+#, fuzzy, php-format
+msgid ""
+"The code you entered is not valid. Please try again. You can also contact %s "
+"if you need further help."
+msgstr ""
+"入力されたコードは無効です。もう一度やり直してください。さらにヘルプが必要な"
+"場合は、 %s に問い合わせることもできます。"
+
+#: admin-pages/pages/licence/licence.php:51
+#: admin-pages/pages/licence/licence.php:147
+#: admin-pages/pages/licence/licence.php:155
+msgid "Maestrel support"
+msgstr "Maestrel サポート"
+
+#: admin-pages/pages/licence/licence.php:63
+#, fuzzy
+msgid "Your website url:"
+msgstr "あなたのウェブサイトの url:"
+
+#: admin-pages/pages/licence/licence.php:67
+#, fuzzy
+msgid "Enter validation code"
+msgstr "検証コードの入力"
+
+#: admin-pages/pages/licence/licence.php:83
+#: admin-pages/pages/licence/licence.php:178
+#, fuzzy
+msgid "Enter your purchase code"
+msgstr "購入コードの入力"
+
+#: admin-pages/pages/licence/licence.php:85
+#: admin-pages/pages/licence/licence.php:181
+#, fuzzy
+msgid "Verify purchase code"
+msgstr "購入コードの確認"
+
+#: admin-pages/pages/licence/licence.php:93
+#: admin-pages/pages/licence/licence.php:189
+#, fuzzy
+msgid "Your purchase code is valid."
+msgstr "購入コードは有効です。"
+
+#: admin-pages/pages/licence/licence.php:95
+#: admin-pages/pages/licence/licence.php:191
+#, fuzzy
+msgid "Your purchase code is not valid."
+msgstr "購入コードが無効です。"
+
+#: admin-pages/pages/licence/licence.php:97
+#: admin-pages/pages/licence/licence.php:193
+#, fuzzy
+msgid "This purchase code is already in use."
+msgstr "この購入コードは既に使用されています。"
+
+#: admin-pages/pages/licence/licence.php:99
+#: admin-pages/pages/licence/licence.php:195
+#, fuzzy
+msgid "The purchase code has been removed."
+msgstr "購入コードが削除されました。"
+
+#: admin-pages/pages/licence/licence.php:102
+#: admin-pages/pages/licence/licence.php:198
+#, fuzzy
+msgid "This purchase code has not been verified."
+msgstr "この購入コードは確認されていません。"
+
+#: admin-pages/pages/licence/licence.php:116
+#: admin-pages/pages/licence/licence.php:212
+#, fuzzy
+msgid "Remove purchase code for this website."
+msgstr "この web サイトの購入コードを削除します。"
+
+#: admin-pages/pages/licence/licence.php:132
+#, fuzzy, php-format
+msgid "Activate your %s licence"
+msgstr "%s をアクティブにする:"
+
+#: admin-pages/pages/licence/licence.php:146
+#, php-format
+msgid ""
+"There seems to be an error when we try to validate your licence for this add-"
+"on. Would you please contact %s so we can assist you with that?"
+msgstr ""
+
+#: admin-pages/pages/logs/logs.php:16
+msgid "Logs"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:12
+#, fuzzy
+msgid "The date is not valid (use a yyyy-mm-dd format)."
+msgstr "日付が有効ではありません (西暦-mm-dd 形式を使用します)。"
+
+#: admin-pages/pages/misc/misc.php:13 admin-pages/pages/text/text.php:13
+#, fuzzy
+msgid "Choose a file to import."
+msgstr "インポートするファイルを選択します。"
+
+#: admin-pages/pages/misc/misc.php:14
+msgid ""
+"Importing a setting file will delete all current HBook settings (including "
+"Accommodation Posts and Reservations). Do you want to continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:15
+msgid ""
+"This action will delete permanently all reservations, blocked dates and "
+"customers. Reservations and customers numbering will be reset. Do you wish "
+"to continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:16
+msgid ""
+"This action will delete permanently all reservations and blocked dates. "
+"Reservations numbering will be reset. Do you wish to continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:17
+msgid ""
+"This action will delete permanently all reservations that have been imported "
+"into HBook via the iCal synchronization. Do you wish to continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:18
+msgid ""
+"This action will delete permanently all reservations that have the status "
+"\"Cancelled\". Do you wish to continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:19
+msgid ""
+"This action will delete permanently all past reservations. Do you wish to "
+"continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:20
+msgid ""
+"This action will delete permanently all past block dates. Do you wish to "
+"continue?"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:46
+msgid "Miscellaneous"
+msgstr "その他"
+
+#: admin-pages/pages/misc/misc.php:83
+msgid "View all filters default values"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:86
+msgid "Hide filters default values"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:153
+#, fuzzy, php-format
+msgid "Usual setting: first day is %s and date format is %s"
+msgstr "通常の設定: 最初の日は %s、日付の形式は %s です"
+
+#: admin-pages/pages/misc/misc.php:166
+#, fuzzy
+msgid "First day of the week"
+msgstr "週の最初の曜日"
+
+#: admin-pages/pages/misc/misc.php:178
+msgid "Date format"
+msgstr "日付形式"
+
+#: admin-pages/pages/misc/misc.php:226
+msgid "Set specific dates settings for admin"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:249
+#, fuzzy
+msgid "First day of the week for admin"
+msgstr "週の最初の曜日"
+
+#: admin-pages/pages/misc/misc.php:261
+#, fuzzy
+#| msgid "Date format"
+msgid "Date format for admin"
+msgstr "日付形式"
+
+#: admin-pages/pages/misc/misc.php:281
+msgid "Reset HBook (customers, blocked dates and reservations)"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:282
+#, fuzzy
+msgid "Reset reservations and blocked dates"
+msgstr "エクスポートする予約を選択してください:"
+
+#: admin-pages/pages/misc/misc.php:283
+#, fuzzy
+msgid "Delete only reservations imported from external calendars"
+msgstr "外部カレンダーからインポートされた引当のステータス:"
+
+#: admin-pages/pages/misc/misc.php:284
+#, fuzzy
+msgid "Delete only reservations with status \"Cancelled\""
+msgstr "エクスポートでステータスが取り消された予約を含めますか?"
+
+#: admin-pages/pages/misc/misc.php:285
+#, fuzzy
+msgid "Delete only past reservations"
+msgstr "予約を削除しますか?"
+
+#: admin-pages/pages/misc/misc.php:286
+#, fuzzy
+msgid "Delete only past blocked dates"
+msgstr "エクスポートする予約を選択してください:"
+
+#: admin-pages/pages/misc/misc.php:289
+msgid ""
+"None of the actions below can be rolled back. Reservations, blocked dates or/"
+"and customers will be deleted permanently."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:325
+msgid "All done! Reservations, customers and blocked dates have been reset."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:340
+msgid "All done! Blocked dates and reservations have been reset."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:360
+#, fuzzy
+msgid ""
+"All done! Reservations imported from external calendars have been deleted."
+msgstr "外部カレンダーからインポートされた引当のステータス:"
+
+#: admin-pages/pages/misc/misc.php:401
+#, fuzzy
+msgid "All done! Reservations with status \"Cancelled\" have been deleted."
+msgstr "エクスポートでステータスが取り消された予約を含めますか?"
+
+#: admin-pages/pages/misc/misc.php:443
+#, fuzzy
+msgid "All done! Past reservations have been deleted."
+msgstr "エクスポートでステータスが取り消された予約を含めますか?"
+
+#: admin-pages/pages/misc/misc.php:457
+#, fuzzy
+msgid "All done! Past blocked dates have been deleted."
+msgstr "外部カレンダーからインポートされた引当のステータス:"
+
+#: admin-pages/pages/misc/misc.php:470
+msgid "An error occured. The action could not be completed."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:486
+msgid ""
+"Modify Accommodation Post ID when importing (you may have to update HBook "
+"shortcodes accordingly)."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:490
+#, fuzzy
+msgid "Import settings file"
+msgstr "ファイルをインポートする"
+
+#: admin-pages/pages/misc/misc.php:494
+msgid ""
+"Importing all settings may take several minutes. Please do not refresh or "
+"exit this page before completion."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:497
+#, fuzzy
+#| msgid "Download .ics file"
+msgid "Download settings file"
+msgstr "ICS ファイルのダウンロード"
+
+#: admin-pages/pages/misc/misc.php:518 admin-pages/pages/misc/misc.php:534
+#: admin-pages/pages/misc/misc.php:562
+msgid "Settings could not be imported."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:536
+#, php-format
+msgid "The file %s is not a correct HBook settings file."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:566
+msgid ""
+"The following posts/pages/attachments prevented HBook from importing the "
+"settings:"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:575
+msgid ""
+"You can either delete these posts/pages/attachments (which is the "
+"recommanded method) or start importing again with the \"Modify Accommodation "
+"Post ID\" option activated."
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:645
+#, fuzzy
+msgid "HBook settings have been imported."
+msgstr "フォームの設定が保存されました。"
+
+#: admin-pages/pages/misc/misc.php:649
+msgid "Please take note that the following Accommodation Post have new IDs:"
+msgstr ""
+
+#: admin-pages/pages/misc/misc.php:658
+msgid "You may have to update HBook shortcodes accordingly."
+msgstr ""
+
+#: admin-pages/pages/options/options.php:10
+#, fuzzy
+msgid "New extra"
+msgstr "新しいエクストラ"
+
+#: admin-pages/pages/options/options.php:11
+#, fuzzy
+msgid "New extra choice"
+msgstr "新しい追加の選択肢"
+
+#: admin-pages/pages/options/options.php:17
+#: admin-pages/pages/options/options.php:170
+#, fuzzy
+msgid "For accommodation"
+msgstr "1施設あたり"
+
+#: admin-pages/pages/options/options.php:18
+#: admin-pages/pages/options/options.php:174
+#, fuzzy
+#| msgid "Booking"
+msgid "For booking"
+msgstr "予約"
+
+#: admin-pages/pages/options/options.php:33
+#: admin-pages/pages/options/options.php:59
+msgid "Once"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:37
+msgid "Per day"
+msgstr ""
+
+#: admin-pages/pages/options/options.php:41
+#: admin-pages/pages/options/options.php:63
+msgid "Quantity"
+msgstr "数量"
+
+#: admin-pages/pages/options/options.php:45
+#, fuzzy
+msgid "Quantity per day"
+msgstr "1日あたりの数量"
+
+#: admin-pages/pages/options/options.php:55
+#, fuzzy
+msgid "Per accom."
+msgstr "現在のアコム:"
+
+#: admin-pages/pages/options/options.php:76 utils/utils.php:4813
+#, fuzzy
+msgid "Extra services"
+msgstr "追加サービス"
+
+#: admin-pages/pages/options/options.php:77
+#: admin-pages/pages/options/options.php:108
+#, fuzzy
+msgid "Add new extra"
+msgstr "新しい追加"
+
+#: admin-pages/pages/options/options.php:86
+#, fuzzy
+msgid "No extra services have been created yet."
+msgstr "追加のサービスはまだ作成されていません。"
+
+#: admin-pages/pages/options/options.php:93
+#, fuzzy
+msgid "Extra name"
+msgstr "追加の名前"
+
+#: admin-pages/pages/options/options.php:94
+msgid "Multiple choice"
+msgstr "複数選択"
+
+#: admin-pages/pages/options/options.php:159
+#, fuzzy
+msgid "Save to add choices."
+msgstr "保存して選択肢を追加します。"
+
+#: admin-pages/pages/options/options.php:190
+#, fuzzy
+msgid "Set a maximum quantity?"
+msgstr "最大数量を設定しますか?"
+
+#: admin-pages/pages/options/options.php:196
+msgid "Yes, per person"
+msgstr "はい、お一人様あたりです"
+
+#: admin-pages/pages/options/options.php:200
+#, fuzzy
+msgid "Maximum quantity"
+msgstr "最大数量"
+
+#: admin-pages/pages/options/options.php:201
+#, fuzzy
+msgid "(per adult)"
+msgstr "(大人1名)"
+
+#: admin-pages/pages/options/options.php:206
+#, fuzzy
+msgid "Maximum quantity (per child):"
+msgstr "最大数量 (お子様あたり):"
+
+#: admin-pages/pages/payment/payment.php:12
+#, fuzzy
+msgid "The deposit is not valid. Enter a number only."
+msgstr "デポジットは有効ではありません。数値のみを入力します。"
+
+#: admin-pages/pages/payment/payment.php:13
+#, fuzzy
+msgid "The security bond is not valid. Enter a number only."
+msgstr "セキュリティボンドが有効ではありません。数値のみを入力します。"
+
+#: admin-pages/pages/payment/payment.php:14
+#, fuzzy
+#| msgid "Deposit type:"
+msgid "Deposit percentage"
+msgstr "デポジットの種類:"
+
+#: admin-pages/pages/payment/payment.php:28 utils/utils.php:4833
+msgid "Payment"
+msgstr "支払い"
+
+#: admin-pages/pages/payment/payment.php:35
+#, fuzzy
+msgid "Active payment gateways"
+msgstr "アクティブなペイメントゲートウェイ"
+
+#: admin-pages/pages/payment/payment.php:36
+#, php-format
+msgid ""
+"Stripe and PayPal gateways are included. We have developed add-ons to "
+"integrate other payment gateways for HBook: %s view available payment "
+"gateways %s."
+msgstr ""
+
+#: admin-pages/pages/payment/payment.php:50
+#, fuzzy, php-format
+msgid "Activate %s"
+msgstr "%s をアクティブにする:"
+
+#: admin-pages/pages/rates/rates.php:29
+#, fuzzy
+msgid "accommodation"
+msgstr "宿泊 施設"
+
+#: admin-pages/pages/rates/rates.php:30
+#, fuzzy
+msgid "Accommodation rates"
+msgstr "宿泊料金"
+
+#: admin-pages/pages/rates/rates.php:34
+msgid "extra adults"
+msgstr "追加大人"
+
+#: admin-pages/pages/rates/rates.php:35
+#, fuzzy
+msgid "Price per adult above normal occupancy"
+msgstr "大人1名あたり通常料金"
+
+#: admin-pages/pages/rates/rates.php:39
+msgid "extra children"
+msgstr "追加子供"
+
+#: admin-pages/pages/rates/rates.php:40
+#, fuzzy
+msgid "Price per child above normal occupancy"
+msgstr "お子様1名につき通常料金"
+
+#: admin-pages/pages/rates/rates.php:47 admin-pages/pages/rules/rules.php:25
+msgid "No seasons selected"
+msgstr "時期が選ばれていません"
+
+#: admin-pages/pages/rates/rates.php:49
+#, fuzzy
+msgid "No discounts selected"
+msgstr "割引は選択されません"
+
+#: admin-pages/pages/rates/rates.php:50
+msgid "per night"
+msgstr "1泊あたり"
+
+#: admin-pages/pages/rates/rates.php:51
+#, fuzzy, php-format
+msgid "for a %s-night stay"
+msgstr "%s 泊滞在の場合"
+
+#: admin-pages/pages/rates/rates.php:52
+msgid "Unset"
+msgstr "解除"
+
+#: admin-pages/pages/rates/rates.php:53
+#, fuzzy
+msgid "nights and more"
+msgstr "夜ともっと"
+
+#: admin-pages/pages/rates/rates.php:54
+msgid "No maximum"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:55
+msgid "No date limit"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:79 blocks/blocks.php:66
+#: utils/utils.php:4808
+msgid "Rates"
+msgstr "料金設定"
+
+#: admin-pages/pages/rates/rates.php:93
+#, fuzzy, php-format
+msgid "It seems Polylang is not set properly. Please read %s"
+msgstr "Polylang が正しく設定されていないようです。 %s を読んでください"
+
+#: admin-pages/pages/rates/rates.php:95
+#, fuzzy
+msgid "HBook documentation about setting up Polylang and HBook"
+msgstr "Polylang と HBook の設定に関する HBook ドキュメント"
+
+#: admin-pages/pages/rates/rates.php:102
+#, php-format
+msgid "It seems WPML is not set properly. Please read %s"
+msgstr "WPMLが正しく設定されていないようです。 %sを読んでください"
+
+#: admin-pages/pages/rates/rates.php:104
+msgid "HBook documentation about setting up WPML and HBook"
+msgstr "WPMLとHBookの設定に関するドキュメント"
+
+#: admin-pages/pages/rates/rates.php:109
+#, fuzzy
+msgid ""
+"At least one accommodation which uses the default website language must be "
+"created in order to set rates."
+msgstr ""
+"レートを設定するには、デフォルトのウェブサイト言語を使用する少なくとも1つの宿"
+"泊施設を作成する必要があります。"
+
+#: admin-pages/pages/rates/rates.php:113
+#, fuzzy
+msgid ""
+"At least one accommodation and one season must be created in order to set "
+"rates."
+msgstr ""
+"料金を設定するためには、少なくとも1つの宿泊施設と1つのシーズンを作成する必要"
+"があります。"
+
+#: admin-pages/pages/rates/rates.php:115
+#, fuzzy
+msgid "At least one accommodation must be created in order to set rates."
+msgstr ""
+"料金を設定するために、少なくとも1つの宿泊施設を作成する必要があります。"
+
+#: admin-pages/pages/rates/rates.php:119
+#, fuzzy
+msgid "At least one one season must be created in order to set rates."
+msgstr ""
+"レートを設定するためには、少なくとも 1 1 シーズンを作成する必要があります。"
+
+#: admin-pages/pages/rates/rates.php:127 admin-pages/pages/rates/rates.php:150
+#, fuzzy
+msgid "Add rate"
+msgstr "レートの追加"
+
+#: admin-pages/pages/rates/rates.php:133
+#, fuzzy, php-format
+msgid "No %s rates have been defined yet."
+msgstr "%s レートはまだ定義されていません。"
+
+#: admin-pages/pages/rates/rates.php:161 admin-pages/pages/rates/rates.php:192
+msgid "Discounts"
+msgstr "割引"
+
+#: admin-pages/pages/rates/rates.php:163 admin-pages/pages/rates/rates.php:209
+#, fuzzy
+msgid "Add discount rate"
+msgstr "割引率の追加"
+
+#: admin-pages/pages/rates/rates.php:173
+#, fuzzy, php-format
+msgid ""
+"No discount rules have been defined yet. You can define a discount rule on "
+"the %s."
+msgstr "割引ルールはまだ定義されていません。 %s に割引ルールを定義できます。"
+
+#: admin-pages/pages/rates/rates.php:175
+#, fuzzy
+msgid "Booking rules page"
+msgstr "[予約ルール] ページ"
+
+#: admin-pages/pages/rates/rates.php:184
+#, fuzzy
+msgid "No discount rates have been defined yet."
+msgstr "割引率はまだ定義されていません。"
+
+#: admin-pages/pages/rates/rates.php:194 admin-pages/pages/rates/rates.php:236
+#: admin-pages/pages/rates/rates.php:417 admin-pages/pages/rules/rules.php:69
+#: admin-pages/pages/rules/rules.php:125 admin-pages/pages/rules/rules.php:181
+#: admin-pages/pages/rules/rules.php:237 admin-pages/pages/rules/rules.php:300
+#: admin-pages/pages/seasons/seasons.php:22 utils/utils.php:4798
+msgid "Seasons"
+msgstr "シーズン"
+
+#: admin-pages/pages/rates/rates.php:195
+msgid "Applies on"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:220 admin-pages/pages/text/text.php:44
+msgid "Coupons"
+msgstr "クーポン"
+
+#: admin-pages/pages/rates/rates.php:221 admin-pages/pages/rates/rates.php:255
+msgid "Add coupon"
+msgstr "クーポン追加"
+
+#: admin-pages/pages/rates/rates.php:226
+#, fuzzy
+msgid "No coupons have been defined yet."
+msgstr "クーポンはまだ定義されていません。"
+
+#: admin-pages/pages/rates/rates.php:234 utils/utils.php:2773
+msgid "Code"
+msgstr "コード"
+
+#: admin-pages/pages/rates/rates.php:237
+msgid "Rule"
+msgstr "ルール"
+
+#: admin-pages/pages/rates/rates.php:238
+#, fuzzy
+#| msgid "Discount"
+msgid "Use count"
+msgstr "割引"
+
+#: admin-pages/pages/rates/rates.php:239
+msgid "Max use"
+msgstr ""
+
+#: admin-pages/pages/rates/rates.php:240
+#, fuzzy
+#| msgid "Date format"
+msgid "Date limit"
+msgstr "日付形式"
+
+#: admin-pages/pages/rates/rates.php:241
+#, fuzzy
+#| msgid "Multiple choice"
+msgid "Multiple use per customer"
+msgstr "複数選択"
+
+#: admin-pages/pages/rates/rates.php:319
+msgid "for"
+msgstr "期間"
+
+#: admin-pages/pages/rates/rates.php:321
+msgid "night(s)"
+msgstr "泊"
+
+#: admin-pages/pages/rates/rates.php:364 blocks/blocks.php:143
+#: utils/options-utils.php:128
+msgid "None"
+msgstr "なし"
+
+#: admin-pages/pages/rates/rates.php:419
+#, fuzzy
+msgid "Special rates"
+msgstr "特別料金"
+
+#: admin-pages/pages/reservations/admin-add-resa.php:22
+#, fuzzy
+msgid "Add a reservation"
+msgstr "予約を追加する"
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:16
+#, fuzzy
+msgid "Block accommodation"
+msgstr "ブロックの宿泊施設"
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:35
+#: utils/strings-utils.php:82 utils/utils.php:4423
+#, fuzzy
+msgid "Accommodation number"
+msgstr "宿泊番号"
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:39
+#: admin-pages/pages/reservations/blocked-accom-display.php:72
+#: admin-pages/pages/seasons/seasons.php:76
+msgid "Start date"
+msgstr "開始日"
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:44
+#: admin-pages/pages/reservations/blocked-accom-display.php:73
+#: admin-pages/pages/seasons/seasons.php:77
+msgid "End date"
+msgstr "終了日"
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:49
+#: admin-pages/pages/reservations/blocked-accom-display.php:74
+#: admin-pages/pages/reservations/resa-display.php:278
+#: admin-pages/pages/reservations/resa-display.php:592
+#: admin-pages/pages/reservations/resa-display.php:628 utils/utils.php:4434
+msgid "Comment"
+msgstr "コメント"
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:53
+msgid "Block"
+msgstr "ブロック"
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:62
+#, fuzzy
+msgid "There are no blocked accommodation at the moment"
+msgstr "現時点ではブロックされた宿泊施設はありません"
+
+#: admin-pages/pages/reservations/blocked-accom-display.php:66
+#, fuzzy
+msgid "Blocked accommodation"
+msgstr "ブロックされた宿泊施設"
+
+#: admin-pages/pages/reservations/resa-display.php:31
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: admin-pages/pages/reservations/resa-display.php:34
+#, fuzzy
+msgid "All accommodations"
+msgstr "すべての宿泊施設"
+
+#: admin-pages/pages/reservations/resa-display.php:64
+#, fuzzy
+msgid "Reservation details"
+msgstr "予約の詳細"
+
+#: admin-pages/pages/reservations/resa-display.php:67
+#, fuzzy
+msgid "Click on a number in the calendar to view the reservation details"
+msgstr "予約の詳細を表示するには、カレンダー内の番号をクリックしてください"
+
+#: admin-pages/pages/reservations/resa-display.php:72
+msgid "Hide"
+msgstr "非表示"
+
+#: admin-pages/pages/reservations/resa-display.php:88
+msgid "View all reservations included in this Multiple reservation"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:106
+#, fuzzy
+msgid "Reservation list"
+msgstr "予約リスト"
+
+#: admin-pages/pages/reservations/resa-display.php:109
+#, fuzzy
+msgid "No reservations yet."
+msgstr "まだ予約はありません。"
+
+#: admin-pages/pages/reservations/resa-display.php:116
+#: utils/options-utils.php:402
+#, fuzzy
+msgid "No filter"
+msgstr "フィルタなし"
+
+#: admin-pages/pages/reservations/resa-display.php:117
+#: utils/options-utils.php:403
+#, fuzzy
+#| msgid "Filter by Active reservations"
+msgid "Filter by Reservation id"
+msgstr "アクティブな予約で絞り込み"
+
+#: admin-pages/pages/reservations/resa-display.php:119
+#: utils/options-utils.php:404
+#, fuzzy
+#| msgid "Filter by Active reservations"
+msgid "Filter by Reservation number"
+msgstr "アクティブな予約で絞り込み"
+
+#: admin-pages/pages/reservations/resa-display.php:121
+#: utils/options-utils.php:405
+msgid "Filter by Customer"
+msgstr "顧客で絞り込み"
+
+#: admin-pages/pages/reservations/resa-display.php:122
+#: utils/options-utils.php:406
+msgid "Filter by Check-in date"
+msgstr "チェックイン日で絞り込み"
+
+#: admin-pages/pages/reservations/resa-display.php:123
+#: utils/options-utils.php:407
+msgid "Filter by Check-out date"
+msgstr "チェックアウト日で絞り込み"
+
+#: admin-pages/pages/reservations/resa-display.php:124
+#: utils/options-utils.php:408
+msgid "Filter by Check-in and check-out dates"
+msgstr "チェックインとチェックアウト日で絞り込み"
+
+#: admin-pages/pages/reservations/resa-display.php:125
+#: utils/options-utils.php:409
+msgid "Filter by Active reservations"
+msgstr "アクティブな予約で絞り込み"
+
+#: admin-pages/pages/reservations/resa-display.php:126
+#: utils/options-utils.php:410
+msgid "Filter by Accommodation"
+msgstr "宿泊施設で絞り込み"
+
+#: admin-pages/pages/reservations/resa-display.php:127
+#: utils/options-utils.php:411
+msgid "Filter by Status"
+msgstr "ステータスによるフィルター"
+
+#: admin-pages/pages/reservations/resa-display.php:128
+#: utils/options-utils.php:412
+#, fuzzy
+#| msgid "Filter by Active reservations"
+msgid "Filter by Origin"
+msgstr "アクティブな予約で絞り込み"
+
+#: admin-pages/pages/reservations/resa-display.php:131
+#, fuzzy
+msgid "Sort by Received date &larr;"
+msgstr "受信日順に並べ替え &larr;"
+
+#: admin-pages/pages/reservations/resa-display.php:132
+#, fuzzy
+msgid "Sort by Received date &rarr;"
+msgstr "受信日順に並べ替え &rarr;"
+
+#: admin-pages/pages/reservations/resa-display.php:133
+#, fuzzy
+msgid "Sort by Check-in date &larr;"
+msgstr "チェックイン日順 &larr;"
+
+#: admin-pages/pages/reservations/resa-display.php:134
+#, fuzzy
+msgid "Sort by Check-in date &rarr;"
+msgstr "チェックイン日順 &rarr;"
+
+#: admin-pages/pages/reservations/resa-display.php:138
+#, fuzzy
+msgid "Enter reservation id"
+msgstr "新規予約"
+
+#: admin-pages/pages/reservations/resa-display.php:141
+#, fuzzy
+msgid "Enter reservation number"
+msgstr "新規予約"
+
+#: admin-pages/pages/reservations/resa-display.php:144
+#, fuzzy
+msgid "Enter customer name or email"
+msgstr "顧客名またはメールアドレスの入力"
+
+#: admin-pages/pages/reservations/resa-display.php:149
+#: admin-pages/pages/reservations/reservations.php:26
+msgid "Cancelled"
+msgstr "キャンセル"
+
+#: admin-pages/pages/reservations/resa-display.php:156
+#: utils/options-utils.php:784
+msgid "Website"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:157
+#: utils/options-utils.php:785
+#, fuzzy
+msgid "iCal sync"
+msgstr "Ical sync"
+
+#: admin-pages/pages/reservations/resa-display.php:183
+msgid "Between"
+msgstr "期間を指定"
+
+#: admin-pages/pages/reservations/resa-display.php:185
+#: admin-pages/pages/reservations/resa-exporter-display.php:36
+#: admin-pages/pages/reservations/resa-exporter-display.php:45
+#: admin-pages/pages/reservations/resa-exporter-display.php:54
+msgid "and"
+msgstr "と"
+
+#: admin-pages/pages/reservations/resa-display.php:194
+#: admin-pages/pages/reservations/resa-display.php:230
+#, fuzzy
+msgid "Bulk actions"
+msgstr "ブロックの宿泊施設"
+
+#: admin-pages/pages/reservations/resa-display.php:195
+#: admin-pages/pages/reservations/resa-display.php:231
+#: admin-pages/pages/reservations/resa-display.php:775
+msgid "Confirm"
+msgstr "確認"
+
+#: admin-pages/pages/reservations/resa-display.php:196
+#: admin-pages/pages/reservations/resa-display.php:232
+#, fuzzy
+#| msgid "Cancel"
+msgctxt "reservation bulk cancelation"
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: admin-pages/pages/reservations/resa-display.php:199
+#: admin-pages/pages/reservations/resa-display.php:235
+msgid "Apply"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:269
+#, fuzzy
+msgid "Check-in / Check-out"
+msgstr "チェックイン/チェックアウト"
+
+#: admin-pages/pages/reservations/resa-display.php:271
+#: front-end/booking-form/search-form.php:280
+#, fuzzy
+msgid "Accom. type"
+msgstr "アコム.型"
+
+#: admin-pages/pages/reservations/resa-display.php:272
+#, fuzzy
+msgid "(number)"
+msgstr "数"
+
+#: admin-pages/pages/reservations/resa-display.php:274
+msgid "Information"
+msgstr "インフォメーション"
+
+#: admin-pages/pages/reservations/resa-display.php:276
+#, fuzzy
+msgid "Extras"
+msgstr "エクストラアダルト"
+
+#: admin-pages/pages/reservations/resa-display.php:283
+#, fuzzy
+msgid "Price / Payment"
+msgstr "価格/支払い"
+
+#: admin-pages/pages/reservations/resa-display.php:285
+#, fuzzy
+msgid "Received on / Emails sent"
+msgstr "で受信"
+
+#: admin-pages/pages/reservations/resa-display.php:299
+#, fuzzy
+msgid "Multiple reservation"
+msgstr "新規予約"
+
+#: admin-pages/pages/reservations/resa-display.php:302
+#, fuzzy
+msgid "Multiple reservation id"
+msgstr "新規予約"
+
+#: admin-pages/pages/reservations/resa-display.php:307
+#, fuzzy
+msgid "Reservation id"
+msgstr "予約リスト"
+
+#: admin-pages/pages/reservations/resa-display.php:325
+#: admin-pages/pages/reservations/resa-display.php:340
+msgid "night"
+msgstr "泊"
+
+#: admin-pages/pages/reservations/resa-display.php:326
+#: admin-pages/pages/reservations/resa-display.php:341
+#: admin-pages/pages/rules/rules.php:194 admin-pages/pages/rules/rules.php:203
+#: admin-pages/pages/rules/rules.php:250 admin-pages/pages/rules/rules.php:259
+#: admin-pages/pages/rules/rules.php:321 admin-pages/pages/rules/rules.php:329
+#: admin-pages/pages/rules/rules.php:423 admin-pages/pages/rules/rules.php:427
+msgid "nights"
+msgstr "泊"
+
+#: admin-pages/pages/reservations/resa-display.php:333
+#: front-end/booking-form/search-form.php:23 utils/resa-summary.php:32
+msgid "Check-in:"
+msgstr "チェックイン - IN"
+
+#: admin-pages/pages/reservations/resa-display.php:336
+#: front-end/booking-form/search-form.php:24 utils/resa-summary.php:33
+msgid "Check-out:"
+msgstr "チェックアウト - OUT"
+
+#: admin-pages/pages/reservations/resa-display.php:353
+#, fuzzy
+msgid "Current accom.:"
+msgstr "現在のアコム:"
+
+#: admin-pages/pages/reservations/resa-display.php:360
+msgid "Updating..."
+msgstr "更新中.."
+
+#: admin-pages/pages/reservations/resa-display.php:361
+#, fuzzy
+msgid "Fetching available accom..."
+msgstr "利用可能なアコムを取得中..."
+
+#: admin-pages/pages/reservations/resa-display.php:364
+#, fuzzy
+msgid "Select new accom.:"
+msgstr "新しいアコムを選択します。"
+
+#: admin-pages/pages/reservations/resa-display.php:370
+msgid "No other accommodation available!"
+msgstr "他の宿泊施設はありません"
+
+#: admin-pages/pages/reservations/resa-display.php:397
+#: admin-pages/pages/reservations/reservations.php:74
+#: front-end/booking-form/details-form.php:439
+#, fuzzy
+msgid "Reservation language:"
+msgstr "予約言語:"
+
+#: admin-pages/pages/reservations/resa-display.php:443
+#, fuzzy
+msgid "View reservation"
+msgstr "新規予約"
+
+#: admin-pages/pages/reservations/resa-display.php:448
+msgid "Add a comment"
+msgstr "コメントを追加"
+
+#: admin-pages/pages/reservations/resa-display.php:489
+#, fuzzy
+msgid "Create customer"
+msgstr "顧客の作成"
+
+#: admin-pages/pages/reservations/resa-display.php:490
+#: front-end/booking-form/details-form.php:368
+#, fuzzy
+msgid "Select existing customer"
+msgstr "既存の顧客の選択"
+
+#: admin-pages/pages/reservations/resa-display.php:491
+#, fuzzy
+msgid "Creating customer..."
+msgstr "顧客を作成しています..."
+
+#: admin-pages/pages/reservations/resa-display.php:520
+#, fuzzy
+msgid "Edit price"
+msgstr "選択の編集"
+
+#: admin-pages/pages/reservations/resa-display.php:525
+#: database-actions/database-creation.php:722
+#: database-actions/database-creation.php:744 utils/resa-summary.php:40
+msgid "Price:"
+msgstr "価格:"
+
+#: admin-pages/pages/reservations/resa-display.php:540
+#, fuzzy
+msgid "Edit payments"
+msgstr "支払の編集"
+
+#: admin-pages/pages/reservations/resa-display.php:544
+#, fuzzy
+#| msgid "Stripe payment"
+msgid "View payments"
+msgstr "Stripeペイメント"
+
+#: admin-pages/pages/reservations/resa-display.php:551
+#, fuzzy
+#| msgid "Add a comment"
+msgid "Add a payment"
+msgstr "コメントを追加"
+
+#: admin-pages/pages/reservations/resa-display.php:555
+#: admin-pages/pages/reservations/reservations.php:104 utils/utils.php:1575
+#: utils/utils.php:1584
+msgid "Remaining balance"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:558
+#: admin-pages/pages/reservations/reservations.php:105
+#: utils/options-utils.php:92 utils/strings-utils.php:132
+#: utils/strings-utils.php:330
+#, fuzzy
+msgid "Security bond"
+msgstr "セキュリティボンド"
+
+#: admin-pages/pages/reservations/resa-display.php:561
+#: admin-pages/pages/reservations/reservations.php:106
+#, fuzzy
+#| msgid "To refund:"
+msgid "Full refund"
+msgstr "払い戻しへ:"
+
+#: admin-pages/pages/reservations/resa-display.php:564
+#: admin-pages/pages/reservations/reservations.php:107
+msgid "Full Stripe refund"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:567
+#: admin-pages/pages/reservations/reservations.php:108
+#, fuzzy
+msgid "Security bond refund"
+msgstr "担保証券の金額:"
+
+#: admin-pages/pages/reservations/resa-display.php:570
+#: admin-pages/pages/reservations/resa-display.php:625 utils/utils.php:4435
+#, fuzzy
+msgid "Received on"
+msgstr "で受信"
+
+#: admin-pages/pages/reservations/resa-display.php:579
+#: admin-pages/pages/reservations/resa-display.php:627
+msgid "Method"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:598
+#, fuzzy
+msgid "Add payment"
+msgstr "支払の編集"
+
+#: admin-pages/pages/reservations/resa-display.php:599
+#, fuzzy
+#| msgid "To refund:"
+msgid "Add refund"
+msgstr "払い戻しへ:"
+
+#: admin-pages/pages/reservations/resa-display.php:602
+#, fuzzy
+msgid "Adding payment..."
+msgstr "支払の編集"
+
+#: admin-pages/pages/reservations/resa-display.php:603
+msgid "Adding refund..."
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:608
+msgid "Charge"
+msgstr "チャージ"
+
+#: admin-pages/pages/reservations/resa-display.php:609
+#, fuzzy
+#| msgid "Charging"
+msgid "Charging..."
+msgstr "チャージング"
+
+#: admin-pages/pages/reservations/resa-display.php:612
+#: admin-pages/pages/reservations/resa-display.php:613
+msgid "Refund"
+msgstr "返金"
+
+#: admin-pages/pages/reservations/resa-display.php:614
+#, fuzzy
+#| msgid "Refunding"
+msgid "Refunding..."
+msgstr "返金"
+
+#: admin-pages/pages/reservations/resa-display.php:645
+#, fuzzy
+#| msgid "Displayed?"
+msgid "Delayed"
+msgstr "表示しますか？"
+
+#: admin-pages/pages/reservations/resa-display.php:650
+#, fuzzy
+#| msgid "Stripe payment"
+msgid "Failed payment"
+msgstr "Stripeペイメント"
+
+#: admin-pages/pages/reservations/resa-display.php:660
+#, fuzzy
+#| msgid "Paypal payment"
+msgid "Delete payment"
+msgstr "Paypalペイメント"
+
+#: admin-pages/pages/reservations/resa-display.php:668
+#, fuzzy
+#| msgid "Refund amount:"
+msgid "Refund payment"
+msgstr "返金額:"
+
+#: admin-pages/pages/reservations/resa-display.php:687
+#, fuzzy
+msgid "Edit discount"
+msgstr "割引率の追加"
+
+#: admin-pages/pages/reservations/resa-display.php:691
+#: admin-pages/pages/reservations/reservations.php:78
+#, fuzzy
+#| msgid "Accommodation:"
+msgid "Accom. discount:"
+msgstr "宿泊施設:"
+
+#: admin-pages/pages/reservations/resa-display.php:693
+#: admin-pages/pages/reservations/resa-display.php:715
+#: front-end/booking-form/details-form.php:148
+#, fuzzy
+msgid "Amount type:"
+msgstr "金額の種類:"
+
+#: admin-pages/pages/reservations/resa-display.php:709
+#: admin-pages/pages/reservations/resa-display.php:731
+#, fuzzy
+#| msgid "Percentage"
+msgid "Percent"
+msgstr "パーセンテージ"
+
+#: admin-pages/pages/reservations/resa-display.php:713
+#: admin-pages/pages/reservations/reservations.php:79
+msgid "Global discount:"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:748
+#, fuzzy
+msgid "Fetching logs..."
+msgstr "利用可能なアコムを取得中..."
+
+#: admin-pages/pages/reservations/resa-display.php:776
+#, fuzzy
+#| msgid "Cancel"
+msgctxt "reservation cancelation"
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: admin-pages/pages/reservations/resa-display.php:788
+msgid "Open documents"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:801
+msgid "Email sent."
+msgstr "メールを送信しました。"
+
+#: admin-pages/pages/reservations/resa-display.php:804
+msgid "Send an email"
+msgstr "テストメールを送信"
+
+#: admin-pages/pages/reservations/resa-display.php:805
+#: admin-pages/pages/reservations/resa-display.php:856
+msgid "Send"
+msgstr "送信"
+
+#: admin-pages/pages/reservations/resa-display.php:811
+#: utils/strings-utils.php:302
+msgid "To"
+msgstr "まで"
+
+#: admin-pages/pages/reservations/resa-display.php:814
+#, fuzzy
+#| msgid "If the field is blank %s will be used."
+msgid "If this field is blank the email will be sent to the customer."
+msgstr "フィールドが空白の場合、%sが使用されます。"
+
+#: admin-pages/pages/reservations/resa-display.php:821
+#, fuzzy
+msgid "Add payment link"
+msgstr "支払の編集"
+
+#: admin-pages/pages/reservations/resa-display.php:835
+#: front-end/booking-form/details-form.php:144
+#, fuzzy
+#| msgid "Amount"
+msgid "Amount:"
+msgstr "金額"
+
+#: admin-pages/pages/reservations/resa-display.php:839
+msgid "Insert"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:844
+#, fuzzy
+#| msgid "Add a comment"
+msgid "Add attachments"
+msgstr "コメントを追加"
+
+#: admin-pages/pages/reservations/resa-display.php:847
+#, fuzzy
+msgid "Remove all attachments"
+msgstr "ブロック日を削除しますか?"
+
+#: admin-pages/pages/reservations/resa-display.php:853
+msgid ""
+"Delete added attachment files from the Media Library after email has been "
+"sent"
+msgstr ""
+
+#: admin-pages/pages/reservations/resa-display.php:898
+#, fuzzy
+msgid "Archived reservations"
+msgstr "予約を追加する"
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:16
+#, fuzzy
+msgid "Export reservations"
+msgstr "輸出予約"
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:25
+#, fuzzy
+msgid "Select reservations to be exported:"
+msgstr "エクスポートする予約を選択してください:"
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:29
+#, fuzzy
+msgid "All dates"
+msgstr "すべての夜"
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:33
+#, fuzzy
+msgid "Received between"
+msgstr "間で受信"
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:42
+#, fuzzy
+msgid "Check-in between"
+msgstr "間のチェックイン"
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:51
+#, fuzzy
+msgid "Check-out between"
+msgstr "間のチェックアウト"
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:68
+#: database-actions/database-creation.php:721
+#: database-actions/database-creation.php:743 utils/resa-summary.php:38
+msgid "Accommodation:"
+msgstr "宿泊施設:"
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:95
+#, fuzzy
+msgid "Select status of the reservations to be exported:"
+msgstr "エクスポートする予約を選択してください:"
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:120
+#, fuzzy
+msgid "Select data to be exported:"
+msgstr "エクスポートするデータを選択してください:"
+
+#: admin-pages/pages/reservations/resa-exporter-display.php:146
+#, fuzzy
+msgid "Customer information:"
+msgstr "お客様情報:"
+
+#: admin-pages/pages/reservations/resa-sync-errors-display.php:24
+#, fuzzy, php-format
+#| msgid ""
+#| "%1$s : There was a connection error to synchronize the calendar named "
+#| "%2$s and with the url %3$s for the accommodation %4$s (%5$s)."
+msgid ""
+"%1$s : The signature of the calendar could not be validated for the calendar "
+"named %2$s and with the url %3$s for the accommodation %4$s (%5$s)."
+msgstr ""
+"%1$s: %2$s という名前のカレンダーを同期するための接続エラーがありましたが、宿"
+"泊施設%4$s (%5$s) に対して url%3$s を使用しています。"
+
+#: admin-pages/pages/reservations/resa-sync-errors-display.php:38
+#, fuzzy, php-format
+#| msgid ""
+#| "%1$s : There was a connection error to synchronize the calendar named "
+#| "%2$s and with the url %3$s for the accommodation %4$s (%5$s)."
+msgid ""
+"%1$s : There was an error to synchronize the calendar named %2$s and with "
+"the url %3$s for the accommodation %4$s (%5$s). The error that was returned "
+"is : %6$s"
+msgstr ""
+"%1$s: %2$s という名前のカレンダーを同期するための接続エラーがありましたが、宿"
+"泊施設%4$s (%5$s) に対して url%3$s を使用しています。"
+
+#: admin-pages/pages/reservations/resa-sync-errors-display.php:53
+#, fuzzy, php-format
+msgid ""
+"%1$s : A reservation of the calendar named %2$s could not be imported as the "
+"accommodation %3$s (%4$s) is not available for a check-in on %5$s and a "
+"check-out on %6$s"
+msgstr ""
+"%1$s:%2$s という名前のカレンダーの予約をインポートできませんでした。%5$s の"
+"チェックインと%6$s でのチェックアウトはご利用いただけませんでした。"
+
+#: admin-pages/pages/reservations/resa-sync-errors-display.php:68
+#, fuzzy, php-format
+msgid ""
+"%1$s : A reservation of the calendar named %2$s has been modified. Changes "
+"have not been reflected in the Reservation list below. This reservation is "
+"for the accommodation %3$s (%4$s) and appears in the Reservation list with a "
+"check-in on %5$s and a check-out on %6$s."
+msgstr ""
+"%1$s:%2$s という名前の予定表の予約が変更されました。変更は下記の予約リストに"
+"反映されていません。この予約は宿泊料金の%3$s に対して行われ、予約リストに表示"
+"され、チェックインは%5$s で、チェックアウトは%6$s になります。"
+
+#: admin-pages/pages/reservations/reservations.php:27
+#: utils/strings-utils.php:261
+msgid "Processing"
+msgstr "処理中"
+
+#: admin-pages/pages/reservations/reservations.php:28
+#, fuzzy
+msgid "(not allocated)"
+msgstr "(割り当てられていない)"
+
+#: admin-pages/pages/reservations/reservations.php:33
+#, fuzzy
+#| msgid "Paypal payment"
+msgid "Delayed payments"
+msgstr "Paypalペイメント"
+
+#: admin-pages/pages/reservations/reservations.php:34
+#, fuzzy
+#| msgid "Stripe payment"
+msgid "Failed payments"
+msgstr "Stripeペイメント"
+
+#: admin-pages/pages/reservations/reservations.php:35
+msgid "Paid:"
+msgstr "支払い済:"
+
+#: admin-pages/pages/reservations/reservations.php:36
+msgid "Unpaid:"
+msgstr "入金待ち:"
+
+#: admin-pages/pages/reservations/reservations.php:37
+msgid "Unpaid bond:"
+msgstr "未払い:"
+
+#: admin-pages/pages/reservations/reservations.php:38
+#, fuzzy
+msgid "Delete reservation?"
+msgstr "予約を削除しますか?"
+
+#: admin-pages/pages/reservations/reservations.php:39
+#, fuzzy
+msgid "Cancel reservation?"
+msgstr "予約の作成"
+
+#: admin-pages/pages/reservations/reservations.php:40
+#, fuzzy
+msgid "Select accommodation:"
+msgstr "宿泊施設を選択:"
+
+#: admin-pages/pages/reservations/reservations.php:41
+#, fuzzy
+msgid "Please select an accommodation."
+msgstr "宿泊施設を選択してください。"
+
+#: admin-pages/pages/reservations/reservations.php:42
+#, fuzzy
+msgid ""
+"Please select a customer (or select \"Enter customer details\" and provide "
+"customer details)."
+msgstr ""
+"顧客を選択してください (または [顧客の詳細を入力] を選択し、顧客の詳細を指定"
+"します)。"
+
+#: admin-pages/pages/reservations/reservations.php:43
+#, fuzzy
+msgid "No accommodation available."
+msgstr "宿泊はできません。"
+
+#: admin-pages/pages/reservations/reservations.php:46
+#, fuzzy
+msgid "Invalid price."
+msgstr "無効な価格です。"
+
+#: admin-pages/pages/reservations/reservations.php:47
+#: admin-pages/pages/reservations/reservations.php:421
+#, fuzzy
+msgid "Customer id:"
+msgstr "顧客 id:"
+
+#: admin-pages/pages/reservations/reservations.php:49
+msgid "More information"
+msgstr "詳細情報"
+
+#: admin-pages/pages/reservations/reservations.php:50
+#, fuzzy
+msgid "Less information"
+msgstr "少ない情報"
+
+#: admin-pages/pages/reservations/reservations.php:51
+#: front-end/booking-form/details-form.php:413
+msgid "Comment:"
+msgstr "コメント"
+
+#: admin-pages/pages/reservations/reservations.php:52
+msgid "Error:"
+msgstr "エラー:"
+
+#: admin-pages/pages/reservations/reservations.php:53
+#, fuzzy
+msgid ""
+"The reservation could not be confirmed because there is no accommodation "
+"available for the reservation dates."
+msgstr "ご予約日にご利用可能な宿泊施設がないため、予約を確認できませんでした。"
+
+#: admin-pages/pages/reservations/reservations.php:54
+#, fuzzy
+msgid ""
+"A reservation could not be confirmed because there is no accommodation "
+"available for the reservation dates."
+msgstr "ご予約日にご利用可能な宿泊施設がないため、予約を確認できませんでした。"
+
+#: admin-pages/pages/reservations/reservations.php:56
+#, fuzzy
+msgid "Please select which accommodation you want to export data for."
+msgstr "エクスポートするデータを選択してください。"
+
+#: admin-pages/pages/reservations/reservations.php:57
+#, fuzzy
+msgid "Please select which status you want to export data for."
+msgstr "エクスポートするデータを選択してください。"
+
+#: admin-pages/pages/reservations/reservations.php:58
+#, fuzzy
+msgid "Remove blocked dates?"
+msgstr "ブロック日を削除しますか?"
+
+#: admin-pages/pages/reservations/reservations.php:60
+#, fuzzy
+msgid "Delete synchronization errors messages?"
+msgstr "同期エラーメッセージを削除しますか?"
+
+#: admin-pages/pages/reservations/reservations.php:61
+msgid ""
+"The charge amount is above the amount due by the customer (%amount). Do you "
+"wish to proceed?"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:62
+#, fuzzy
+#| msgid "The charge amount can not be below zero."
+msgid "The charge amount can not be null or below zero."
+msgstr "チャージ金額はゼロ以下にはできません"
+
+#: admin-pages/pages/reservations/reservations.php:63
+msgid "The refund amount can not be above %amount"
+msgstr "払い戻し額は%を超えることはできません"
+
+#: admin-pages/pages/reservations/reservations.php:64
+msgid "The amount should be negative."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:65
+#, fuzzy
+msgid ""
+"Dates have not modified because the accommodation is not available for the "
+"new dates."
+msgstr "新しい日付では宿泊できないため、日付は変更されていません。"
+
+#: admin-pages/pages/reservations/reservations.php:66
+#, fuzzy
+msgid "Check-out must be after check-in."
+msgstr "チェックアウトはチェックイン後に行う必要があります。"
+
+#: admin-pages/pages/reservations/reservations.php:67
+msgid "Invalid date."
+msgstr "無効な日付"
+
+#: admin-pages/pages/reservations/reservations.php:68
+#, fuzzy
+msgid "Id:"
+msgstr "Id："
+
+#: admin-pages/pages/reservations/reservations.php:69
+#, fuzzy
+msgid "Templates..."
+msgstr "テンプレート。。。"
+
+#: admin-pages/pages/reservations/reservations.php:70
+msgid "To refund:"
+msgstr "払い戻しへ:"
+
+#: admin-pages/pages/reservations/reservations.php:71
+msgid "Are you sure you want to block all accommodation for all days?"
+msgstr "すべての宿泊施設を全日ブロックしてもよろしいですか?"
+
+#: admin-pages/pages/reservations/reservations.php:72
+#, fuzzy
+msgid "The \"To\" date must be after the \"From\" date."
+msgstr "「終了」日付は「開始日」より後でなければなりません。"
+
+#: admin-pages/pages/reservations/reservations.php:73
+#, fuzzy
+msgid "Accommodation already blocked for these dates."
+msgstr "選択された日付で利用可能な宿泊施設はありません"
+
+#: admin-pages/pages/reservations/reservations.php:75
+#: utils/strings-utils.php:304 utils/utils.php:4426
+msgid "Price"
+msgstr "価格"
+
+#: admin-pages/pages/reservations/reservations.php:76
+#, fuzzy
+msgid "Price with bond"
+msgstr "債券価格"
+
+#: admin-pages/pages/reservations/reservations.php:77
+#, fuzzy
+msgid "Previous price"
+msgstr "オプション価格"
+
+#: admin-pages/pages/reservations/reservations.php:82
+#, fuzzy
+msgid "Fetching extras..."
+msgstr "利用可能なアコムを取得中..."
+
+#: admin-pages/pages/reservations/reservations.php:83
+#, fuzzy
+#| msgid "Email sent."
+msgid "1 email sent"
+msgstr "メールを送信しました。"
+
+#: admin-pages/pages/reservations/reservations.php:84
+#, fuzzy, php-format
+#| msgid "Email sent."
+msgid "%s emails sent"
+msgstr "メールを送信しました。"
+
+#: admin-pages/pages/reservations/reservations.php:85
+#, fuzzy
+#| msgid "Email sent."
+msgid "Email could not be sent."
+msgstr "メールを送信しました。"
+
+#: admin-pages/pages/reservations/reservations.php:87
+#, fuzzy
+msgid "Select a bulk action."
+msgstr "言語を選択します。"
+
+#: admin-pages/pages/reservations/reservations.php:88
+#, fuzzy
+msgid "No reservations selected."
+msgstr "まだ予約はありません。"
+
+#: admin-pages/pages/reservations/reservations.php:89
+msgid ""
+"There are no reservations to confirm in the selected reservations (only "
+"\"New\" or \"Pending\" reservations can be confirmed)."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:90
+msgid "There are no reservations to cancel in the selected reservations."
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:91
+#, fuzzy
+msgid "Confirm reservations?"
+msgstr "削除の確認"
+
+#: admin-pages/pages/reservations/reservations.php:92
+#, fuzzy
+msgid "Cancel reservations?"
+msgstr "予約の作成"
+
+#: admin-pages/pages/reservations/reservations.php:93
+#, fuzzy
+msgid "Delete reservations?"
+msgstr "予約を削除しますか?"
+
+#: admin-pages/pages/reservations/reservations.php:94
+#, fuzzy
+msgid "Reservations confirmed."
+msgstr "予約確認"
+
+#: admin-pages/pages/reservations/reservations.php:95
+#, fuzzy
+msgid "Reservations cancelled."
+msgstr "予約のキャンセル"
+
+#: admin-pages/pages/reservations/reservations.php:96
+#, fuzzy
+msgid "Reservations deleted."
+msgstr "予約リスト"
+
+#: admin-pages/pages/reservations/reservations.php:101
+#, fuzzy
+#| msgid "Paypal payment"
+msgid "Delete payment?"
+msgstr "Paypalペイメント"
+
+#: admin-pages/pages/reservations/reservations.php:102
+#, fuzzy
+#| msgid "Refund amount:"
+msgid "Refund payment?"
+msgstr "返金額:"
+
+#: admin-pages/pages/reservations/reservations.php:110
+#, fuzzy
+#| msgid "Select a check-in date"
+msgid "Select a check-in date."
+msgstr "チェックイン日を選択"
+
+#: admin-pages/pages/reservations/reservations.php:111
+#, fuzzy
+#| msgid "Select a check-out date"
+msgid "Select a check-out date."
+msgstr "チェックアウト日を選択"
+
+#: admin-pages/pages/reservations/reservations.php:112
+#: utils/strings-utils.php:281
+msgid "Past"
+msgstr "過去"
+
+#: admin-pages/pages/reservations/reservations.php:113
+#, fuzzy
+msgid "There was a connection error."
+msgstr "ご利用条件エラー"
+
+#: admin-pages/pages/reservations/reservations.php:114
+#, fuzzy
+msgid "Please enter a check-in date and a check-out date."
+msgstr "チェックイン日およびチェックアウト日なし"
+
+#: admin-pages/pages/reservations/reservations.php:115
+#, fuzzy
+#| msgid "Select a check-in date"
+msgid "Please enter a check-in date."
+msgstr "チェックイン日を選択"
+
+#: admin-pages/pages/reservations/reservations.php:116
+#, fuzzy
+#| msgid "Select a check-out date"
+msgid "Please enter a check-out date."
+msgstr "チェックアウト日を選択"
+
+#: admin-pages/pages/reservations/reservations.php:117
+#, fuzzy
+msgid "Please select the number of adults."
+msgstr "エクスポートするデータを選択してください。"
+
+#: admin-pages/pages/reservations/reservations.php:118
+#, fuzzy
+msgid "Please select the number of adults and the number of children."
+msgstr "子供の数:"
+
+#: admin-pages/pages/reservations/reservations.php:119
+#, fuzzy
+#| msgid "- Number of children:"
+msgid "Please select the number of children."
+msgstr "- 子供の人数:"
+
+#: admin-pages/pages/reservations/reservations.php:120
+#, fuzzy
+msgid "The check-out date must be after the check-in date."
+msgstr "チェックイン日前のチェックアウト日"
+
+#: admin-pages/pages/reservations/reservations.php:121
+#, fuzzy
+msgid "(1 adult)"
+msgstr "(大人1名)"
+
+#: admin-pages/pages/reservations/reservations.php:122
+msgid "(%nb_adults adults)"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:123
+msgid "(%nb_persons persons)"
+msgstr ""
+
+#: admin-pages/pages/reservations/reservations.php:280
+#, fuzzy
+msgid ""
+"January,February,March,April,May,June,July,August,September,October,November,"
+"December"
+msgstr "1月、2月、3月、4月、5月、6月、7月、8月、9月、10月、11月、12月"
+
+#: admin-pages/pages/reservations/reservations.php:282
+#, fuzzy
+msgid "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec"
+msgstr "1月、2月、3月、4月、5月、6月、7月、8月、9月、10月、11月、12月"
+
+#: admin-pages/pages/reservations/reservations.php:284
+#, fuzzy
+msgid "Sun,Mon,Tue,Wed,Thu,Fri,Sat"
+msgstr "日曜日、月、火、水、木、金、土"
+
+#: admin-pages/pages/reservations/reservations.php:341
+#: admin-pages/pages/reservations/reservations.php:342
+#, fuzzy
+#| msgid "Stripe payment"
+msgid "Offline payment"
+msgstr "Stripeペイメント"
+
+#: admin-pages/pages/reservations/reservations.php:416 hbook.php:565
+#: utils/utils.php:4788
+msgid "Reservations"
+msgstr "予約"
+
+#: admin-pages/pages/reservations/reservations.php:429
+#, fuzzy, php-format
+msgid "(Check-out in %s)"
+msgstr "チェックアウト日"
+
+#: admin-pages/pages/rules/rules.php:12
+#, fuzzy
+msgid "Compulsory"
+msgstr "強制"
+
+#: admin-pages/pages/rules/rules.php:13
+#, fuzzy
+msgid "Special rate"
+msgstr "特別料金"
+
+#: admin-pages/pages/rules/rules.php:14
+#, fuzzy
+msgid "Compulsory and special rate"
+msgstr "強制・特別料金"
+
+#: admin-pages/pages/rules/rules.php:15 utils/strings-utils.php:316
+msgid "Discount"
+msgstr "割引"
+
+#: admin-pages/pages/rules/rules.php:16 utils/strings-utils.php:326
+#: utils/utils.php:2778
+msgid "Coupon"
+msgstr "クーポン"
+
+#: admin-pages/pages/rules/rules.php:20
+#: front-end/booking-form/search-form.php:16
+msgid "Any"
+msgstr "任意"
+
+#: admin-pages/pages/rules/rules.php:21 admin-pages/pages/seasons/seasons.php:8
+#, fuzzy
+msgid "No days selected"
+msgstr "選択日なし"
+
+#: admin-pages/pages/rules/rules.php:22
+#, fuzzy
+msgid "New rule"
+msgstr "新しいルール"
+
+#: admin-pages/pages/rules/rules.php:42 utils/utils.php:4803
+#, fuzzy
+msgid "Booking rules"
+msgstr "予約ルール"
+
+#: admin-pages/pages/rules/rules.php:53 admin-pages/pages/rules/rules.php:295
+#, fuzzy
+msgid "Check-in days"
+msgstr "チェックイン日"
+
+#: admin-pages/pages/rules/rules.php:54 admin-pages/pages/rules/rules.php:110
+#: admin-pages/pages/rules/rules.php:166 admin-pages/pages/rules/rules.php:222
+#: admin-pages/pages/rules/rules.php:278
+msgid "Add rule"
+msgstr "ルールを追加"
+
+#: admin-pages/pages/rules/rules.php:59
+#, fuzzy
+msgid "Customers can check-in any day."
+msgstr "お客様はいつでもチェックインできます。"
+
+#: admin-pages/pages/rules/rules.php:67
+#, fuzzy
+msgid "Allowed check-in days"
+msgstr "チェックイン可能日"
+
+#: admin-pages/pages/rules/rules.php:109 admin-pages/pages/rules/rules.php:296
+#, fuzzy
+msgid "Check-out days"
+msgstr "チェックアウト日"
+
+#: admin-pages/pages/rules/rules.php:115
+#, fuzzy
+msgid "Customers can check-out any day."
+msgstr "お客様はいつでもチェックアウトできます。"
+
+#: admin-pages/pages/rules/rules.php:123
+#, fuzzy
+msgid "Allowed check-out days"
+msgstr "許可されたチェックアウト日"
+
+#: admin-pages/pages/rules/rules.php:165
+#, fuzzy
+msgid "Minimum stay length"
+msgstr "最低滞在日数"
+
+#: admin-pages/pages/rules/rules.php:171
+#, fuzzy
+msgid "There are no minimum stay rules."
+msgstr "最低滞在ルールはありません。"
+
+#: admin-pages/pages/rules/rules.php:179 admin-pages/pages/rules/rules.php:297
+#, fuzzy
+msgid "Minimum stay"
+msgstr "最低宿泊数"
+
+#: admin-pages/pages/rules/rules.php:221
+#, fuzzy
+msgid "Maximum stay length"
+msgstr "最大滞在時間"
+
+#: admin-pages/pages/rules/rules.php:227
+#, fuzzy
+msgid "There are no maximum stay rules."
+msgstr "最大滞在ルールはありません。"
+
+#: admin-pages/pages/rules/rules.php:235 admin-pages/pages/rules/rules.php:298
+#, fuzzy
+msgid "Maximum stay"
+msgstr "最大宿泊数"
+
+#: admin-pages/pages/rules/rules.php:277
+#, fuzzy
+msgid "Advanced rules"
+msgstr "詳細ルール"
+
+#: admin-pages/pages/rules/rules.php:282
+msgid ""
+"You may define advanced rules to create compulsory settings for stays, or to "
+"create special rates or discounts, or to add a rule for a coupon."
+msgstr ""
+"拡張ルールを定義して、滞在用の強制設定を作成したり、特別料金や割引を作成した"
+"り、クーポンのルールを追加することができます。"
+
+#: admin-pages/pages/rules/rules.php:285
+#, fuzzy
+msgid "There are no advanced rules."
+msgstr "高度なルールはありません。"
+
+#: admin-pages/pages/rules/rules.php:294
+#, fuzzy
+msgid "Rule type"
+msgstr "ルールタイプ"
+
+#: admin-pages/pages/rules/rules.php:367
+#, fuzzy
+msgid "Guests who check-in on:"
+msgstr "チェックインをご希望の場合:"
+
+#: admin-pages/pages/rules/rules.php:370
+#, fuzzy
+msgid "Apply a special rate when check-in is on:"
+msgstr "チェックインの際に特別料金を適用する:"
+
+#: admin-pages/pages/rules/rules.php:373
+#, fuzzy
+msgid "Apply a discount when check-in is on:"
+msgstr "チェックインがオンの場合の割引の適用:"
+
+#: admin-pages/pages/rules/rules.php:376
+msgid "Apply a coupon when check-in is on:"
+msgstr "チェックインがオンの場合にクーポンを適用:"
+
+#: admin-pages/pages/rules/rules.php:382
+msgid "...must check-out on:"
+msgstr "…要チェックアウト日:"
+
+#: admin-pages/pages/rules/rules.php:385
+#, fuzzy
+msgid "...and must have a minimum stay of:"
+msgstr "以下の最低滞在が必要です。"
+
+#: admin-pages/pages/rules/rules.php:388
+#, fuzzy
+msgid "...and must have a maximum stay of:"
+msgstr "次の最大の滞在を持っている必要があります。"
+
+#: admin-pages/pages/rules/rules.php:391
+#, fuzzy
+msgid "...for accommodation:"
+msgstr "宿泊施設の場合:"
+
+#: admin-pages/pages/rules/rules.php:394
+#, fuzzy
+msgid "...and for seasons:"
+msgstr "そして、季節のために:"
+
+#: admin-pages/pages/rules/rules.php:400
+#, fuzzy
+msgid "...and check-out is on:"
+msgstr "チェックアウトは次のとおりです。"
+
+#: admin-pages/pages/rules/rules.php:403
+#, fuzzy
+msgid "...and minimum stay is:"
+msgstr "・・・最低滞在数:"
+
+#: admin-pages/pages/rules/rules.php:406
+#, fuzzy
+msgid "...and maximum stay is:"
+msgstr "... そして最大の滞在は:"
+
+#: admin-pages/pages/rules/rules.php:409
+msgid "Select accommodation and seasons in the Rates page."
+msgstr "料金ページで宿泊施設とシーズンを選択してください。"
+
+#: admin-pages/pages/rules/rules.php:424
+#, fuzzy
+msgid "(leave empty for no minimum stay)"
+msgstr "(最低滞在の場合は空のまま)"
+
+#: admin-pages/pages/rules/rules.php:428
+#, fuzzy
+msgid "(leave empty for no maximum stay)"
+msgstr "(最大滞在なしの場合は空のまま)"
+
+#: admin-pages/pages/seasons/seasons.php:7
+#, fuzzy
+msgid "New season"
+msgstr "ニューシーズン"
+
+#: admin-pages/pages/seasons/seasons.php:23
+#: admin-pages/pages/seasons/seasons.php:151
+#, fuzzy
+msgid "Add new season"
+msgstr "新しいシーズンを追加"
+
+#: admin-pages/pages/seasons/seasons.php:40
+#, php-format
+msgid ""
+"Visitors can not book on your website as the \"Maximum selectable date\" is "
+"set to %s. You can change this on %s."
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:43
+#: admin-pages/pages/seasons/seasons.php:57
+#, fuzzy
+#| msgid "Misc"
+msgid "Misc page"
+msgstr "その他"
+
+#: admin-pages/pages/seasons/seasons.php:54
+#, php-format
+msgid ""
+"Visitors can book on your website until %s. You can modify the \"Maximum "
+"selectable date\" on %s."
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:68
+#, fuzzy
+msgid "No seasons set yet."
+msgstr "まだ季節が設定されていません。"
+
+#: admin-pages/pages/seasons/seasons.php:75 utils/strings-utils.php:300
+msgid "Season"
+msgstr "シーズン"
+
+#: admin-pages/pages/seasons/seasons.php:78
+msgid "Days"
+msgstr "日"
+
+#: admin-pages/pages/seasons/seasons.php:88
+msgid "Priority"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:91
+msgid "Default"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:106
+#, fuzzy
+#| msgid "Name"
+msgid "Name:"
+msgstr "名前"
+
+#: admin-pages/pages/seasons/seasons.php:111
+msgid "Priority season"
+msgstr ""
+
+#: admin-pages/pages/seasons/seasons.php:113
+#, fuzzy
+msgid "Regular season"
+msgstr "ニューシーズン"
+
+#: admin-pages/pages/seasons/seasons.php:115
+#, fuzzy
+msgid "Default season"
+msgstr "ニューシーズン"
+
+#: admin-pages/pages/text/text.php:12
+#, fuzzy
+msgid "Select a language."
+msgstr "言語を選択します。"
+
+#: admin-pages/pages/text/text.php:14
+#, fuzzy
+msgid "All text has been saved."
+msgstr "すべてのテキストが保存されました。"
+
+#: admin-pages/pages/text/text.php:20
+#, fuzzy
+msgid "Search form text"
+msgstr "検索フォームテキスト"
+
+#: admin-pages/pages/text/text.php:24
+#, fuzzy
+msgid "Search form messages"
+msgstr "フォームメッセージの検索"
+
+#: admin-pages/pages/text/text.php:32
+#, fuzzy
+msgid "Extra services selection"
+msgstr "追加サービスの選択"
+
+#: admin-pages/pages/text/text.php:36
+#, fuzzy
+msgid "Booking details form text"
+msgstr "予約詳細フォームテキスト"
+
+#: admin-pages/pages/text/text.php:40
+#, fuzzy
+msgid "Booking details form messages"
+msgstr "予約詳細フォームのメッセージ"
+
+#: admin-pages/pages/text/text.php:48
+msgid "Summary"
+msgstr "概要"
+
+#: admin-pages/pages/text/text.php:52
+#, fuzzy
+msgid "Payment choice"
+msgstr "支払いの選択"
+
+#: admin-pages/pages/text/text.php:56
+msgid "Stripe payment"
+msgstr "Stripeペイメント"
+
+#: admin-pages/pages/text/text.php:60
+msgid "Paypal payment"
+msgstr "Paypalペイメント"
+
+#: admin-pages/pages/text/text.php:64
+#, fuzzy
+msgid "External payment description"
+msgstr "Paypal の支払いの説明"
+
+#: admin-pages/pages/text/text.php:68
+#, fuzzy
+msgid "Book now area"
+msgstr "今すぐ予約エリア"
+
+#: admin-pages/pages/text/text.php:72
+msgid "Error messages"
+msgstr "エラー メッセージ"
+
+#: admin-pages/pages/text/text.php:76
+#, fuzzy
+msgid "Calendars legend"
+msgstr "カレンダーの凡例"
+
+#: admin-pages/pages/text/text.php:80
+#, fuzzy
+msgid "Rates table"
+msgstr "料金表"
+
+#: admin-pages/pages/text/text.php:84
+msgid "Invoice table"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:88
+#, fuzzy
+msgid "Payments history table"
+msgstr "支払セクションのタイトル"
+
+#: admin-pages/pages/text/text.php:92 blocks/blocks.php:49
+#, fuzzy
+msgid "Accommodation list"
+msgstr "宿泊施設一覧"
+
+#: admin-pages/pages/text/text.php:96 blocks/blocks.php:93
+msgid "Payment link form"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:100
+#, fuzzy
+msgid "Payment link button"
+msgstr "今すぐ予約ボタン"
+
+#: admin-pages/pages/text/text.php:115 utils/utils.php:4863
+#, fuzzy
+#| msgid "Reservations"
+msgid "Text/Translations"
+msgstr "予約"
+
+#: admin-pages/pages/text/text.php:119
+#, php-format
+msgid ""
+"HBook includes front-end translation files for many languages and they can "
+"be found in the folder %s."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:120
+#, php-format
+msgid ""
+"You will see the imported strings in the %s section below, where you can "
+"edit any text displayed by HBook and translate HBook strings for all "
+"languages."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:144
+#, fuzzy
+msgid "The language file is not valid."
+msgstr "言語ファイルが無効です。"
+
+#: admin-pages/pages/text/text.php:180
+#, fuzzy
+msgid "No new strings have been imported."
+msgstr "フォームの設定が保存されました。"
+
+#: admin-pages/pages/text/text.php:182
+#, fuzzy
+#| msgid "The import was successful (%d strings have been imported)."
+msgid "The import was successful (1 string has been imported)."
+msgstr "インポートは成功しました (%d 個の文字列がインポートされました)。"
+
+#: admin-pages/pages/text/text.php:184
+#, php-format
+msgid "The import was successful (%d strings have been imported)."
+msgstr "インポートは成功しました (%d 個の文字列がインポートされました)。"
+
+#: admin-pages/pages/text/text.php:194
+#, fuzzy
+msgid "Import a file"
+msgstr "ファイルをインポートする"
+
+#: admin-pages/pages/text/text.php:221
+#, fuzzy
+msgid "Overwrite existing strings"
+msgstr "既存の顧客の選択"
+
+#: admin-pages/pages/text/text.php:231
+#, fuzzy
+msgid "Export a file"
+msgstr "ファイルをエクスポートする"
+
+#: admin-pages/pages/text/text.php:258
+msgid "Front-end strings"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:261 utils/options-utils.php:1639
+msgid "Save changes"
+msgstr "変更を保存"
+
+#: admin-pages/pages/text/text.php:271
+msgid "Here you can modify any front-end strings for any set language."
+msgstr ""
+
+#: admin-pages/pages/text/text.php:274
+msgid "Show untranslated strings only"
+msgstr ""
+
+#: admin-pages/pages/text/text.php:276
+#, fuzzy
+#| msgid "Reservations"
+msgid "Text sections"
+msgstr "予約"
+
+#: admin-pages/pages/text/text.php:317
+#, fuzzy
+msgid "Leave the following fields blank to use their default name."
+msgstr "既定の名前を使用するには、次のフィールドを空白のままにします。"
+
+#: admin-pages/pages/text/text.php:333
+#, fuzzy
+msgid "You can use these variables:"
+msgstr "次の変数を使用できます。"
+
+#: admin-pages/pages/text/text.php:335
+#, fuzzy
+msgid "You can use this variable:"
+msgstr "次の変数を使用できます。"
+
+#: blocks/blocks.php:18
+#, fuzzy
+msgid "HBook Blocks"
+msgstr "HBook ブロック"
+
+#: blocks/blocks.php:47
+#, fuzzy
+msgid "Accommodation id:"
+msgstr "宿泊施設の id:"
+
+#: blocks/blocks.php:50
+#, fuzzy
+msgid "Accommodation list settings"
+msgstr "宿泊施設一覧の設定"
+
+#: blocks/blocks.php:51
+#, fuzzy
+msgid "Accommodation list block."
+msgstr "宿泊リストブロック。"
+
+#: blocks/blocks.php:52
+msgid "Number of columns (maximum)"
+msgstr ""
+
+#: blocks/blocks.php:53
+#, fuzzy
+msgid "Display thumbnail"
+msgstr "サムネイル表示"
+
+#: blocks/blocks.php:54
+#, fuzzy
+msgid "Link thumbnail to accommodation"
+msgstr "サムネイルを宿泊施設にリンク"
+
+#: blocks/blocks.php:55
+#, fuzzy
+msgid "Link title to accommodation"
+msgstr "サムネイルを宿泊施設にリンク"
+
+#: blocks/blocks.php:56 utils/options-utils.php:1174
+#, fuzzy
+msgid "Thumbnail width (in px)"
+msgstr "サムネイルの幅 (ピクセル)"
+
+#: blocks/blocks.php:57 utils/options-utils.php:1180
+#, fuzzy
+msgid "Thumbnail height (in px)"
+msgstr "サムネイルの高さ (ピクセル)"
+
+#: blocks/blocks.php:58
+#, fuzzy
+msgid "Display a button to view accommodation"
+msgstr "宿泊ページへのリンクボタンを表示する"
+
+#: blocks/blocks.php:59
+#, fuzzy
+msgid "Display a button to book accommodation"
+msgstr "宿泊ページへのリンクボタンを表示する"
+
+#: blocks/blocks.php:61
+#, fuzzy
+msgid "Availability calendar"
+msgstr "空室カレンダー"
+
+#: blocks/blocks.php:62
+#, fuzzy
+msgid "Availability calendar settings"
+msgstr "可用性カレンダーの設定"
+
+#: blocks/blocks.php:63
+#, fuzzy
+msgid "Availability calendar block."
+msgstr "可用性カレンダーブロック。"
+
+#: blocks/blocks.php:67
+#, fuzzy
+msgid "Rates settings"
+msgstr "料金設定"
+
+#: blocks/blocks.php:68
+#, fuzzy
+msgid "Rates block."
+msgstr "レートブロック。"
+
+#: blocks/blocks.php:69
+#, fuzzy
+msgid "Rates type"
+msgstr "料金タイプ"
+
+#: blocks/blocks.php:71
+#, fuzzy
+msgid "Extra adults"
+msgstr "エクストラアダルト"
+
+#: blocks/blocks.php:72
+#, fuzzy
+msgid "Extra children"
+msgstr "追加の子供"
+
+#: blocks/blocks.php:73
+#, fuzzy
+msgid "Rates sorting"
+msgstr "レートソート"
+
+#: blocks/blocks.php:74
+msgid "Grouped"
+msgstr ""
+
+#: blocks/blocks.php:75
+msgid "Chronological"
+msgstr ""
+
+#: blocks/blocks.php:76
+#, fuzzy
+msgid "Show season name"
+msgstr "シーズン名を表示"
+
+#: blocks/blocks.php:77
+#, fuzzy
+msgid "Please select an accommodation"
+msgstr "宿泊施設を選択してください"
+
+#: blocks/blocks.php:79
+msgid "Booking form"
+msgstr "予約フォーム"
+
+#: blocks/blocks.php:80
+#, fuzzy
+msgid "Booking form settings"
+msgstr "予約フォームの設定"
+
+#: blocks/blocks.php:81
+#, fuzzy
+msgid "Booking form block."
+msgstr "予約フォームブロック。"
+
+#: blocks/blocks.php:82
+#, fuzzy
+msgid "Search only"
+msgstr "検索のみ"
+
+#: blocks/blocks.php:83
+msgid "Redirection"
+msgstr "リダイレクト"
+
+#: blocks/blocks.php:84
+#, fuzzy
+msgid "Please select a redirection page"
+msgstr "リダイレクトページを選択してください"
+
+#: blocks/blocks.php:85
+msgid "Thank you page"
+msgstr ""
+
+#: blocks/blocks.php:87
+#, fuzzy
+msgid "Reservation summary"
+msgstr "予約マネージャー"
+
+#: blocks/blocks.php:88
+#, fuzzy
+msgid "Reservation summary block."
+msgstr "予約マネージャー"
+
+#: blocks/blocks.php:91
+#, fuzzy
+msgid "Starting price block."
+msgstr "開始価格:"
+
+#: blocks/blocks.php:94
+#, fuzzy
+msgid "Payment link form settings"
+msgstr "予約フォームの設定"
+
+#: blocks/blocks.php:95
+#, fuzzy
+msgid "Payment link form block."
+msgstr "予約フォームブロック。"
+
+#: blocks/blocks.php:112
+msgid "Current"
+msgstr "現在"
+
+#: blocks/blocks.php:149
+#, fuzzy
+#| msgid "Discount"
+msgid "One column"
+msgstr "割引"
+
+#: blocks/blocks.php:150
+msgid "Two columnns"
+msgstr ""
+
+#: blocks/blocks.php:151
+msgid "Three columns"
+msgstr ""
+
+#: blocks/blocks.php:152
+msgid "Four columns"
+msgstr ""
+
+#: blocks/blocks.php:385
+#, fuzzy
+msgid "Please select an Accommodation in the Rates settings."
+msgstr "料金設定で宿泊施設を選択してください。"
+
+#: database-actions/database-actions.php:1355
+#: database-actions/database-actions.php:1361
+#: database-actions/database-actions.php:1372
+#: database-actions/database-actions.php:1378
+msgid "Blocked automatically"
+msgstr "自動ブロック"
+
+#: database-actions/database-creation.php:189
+#: database-actions/database-creation.php:686
+#, fuzzy
+msgid "Admin notification"
+msgstr "管理者の通知"
+
+#: database-actions/database-creation.php:190
+#: database-actions/database-creation.php:709
+#, fuzzy
+msgid "Customer notification"
+msgstr "顧客通知"
+
+#: database-actions/database-creation.php:648
+#, fuzzy
+msgid "Enter your details"
+msgstr "顧客の詳細の入力"
+
+#: database-actions/database-creation.php:652
+msgid "Phone"
+msgstr ""
+
+#: database-actions/database-creation.php:653
+#, fuzzy
+#| msgid "Addresses"
+msgid "Address line 1"
+msgstr "マイアカウント"
+
+#: database-actions/database-creation.php:654
+#, fuzzy
+#| msgid "Addresses"
+msgid "Address line 2"
+msgstr "マイアカウント"
+
+#: database-actions/database-creation.php:655
+msgid "City"
+msgstr ""
+
+#: database-actions/database-creation.php:656
+#, fuzzy
+#| msgid "Coupon:"
+msgid "Zip code"
+msgstr "クーポン:"
+
+#: database-actions/database-creation.php:658
+msgid "State / province"
+msgstr ""
+
+#: database-actions/database-creation.php:692
+#, fuzzy
+msgid "New reservation:"
+msgstr "新規予約:"
+
+#: database-actions/database-creation.php:693
+msgid "- Customer first name:"
+msgstr "- お客様のお名前："
+
+#: database-actions/database-creation.php:694
+msgid "- Customer last name:"
+msgstr "- お客様のふりがな："
+
+#: database-actions/database-creation.php:695
+msgid "- Customer email:"
+msgstr "- お客様のメールアドレス："
+
+#: database-actions/database-creation.php:696
+#, fuzzy
+msgid "- Check-in date:"
+msgstr "-チェックイン日:"
+
+#: database-actions/database-creation.php:697
+#, fuzzy
+msgid "- Check-out date:"
+msgstr "-チェックアウト日:"
+
+#: database-actions/database-creation.php:698
+#, fuzzy
+msgid "- Number of adults:"
+msgstr "-大人の数:"
+
+#: database-actions/database-creation.php:699
+msgid "- Number of children:"
+msgstr "- 子供の人数:"
+
+#: database-actions/database-creation.php:700
+msgid "- Accommodation:"
+msgstr "- 宿泊施設"
+
+#: database-actions/database-creation.php:701
+#, fuzzy
+msgid "- Price:"
+msgstr "価格"
+
+#: database-actions/database-creation.php:713
+#: database-actions/database-creation.php:735
+msgid "Your reservation"
+msgstr "あなたの予約"
+
+#: database-actions/database-creation.php:715
+#: database-actions/database-creation.php:737
+msgid "Hello"
+msgstr "こんにちは"
+
+#: database-actions/database-creation.php:716
+#: database-actions/database-creation.php:738
+msgid ""
+"Thank you for choosing to stay with us! We are pleased to confirm your "
+"reservation as follows:"
+msgstr ""
+"ご予約いただきありがとうございます！以下のようにご予約を確認させていただきま"
+"す。"
+
+#: database-actions/database-creation.php:717
+#: database-actions/database-creation.php:739
+#, fuzzy
+msgid "Check-in date:"
+msgstr "チェックイン日:"
+
+#: database-actions/database-creation.php:718
+#: database-actions/database-creation.php:740
+#, fuzzy
+msgid "Check-out date:"
+msgstr "チェックアウト日:"
+
+#: database-actions/database-creation.php:719
+#: database-actions/database-creation.php:741
+#, fuzzy
+msgid "Number of adults:"
+msgstr "大人の人数:"
+
+#: database-actions/database-creation.php:720
+#: database-actions/database-creation.php:742
+#, fuzzy
+msgid "Number of children:"
+msgstr "子供の数:"
+
+#: database-actions/database-creation.php:723
+#: database-actions/database-creation.php:745
+msgid "See you soon!"
+msgstr "お待ちしています！"
+
+#: front-end/booking-form/available-accom.php:45
+#, fuzzy
+msgid "Could not find any accommodation that would suit one person only."
+msgstr "1名様には宿泊できません"
+
+#: front-end/booking-form/available-accom.php:46
+#, fuzzy
+msgid "Could not find any accommodation that would suit %persons_nb persons."
+msgstr "1名様には宿泊できません"
+
+#: front-end/booking-form/available-accom.php:47
+#, fuzzy
+msgid ""
+"Could not find any accommodation that would suit %persons_nb persons only."
+msgstr "1名様には宿泊できません"
+
+#: front-end/booking-form/available-accom.php:51
+#: front-end/booking-form/available-accom.php:873
+#, fuzzy
+#| msgid "No accommodation selected"
+msgid "This accommodation is selected."
+msgstr "宿泊施設が選択されていません"
+
+#: front-end/booking-form/available-accom.php:52
+#: front-end/booking-form/available-accom.php:665
+#: front-end/booking-form/search-form.php:17 utils/resa-options.php:59
+#, fuzzy
+#| msgid "Accommodation"
+msgid "Accommodation %n"
+msgstr "宿泊施設"
+
+#: front-end/booking-form/available-accom.php:53
+#: front-end/booking-form/available-accom.php:54
+#, fuzzy
+msgid "Select accommodation number"
+msgstr "宿泊施設を選択:"
+
+#: front-end/booking-form/available-accom.php:94
+#, fuzzy
+msgid "Show unavailable accommodation at the chosen dates"
+msgstr "選択した日付で利用可能なすべての宿泊施設へのリンク"
+
+#: front-end/booking-form/available-accom.php:107
+#, fuzzy
+msgid "Show accommodation not suitable for 1 person"
+msgstr "宿泊施設は1名には適していません。"
+
+#: front-end/booking-form/available-accom.php:109
+#, fuzzy, php-format
+msgid "Show accommodation not suitable for %s persons"
+msgstr "宿泊施設は1名には適していません。"
+
+#: front-end/booking-form/available-accom.php:112
+#, fuzzy, php-format
+msgid "Show accommodation not suitable for %s adult(s) and %s child(ren)"
+msgstr "宿泊施設は1名には適していません。"
+
+#: front-end/booking-form/available-accom.php:643
+msgid ""
+"Could not find any result matching the search criteria. Check the suggestion "
+"below."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:753
+#, fuzzy
+msgid "Not available at the chosen dates."
+msgstr "選択された日付で利用可能な宿泊施設はありません"
+
+#: front-end/booking-form/available-accom.php:759
+#, fuzzy
+msgid "Not suitable for 1 person."
+msgstr "チェックインには対応していません"
+
+#: front-end/booking-form/available-accom.php:761
+#, php-format
+msgid "Not suitable for %s persons."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:767
+#, fuzzy, php-format
+msgid "Not suitable for %s adult(s) and %s child(ren)."
+msgstr "宿泊施設は1名には適していません。"
+
+#: front-end/booking-form/available-accom.php:881
+msgid ""
+"You have already selected %selected_accom_nb %accom_name. There are no more "
+"%accom_name available."
+msgstr ""
+
+#: front-end/booking-form/available-accom.php:1012 utils/resa-summary.php:39
+#, fuzzy
+msgid "Accommodation number:"
+msgstr "宿泊番号:"
+
+#: front-end/booking-form/details-form.php:55
+#, fuzzy
+msgid "The selected accommodation is not available at the chosen dates."
+msgstr "宿泊施設は、選択された日付では利用できません"
+
+#: front-end/booking-form/details-form.php:141
+#, fuzzy
+#| msgid "Discount"
+msgid "Discount:"
+msgstr "割引"
+
+#: front-end/booking-form/details-form.php:262
+#, fuzzy
+msgid ""
+"There are no active payment gateways. Please activate at least one payment "
+"gateway in HBook settings (HBook > Payment)."
+msgstr ""
+"アクティブな支払ゲートウェイがありません。HBook 設定 (HBook > お支払い) で、"
+"少なくとも1つのペイメントゲートウェイを有効にしてください。"
+
+#: front-end/booking-form/details-form.php:307
+msgid "Loading summary..."
+msgstr ""
+
+#: front-end/booking-form/details-form.php:363
+msgid "Customer:"
+msgstr "お客様:"
+
+#: front-end/booking-form/details-form.php:372
+#, fuzzy
+msgid "Enter customer details"
+msgstr "顧客の詳細の入力"
+
+#: front-end/booking-form/details-form.php:404
+#, fuzzy
+msgid "Additional information:"
+msgstr "お客様情報:"
+
+#: front-end/booking-form/details-form.php:423
+#, fuzzy
+#| msgid "Status"
+msgid "Status:"
+msgstr "ステータス"
+
+#: front-end/booking-form/details-form.php:486
+#, fuzzy
+msgid "Create reservation"
+msgstr "予約の作成"
+
+#: front-end/booking-form/details-form.php:491
+#, fuzzy
+msgid "Updating database..."
+msgstr "データベースを更新しています..."
+
+#: front-end/booking-form/search-form.php:18 utils/utils.php:4424
+msgid "Adults"
+msgstr "大人"
+
+#: front-end/booking-form/search-form.php:19 utils/utils.php:4425
+msgid "Children"
+msgstr "子"
+
+#: front-end/booking-form/search-form.php:20 utils/strings-utils.php:18
+#, fuzzy
+msgid "Number of accommodation"
+msgstr "1施設あたり"
+
+#: front-end/booking-form/search-form.php:21 utils/utils.php:4419
+msgid "Check-in"
+msgstr "チェックイン"
+
+#: front-end/booking-form/search-form.php:22 utils/utils.php:4420
+msgid "Check-out"
+msgstr "チェックアウト"
+
+#: front-end/booking-form/search-form.php:25
+#, fuzzy
+msgid "Number of accommodation:"
+msgstr "このタイプの宿泊施設の数:"
+
+#: front-end/booking-form/search-form.php:28
+#, fuzzy
+msgid "Change search"
+msgstr "検索ボタンの変更"
+
+#: front-end/booking-form/search-form.php:288
+#, fuzzy
+msgid "Accom. type:"
+msgstr "アコム.型"
+
+#: front-end/booking-form/search-form.php:293
+#, fuzzy
+msgid "Multi. accom."
+msgstr "現在のアコム:"
+
+#: front-end/booking-form/search-form.php:302
+msgid "Check price and availability"
+msgstr ""
+
+#: front-end/booking-form/search-form.php:303
+#, fuzzy
+#| msgid "Searching"
+msgid "Searching..."
+msgstr "検索中"
+
+#: front-end/booking-form/search-form.php:304
+#, fuzzy
+msgid "Multi. accom.:"
+msgstr "現在のアコム:"
+
+#: front-end/front-end-ajax-actions.php:70
+#: front-end/front-end-ajax-actions.php:230
+msgid "Error. Could not calculate price."
+msgstr ""
+
+#: front-end/front-end-ajax-actions.php:135
+#, fuzzy
+msgid "Error. Could not create customer."
+msgstr "顧客の作成"
+
+#: front-end/front-end-ajax-actions.php:526
+msgid "Error. Could not find payment gateway."
+msgstr ""
+
+#: front-end/front-end-ajax-actions.php:633
+#, fuzzy
+msgid "Error. Could not create reservation."
+msgstr "予約の作成"
+
+#: front-end/renders/availability-render.php:17
+msgid "Invalid shortcode. Use: [hb_availability accom_id=\"ID\"]"
+msgstr ""
+"無効なショートコードです。[hb_availability accom_id = \"id”] を使用してくださ"
+"い。"
+
+#: front-end/renders/availability-render.php:19
+#: front-end/renders/rates-render.php:18
+#: front-end/renders/starting-price-render.php:19
+#, fuzzy
+msgid ""
+"Invalid shortcode. Please use the id of an accommodation which is set in the "
+"website default language."
+msgstr ""
+"無効なショートコードです。ウェブサイトのデフォルトの言語で設定されている宿泊"
+"施設の id を使用してください。"
+
+#: front-end/renders/availability-render.php:21
+#: front-end/renders/rates-render.php:20
+#: front-end/renders/starting-price-render.php:21
+#, fuzzy, php-format
+msgid "Invalid shortcode. Could not find an accommodation whose id is %s."
+msgstr ""
+"無効なショートコードです。 %s の id を持つ宿泊施設が見つかりませんでした。"
+
+#: front-end/renders/rates-render.php:16
+msgid "Invalid shortcode. Use: [hb_rates accom_id=\"ID\"]"
+msgstr ""
+"無効なショートコードです。[hb_rates accom_id = \"id\"] を使用してください。"
+
+#: front-end/renders/resa-summary-render.php:24
+#, fuzzy
+msgid "Could not display Reservation summary"
+msgstr "予約マネージャー"
+
+#: front-end/renders/starting-price-render.php:17
+#, fuzzy
+#| msgid "Invalid shortcode. Use: [hb_rates accom_id=\"ID\"]"
+msgid "Invalid shortcode. Use: [hb_starting_price accom_id=\"ID\"]"
+msgstr ""
+"無効なショートコードです。[hb_rates accom_id = \"id\"] を使用してください。"
+
+#: hbook.php:314
+#, fuzzy
+msgid "HBook iCal custom frequency"
+msgstr "HBook カスタム周波数"
+
+#: hbook.php:324
+#, fuzzy
+msgid "HBook check delayed payments custom frequency"
+msgstr "HBook カスタム周波数"
+
+#: hbook.php:336
+#, fuzzy
+#| msgid "Stripe settings"
+msgid "Settings"
+msgstr "ストライプの設定"
+
+#: hbook.php:356
+#, fuzzy
+msgid "Thanks for using HBook plugin."
+msgstr "HBook プラグインを使用していただきありがとうございます。"
+
+#: hbook.php:374
+#, fuzzy, php-format
+msgid "Before setting the plugin up do not forget to have a look at the %s."
+msgstr "プラグインを設定する前に、 %s を見ていることを忘れないでください。"
+
+#: hbook.php:375
+msgid "documentation"
+msgstr "ドキュメント"
+
+#: hbook.php:381
+#, fuzzy, php-format
+msgid "For any specific issue you can consult our %s."
+msgstr "特定の問題については、 %s に問い合わせることができます。"
+
+#: hbook.php:382 utils/options-utils.php:692
+msgid "knowledgebase"
+msgstr "ナレッジベース"
+
+#: hbook.php:472
+#, fuzzy, php-format
+msgid ""
+"Delete accommodation %s? Note that all reservations linked to the %s will "
+"also be deleted."
+msgstr ""
+"宿泊施設 %s を削除しますか? %s にリンクされているすべての予約も削除されること"
+"に注意してください。"
+
+#: hbook.php:473
+#, fuzzy
+msgid ""
+"Move this accommodation type to trash? Note that all reservations linked to "
+"this accommodtion will also be deleted when you will empty the trash."
+msgstr ""
+"この宿泊施設タイプをごみ箱に移動しますか?ごみ箱を空にすると、この "
+"accommodtion にリンクされているすべての予約も削除されることに注意してくださ"
+"い。"
+
+#: hbook.php:474
+#, fuzzy
+msgid "Starting price should be a number (without currency symbol)."
+msgstr "開始価格は数字 (通貨記号なし) である必要があります。"
+
+#: hbook.php:475
+#, fuzzy
+msgid "There must be at least one accommodation."
+msgstr "少なくとも1つの宿泊施設が必要です。"
+
+#: payment/paypal/paypal.php:46
+#, fuzzy
+msgid "Paypal settings"
+msgstr "Paypal の設定"
+
+#: payment/paypal/paypal.php:50
+#, fuzzy
+msgid "Paypal mode"
+msgstr "Paypal モード:"
+
+#: payment/paypal/paypal.php:53 payment/stripe/stripe.php:46
+msgid "Live"
+msgstr "ライブ"
+
+#: payment/paypal/paypal.php:54
+msgid "Sandbox"
+msgstr "サンドボックス"
+
+#: payment/paypal/paypal.php:59
+#, fuzzy
+msgid "Sandbox API Username"
+msgstr "サンドボックス API のユーザー名:"
+
+#: payment/paypal/paypal.php:64
+#, fuzzy
+msgid "Sandbox API Password"
+msgstr "サンドボックス API パスワード:"
+
+#: payment/paypal/paypal.php:69
+#, fuzzy
+msgid "Sandbox API Signature"
+msgstr "サンドボックス API の署名:"
+
+#: payment/paypal/paypal.php:74
+#, fuzzy
+msgid "Live API Username"
+msgstr "ライブ API ユーザー名:"
+
+#: payment/paypal/paypal.php:79
+#, fuzzy
+msgid "Live API Password"
+msgstr "ライブ API パスワード:"
+
+#: payment/paypal/paypal.php:84
+#, fuzzy
+msgid "Live API Signature"
+msgstr "ライブ API の署名:"
+
+#: payment/paypal/paypal.php:89
+#, fuzzy
+#| msgid "Displayed?"
+msgid "Displayed icons"
+msgstr "表示しますか？"
+
+#: payment/paypal/paypal.php:92
+msgid "PayPal"
+msgstr ""
+
+#: payment/paypal/paypal.php:93
+#, fuzzy
+msgid "Credit cards"
+msgstr "ストアクレジットカード:"
+
+#: payment/stripe/stripe.php:39
+msgid "Stripe settings"
+msgstr "ストライプの設定"
+
+#: payment/stripe/stripe.php:43
+#, fuzzy
+msgid "Stripe mode"
+msgstr "ストライプモード:"
+
+#: payment/stripe/stripe.php:47
+msgid "Test"
+msgstr "テスト"
+
+#: payment/stripe/stripe.php:52
+#, fuzzy
+msgid "Test Publishable Key"
+msgstr "テスト発行可能なキー:"
+
+#: payment/stripe/stripe.php:57
+#, fuzzy
+msgid "Test Secret Key"
+msgstr "テストシークレットキー:"
+
+#: payment/stripe/stripe.php:62
+#, fuzzy
+msgid "Live Publishable Key"
+msgstr "ライブ発行可能なキー:"
+
+#: payment/stripe/stripe.php:67
+#, fuzzy
+msgid "Live Secret Key"
+msgstr "ライブシークレットキー:"
+
+#: payment/stripe/stripe.php:72
+#, fuzzy
+#| msgid "Payment method:"
+msgid "Payment methods"
+msgstr "お支払い方法:"
+
+#: payment/stripe/stripe.php:75
+#, fuzzy
+msgid "Credit card only"
+msgstr "ストアクレジットカード:"
+
+#: payment/stripe/stripe.php:76
+msgid "All payment methods enabled in Stripe"
+msgstr ""
+
+#: payment/stripe/stripe.php:81
+#, fuzzy
+#| msgid "Select payment method"
+msgid "Store payment method"
+msgstr "支払い方法を選択"
+
+#: payment/stripe/stripe.php:90
+msgid "Display a \"Powered by Stripe\" icon"
+msgstr ""
+
+#: payment/stripe/stripe.php:162
+msgid ""
+"When using Stripe you need to add a Required Country Field in the Details "
+"form."
+msgstr ""
+
+#: utils/options-utils.php:21
+#, fuzzy
+msgid "Booking payment settings"
+msgstr "予約のお支払い設定"
+
+#: utils/options-utils.php:24
+#, fuzzy
+msgid "Customers can choose between different payment options"
+msgstr "お客様は、さまざまなお支払い方法を選択できます。"
+
+#: utils/options-utils.php:33
+#, fuzzy
+msgid "Booking payment"
+msgstr "ご予約のお支払い:"
+
+#: utils/options-utils.php:36
+#, fuzzy
+msgid ""
+"Customers do not have to pay online to book an accommodation (payment on "
+"arrival or offline - e.g. bank wire)"
+msgstr ""
+"お客様は、宿泊施設を予約するためにオンラインで支払う必要はありません (到着ま"
+"たはオフラインでの支払い-例えば銀行振込)"
+
+#: utils/options-utils.php:37
+msgid ""
+"Customers have to leave their credit card details to book an accommodation "
+"(this option is available only with Stripe)"
+msgstr ""
+"お客様は宿泊施設を予約するためにクレジットカードの詳細を残す必要があります"
+"（このオプションはStripeでのみ利用可能です）"
+
+#: utils/options-utils.php:38
+#, fuzzy
+msgid "Customers have to pay a deposit online to book an accommodation"
+msgstr ""
+"お客様は宿泊施設を予約するためにオンラインでデポジットを支払う必要があります"
+
+#: utils/options-utils.php:39
+#, fuzzy
+msgid ""
+"Customers have to pay the full stay price online to book an accommodation"
+msgstr "お客様は宿泊料金の全額をオンラインで支払う必要があります。"
+
+#: utils/options-utils.php:45
+#, fuzzy
+msgid "Customers can pay on arrival or offline - e.g.bank wire"
+msgstr ""
+"お客様は到着時またはオフライン時 (銀行振込など) でお支払いいただけます。"
+
+#: utils/options-utils.php:55
+#, fuzzy
+msgid ""
+"Customers can leave their credit card details for a later charge (this "
+"option is available only with Stripe)"
+msgstr ""
+"お客様は、クレジットカードの詳細を後で請求することができます (このオプション"
+"はストライプでのみ使用できます)。"
+
+#: utils/options-utils.php:65
+#, fuzzy
+msgid "Customers can pay an online deposit"
+msgstr "お客様はオンラインデポジットを支払うことができます。"
+
+#: utils/options-utils.php:75
+#, fuzzy
+msgid "Customers can pay the full amount online"
+msgstr "お客様はオンラインで全額を支払うことができます。"
+
+#: utils/options-utils.php:88
+#, fuzzy
+msgid "Security bond settings"
+msgstr "セキュリティボンドの設定"
+
+#: utils/options-utils.php:89
+#, fuzzy
+msgid ""
+"A security bond is a sum of money which is held during the length of the "
+"stay to cover the cost of any damages or loss caused by the customer."
+msgstr ""
+"セキュリティボンドとは、お客様が被った損害または損失の費用をカバーするために"
+"滞在期間中に保持されるお金の合計です。"
+
+#: utils/options-utils.php:102
+#, fuzzy
+#| msgid "Security bond has to be paid:"
+msgid "Security bond has to be paid"
+msgstr "保証金支払い:"
+
+#: utils/options-utils.php:112
+#, fuzzy
+msgid "Security bond amount"
+msgstr "担保証券の金額:"
+
+#: utils/options-utils.php:121
+#, fuzzy
+msgid "Deposit settings"
+msgstr "入金設定"
+
+#: utils/options-utils.php:122
+#, fuzzy
+msgid ""
+"A deposit corresponds to the part of the total price of the stay that is "
+"payed in advance by the customer to secure the booking."
+msgstr ""
+"デポジットは、予約保証のためにお客様が事前に払っした宿泊料金合計の一部に相当"
+"します。"
+
+#: utils/options-utils.php:125
+#, fuzzy
+#| msgid "Deposit type:"
+msgid "Deposit type"
+msgstr "デポジットの種類:"
+
+#: utils/options-utils.php:137
+#, fuzzy
+msgid "Deposit amount"
+msgstr "入金額:"
+
+#: utils/options-utils.php:143
+msgid ""
+"Deposit option must be replaced by full payment option if check-in is within"
+msgstr ""
+
+#: utils/options-utils.php:144
+#, fuzzy
+msgid "Enter a number of days from current date."
+msgstr "現在の日付から </u> <u> 日の数を入力してください..."
+
+#: utils/options-utils.php:150
+#, fuzzy
+#| msgid "Security bond must be paid along with deposit:"
+msgid "Security bond must be paid along with deposit"
+msgstr "保証金はデポジットとともに支払わなければなりません："
+
+#: utils/options-utils.php:163
+msgid "Price settings"
+msgstr "価格設定"
+
+#: utils/options-utils.php:166
+#, fuzzy
+msgid "Payment currency"
+msgstr "支払通貨:"
+
+#: utils/options-utils.php:172
+#, fuzzy
+msgid "Currency symbol position"
+msgstr "通貨記号の位置:"
+
+#: utils/options-utils.php:175
+#, fuzzy
+msgid "Before price"
+msgstr "価格前"
+
+#: utils/options-utils.php:176
+#, fuzzy
+msgid "After price"
+msgstr "価格の後"
+
+#: utils/options-utils.php:181
+#, fuzzy
+msgid "Price precision"
+msgstr "価格の精度:"
+
+#: utils/options-utils.php:184
+#, fuzzy
+msgid "Two decimals"
+msgstr "2つの小数点"
+
+#: utils/options-utils.php:185
+#, fuzzy
+msgid "No decimals"
+msgstr "小数点なし"
+
+#: utils/options-utils.php:193
+#, fuzzy
+msgid "Payment link settings"
+msgstr "予約フォームの設定"
+
+#: utils/options-utils.php:196
+msgid "Page where customers following a payment link will be redirected"
+msgstr ""
+
+#: utils/options-utils.php:197
+msgid ""
+"The payment link page should contain a \"Payment link form\" block or a "
+"[hb_payment_link_form] shortcode."
+msgstr ""
+
+#: utils/options-utils.php:202
+#, fuzzy
+#| msgid "Payment type full"
+msgid "Payment link appearance"
+msgstr "全額支払い"
+
+#: utils/options-utils.php:205
+#, fuzzy
+msgid "Button"
+msgstr "ボタンのスタイル:"
+
+#: utils/options-utils.php:214
+#, fuzzy
+#| msgid "Select payment method"
+msgid "Offline payment methods"
+msgstr "支払い方法を選択"
+
+#: utils/options-utils.php:217
+msgid "List of offline payment methods separated with comma"
+msgstr ""
+
+#: utils/options-utils.php:218
+msgid "Used in the \"Add a payment\" form of the admin Reservation page."
+msgstr ""
+
+#: utils/options-utils.php:220
+msgid "Cash, Wire transfer"
+msgstr ""
+
+#: utils/options-utils.php:230
+msgid "General settings"
+msgstr "一般設定"
+
+#: utils/options-utils.php:233
+#, fuzzy
+msgid "Accommodation links opening"
+msgstr "宿泊施設一覧の設定"
+
+#: utils/options-utils.php:236
+msgid "Same page"
+msgstr ""
+
+#: utils/options-utils.php:237
+#, fuzzy
+msgid "New page"
+msgstr "新しいフィールド"
+
+#: utils/options-utils.php:242
+msgid "Sticky header/menu height"
+msgstr ""
+
+#: utils/options-utils.php:244
+msgid "If your website has a sticky header insert its height in pixels below."
+msgstr ""
+
+#: utils/options-utils.php:246
+msgid ""
+"This will prevent HBook forms to appear under the header when automatic "
+"scrolling occurs."
+msgstr ""
+
+#: utils/options-utils.php:252
+#, fuzzy
+msgid "Forms position"
+msgstr "フォームの位置:"
+
+#: utils/options-utils.php:255
+msgid "Left"
+msgstr "左"
+
+#: utils/options-utils.php:256
+msgid "Center"
+msgstr "中央"
+
+#: utils/options-utils.php:261
+#, fuzzy
+msgid "Search form maximum width"
+msgstr "検索フォームの最大幅:"
+
+#: utils/options-utils.php:262 utils/options-utils.php:269
+#: utils/options-utils.php:276
+msgid "Leave blank for no maximum."
+msgstr "制限なしの場合は空白にします。"
+
+#: utils/options-utils.php:268
+#, fuzzy
+msgid "Accommodation selection form maximum width"
+msgstr "宿泊選択フォームの最大幅:"
+
+#: utils/options-utils.php:275
+#, fuzzy
+msgid "Details form maximum width"
+msgstr "詳細フォームの最大幅:"
+
+#: utils/options-utils.php:282
+#, fuzzy
+msgid "Minimum width required for displaying a horizontal search form"
+msgstr "水平検索フォームを表示するために必要な最小幅:"
+
+#: utils/options-utils.php:283
+#, fuzzy
+msgid ""
+"If the available space is less than the minimum width the form will be "
+"displayed vertically."
+msgstr ""
+"使用可能なスペースが最小幅より小さい場合、フォームは垂直方向に表示されます。"
+
+#: utils/options-utils.php:289
+#, fuzzy
+msgid "Minimum width required for displaying columns in the details form"
+msgstr "詳細フォームで列を表示するために必要な最小の幅:"
+
+#: utils/options-utils.php:290
+#, fuzzy
+msgid ""
+"If the available space is less than the minimum width the columns will be "
+"stacked."
+msgstr "使用可能なスペースが最小幅より小さい場合は、列が積み重ねられます。"
+
+#: utils/options-utils.php:299
+#, fuzzy
+msgid "Buttons appearance"
+msgstr "ボタンの外観"
+
+#: utils/options-utils.php:302
+#, fuzzy
+msgid "Buttons style"
+msgstr "ボタンのスタイル:"
+
+#: utils/options-utils.php:305 utils/options-utils.php:321
+#: utils/options-utils.php:337
+msgid "Use theme styles"
+msgstr "テーマ スタイルを使用します。"
+
+#: utils/options-utils.php:306 utils/options-utils.php:322
+msgid "Custom"
+msgstr "カスタム"
+
+#: utils/options-utils.php:315
+#, fuzzy
+msgid "Inputs and selects appearance"
+msgstr "入力と選択の外観"
+
+#: utils/options-utils.php:318
+#, fuzzy
+msgid "Inputs and selects style"
+msgstr "入力と選択のスタイル:"
+
+#: utils/options-utils.php:331
+#, fuzzy
+msgid "Tables appearance"
+msgstr "カレンダーの外観"
+
+#: utils/options-utils.php:334
+#, fuzzy
+msgid "Tables style"
+msgstr "料金表のスタイル:"
+
+#: utils/options-utils.php:338
+#, fuzzy
+msgid "Use plugin styles"
+msgstr "プラグインスタイルを使用する"
+
+#: utils/options-utils.php:346
+#, fuzzy
+msgid "Calendars appearance"
+msgstr "カレンダーの外観"
+
+#: utils/options-utils.php:350
+#, fuzzy
+msgid "Add a shadow to calendars"
+msgstr "カレンダーに影を追加する:"
+
+#: utils/options-utils.php:362
+msgid "Number of persons pop-up appearance"
+msgstr ""
+
+#: utils/options-utils.php:365 utils/utils.php:3642
+#, fuzzy
+#| msgid "Background color:"
+msgid "Background color"
+msgstr "背景色"
+
+#: utils/options-utils.php:371
+#, fuzzy
+msgid "Add a shadow to pop-up"
+msgstr "カレンダーに影を追加する:"
+
+#: utils/options-utils.php:383
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#: utils/options-utils.php:387
+#, fuzzy
+msgid "Custom CSS for the front-end pages"
+msgstr "フロントエンドページのカスタム CSS:"
+
+#: utils/options-utils.php:391
+#, fuzzy
+msgid "Custom CSS for the admin pages"
+msgstr "管理ページのカスタム CSS:"
+
+#: utils/options-utils.php:418
+msgid ""
+"Filter default \"From date\" (enter a fixed date (yyyy-mm-dd format), a "
+"number of days (from current date), or leave empty for Today's date)."
+msgstr ""
+
+#: utils/options-utils.php:424
+msgid ""
+"Filter default \"To date\" (enter a fixed date (yyyy-mm-dd format), a number "
+"of days (from current date), or leave empty for Today's date)."
+msgstr ""
+
+#: utils/options-utils.php:438
+#, fuzzy
+msgid "Enable multiple accommodation booking"
+msgstr "1つのタイプの宿泊施設が見つかりました"
+
+#: utils/options-utils.php:447
+#, fuzzy
+msgid "Enable multiple accommodation booking on front-end"
+msgstr "1つのタイプの宿泊施設が見つかりました"
+
+#: utils/options-utils.php:456
+msgid "Preferred type of occupancy when suggesting accommodation"
+msgstr ""
+
+#: utils/options-utils.php:465
+msgid ""
+"When possible use maximum occupancy to prevent singleton person in search "
+"results suggestion"
+msgstr ""
+
+#: utils/options-utils.php:475
+msgid "Disable suggestions in global search form results"
+msgstr ""
+
+#: utils/options-utils.php:487
+#, fuzzy
+msgid "Confirmation settings"
+msgstr "確認の設定"
+
+#: utils/options-utils.php:490
+#, fuzzy
+msgid "Unpaid reservations have to be confirmed before dates are blocked out"
+msgstr "未払いの予約は、日付がブロックされる前に確認する必要があります。"
+
+#: utils/options-utils.php:499
+#, fuzzy
+msgid "Paid reservations have to be confirmed before dates are blocked out"
+msgstr "支払い済みの予約は、日付がブロックされる前に確認する必要があります。"
+
+#: utils/options-utils.php:511
+#, fuzzy
+msgid "Reservations status"
+msgstr "予約リスト"
+
+#: utils/options-utils.php:514
+#, fuzzy
+msgid "Reservations created from admin"
+msgstr "管理者から作成された予約の設定"
+
+#: utils/options-utils.php:524
+#, fuzzy
+msgid "Reservations received from website"
+msgstr "管理者から作成された予約の設定"
+
+#: utils/options-utils.php:533
+#, fuzzy
+msgid "Reservations imported from an external iCal calendar"
+msgstr "外部カレンダーからインポートされた引当のステータス:"
+
+#: utils/options-utils.php:545
+#, fuzzy
+msgid "Invoice id and reservation number"
+msgstr "予約を追加する"
+
+#: utils/options-utils.php:548
+msgid "Invoice id structure"
+msgstr ""
+
+#: utils/options-utils.php:549
+#, fuzzy
+msgid "You can use the following variables: %year, %month, %counter"
+msgstr "次の変数を使用できます。"
+
+#: utils/options-utils.php:554
+msgid "Invoice id counter next value"
+msgstr ""
+
+#: utils/options-utils.php:560
+msgid "Invoice id counter reset frequency"
+msgstr ""
+
+#: utils/options-utils.php:563
+msgid "Yearly"
+msgstr ""
+
+#: utils/options-utils.php:564
+msgid "Monthly"
+msgstr ""
+
+#: utils/options-utils.php:570
+#, fuzzy
+msgid ""
+"Ignore reservations imported from an external iCal calendar for invoice id "
+"counter"
+msgstr "外部カレンダーからインポートされた引当のステータス:"
+
+#: utils/options-utils.php:579
+msgid "Display an alphanumeric reservation number"
+msgstr ""
+
+#: utils/options-utils.php:591
+#, fuzzy
+msgid "Opening dates"
+msgstr "開館日"
+
+#: utils/options-utils.php:594
+#, fuzzy
+msgid "Minimum selectable date for a reservation"
+msgstr "予約の最低選択可能日:"
+
+#: utils/options-utils.php:595
+#, fuzzy
+msgid "Enter a number of <u>days</u> from current date..."
+msgstr "現在の日付から </u> <u> 日の数を入力してください..."
+
+#: utils/options-utils.php:600 utils/options-utils.php:612
+#, fuzzy
+msgid "...or enter a fixed date (yyyy-mm-dd format)"
+msgstr "または、固定日付 (西暦-dd 形式) を入力します。"
+
+#: utils/options-utils.php:605
+#, fuzzy
+msgid "Maximum selectable date for a reservation"
+msgstr "予約の最大選択可能日:"
+
+#: utils/options-utils.php:606
+#, fuzzy
+msgid "Enter the maximum number of <u>months</u> ahead..."
+msgstr "<u> ヶ月前 </u> の最大数を入力してください..."
+
+#: utils/options-utils.php:620
+#, fuzzy
+msgid "Dates settings"
+msgstr "日付の設定"
+
+#: utils/options-utils.php:636
+#, fuzzy
+msgid "Terms and conditions, Privacy policy"
+msgstr "ご利用条件、プライバシーポリシー"
+
+#: utils/options-utils.php:639
+#, fuzzy
+msgid "Display a terms and conditions checkbox"
+msgstr "[契約条件] チェックボックスを表示します。"
+
+#: utils/options-utils.php:640
+#, fuzzy, php-format
+msgid ""
+"You can change the text of the terms and conditions checkbox on the %s Text "
+"page%s."
+msgstr ""
+"%s テキストページ %s の [利用条件] チェックボックスのテキストを変更できます。"
+
+#: utils/options-utils.php:649
+#, fuzzy
+msgid "Display a privacy policy checkbox"
+msgstr "プライバシーポリシーのチェックボックスを表示します。"
+
+#: utils/options-utils.php:650
+#, fuzzy, php-format
+msgid ""
+"You can change the text of the privacy policy checkbox on the %s Text page%s."
+msgstr ""
+"%s テキストページ %s のプライバシーポリシーのチェックボックスのテキストを変更"
+"できます。"
+
+#: utils/options-utils.php:662
+#, fuzzy
+msgid "Import / Export HBook settings"
+msgstr "HBook の設定"
+
+#: utils/options-utils.php:669
+#, fuzzy
+msgid "HBook reset"
+msgstr "HBook テキスト"
+
+#: utils/options-utils.php:679
+#, fuzzy
+msgid "Allow accommodation with children only"
+msgstr "1名様には宿泊できません"
+
+#: utils/options-utils.php:688
+#, fuzzy
+msgid "HBook admin language"
+msgstr "予約言語:"
+
+#: utils/options-utils.php:694
+#, php-format
+msgid "You can check available languages on our %s."
+msgstr ""
+
+#: utils/options-utils.php:698
+msgid "English"
+msgstr ""
+
+#: utils/options-utils.php:699
+msgid "User language (if available)"
+msgstr ""
+
+#: utils/options-utils.php:704
+#, fuzzy
+msgid "Reservations list default filter"
+msgstr "予約リスト"
+
+#: utils/options-utils.php:711
+msgid "Reservations list \"By Check-in date\" filter default dates"
+msgstr ""
+
+#: utils/options-utils.php:724
+msgid "Reservations list \"By Check-out date\" filter default dates"
+msgstr ""
+
+#: utils/options-utils.php:737
+#, fuzzy
+#| msgid "Filter by Check-in and check-out dates"
+msgid ""
+"Reservations list \"By Check-in and Check-out dates\" filter default dates"
+msgstr "チェックインとチェックアウト日で絞り込み"
+
+#: utils/options-utils.php:750
+msgid "Reservations list \"By Active reservations\" filter default dates"
+msgstr ""
+
+#: utils/options-utils.php:763
+#, fuzzy
+msgid "Reservations list \"By Accommodation\" filter default value"
+msgstr "予約-> 宿泊施設をブロック"
+
+#: utils/options-utils.php:770
+msgid "Reservations list \"By Status\" filter default value"
+msgstr ""
+
+#: utils/options-utils.php:781
+#, fuzzy
+msgid "Reservations list \"By Origin\" filter default value"
+msgstr "予約-> 宿泊施設をブロック"
+
+#: utils/options-utils.php:790
+#, fuzzy
+msgid "Reservations archiving delay"
+msgstr "予約元:"
+
+#: utils/options-utils.php:791 utils/options-utils.php:797
+#, fuzzy
+msgid "Enter a number of months."
+msgstr "<u> ヶ月前 </u> の最大数を入力してください..."
+
+#: utils/options-utils.php:796
+#, fuzzy
+msgid "Email logs archiving delay"
+msgstr "予約元:"
+
+#: utils/options-utils.php:802
+#, fuzzy
+msgid "Email default address"
+msgstr "電子メールテンプレート"
+
+#: utils/options-utils.php:807
+#, fuzzy
+msgid "Accommodation url slug"
+msgstr "宿泊施設 url スラッグ:"
+
+#: utils/options-utils.php:808
+#, fuzzy
+msgid ""
+"The url slug can not be blank. If you leave this field empty the slug will "
+"be set to \"hb_accommodation\"."
+msgstr ""
+"url スラグを空白にすることはできません。このフィールドを空のままにすると、ス"
+"ラッグは \"hb_accommodation\" に設定されます。"
+
+#: utils/options-utils.php:813
+#, fuzzy
+msgid "Delete all stored information on uninstall"
+msgstr "アンインストール時に保存された情報をすべて削除する:"
+
+#: utils/options-utils.php:822
+msgid "Image resizing"
+msgstr ""
+
+#: utils/options-utils.php:825
+msgid "Dynamic"
+msgstr ""
+
+#: utils/options-utils.php:826
+#, fuzzy
+#| msgid "Status"
+msgid "Static"
+msgstr "ステータス"
+
+#: utils/options-utils.php:831
+#, fuzzy
+msgid "Delay before a timeout error occurs (in ms)"
+msgstr "タイムアウトエラーが発生するまでの遅延 (ミリ秒):"
+
+#: utils/options-utils.php:837
+#, fuzzy
+msgid "Delay before a timeout error occurs (for admin pages - in ms)"
+msgstr "タイムアウトエラーが発生するまでの遅延 (管理ページ-ms):"
+
+#: utils/options-utils.php:850
+#, fuzzy
+msgid "Notifications settings"
+msgstr "確認の設定"
+
+#: utils/options-utils.php:853
+msgid "Keep records of sync errors"
+msgstr ""
+
+#: utils/options-utils.php:863
+#, fuzzy
+msgid "Show notification messages in Reservations page"
+msgstr "予約ページに通知メッセージを表示しますか?"
+
+#: utils/options-utils.php:875
+#, fuzzy
+msgid "Import settings"
+msgstr "ファイルをインポートする"
+
+#: utils/options-utils.php:878
+#, fuzzy
+msgid "HBook synchronization frequency (in seconds)"
+msgstr "HBook 同期周波数 (秒)"
+
+#: utils/options-utils.php:883
+#, fuzzy
+msgid ""
+"Update the dates of a reservation when it has been modified in the external "
+"calendar"
+msgstr "外部カレンダーで変更された予約の日付を更新しますか?"
+
+#: utils/options-utils.php:892
+#, fuzzy
+msgid ""
+"Update the status of a reservation when it has been cancelled in the "
+"external calendar"
+msgstr "外部カレンダーでキャンセルされた場合、引当のステータスを更新しますか?"
+
+#: utils/options-utils.php:901
+#, fuzzy
+#| msgid "Include blocked dates in the export?"
+msgid "Exclude blocked dates from the import"
+msgstr "エクスポートにブロックされた日付を含めますか？"
+
+#: utils/options-utils.php:911
+msgid "Import window minimum date"
+msgstr ""
+
+#: utils/options-utils.php:914
+msgid ""
+"Set the number of nights from current date. HBook will not import any "
+"reservation with check-in within this advanced notice period of time."
+msgstr ""
+
+#: utils/options-utils.php:918
+msgid "Import window maximum date"
+msgstr ""
+
+#: utils/options-utils.php:921
+msgid ""
+"Set the number of months ahead from current date. HBook will import only "
+"reservations with check-in within this import window."
+msgstr ""
+
+#: utils/options-utils.php:925
+#, fuzzy
+msgid "Exclude one nights reservations from the import"
+msgstr "エクスポートする予約を選択してください:"
+
+#: utils/options-utils.php:932
+msgid ""
+"Set this to \"Yes\" if you do not accept one-night reservations in any of "
+"your external calendars."
+msgstr ""
+
+#: utils/options-utils.php:938
+#, fuzzy
+msgid "Export settings"
+msgstr "入金設定"
+
+#: utils/options-utils.php:941
+#, fuzzy
+msgid "Include reservations with status Cancelled in the export"
+msgstr "エクスポートでステータスが取り消された予約を含めますか?"
+
+#: utils/options-utils.php:951
+msgid "Add a random key to HBook export url"
+msgstr ""
+
+#: utils/options-utils.php:960
+#, fuzzy
+#| msgid "Include blocked dates in the export?"
+msgid "Include blocked dates in the export"
+msgstr "エクスポートにブロックされた日付を含めますか？"
+
+#: utils/options-utils.php:970
+#, fuzzy
+#| msgid "Include blocked dates in the export?"
+msgid "Include \"Preparation time\" blocked dates in the export"
+msgstr "エクスポートにブロックされた日付を含めますか？"
+
+#: utils/options-utils.php:980
+#, fuzzy
+msgid "Include only reservations with status \"Confirmed\" in the export"
+msgstr "エクスポートでステータスが取り消された予約を含めますか?"
+
+#: utils/options-utils.php:989
+#, fuzzy
+msgid ""
+"Include only reservations from the website (added from admin or received on "
+"front end) in the export"
+msgstr "エクスポートでステータスが取り消された予約を含めますか?"
+
+#: utils/options-utils.php:999
+msgid "Summary of reservation in the export"
+msgstr "エクスポート　予約の概要"
+
+#: utils/options-utils.php:1004
+msgid "Description of reservation in the export"
+msgstr "エクスポート　予約の説明"
+
+#: utils/options-utils.php:1019
+#, fuzzy
+msgid "Display a field \"Number of accommodation\" in front-end Search form"
+msgstr "詳細な宿泊料金を表示しますか?"
+
+#: utils/options-utils.php:1029
+#, fuzzy
+msgid "\"Number of accommodation\" field minimum number"
+msgstr "このタイプの宿泊施設の数:"
+
+#: utils/options-utils.php:1036
+#, fuzzy
+msgid "\"Number of accommodation\" field maximum number"
+msgstr "このタイプの宿泊施設の数:"
+
+#: utils/options-utils.php:1043
+#, fuzzy
+msgid ""
+"Use accommodation quantity as \"Number of accommodation\" field maximum "
+"number on Accommodation pages"
+msgstr "このタイプの宿泊施設の数:"
+
+#: utils/options-utils.php:1053
+#, fuzzy
+msgid "Admin form \"Number of accommodation\" field maximum number"
+msgstr "このタイプの宿泊施設の数:"
+
+#: utils/options-utils.php:1060
+#, fuzzy
+msgid "Display a field \"Adults\""
+msgstr "大人のフィールドを表示しますか?"
+
+#: utils/options-utils.php:1069
+#, fuzzy
+msgid "Display a field \"Children\""
+msgstr "子フィールドを表示しますか?"
+
+#: utils/options-utils.php:1078
+#, fuzzy
+msgid "\"Adults\" field minimum number"
+msgstr "大人番号"
+
+#: utils/options-utils.php:1085
+#, fuzzy
+msgid "\"Adults\" field maximum number"
+msgstr "大人番号"
+
+#: utils/options-utils.php:1092
+#, fuzzy
+msgid "\"Children\" field maximum number"
+msgstr "お子様番号"
+
+#: utils/options-utils.php:1099
+msgid ""
+"Use Accommodation minimum occupancy for Search form fields on Accommodation "
+"pages"
+msgstr ""
+
+#: utils/options-utils.php:1109
+msgid ""
+"Use Accommodation maximum occupancy for Search form fields on Accommodation "
+"pages"
+msgstr ""
+
+#: utils/options-utils.php:1119
+#, fuzzy
+msgid "Display placeholders instead of labels"
+msgstr "ラベルの代わりにプレースホルダを表示する"
+
+#: utils/options-utils.php:1137
+#, fuzzy
+msgid "Customers can choose the accommodation number"
+msgstr "お客様はオンラインで全額を支払うことができます。"
+
+#: utils/options-utils.php:1144
+msgid ""
+"You will enable this option if you wish to allow your customer to pick a "
+"specific accommodation if several of the same type are available."
+msgstr ""
+
+#: utils/options-utils.php:1147
+#, fuzzy
+msgid "Link title towards accommodation pages"
+msgstr "宿泊ページへのリンクタイトル"
+
+#: utils/options-utils.php:1156
+#, fuzzy
+msgid "Display an accommodation thumbnail"
+msgstr "宿泊施設のサムネイルを表示する"
+
+#: utils/options-utils.php:1165
+#, fuzzy
+msgid "Link thumbnail towards accommodation pages"
+msgstr "サムネイルを宿泊施設のページにリンクする"
+
+#: utils/options-utils.php:1186
+#, fuzzy
+msgid "Display a button that links towards accommodation pages"
+msgstr "宿泊ページへのリンクボタンを表示する"
+
+#: utils/options-utils.php:1195
+#, fuzzy
+msgid "Display price"
+msgstr "表示価格?"
+
+#: utils/options-utils.php:1204
+#, fuzzy
+msgid "Display price breakdown"
+msgstr "価格内訳を表示しますか?"
+
+#: utils/options-utils.php:1213
+#, fuzzy
+msgid "Price breakdown default state"
+msgstr "価格内訳デフォルト状態"
+
+#: utils/options-utils.php:1216
+msgid "Opened"
+msgstr "オープン"
+
+#: utils/options-utils.php:1217 utils/strings-utils.php:282
+msgid "Closed"
+msgstr "閉じる"
+
+#: utils/options-utils.php:1222
+#, fuzzy
+msgid "Display detailed accommodation price"
+msgstr "詳細な宿泊料金を表示しますか?"
+
+#: utils/options-utils.php:1231
+#, fuzzy
+msgid "Display number of available accommodation"
+msgstr "宿泊ページへのリンクボタンを表示する"
+
+#: utils/options-utils.php:1240
+#, fuzzy
+msgid "Threshold to display number of available accommodation"
+msgstr "サムネイルを宿泊施設にリンク"
+
+#: utils/resa-ical.php:258 utils/resa-ical.php:260
+#, fuzzy
+msgid "Accommodation blocked"
+msgstr "ブロックされた宿泊施設"
+
+#: utils/resa-ical.php:411 utils/resa-ical.php:421
+msgid "It seems that this file is not a valid calendar file."
+msgstr ""
+
+#: utils/resa-ical.php:436
+msgid ""
+"The calendar has been added. For your information, it currently does not "
+"contain any event that could be imported."
+msgstr ""
+
+#: utils/resa-ical.php:443
+#, fuzzy, php-format
+msgid "Your calendar has been imported: %1$s reservation(s) have been added."
+msgstr "カレンダーがインポートされました:%1$s の予約が追加されました。"
+
+#: utils/resa-ical.php:448
+#, fuzzy, php-format
+msgid ""
+"The following reservation(s) could not be imported as the accommodation %1$s "
+"(%2$s) is not available:"
+msgstr ""
+"次の予約は、宿泊施設%1$s (%2$s) が利用できないため、インポートできませんでし"
+"た:"
+
+#: utils/resa-ical.php:452
+#, fuzzy, php-format
+msgid "A reservation with check-in on %1$s and check-out on %2$s"
+msgstr "%1$s でのチェックインと%2$s のチェックアウトによる予約"
+
+#: utils/resa-options.php:38
+#, fuzzy
+msgid "Extra services:"
+msgstr "追加サービス:"
+
+#: utils/resa-options.php:72
+#, fuzzy
+msgid "This accommodation does not have any extra services."
+msgstr "宿泊施設は、選択された日付では利用できません"
+
+#: utils/resa-options.php:87
+#, fuzzy
+#| msgid "Total price"
+msgid "Global options"
+msgstr "合計金額"
+
+#: utils/resa-options.php:230
+#, fuzzy
+msgid "Options total price:"
+msgstr "オプションの合計価格:"
+
+#: utils/resa-summary.php:31
+#, fuzzy
+msgid "Summary:"
+msgstr "概要："
+
+#: utils/resa-summary.php:34
+#, fuzzy
+msgid "Number of nights:"
+msgstr "宿泊日数"
+
+#: utils/resa-summary.php:37
+#, fuzzy
+#| msgid "Accommodation:"
+msgid "Accommodation %n:"
+msgstr "宿泊施設:"
+
+#: utils/resa-summary.php:41
+#, fuzzy
+#| msgid "Total price"
+msgid "Global options price:"
+msgstr "合計金額"
+
+#: utils/resa-summary.php:42
+#, fuzzy
+msgid "Deposit amount:"
+msgstr "入金額:"
+
+#: utils/resa-summary.php:43
+msgid "Total price:"
+msgstr "合計金額:"
+
+#: utils/resa-summary.php:44
+#, fuzzy
+msgid "Security bond amount:"
+msgstr "担保証券の金額:"
+
+#: utils/resa-summary.php:45
+#, fuzzy
+msgid "Accommodation price:"
+msgstr "宿泊料金"
+
+#: utils/resa-summary.php:46
+#, fuzzy
+msgid "Options price:"
+msgstr "オプション価格"
+
+#: utils/resa-summary.php:47 utils/resa-summary.php:631
+#, fuzzy
+msgid "Discount amount:"
+msgstr "クーポン割引金額"
+
+#: utils/resa-summary.php:48
+#, fuzzy
+#| msgid "Price settings"
+msgid "Price includes:"
+msgstr "価格設定"
+
+#: utils/strings-utils.php:12
+#, fuzzy
+msgid "Default form title"
+msgstr "既定のフォームタイトル"
+
+#: utils/strings-utils.php:13
+#, fuzzy
+msgid "Form title on accommodation page"
+msgstr "宿泊ページのフォームタイトル"
+
+#: utils/strings-utils.php:14
+#, fuzzy
+msgid "Check-in date"
+msgstr "チェックイン日"
+
+#: utils/strings-utils.php:15
+#, fuzzy
+msgid "Check-out date"
+msgstr "チェックアウト日"
+
+#: utils/strings-utils.php:16
+#, fuzzy
+msgid "Adults number"
+msgstr "大人番号"
+
+#: utils/strings-utils.php:17
+#, fuzzy
+msgid "Children number"
+msgstr "お子様番号"
+
+#: utils/strings-utils.php:19
+#, fuzzy
+msgid "Any (in number of accommodation)"
+msgstr "サムネイルを宿泊施設にリンク"
+
+#: utils/strings-utils.php:20 utils/strings-utils.php:118
+#, fuzzy
+msgid "Chosen check-in date"
+msgstr "選択したチェックイン日"
+
+#: utils/strings-utils.php:21 utils/strings-utils.php:119
+#, fuzzy
+msgid "Chosen check-out date"
+msgstr "選択したチェックアウト日"
+
+#: utils/strings-utils.php:22
+#, fuzzy
+msgid "Chosen number of accommodation"
+msgstr "サムネイルを宿泊施設にリンク"
+
+#: utils/strings-utils.php:23
+msgid "1 adult chosen (in number of accommodation)"
+msgstr ""
+
+#: utils/strings-utils.php:24
+#, fuzzy
+msgid "Chosen adults number (in number of accommodation)"
+msgstr "少なくとも1つの宿泊施設が必要です。"
+
+#: utils/strings-utils.php:25
+msgid "Chosen persons number (in number of accommodation)"
+msgstr ""
+
+#: utils/strings-utils.php:26
+#, fuzzy
+msgid "Chosen adults number"
+msgstr "選択された大人数"
+
+#: utils/strings-utils.php:27
+#, fuzzy
+msgid "Chosen children number"
+msgstr "選択された子番号"
+
+#: utils/strings-utils.php:28
+msgid "Search button"
+msgstr "検索ボタン"
+
+#: utils/strings-utils.php:29
+#, fuzzy
+msgid "Change search button"
+msgstr "検索ボタンの変更"
+
+#: utils/strings-utils.php:35
+#, fuzzy
+msgid "One type of accommodation found"
+msgstr "1つのタイプの宿泊施設が見つかりました"
+
+#: utils/strings-utils.php:36
+#, fuzzy
+msgid "Several types of accommodation found"
+msgstr "いくつかのタイプの宿泊施設が見つかりました"
+
+#: utils/strings-utils.php:37
+#, fuzzy
+msgid "Multiple accommodation introduction text"
+msgstr "[宿泊施設の表示] ボタン"
+
+#: utils/strings-utils.php:38
+#, fuzzy
+msgid "Accommodation suggestion (single accommodation search)"
+msgstr "宿泊セレクションタイトル"
+
+#: utils/strings-utils.php:39
+#, fuzzy
+msgid "Accommodation suggestion (multiple accommodation search)"
+msgstr "宿泊セレクションタイトル"
+
+#: utils/strings-utils.php:40
+#, fuzzy
+msgid "Link to search for a specific number of accommodation"
+msgstr "サムネイルを宿泊施設にリンク"
+
+#: utils/strings-utils.php:41
+#, fuzzy
+msgid "Accommodation selection title"
+msgstr "宿泊セレクションタイトル"
+
+#: utils/strings-utils.php:42
+#, fuzzy
+msgid "Accommodation selection title (multiple accommodation booking)"
+msgstr "宿泊セレクションタイトル"
+
+#: utils/strings-utils.php:43
+#, fuzzy
+msgid "Accommodation title (multiple accommodation booking)"
+msgstr ""
+"このタイプの宿泊施設が予約されている場合、ブロックする必要がある宿泊施設:"
+
+#: utils/strings-utils.php:44
+#, fuzzy
+msgid "Accommodation not selected (multiple accommodation booking)"
+msgstr ""
+"このタイプの宿泊施設が予約されている場合、ブロックする必要がある宿泊施設:"
+
+#: utils/strings-utils.php:45
+#, fuzzy
+msgid "The accommodation is available at the chosen dates"
+msgstr "宿泊施設は、選択された日付で利用可能です"
+
+#: utils/strings-utils.php:46
+msgid "Price for 1 night"
+msgstr "1泊の料金"
+
+#: utils/strings-utils.php:47
+msgid "Price for several nights"
+msgstr "連泊の料金"
+
+#: utils/strings-utils.php:48
+#, fuzzy
+msgid "View price breakdown link"
+msgstr "価格内訳リンクの表示"
+
+#: utils/strings-utils.php:49
+#, fuzzy
+msgid "Hide price breakdown link"
+msgstr "価格内訳リンクの非表示"
+
+#: utils/strings-utils.php:50
+msgid "Nights (several - in price breakdown)"
+msgstr "連泊（価格の内訳）"
+
+#: utils/strings-utils.php:51
+msgid "Night (one - in price breakdown)"
+msgstr "1泊（1価格の内訳）"
+
+#: utils/strings-utils.php:52
+#, fuzzy
+msgid "Multiple nights (in price breakdown)"
+msgstr "複数の夜 (価格内訳で)"
+
+#: utils/strings-utils.php:53
+#, fuzzy
+msgid "Accommodation price (in price breakdown)"
+msgstr "宿泊料金 (価格内訳)"
+
+#: utils/strings-utils.php:54
+msgid "Extra adults (several - in price breakdown)"
+msgstr "大人追加 (複数の価格内訳)"
+
+#: utils/strings-utils.php:55
+#, fuzzy
+msgid "Extra adult (one - in price breakdown)"
+msgstr "追加大人 (1 人の価格内訳)"
+
+#: utils/strings-utils.php:56
+#, fuzzy
+msgid "Adults (several - in price breakdown)"
+msgstr "大人 (複数の価格内訳)"
+
+#: utils/strings-utils.php:57
+#, fuzzy
+msgid "Adult (one - in price breakdown)"
+msgstr "大人 (1 つの価格の内訳)"
+
+#: utils/strings-utils.php:58
+msgid "Extra children (several - in price breakdown)"
+msgstr "子供追加 (複数の-価格内訳)"
+
+#: utils/strings-utils.php:59
+#, fuzzy
+msgid "Extra child (one - in price breakdown)"
+msgstr "追加の子供 (1 つの価格の内訳)"
+
+#: utils/strings-utils.php:60
+#, fuzzy
+msgid "Children (several - in price breakdown)"
+msgstr "子供 (価格の内訳)"
+
+#: utils/strings-utils.php:61
+#, fuzzy
+msgid "Child (one - in price breakdown)"
+msgstr "子供 (1 つの価格の内訳)"
+
+#: utils/strings-utils.php:62
+#, fuzzy
+msgid "Dates (in price breakdown)"
+msgstr "日付 (価格内訳)"
+
+#: utils/strings-utils.php:63
+#, fuzzy
+msgid "Discount (in price breakdown)"
+msgstr "割引 (価格内訳)"
+
+#: utils/strings-utils.php:64
+#, fuzzy
+msgid "Adults (several - in fee details)"
+msgstr "大人 (いくつかの手数料の詳細)"
+
+#: utils/strings-utils.php:65
+#, fuzzy
+msgid "Adult (one - in fee details)"
+msgstr "大人 (1 名料金詳細)"
+
+#: utils/strings-utils.php:66
+#, fuzzy
+msgid "Children (several - in fee details)"
+msgstr "お子様 (一部有料)"
+
+#: utils/strings-utils.php:67
+#, fuzzy
+msgid "Child (one - in fee details)"
+msgstr "子供 (1 名様料金詳細)"
+
+#: utils/strings-utils.php:68
+#, fuzzy
+msgid "Persons (in fee details)"
+msgstr "大人 (1 名料金詳細)"
+
+#: utils/strings-utils.php:69
+#, fuzzy
+msgid "Select accommodation button"
+msgstr "宿泊施設の選択ボタン"
+
+#: utils/strings-utils.php:70
+msgid "Previous step button"
+msgstr ""
+
+#: utils/strings-utils.php:71
+#, fuzzy
+#| msgid "Reservations"
+msgid "Next step button"
+msgstr "予約"
+
+#: utils/strings-utils.php:72
+#, fuzzy
+msgid "View accommodation button"
+msgstr "[宿泊施設の表示] ボタン"
+
+#: utils/strings-utils.php:73
+#, fuzzy
+msgid "Selected accommodation"
+msgstr "厳選された宿泊"
+
+#: utils/strings-utils.php:74
+#, fuzzy
+msgid "Number of accommodation left"
+msgstr "1施設あたり"
+
+#: utils/strings-utils.php:75
+#, fuzzy
+msgid "One accommodation left"
+msgstr "1施設あたり"
+
+#: utils/strings-utils.php:76
+#, fuzzy
+#| msgid "No accommodation selected"
+msgid "No accommodation left"
+msgstr "宿泊施設が選択されていません"
+
+#: utils/strings-utils.php:77
+#, fuzzy
+#| msgid "No accommodation selected"
+msgid "Number of accommodation selected"
+msgstr "宿泊施設が選択されていません"
+
+#: utils/strings-utils.php:78
+#, fuzzy
+msgid "Fees (in price breakdown)"
+msgstr "料金 (価格内訳)"
+
+#: utils/strings-utils.php:79
+#, fuzzy
+msgid "Accommodation number selection title"
+msgstr "宿泊セレクションタイトル"
+
+#: utils/strings-utils.php:80
+#, fuzzy
+msgid "Accommodation number selection explanation text"
+msgstr "宿泊セレクションタイトル"
+
+#: utils/strings-utils.php:81
+#, fuzzy
+msgid "Accommodation number select field title"
+msgstr "宿泊セレクションタイトル"
+
+#: utils/strings-utils.php:88
+msgid "Extra services selection title"
+msgstr "オプションサービス選択タイトル"
+
+#: utils/strings-utils.php:89
+#, fuzzy
+#| msgid "Chosen extra services title"
+msgid "Global extra services title"
+msgstr "選択したオプションサービスのタイトル"
+
+#: utils/strings-utils.php:90
+msgid "Chosen extra services title"
+msgstr "選択したオプションサービスのタイトル"
+
+#: utils/strings-utils.php:91
+#, fuzzy
+msgid "Accommodation has no extras"
+msgstr "宿泊料金"
+
+#: utils/strings-utils.php:92
+msgid "Extra price and maximum"
+msgstr "オプション価格と最大値"
+
+#: utils/strings-utils.php:93
+msgid "Free extra"
+msgstr "無料オプション"
+
+#: utils/strings-utils.php:94
+msgid "Each (in extra price and maximum)"
+msgstr "各オプション価格と最大値"
+
+#: utils/strings-utils.php:95
+#, fuzzy
+msgid "Maximum (in extra price and maximum)"
+msgstr "最大 (追加料金と最大)"
+
+#: utils/strings-utils.php:96
+#, fuzzy
+msgid "Total extra services price"
+msgstr "追加サービス料金合計"
+
+#: utils/strings-utils.php:104
+#, fuzzy
+msgid "Apply coupon button"
+msgstr "クーポンの適用ボタン"
+
+#: utils/strings-utils.php:105
+msgid "Verifying coupon"
+msgstr ""
+
+#: utils/strings-utils.php:106
+#, fuzzy
+msgid "Valid coupon message"
+msgstr "有効なクーポンメッセージ"
+
+#: utils/strings-utils.php:107
+#, fuzzy
+msgid "Invalid coupon message"
+msgstr "無効なクーポンメッセージ"
+
+#: utils/strings-utils.php:108
+msgid "Coupon no longer valid message"
+msgstr ""
+
+#: utils/strings-utils.php:109
+msgid "No coupon message"
+msgstr "クーポンメッセージがありません"
+
+#: utils/strings-utils.php:115
+msgid "Loading"
+msgstr ""
+
+#: utils/strings-utils.php:122
+#, fuzzy
+msgid "Price breakdown"
+msgstr "価格内訳を表示しますか?"
+
+#: utils/strings-utils.php:124
+#, fuzzy
+msgid "Options price"
+msgstr "オプション価格"
+
+#: utils/strings-utils.php:125
+#, fuzzy
+#| msgid "Total price"
+msgid "Global options price"
+msgstr "合計金額"
+
+#: utils/strings-utils.php:126
+#, fuzzy
+msgid "Included fees"
+msgstr "無効な価格です。"
+
+#: utils/strings-utils.php:127 utils/utils.php:4431
+#, fuzzy
+msgid "Coupon amount"
+msgstr "クーポン割引金額"
+
+#: utils/strings-utils.php:128
+#, fuzzy
+msgid "Discount amount"
+msgstr "クーポン割引金額"
+
+#: utils/strings-utils.php:129
+#, fuzzy
+msgid "Accommodation total price"
+msgstr "宿泊料金"
+
+#: utils/strings-utils.php:130
+msgid "Total price"
+msgstr "合計金額"
+
+#: utils/strings-utils.php:131 utils/utils.php:1573 utils/utils.php:1583
+msgid "Deposit"
+msgstr "デポジット"
+
+#: utils/strings-utils.php:133
+msgid "Security bond explanation"
+msgstr "保証金の説明"
+
+#: utils/strings-utils.php:134 utils/utils.php:4428
+#, fuzzy
+#| msgid "Payment type full"
+msgid "Payments history"
+msgstr "全額支払い"
+
+#: utils/strings-utils.php:135
+#, fuzzy
+msgid "Text displayed at the bottom of the summary"
+msgstr "連絡先サポートフォームに移動します。"
+
+#: utils/strings-utils.php:136
+msgid "Thanks message (unpaid) - above summary"
+msgstr ""
+
+#: utils/strings-utils.php:137
+#, fuzzy
+msgid "Thanks message (unpaid)- below summary"
+msgstr "感謝のメッセージ (1)"
+
+#: utils/strings-utils.php:138
+#, fuzzy
+msgid "Thanks message (payment made) - above summary"
+msgstr "おかげでメッセージ-支払いが完了しました (1)"
+
+#: utils/strings-utils.php:139
+#, fuzzy
+msgid "Thanks message (payment made) - below summary"
+msgstr "おかげでメッセージ-支払いが完了しました (1)"
+
+#: utils/strings-utils.php:145
+#, fuzzy
+msgid "Payment section title"
+msgstr "支払セクションのタイトル"
+
+#: utils/strings-utils.php:146
+#, fuzzy
+msgid "Select payment type"
+msgstr "支払タイプの選択"
+
+#: utils/strings-utils.php:147
+#, fuzzy
+msgid "Payment type offline"
+msgstr "支払タイプオフライン"
+
+#: utils/strings-utils.php:148
+#, fuzzy
+msgid "Payment type store credit card"
+msgstr "支払タイプ店舗クレジットカード"
+
+#: utils/strings-utils.php:149
+msgid "Payment type deposit"
+msgstr "預り金支払い"
+
+#: utils/strings-utils.php:150
+msgid "Payment type full"
+msgstr "全額支払い"
+
+#: utils/strings-utils.php:151
+#, fuzzy
+msgid "Explanation text for offline payment"
+msgstr "オフライン支払の説明テキスト"
+
+#: utils/strings-utils.php:152
+#, fuzzy
+msgid "Explanation text for stored credit card"
+msgstr "保存されたクレジットカードの説明テキスト"
+
+#: utils/strings-utils.php:153
+#, fuzzy
+msgid "Explanation text for deposit payment"
+msgstr "預金支払の説明テキスト"
+
+#: utils/strings-utils.php:154
+#, fuzzy
+msgid "Explanation text for full payment"
+msgstr "全額支払の説明テキスト"
+
+#: utils/strings-utils.php:155
+msgid "Select payment method"
+msgstr "支払い方法を選択"
+
+#: utils/strings-utils.php:161 utils/strings-utils.php:172
+#, fuzzy
+msgid "Payment method label"
+msgstr "支払方法ラベル"
+
+#: utils/strings-utils.php:162
+#, fuzzy
+msgid "Text before form"
+msgstr "フォームの前のテキスト"
+
+#: utils/strings-utils.php:163
+#, fuzzy
+msgid "Loading form text"
+msgstr "予約詳細フォームテキスト"
+
+#: utils/strings-utils.php:164
+#, fuzzy
+msgid "Processing error"
+msgstr "処理エラー"
+
+#: utils/strings-utils.php:165
+#, fuzzy
+#| msgid "Paypal payment"
+msgid "Declined payment"
+msgstr "Paypalペイメント"
+
+#: utils/strings-utils.php:166
+#, fuzzy
+msgid "Text at the bottom of the form"
+msgstr "連絡先サポートフォームに移動します。"
+
+#: utils/strings-utils.php:173
+#, fuzzy
+#| msgid "Explanation"
+msgid "Explanation text"
+msgstr "解説"
+
+#: utils/strings-utils.php:174
+msgid "Bottom text line 1"
+msgstr ""
+
+#: utils/strings-utils.php:175
+msgid "Bottom text line 2"
+msgstr ""
+
+#: utils/strings-utils.php:181
+#, fuzzy
+#| msgid "Reservations"
+msgid "Description"
+msgstr "予約"
+
+#: utils/strings-utils.php:182
+#, fuzzy, php-format
+#| msgid "Deposit"
+msgid "%deposit_txt"
+msgstr "デポジット"
+
+#: utils/strings-utils.php:183
+msgid "%nights_txt (one)"
+msgstr ""
+
+#: utils/strings-utils.php:184
+msgid "%nights_txt (several)"
+msgstr ""
+
+#: utils/strings-utils.php:185
+msgid "%adults_txt (one)"
+msgstr ""
+
+#: utils/strings-utils.php:186
+msgid "%adults_txt (several)"
+msgstr ""
+
+#: utils/strings-utils.php:187
+#, php-format
+msgid "%children_txt (one)"
+msgstr ""
+
+#: utils/strings-utils.php:188
+#, php-format
+msgid "%children_txt (several)"
+msgstr ""
+
+#: utils/strings-utils.php:194
+msgid "Searching"
+msgstr "検索中"
+
+#: utils/strings-utils.php:195
+#, fuzzy
+msgid "No check-in date"
+msgstr "チェックイン日なし"
+
+#: utils/strings-utils.php:196
+#, fuzzy
+msgid "No check-out date"
+msgstr "チェックアウト日なし"
+
+#: utils/strings-utils.php:197
+#, fuzzy
+msgid "No check-in date and no check-out date"
+msgstr "チェックイン日およびチェックアウト日なし"
+
+#: utils/strings-utils.php:198
+msgid "No adults number"
+msgstr "大人の人数なし"
+
+#: utils/strings-utils.php:199
+msgid "No children number"
+msgstr "子の人数なし"
+
+#: utils/strings-utils.php:200
+msgid "No adults and children number"
+msgstr "大人も子供も人数なし"
+
+#: utils/strings-utils.php:201
+#, fuzzy
+msgid "Invalid check-in date"
+msgstr "チェックイン日が無効です"
+
+#: utils/strings-utils.php:202
+#, fuzzy
+msgid "Invalid check-out date"
+msgstr "チェックアウト日が無効です"
+
+#: utils/strings-utils.php:203
+msgid "Invalid check-in date and invalid check-out date"
+msgstr "チェックイン日とチェックアウト日が無効です"
+
+#: utils/strings-utils.php:204
+#, fuzzy
+msgid "Check-in date in the past"
+msgstr "過去のチェックイン日"
+
+#: utils/strings-utils.php:205
+#, fuzzy
+msgid "Check-in date before specific date"
+msgstr "特定の日付より前のチェックイン日"
+
+#: utils/strings-utils.php:206
+#, fuzzy
+msgid "Check-out date after specific date"
+msgstr "特定の日付より後のチェックアウト日"
+
+#: utils/strings-utils.php:207
+#, fuzzy
+msgid "Check-out date before check-in date"
+msgstr "チェックイン日前のチェックアウト日"
+
+#: utils/strings-utils.php:208
+#, fuzzy
+msgid "Check-in date on a not allowed day"
+msgstr "許可されていない日のチェックイン日"
+
+#: utils/strings-utils.php:209
+#, fuzzy
+msgid "Check-in date on a not allowed day (seasonal)"
+msgstr "許可されていない日のチェックイン日 (季節限定)"
+
+#: utils/strings-utils.php:210
+#, fuzzy
+msgid "Check-out date on a not allowed day"
+msgstr "許可されていない日のチェックアウト日"
+
+#: utils/strings-utils.php:211
+msgid "Check-out date on a not allowed day (seasonal)"
+msgstr "許可されていない日のチェックアウト日 (季節限定)"
+
+#: utils/strings-utils.php:212
+#, fuzzy
+msgid "Minimum stay policy"
+msgstr "最低滞在ポリシー"
+
+#: utils/strings-utils.php:213
+#, fuzzy
+msgid "Minimum stay policy (seasonal)"
+msgstr "最低滞在ポリシー (季節限定)"
+
+#: utils/strings-utils.php:214
+#, fuzzy
+msgid "Maximum stay policy"
+msgstr "最大滞在ポリシー"
+
+#: utils/strings-utils.php:215
+#, fuzzy
+msgid "Maximum stay policy (seasonal)"
+msgstr "最大滞在ポリシー (季節限定)"
+
+#: utils/strings-utils.php:216
+#, fuzzy
+msgid ""
+"Check-out date on a not allowed day for specific check-in day (conditional "
+"rule)"
+msgstr ""
+"特定のチェックイン日の許可されていない日のチェックアウト日 (条件付きルール)"
+
+#: utils/strings-utils.php:217
+#, fuzzy
+msgid ""
+"Check-out date on a not allowed day for specific check-in day (conditional "
+"rule - seasonal)"
+msgstr ""
+"特定のチェックイン日の許可されていない日のチェックアウト日 (条件付きルール-季"
+"節)"
+
+#: utils/strings-utils.php:218
+#, fuzzy
+msgid "Minimum stay for specific check-in day (conditional rule)"
+msgstr "特定のチェックイン日の最低滞在時間 (条件付きルール)"
+
+#: utils/strings-utils.php:219
+#, fuzzy
+msgid "Minimum stay for specific check-in day (conditional rule - seasonal)"
+msgstr "特定のチェックイン日の最低滞在時間 (条件付きルール-季節限定)"
+
+#: utils/strings-utils.php:220
+#, fuzzy
+msgid "Maximum stay for specific check-in day (conditional rule)"
+msgstr "特定のチェックイン日の最大滞在時間 (条件付きルール)"
+
+#: utils/strings-utils.php:221
+#, fuzzy
+msgid "Maximum stay for specific check-in day (conditional rule - seasonal)"
+msgstr "特定のチェックイン日の最大滞在時間 (条件付きルール-季節限定)"
+
+#: utils/strings-utils.php:222
+#, fuzzy
+msgid "The accommodation can not suit one adult"
+msgstr "宿泊施設は1名には適していません。"
+
+#: utils/strings-utils.php:223
+#, fuzzy
+msgid "The accommodation can not suit one child"
+msgstr "宿泊施設は1名には適していません。"
+
+#: utils/strings-utils.php:224
+#, fuzzy
+msgid "The accommodation can not suit the number of adults"
+msgstr "宿泊人数には応じられません。"
+
+#: utils/strings-utils.php:225
+#, fuzzy
+msgid "The accommodation can not suit the number of children"
+msgstr "宿泊人数には応じられません。"
+
+#: utils/strings-utils.php:226
+#, fuzzy
+msgid "The accommodation can not suit the number of people"
+msgstr "宿泊人数には応じられません。"
+
+#: utils/strings-utils.php:227
+#, fuzzy
+msgid "No accommodation can suit the number of people"
+msgstr "人数に合わせて宿泊することはできません"
+
+#: utils/strings-utils.php:228
+#, fuzzy
+msgid "No accommodation can suit the number of people (minimum not reach)"
+msgstr "人数に合わせて宿泊することはできません"
+
+#: utils/strings-utils.php:229
+#, fuzzy
+msgid "Link to all accommodation which suit the number of people"
+msgstr "人数に合わせた宿泊施設へのリンク"
+
+#: utils/strings-utils.php:230
+#, fuzzy
+msgid "The accommodation can not suit one person"
+msgstr "宿泊施設は1名には適していません。"
+
+#: utils/strings-utils.php:231
+#, fuzzy
+msgid "No accommodation can suit one person"
+msgstr "1名様には宿泊できません"
+
+#: utils/strings-utils.php:232
+#, fuzzy
+msgid "Link to all accommodation which suit one person"
+msgstr "1名様にご宿泊のお部屋へのリンク"
+
+#: utils/strings-utils.php:233
+#, fuzzy
+msgid "No accommodation available at the chosen dates"
+msgstr "選択された日付で利用可能な宿泊施設はありません"
+
+#: utils/strings-utils.php:234
+#, fuzzy
+msgid "The accommodation is not available at the chosen dates"
+msgstr "宿泊施設は、選択された日付では利用できません"
+
+#: utils/strings-utils.php:235
+#, fuzzy
+msgid "Not enough accommodation"
+msgstr "1施設あたり"
+
+#: utils/strings-utils.php:236
+#, fuzzy
+msgid "Not enough accommodation available at the chosen dates"
+msgstr "選択された日付で利用可能な宿泊施設はありません"
+
+#: utils/strings-utils.php:237
+#, fuzzy
+msgid "Not enough accommodation for number of people"
+msgstr "人数に合わせて宿泊することはできません"
+
+#: utils/strings-utils.php:238
+#, fuzzy
+msgid ""
+"Not enough accommodation available for number of people at the chosen dates"
+msgstr "選択された日付で利用可能な宿泊施設はありません"
+
+#: utils/strings-utils.php:239
+#, fuzzy
+msgid "Accommodation is excluded from multiple accommodation booking"
+msgstr ""
+"このタイプの宿泊施設が予約されている場合、ブロックする必要がある宿泊施設:"
+
+#: utils/strings-utils.php:240
+#, fuzzy
+msgid "Link to all accommodation available at the chosen dates"
+msgstr "選択した日付で利用可能なすべての宿泊施設へのリンク"
+
+#: utils/strings-utils.php:246
+#, fuzzy
+msgid "Policies title"
+msgstr "ポリシーのタイトル"
+
+#: utils/strings-utils.php:247
+#, fuzzy
+msgid "Text after policies title"
+msgstr "ポリシーのタイトル"
+
+#: utils/strings-utils.php:248
+#, fuzzy
+msgid "Terms and conditions text"
+msgstr "使用条件テキスト"
+
+#: utils/strings-utils.php:249
+#, fuzzy
+msgid "Terms and conditions error"
+msgstr "ご利用条件エラー"
+
+#: utils/strings-utils.php:250
+#, fuzzy
+msgid "Privacy policy text"
+msgstr "プライバシーポリシーテキスト"
+
+#: utils/strings-utils.php:251
+#, fuzzy
+msgid "Privacy policy error"
+msgstr "プライバシーポリシーエラー"
+
+#: utils/strings-utils.php:252
+#, fuzzy
+msgid "Text before \"Book now\" button"
+msgstr "「今すぐ予約」ボタンの前のテキスト"
+
+#: utils/strings-utils.php:253
+#, fuzzy
+msgid "\"Book now\" button"
+msgstr "「今すぐ予約」ボタン"
+
+#: utils/strings-utils.php:259
+msgid "Selected accommodation no longer available"
+msgstr "選択された宿泊施設は利用できません"
+
+#: utils/strings-utils.php:260
+#, fuzzy
+#| msgid "Selected accommodation no longer available"
+msgid "Selected accommodation number no longer available"
+msgstr "選択された宿泊施設は利用できません"
+
+#: utils/strings-utils.php:267
+msgid "Required field"
+msgstr "%s は必須項目です。"
+
+#: utils/strings-utils.php:268
+msgid "Invalid email"
+msgstr "メールアドレスが無効です"
+
+#: utils/strings-utils.php:269
+msgid "Invalid number"
+msgstr "無効な番号"
+
+#: utils/strings-utils.php:270
+#, fuzzy
+msgid "Connection error"
+msgstr "接続エラー"
+
+#: utils/strings-utils.php:271
+#, fuzzy
+msgid "Timeout error"
+msgstr "タイムアウトエラー"
+
+#: utils/strings-utils.php:272
+#, fuzzy
+msgid "Season not defined error"
+msgstr "シーズン未定義エラー"
+
+#: utils/strings-utils.php:273
+#, fuzzy
+msgid "Rate not defined error"
+msgstr "レート定義されていないエラー"
+
+#: utils/strings-utils.php:279
+msgid "Occupied"
+msgstr "予約済み"
+
+#: utils/strings-utils.php:283
+msgid "Available"
+msgstr "利用可能"
+
+#: utils/strings-utils.php:284
+#, fuzzy
+msgid "Before check-in day"
+msgstr "チェックイン日前"
+
+#: utils/strings-utils.php:285
+#, fuzzy
+msgid "Not available for check-in"
+msgstr "チェックインには対応していません"
+
+#: utils/strings-utils.php:286
+#, fuzzy
+msgid "Not available for check-out"
+msgstr "チェックアウトできません"
+
+#: utils/strings-utils.php:287
+#, fuzzy
+msgid "Available for check-in only"
+msgstr "チェックインのみ可能"
+
+#: utils/strings-utils.php:288
+#, fuzzy
+msgid "Available for check-out only"
+msgstr "チェックアウトのみ可能"
+
+#: utils/strings-utils.php:289
+#, fuzzy
+msgid "Not available for check-out (due to minimum-stay requirement)"
+msgstr "チェックアウトにはご利用いただけません (最低滞在条件による)"
+
+#: utils/strings-utils.php:290
+#, fuzzy
+msgid "Not available for check-out (due to maximum-stay requirement)"
+msgstr "チェックアウトにはご利用いただけません (最大宿泊人数による)"
+
+#: utils/strings-utils.php:291
+#, fuzzy
+msgid "Chosen check-in day"
+msgstr "選択したチェックイン日"
+
+#: utils/strings-utils.php:292
+#, fuzzy
+msgid "Chosen check-out day"
+msgstr "選択されたチェックアウト日"
+
+#: utils/strings-utils.php:293
+msgid "Select a check-in date"
+msgstr "チェックイン日を選択"
+
+#: utils/strings-utils.php:294
+msgid "Select a check-out date"
+msgstr "チェックアウト日を選択"
+
+#: utils/strings-utils.php:301
+msgid "From"
+msgstr "から"
+
+#: utils/strings-utils.php:303
+msgid "Nights"
+msgstr "泊"
+
+#: utils/strings-utils.php:305
+msgid "Per night"
+msgstr "一泊"
+
+#: utils/strings-utils.php:306
+#, fuzzy
+msgid "All nights"
+msgstr "すべての夜"
+
+#: utils/strings-utils.php:307
+#, fuzzy
+msgid "For x-night stay"
+msgstr "x 泊滞在の場合"
+
+#: utils/strings-utils.php:313
+msgid "Description table head"
+msgstr ""
+
+#: utils/strings-utils.php:314 utils/strings-utils.php:341
+#, fuzzy
+msgid "Amount table head"
+msgstr "支払金額"
+
+#: utils/strings-utils.php:315
+#, fuzzy
+msgid "Accommodation section title"
+msgstr "宿泊セレクションタイトル"
+
+#: utils/strings-utils.php:317
+#, fuzzy
+#| msgid "Charge"
+msgid "Surcharge"
+msgstr "チャージ"
+
+#: utils/strings-utils.php:318
+#, fuzzy
+msgid "Accommodation subtotal"
+msgstr "宿泊料金"
+
+#: utils/strings-utils.php:319
+#, fuzzy
+msgid "Accommodation total"
+msgstr "宿泊料金"
+
+#: utils/strings-utils.php:320
+#, fuzzy
+msgid "Accommodation and extras total"
+msgstr "宿泊料金"
+
+#: utils/strings-utils.php:321
+#, fuzzy
+#| msgid "Chosen extra services title"
+msgid "Global extra services section title"
+msgstr "選択したオプションサービスのタイトル"
+
+#: utils/strings-utils.php:322
+#, fuzzy
+#| msgid "Extra services selection title"
+msgid "Extra services section title"
+msgstr "オプションサービス選択タイトル"
+
+#: utils/strings-utils.php:323
+#, fuzzy
+msgid "Extra services subtotal"
+msgstr "追加サービスの選択"
+
+#: utils/strings-utils.php:324
+#, fuzzy
+msgid "Extra services total"
+msgstr "追加サービス"
+
+#: utils/strings-utils.php:325
+#, fuzzy
+#| msgid "Chosen extra services title"
+msgid "Global extra services total"
+msgstr "選択したオプションサービスのタイトル"
+
+#: utils/strings-utils.php:327
+msgid "Subtotal"
+msgstr ""
+
+#: utils/strings-utils.php:328
+#, fuzzy
+#| msgid "Total price"
+msgid "Total"
+msgstr "合計金額"
+
+#: utils/strings-utils.php:329
+#, fuzzy
+msgid "Included fee text"
+msgstr "無効な価格です。"
+
+#: utils/strings-utils.php:331
+msgid "Total including security bond"
+msgstr ""
+
+#: utils/strings-utils.php:332 utils/utils.php:4427
+#, fuzzy
+msgid "Amount paid"
+msgstr "支払金額"
+
+#: utils/strings-utils.php:333
+#, fuzzy
+#| msgid "Total price"
+msgid "Total due"
+msgstr "合計金額"
+
+#: utils/strings-utils.php:339
+#, fuzzy
+msgid "Payment date table head"
+msgstr "支払金額"
+
+#: utils/strings-utils.php:340
+#, fuzzy
+msgid "Payment method table head"
+msgstr "支払方法ラベル"
+
+#: utils/strings-utils.php:342
+#, fuzzy
+msgid "Total amount paid"
+msgstr "支払金額"
+
+#: utils/strings-utils.php:348
+#, fuzzy
+msgid "Price starting at"
+msgstr "価格から始まる"
+
+#: utils/strings-utils.php:349
+#, fuzzy
+msgid "Starting price duration unit"
+msgstr "開始価格期間単位"
+
+#: utils/strings-utils.php:350
+#, fuzzy
+msgid "Book now button"
+msgstr "今すぐ予約ボタン"
+
+#: utils/strings-utils.php:351
+#, fuzzy
+msgid "View details button"
+msgstr "[宿泊施設の表示] ボタン"
+
+#: utils/strings-utils.php:357
+#, fuzzy
+msgid "Payment form title"
+msgstr "支払セクションのタイトル"
+
+#: utils/strings-utils.php:358
+#, fuzzy
+msgid "Payment type (text before payment form)"
+msgstr "支払タイプ店舗クレジットカード"
+
+#: utils/strings-utils.php:359
+#, fuzzy
+msgid "Payment type: total price"
+msgstr "支払タイプオフライン"
+
+#: utils/strings-utils.php:360
+#, fuzzy
+msgid "Payment type: total price including bond"
+msgstr "支払タイプ店舗クレジットカード"
+
+#: utils/strings-utils.php:361
+#, fuzzy
+#| msgid "Payment type deposit"
+msgid "Payment type: deposit"
+msgstr "預り金支払い"
+
+#: utils/strings-utils.php:362
+#, fuzzy
+#| msgid "Payment type deposit"
+msgid "Payment type: deposit including bond"
+msgstr "預り金支払い"
+
+#: utils/strings-utils.php:363
+#, fuzzy
+msgid "Payment type: remaining balance"
+msgstr "支払タイプオフライン"
+
+#: utils/strings-utils.php:364
+msgid "Payment type: remaining balance including bond"
+msgstr ""
+
+#: utils/strings-utils.php:365
+#, fuzzy
+#| msgid "Payment type full"
+msgid "Payment type: bond"
+msgstr "全額支払い"
+
+#: utils/strings-utils.php:366
+#, fuzzy
+msgid "Amount (text before payment form)"
+msgstr "フォームの前のテキスト"
+
+#: utils/strings-utils.php:367
+#, fuzzy
+msgid "Explanation text before add or update payment method form"
+msgstr "預金支払の説明テキスト"
+
+#: utils/strings-utils.php:368
+#, fuzzy
+msgid "Text before \"Pay now\" button"
+msgstr "「今すぐ予約」ボタンの前のテキスト"
+
+#: utils/strings-utils.php:369
+#, fuzzy
+msgid "Pay now button"
+msgstr "今すぐ予約ボタン"
+
+#: utils/strings-utils.php:370
+#, fuzzy
+msgid "Text before \"Submit\" button"
+msgstr "「今すぐ予約」ボタンの前のテキスト"
+
+#: utils/strings-utils.php:371
+#, fuzzy
+#| msgid "Radio buttons"
+msgid "Submit button"
+msgstr "ラジオボタン"
+
+#: utils/strings-utils.php:372
+#, fuzzy
+msgid "Thanks message for payment"
+msgstr "おかげでメッセージ-支払いが完了しました (1)"
+
+#: utils/strings-utils.php:373
+msgid "Thanks message for adding or updating payment method"
+msgstr ""
+
+#: utils/strings-utils.php:374
+msgid "Payment form could not be loaded"
+msgstr ""
+
+#: utils/strings-utils.php:375
+#, fuzzy
+msgid "Payment already made"
+msgstr "アクティブなペイメントゲートウェイ"
+
+#: utils/strings-utils.php:381
+#, fuzzy
+#| msgid "Payment type full"
+msgid "Payment link button text"
+msgstr "全額支払い"
+
+#: utils/strings-utils.php:382
+#, fuzzy
+#| msgid "Select payment method"
+msgid "Add or update payment method button text"
+msgstr "支払い方法を選択"
+
+#: utils/utils.php:86
+#, fuzzy
+msgid "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
+msgstr "月曜、火曜、水曜、木曜、金曜、土曜、日曜"
+
+#: utils/utils.php:92
+#, fuzzy
+msgid "Mon,Tue,Wed,Thu,Fri,Sat,Sun"
+msgstr "月曜、火曜、水曜、木曜、金曜、土曜、日曜"
+
+#: utils/utils.php:107
+#, fuzzy
+msgid "Error: price should be a numerical value."
+msgstr "エラー: 価格は数値である必要があります。"
+
+#: utils/utils.php:772
+msgid "[customer_email] in \"To address\" could not be processed."
+msgstr ""
+
+#: utils/utils.php:777
+msgid "[customer_email] in \"To address\" was empty."
+msgstr ""
+
+#: utils/utils.php:1197
+#, fuzzy
+msgid "Check-in day"
+msgstr "チェックイン日"
+
+#: utils/utils.php:1199
+#, fuzzy
+msgid "Check-out day"
+msgstr "チェックアウト日"
+
+#: utils/utils.php:1571 utils/utils.php:1582
+#, fuzzy
+#| msgid "Total price"
+msgctxt "payment link"
+msgid "Total price"
+msgstr "合計金額"
+
+#: utils/utils.php:1572
+msgid "Total price including bond"
+msgstr ""
+
+#: utils/utils.php:1574
+msgid "Deposit including bond"
+msgstr ""
+
+#: utils/utils.php:1576
+msgid "Remaining balance including bond"
+msgstr ""
+
+#: utils/utils.php:1577
+msgid "Bond"
+msgstr ""
+
+#: utils/utils.php:1578 utils/utils.php:1585
+#, fuzzy
+msgid "Custom amount"
+msgstr "クーポン割引金額"
+
+#: utils/utils.php:1589
+#, fuzzy
+#| msgid "Select payment method"
+msgid "No payments (store payment method only)"
+msgstr "支払い方法を選択"
+
+#: utils/utils.php:2784
+#, fuzzy
+msgid "Reservation origin"
+msgstr "予約元:"
+
+#: utils/utils.php:3033
+msgid "Partially refunded"
+msgstr ""
+
+#: utils/utils.php:3041 utils/utils.php:3043
+#, fuzzy
+#| msgid "Refund"
+msgid "Refunded"
+msgstr "返金"
+
+#: utils/utils.php:3285
+#, fuzzy
+#| msgid "Text area"
+msgid "Next %arrow"
+msgstr "ناحیه متنی"
+
+#: utils/utils.php:3287
+msgid "%arrow Previous"
+msgstr ""
+
+#: utils/utils.php:3648
+#, fuzzy
+msgid "Background color on hover"
+msgstr "ホバー時の背景色:"
+
+#: utils/utils.php:3655
+#, fuzzy
+#| msgid "Text color:"
+msgid "Text color"
+msgstr "テキストカラー"
+
+#: utils/utils.php:3659
+msgid "White"
+msgstr "白"
+
+#: utils/utils.php:3660
+msgid "Black"
+msgstr "黒"
+
+#: utils/utils.php:3665
+#, fuzzy
+#| msgid "Border radius:"
+msgid "Border radius"
+msgstr "枠線の丸み"
+
+#: utils/utils.php:3671 utils/utils.php:3718
+#, fuzzy
+msgid "Side padding"
+msgstr "サイドパディング:"
+
+#: utils/utils.php:3677 utils/utils.php:3724
+#, fuzzy
+msgid "Height padding"
+msgstr "高さのパディング:"
+
+#: utils/utils.php:3688
+#, fuzzy
+msgid "Borders color"
+msgstr "罫線の色:"
+
+#: utils/utils.php:3694
+#, fuzzy
+msgid "Borders color when active"
+msgstr "アクティブなときの境界線の色:"
+
+#: utils/utils.php:3700
+#, fuzzy
+msgid "Borders width"
+msgstr "境界線の幅:"
+
+#: utils/utils.php:3706
+#, fuzzy
+msgid "Borders radius"
+msgstr "境界線の半径:"
+
+#: utils/utils.php:3712
+#, fuzzy
+#| msgid "Height:"
+msgid "Height"
+msgstr "高さ："
+
+#: utils/utils.php:3735
+#, fuzzy
+msgid "Calendar background"
+msgstr "カレンダーの背景:"
+
+#: utils/utils.php:3741
+#, fuzzy
+msgid "Available day background"
+msgstr "利用可能な日の背景:"
+
+#: utils/utils.php:3747
+#, fuzzy
+msgid "Not selectable day background"
+msgstr "選択できない日の背景:"
+
+#: utils/utils.php:3755
+#, fuzzy
+msgid "Not selectable day number"
+msgstr "選択できない曜日番号:"
+
+#: utils/utils.php:3761
+#, fuzzy
+msgid "Selected day background"
+msgstr "選択した日の背景:"
+
+#: utils/utils.php:3767
+#, fuzzy
+#| msgid "Occupied day background:"
+msgid "Occupied day background"
+msgstr "予約済み日の背景:"
+
+#: utils/utils.php:3773
+#, fuzzy
+msgid "Buttons background"
+msgstr "ボタンの背景:"
+
+#: utils/utils.php:3779
+#, fuzzy
+msgid "Buttons background on hover"
+msgstr "ホバー時のボタンの背景:"
+
+#: utils/utils.php:3785
+#, fuzzy
+msgid "Disabled buttons background"
+msgstr "無効なボタンの背景:"
+
+#: utils/utils.php:3791
+#, fuzzy
+msgid "Button arrows"
+msgstr "ボタンの矢印:"
+
+#: utils/utils.php:3797
+#, fuzzy
+msgid "Calendar inner borders"
+msgstr "カレンダーの内側の境界線:"
+
+#: utils/utils.php:4418
+msgid "Num"
+msgstr "数"
+
+#: utils/utils.php:4429
+#, fuzzy
+#| msgid "Payment type full"
+msgid "Payment type"
+msgstr "全額支払い"
+
+#: utils/utils.php:4430
+#, fuzzy
+#| msgid "Coupon:"
+msgid "Coupon code"
+msgstr "クーポン:"
+
+#: utils/utils.php:4432
+msgid "Currency"
+msgstr "通貨"
+
+#: utils/utils.php:4436
+msgid "Origin"
+msgstr ""
+
+#: utils/utils.php:4437
+msgid "Alphanum id"
+msgstr ""
+
+#: utils/utils.php:4472
+#, fuzzy
+#| msgid "Price"
+msgid "price"
+msgstr "価格"
+
+#: utils/utils.php:4684
+#, fuzzy
+msgid "Reservation reader"
+msgstr "予約リーダー"
+
+#: utils/utils.php:4692
+#, fuzzy
+msgid "Reservation manager"
+msgstr "予約マネージャー"
+
+#: utils/utils.php:4704
+#, fuzzy
+msgid "Pricing manager"
+msgstr "予約マネージャー"
+
+#: utils/utils.php:4736
+#, fuzzy
+msgid "HBook manager"
+msgstr "予約言語:"
+
+#: utils/utils.php:4828
+#, fuzzy
+msgid "Details form"
+msgstr "顧客の詳細フォーム"
+
+#: utils/utils.php:4838
+#, fuzzy
+msgid "ICal sync"
+msgstr "Ical sync"
+
+#: utils/utils.php:4843
+msgid "Emails"
+msgstr "メール"
+
+#: utils/utils.php:4848
+#, fuzzy
+#| msgid "documentation"
+msgid "Documents"
+msgstr "ドキュメント"
+
+#, fuzzy
+#~| msgid ""
+#~| "\"To address\", \"Reply-To address\", \"From address\", \"Subject\" and "
+#~| "\"Message\" fields:"
+#~ msgid ""
+#~ "\"To address\", \"Reply-To address\", \"From address\", \"Bcc address\", "
+#~ "\"Subject\" and \"Message\" fields:"
+#~ msgstr ""
+#~ "「宛先アドレス」、「返信先アドレス」、「差出人アドレス」、「件名」および"
+#~ "「メッセージ」フィールド:"
+
+#, fuzzy
+#~ msgid "Go to the contact support form"
+#~ msgstr "連絡先サポートフォームに移動します。"
+
+#, fuzzy
+#~ msgid "Languages - Import / Export for front-end strings"
+#~ msgstr "言語 (言語ファイルのインポート/エクスポート)"
+
+#~ msgid "Mark as paid"
+#~ msgstr "予約確定"
+
+#, fuzzy
+#~ msgid "Marking as paid..."
+#~ msgstr "支払い済みとしてマーク..."
+
+#~ msgid "Charge amount:"
+#~ msgstr "請求金額:"
+
+#, fuzzy
+#~ msgid "Mark reservation as paid?"
+#~ msgstr "新規予約"
+
+#~ msgid "The charge amount can not be above %amount"
+#~ msgstr "請求金額を%amount 以上にすることはできません"
+
+#~ msgid "The refund amount can not be below zero."
+#~ msgstr "払い戻し額はゼロ未満にはできません"
+
+#, fuzzy
+#~ msgid "HBook text"
+#~ msgstr "HBook テキスト"
+
+#~ msgid "Rates tables appearance"
+#~ msgstr "料金表の外観"
+
+#, fuzzy
+#~| msgid "Payment method:"
+#~ msgid "Payment method"
+#~ msgstr "お支払い方法:"
+
+#~ msgid "Languages"
+#~ msgstr "言語"
+
+#, fuzzy
+#~ msgid "Store credit card"
+#~ msgstr "ストアクレジットカード:"
+
+#, fuzzy
+#~ msgid "\"Number of accommodation\" field maximum number (front-end form)"
+#~ msgstr "このタイプの宿泊施設の数:"
+
+#, fuzzy
+#~ msgid "(This will also erase all data associated to this field.)"
+#~ msgstr ""
+#~ "(これにより、このフィールドに関連付けられているすべてのデータも消去されま"
+#~ "す。"
+
+#, fuzzy
+#~ msgid "Enter a number of days."
+#~ msgstr "<u> ヶ月前 </u> の最大数を入力してください..."
+
+#, fuzzy
+#~ msgid "Import reservations only"
+#~ msgstr "輸出予約"
+
+#~ msgid "Export"
+#~ msgstr "エクスポート"
+
+#~ msgid "Import file"
+#~ msgstr "インポートファイル"
+
+#, fuzzy
+#~ msgid "Import .ics file"
+#~ msgstr "ファイルをインポートする"
+
+#, fuzzy
+#~ msgid "New calendar"
+#~ msgstr "新しいカレンダー"
+
+#, fuzzy
+#~ msgid "Enter calendar URL: "
+#~ msgstr "カレンダーの URL を入力:"
+
+#, fuzzy
+#~ msgid "Summary: "
+#~ msgstr "概要："
+
+#~ msgid "Email: "
+#~ msgstr "メールアドレス:"

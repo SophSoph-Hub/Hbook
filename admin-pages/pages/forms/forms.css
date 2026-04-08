@@ -1,0 +1,5 @@
+.hb-single-accom-booking .hb-accom-number-option-wrapper,
+.hb-single-accom-booking .hb-min-max-accom-number-option-wrapper,
+.hb-admin-single-accom-booking .hb-admin-maximum-accom-number-option-wrapper {
+	display: none;
+}

@@ -221,6 +221,19 @@ class HbOptionsUtils {
 					),
 				)
 			),
+
+			'currency_settings' => array(
+				'label' => esc_html__( 'Currency settings', 'hbook-admin' ),
+				'options' => array(
+					'hb_eur_chf_rate' => array(
+						'label' => esc_html__( 'EUR / CHF exchange rate', 'hbook-admin' ),
+						'caption' => esc_html__( 'Exchange rate used to convert CHF prices to EUR in the booking form (e.g. 0.95 means 1 CHF = 0.95 EUR).', 'hbook-admin' ),
+						'type' => 'text',
+						'class' => 'hb-small-field',
+						'default' => '0.95',
+					),
+				)
+			),
 		);
 	}
 

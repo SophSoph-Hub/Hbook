@@ -73,12 +73,12 @@ Schema management is in `database-actions/database-schema.php` and `database-act
 
 The frontend displays prices in both CHF (default) and EUR via a toggle button. EUR amounts are computed client-side by multiplying the CHF price by the exchange rate.
 
-**Exchange rate**: stored in `wp_options` as `hb_eur_chf_rate` (default `0.95`). Update with:
+**Exchange rate**: stored in `wp_options` as `hb_eur_chf_rate` (default `0.95`). Editable in the WordPress admin under **Payment → Currency settings**. Can also be set programmatically:
 ```php
 update_option( 'hb_eur_chf_rate', '0.96' );
 ```
 
-**How it works**:
+**How the frontend switcher works**:
 - PHP wraps every displayed price with `$utils->price_display($price)` → `<span class="hb-currency-price" data-raw-price="X">CHF X</span>`
 - `utils/utils.php::price_placeholder()` wraps the currency symbol in `<span class="hb-price-currency-symbol">` so JS can swap it
 - `front-end/js/utils.js` defines the global currency functions (`hb_apply_currency_to_prices`, `hb_format_price_with_symbol`, etc.) and the button click handler
@@ -86,6 +86,14 @@ update_option( 'hb_eur_chf_rate', '0.96' );
 - `booking-form.js` listens for the `hb_currency_changed` jQuery event to re-run dynamic price recalculations (options, payment explanations)
 - `booking-form-render.php` passes `eur_chf_rate`, `chf_symbol`, `eur_symbol` into `hb_booking_form_data`
 - `resa-summary-render.php` passes the same data as `hb_currency_data` for the standalone recap page
+
+**`wp_kses` and `data-raw-price`**: Any PHP output that goes through `wp_kses( $output, $this->utils->hb_allowed_html_tags() )` (used by `available-accom.php` and `details-form.php`) must have `data-raw-price` allowed on `span`. This is already added in `hb_allowed_html_tags()`. If you add new `price_display()` output to code that passes through a different `wp_kses` call, add `$allowed_html['span']['data-raw-price'] = true` there too (as done in `resa-summary.php`).
+
+**Currency in emails**: The customer's chosen currency (CHF or EUR) is captured at reservation creation time (`hb_create_resa` reads `hb-selected-currency` from the POST) and stored in the `currency` column of `wp_hb_resa` / `wp_hb_parents_resa`. Email templates can use:
+- `[resa_price]` — total price formatted in the customer's chosen currency
+- `[resa_CCY]` — the currency code: `CHF` or `EUR`
+
+The server-side conversion for emails is handled by `HbUtils::price_in_resa_currency()` in `utils/utils.php`, which applies `hb_eur_chf_rate` when the stored currency is EUR. Payment gateways are unaffected — they read `get_option('hb_currency')` directly, not `$resa['currency']`.
 
 ## Development Notes
 

@@ -137,15 +137,23 @@ class HbUtils {
 		}
 	}
 
+	public function price_display( $price ) {
+		if ( ! is_numeric( $price ) ) {
+			return esc_html__( 'Error: price should be a numerical value.', 'hbook-admin' );
+		}
+		return '<span class="hb-currency-price" data-raw-price="' . esc_attr( floatval( $price ) ) . '">' . $this->price_with_symbol( $price ) . '</span>';
+	}
+
 	public function price_placeholder( $class = '' ) {
 		if ( $class ) {
 			$class = ' ' . $class;
 		}
 		$class = 'hb-price-placeholder' . $class;
+		$symbol = '<span class="hb-price-currency-symbol">' . $this->get_currency_symbol() . '</span>';
 		if ( get_option( 'hb_currency_position' ) == 'after' ) {
-			return '<span class="' . $class . '"></span> ' . $this->get_currency_symbol();
+			return '<span class="' . $class . '"></span> ' . $symbol;
 		} else {
-			return $this->get_currency_symbol() . '<span class="' . $class . '"></span>';
+			return $symbol . '<span class="' . $class . '"></span>';
 		}
 	}
 

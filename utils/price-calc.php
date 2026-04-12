@@ -163,7 +163,7 @@ class HbPriceCalc {
 						} catch ( Throwable $e ) {
 							$price_breakdown .= $p_label;
 						}
-						$price_breakdown .= ' <span class="hb-price-breakdown-amount">' . $this->utils->price_with_symbol( $price - $price_before );
+						$price_breakdown .= ' <span class="hb-price-breakdown-amount">' . $this->utils->price_display( $price - $price_before );
 						$price_breakdown .= '</span></span>';
 						if ( get_option( 'hb_display_detailed_accom_price' ) != 'no' ) {
 							foreach ( $result as $r ) {
@@ -203,9 +203,9 @@ class HbPriceCalc {
 										$stay_length . ' ' . $stay_str .
 										' x ' .
 										$sub_number .
-										$this->utils->price_with_symbol( $sub_sub_price ) .
+										$this->utils->price_display( $sub_sub_price ) .
 										') : ' .
-										$this->utils->price_with_symbol( $sub_price ) .
+										$this->utils->price_display( $sub_price ) .
 										'</span>';
 							}
 						}
@@ -293,7 +293,7 @@ class HbPriceCalc {
 				);
 			}
 			$price_breakdown .= ' <span class="hb-price-breakdown-amount">';
-			$price_breakdown .= $this->utils->price_with_symbol( $total_discount_amount );
+			$price_breakdown .= $this->utils->price_display( $total_discount_amount );
 			$price_breakdown .= '</span>';
 			$price_breakdown .= '</span>';
 			$price_breakdown .= '</span>';
@@ -323,7 +323,7 @@ class HbPriceCalc {
 					$price_breakdown .= '<span class="hb-price-breakdown-title">';
 					$price_breakdown .= $this->strings['price_breakdown_fees'];
 					$price_breakdown .= ' <span class="hb-price-breakdown-amount">';
-					$price_breakdown .= $this->utils->price_with_symbol( $price - $price_before_fees );
+					$price_breakdown .= $this->utils->price_display( $price - $price_before_fees );
 					$price_breakdown .= '</span>';
 					$price_breakdown .= '</span>';
 					$price_breakdown .= $fee_breakdown;
@@ -532,7 +532,7 @@ class HbPriceCalc {
 					$fee_txt .= '</span>';
 				}
 				$fee_txt .= ': ';
-				$fee_txt .= $this->utils->price_with_symbol( $fee_values['price'] );
+				$fee_txt .= $this->utils->price_display( $fee_values['price'] );
 
 				if ( $fee['include_in_price'] == 0 ) {
 					$fee_txt .= '<span data-price="' . $fee_values['price'] . '"></span>';

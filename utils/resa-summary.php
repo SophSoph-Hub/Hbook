@@ -198,7 +198,7 @@ class HbResaSummary {
 					$output .= '<div class="hb-summary-accom-total-price">';
 					$output .= $this->strings['summary_accom_total_price'];
 					$output .= ' ';
-					$output .= $this->utils->price_with_symbol( $accom_total_price );
+					$output .= $this->utils->price_display( $accom_total_price );
 					if ( $price_has_details && ! $this->is_admin ) {
 						$output .= '<span class="hb-summary-price-breakdown-trigger-wrapper">';
 						$output .= ' - <a class="hb-summary-view-price-breakdown" href="#">';
@@ -242,9 +242,9 @@ class HbResaSummary {
 					$output .= $this->strings['summary_global_options_price'] . ' ';
 					if ( $options_price < 0 ) {
 						$output .= '-';
-						$output .= $this->utils->price_with_symbol( $options_price * -1 );
+						$output .= $this->utils->price_display( $options_price * -1 );
 					} else {
-						$output .= $this->utils->price_with_symbol( $options_price );
+						$output .= $this->utils->price_display( $options_price );
 					}
 					$output .= '</div>';
 
@@ -312,7 +312,7 @@ class HbResaSummary {
 				$output .= '<div class="hb-summary-deposit">';
 				$output .= $this->strings['summary_deposit'];
 				$output .= ' ';
-				$output .= $this->utils->price_with_symbol( $deposit );
+				$output .= $this->utils->price_display( $deposit );
 				$output .= '</div>';
 				if ( ! $payment_type ) {
 					$output .= '<br/>';
@@ -323,7 +323,7 @@ class HbResaSummary {
 				$output .= '<div class="hb-summary-total-price">';
 				$output .= $this->strings['summary_price'];
 				$output .= ' ';
-				$output .= $this->utils->price_with_symbol( $total_price );
+				$output .= $this->utils->price_display( $total_price );
 				$output .= '</div>';
 			}
 
@@ -343,7 +343,7 @@ class HbResaSummary {
 
 			if ( get_option( 'hb_security_bond' ) == 'yes' ) {
 				$output .= '<br/>';
-				$bond_amount = $this->utils->price_with_symbol( get_option( 'hb_security_bond_amount' ) );
+				$bond_amount = $this->utils->price_display( get_option( 'hb_security_bond_amount' ) );
 				$bond_text = '<div class="hb-summary-bond">' . $this->strings['summary_security_bond'] . ' ' . $bond_amount . '</div>';
 				if ( ! $this->is_admin ) {
 					$bond_explanation = $this->strings['summary_security_bond_explanation'];
@@ -395,6 +395,7 @@ class HbResaSummary {
 			$output .= 'data-null-price="' . $null_price . '" ';
 			$output .= 'data-charged-total-price-raw="' . $this->utils->round_price( $charged_total_price ) . '" ';
 			$output .= 'data-charged-deposit-raw="' . $this->utils->round_price( $charged_deposit ) . '" ';
+			$output .= 'data-charged-total-minus-deposit-raw="' . $this->utils->round_price( $charged_total_minus_deposit ) . '" ';
 			$output .= '></div>';
 			if ( $global_discount_breakdown ) {
 				$output .= '<div class="hb-discount-data-summary" ';
@@ -427,7 +428,9 @@ class HbResaSummary {
 		$allowed_html['div']['data-null-price'] = true;
 		$allowed_html['div']['data-charged-total-price-raw'] = true;
 		$allowed_html['div']['data-charged-deposit-raw'] = true;
+		$allowed_html['div']['data-charged-total-minus-deposit-raw'] = true;
 		$allowed_html['div']['data-discount-amount'] = true;
+		$allowed_html['span']['data-raw-price'] = true;
 		$allowed_html['input']['type'] = true;
 		$allowed_html['input']['class'] = true;
 		$allowed_html['input']['value'] = true;
@@ -488,7 +491,7 @@ class HbResaSummary {
 		$output .= '<div class="hb-summary-accom-price">';
 		$output .= $this->strings['summary_accom_price'];
 		$output .= ' ';
-		$output .= $this->utils->price_with_symbol( $accom_price );
+		$output .= $this->utils->price_display( $accom_price );
 		$output .= '</div><!-- end .hb-summary-accom-price -->';
 
 		$accom_included_fees = $this->hbdb->get_accom_included_fees( $resa_info['accom_id'] );
@@ -528,9 +531,9 @@ class HbResaSummary {
 			$output .= $this->strings['summary_options_price'] . ' ';
 			if ( $options_price < 0 ) {
 				$output .= '-';
-				$output .= $this->utils->price_with_symbol( $options_price * -1 );
+				$output .= $this->utils->price_display( $options_price * -1 );
 			} else {
-				$output .= $this->utils->price_with_symbol( $options_price );
+				$output .= $this->utils->price_display( $options_price );
 			}
 			$output .= '</div>';
 
@@ -602,7 +605,7 @@ class HbResaSummary {
 			$output .= '<div class="hb-summary-coupon-amount">';
 			$output .= $this->strings['summary_coupon_amount'];
 			$output .= ' ';
-			$output .= $this->utils->price_with_symbol( $coupon_value );
+			$output .= $this->utils->price_display( $coupon_value );
 			$output .= '</div>';
 		}
 
@@ -633,7 +636,7 @@ class HbResaSummary {
 				$output .= esc_html( $this->strings['summary_discount_amount'] );
 			}
 			$output .= ' ';
-			$output .= $this->utils->price_with_symbol( $total_discount_amount );
+			$output .= $this->utils->price_display( $total_discount_amount );
 			$output .= '</div>';
 		}
 
@@ -778,7 +781,7 @@ class HbResaSummary {
 			$output .= '</span>';
 		}
 		$output .= ': ';
-		$output .= $this->utils->price_with_symbol( $values['price'] );
+		$output .= $this->utils->price_display( $values['price'] );
 		if ( $included ) {
 			$output .= '</small>';
 		}

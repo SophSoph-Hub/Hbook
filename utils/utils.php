@@ -433,7 +433,9 @@ class HbUtils {
 				'data-quantity' => true,
 			),
 			'p' => array(),
-			'span' => array(),
+			'span' => array(
+				'data-raw-price' => true,
+			),
 			'input' => array(
 				'autocomplete' => true,
 				'checked' => true,

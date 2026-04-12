@@ -158,7 +158,7 @@ class HbFrontEndAjaxActions {
 				'check_in' => $check_in,
 				'check_out' => $check_out,
 				'lang' => get_locale(),
-				'currency' => get_option( 'hb_currency' ),
+				'currency' => ( isset( $_POST['hb-selected-currency'] ) && in_array( $_POST['hb-selected-currency'], array( 'CHF', 'EUR' ) ) ) ? $_POST['hb-selected-currency'] : get_option( 'hb_currency' ),
 				'origin' => 'website',
 			);
 

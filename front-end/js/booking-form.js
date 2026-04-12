@@ -1568,8 +1568,9 @@ jQuery( document ).ready( function( $ ) {
 			$forms;
 		$forms = $form.add( $options_form );
 		$forms = $forms.add( $accom_num_form );
+		var selected_currency = ( typeof hb_selected_currency !== 'undefined' ) ? hb_selected_currency : 'CHF';
 		$.ajax({
-			data: $forms.serialize(),
+			data: $forms.serialize() + '&hb-selected-currency=' + encodeURIComponent( selected_currency ),
 			success: function( response ) {
 				after_form_details_submit( response, $form );
 			},

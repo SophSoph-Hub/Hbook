@@ -137,6 +137,32 @@ class HbUtils {
 		}
 	}
 
+	private function price_in_resa_currency( $price, $currency, $is_html ) {
+		if ( $currency === 'EUR' ) {
+			$rate      = floatval( get_option( 'hb_eur_chf_rate', '0.95' ) );
+			$converted = floatval( $price ) * $rate;
+			$negative  = '';
+			if ( $converted < 0 ) {
+				$negative  = '-';
+				$converted = abs( $converted );
+			}
+			if ( get_option( 'hb_price_precision' ) != 'no_decimals' ) {
+				$formatted = number_format_i18n( $converted, 2 );
+			} else {
+				$formatted = number_format_i18n( round( $converted ), 0 );
+			}
+			if ( $is_html ) {
+				return $negative . $formatted . ' ' . $this->get_currency_symbol( 'EUR' );
+			} else {
+				return $negative . $formatted . ' EUR';
+			}
+		}
+		if ( $is_html ) {
+			return $this->price_with_symbol( $price );
+		}
+		return $this->price_with_currency_letters( $price );
+	}
+
 	public function price_display( $price ) {
 		if ( ! is_numeric( $price ) ) {
 			return esc_html__( 'Error: price should be a numerical value.', 'hbook-admin' );
@@ -1293,6 +1319,9 @@ class HbUtils {
 			$text = str_replace( '[resa_' . $info . ']', $resa[ $info ], $text );
 		}
 
+		$resa_currency = isset( $resa['currency'] ) ? $resa['currency'] : get_option( 'hb_currency', 'CHF' );
+		$text = str_replace( '[resa_CCY]', $resa_currency, $text );
+
 		$text = str_replace( '[resa_persons]', $resa['adults'] + $resa['children'], $text );
 		$text = str_replace( '[resa_received_on]', $this->get_blog_datetime( $resa['received_on'] ), $text );
 		$text = str_replace( '[resa_received_on_date]', $this->format_date( substr( $resa['received_on'], 0, 10 ) ), $text );
@@ -1333,7 +1362,7 @@ class HbUtils {
 		}
 		if ( $is_html ) {
 			$text = str_replace( '[resa_paid]', $this->price_with_symbol( $this->resa_total_paid( $resa ) ), $text );
-			$text = str_replace( '[resa_price]', $this->price_with_symbol( $resa['price'] ), $text );
+			$text = str_replace( '[resa_price]', $this->price_in_resa_currency( $resa['price'], $resa_currency, true ), $text );
 			$text = str_replace( '[resa_price_per_night]', $this->price_with_symbol( round( $resa['price'] / $nb_nights, 2 ) ), $text );
 			if ( $resa_is_parent ) {
 				$text = str_replace( '[resa_accom_list_price]', '', $text );
@@ -1373,7 +1402,7 @@ class HbUtils {
 			$text = str_replace( '[resa_extras]', $resa_extras, $text );
 		} else {
 			$text = str_replace( '[resa_paid]', $this->price_with_currency_letters( $this->resa_total_paid( $resa ) ), $text );
-			$text = str_replace( '[resa_price]', $this->price_with_currency_letters( $resa['price'] ), $text );
+			$text = str_replace( '[resa_price]', $this->price_in_resa_currency( $resa['price'], $resa_currency, false ), $text );
 			$text = str_replace( '[resa_price_per_night]', $this->price_with_currency_letters( round( $resa['price'] / $nb_nights, 2 ) ), $text );
 			if ( $resa_is_parent ) {
 				$text = str_replace( '[resa_accom_list_price]', '', $text );

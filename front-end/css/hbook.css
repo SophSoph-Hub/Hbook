@@ -1,4 +1,36 @@
 
+/* currency switcher */
+
+.hb-currency-switcher {
+	margin-bottom: 12px;
+}
+
+.hb-currency-btn {
+	display: inline-block;
+	padding: 4px 14px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	background: #f5f5f5;
+	font-size: 13px;
+	line-height: 1.6;
+	outline: none;
+}
+
+.hb-currency-btn:first-child {
+	border-right: none;
+	border-radius: 3px 0 0 3px;
+}
+
+.hb-currency-btn:last-child {
+	border-radius: 0 3px 3px 0;
+}
+
+.hb-currency-btn.hb-currency-active {
+	background: #444;
+	color: #fff;
+	border-color: #444;
+}
+
 /* search form */
 
 p.hb-check-dates-wrapper,

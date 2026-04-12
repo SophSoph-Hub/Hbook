@@ -290,6 +290,14 @@ class HBookBookingForm extends HBookRender {
 			data-booking-rules=\'' . json_encode( $this->utils->hb_esc( $form_booking_rules ) ). '\'
 		>';
 
+		/* currency switcher */
+		if ( $atts['is_admin'] != 'yes' ) {
+			$output .= '<div class="hb-currency-switcher">';
+			$output .= '<button type="button" class="hb-currency-btn hb-currency-btn-chf" data-currency="CHF">CHF</button>';
+			$output .= '<button type="button" class="hb-currency-btn hb-currency-btn-eur" data-currency="EUR">EUR</button>';
+			$output .= '</div>';
+		}
+
 		/* search form */
 		$output .= $search_form->get_search_form_markup( $atts['form_id'], $atts['redirection_url'], $atts['search_only'], $search_form_placeholder, $atts['is_admin'], $resa['check_in'], $resa['check_out'], $resa['adults'], $resa['children'], $page_accom_id, $resa['options'], $resa['accom_num'], $resa['accom_people'] );
 		if ( $atts['search_only'] == 'yes' ) {
@@ -423,6 +431,10 @@ class HBookBookingForm extends HBookRender {
 				'details_form_stack_width' => $details_form_stack_width,
 				'display_accom_left_threshold' => $display_accom_left_threshold,
 				'is_admin' => $atts['is_admin'],
+				'eur_chf_rate' => floatval( get_option( 'hb_eur_chf_rate', '0.95' ) ),
+				'chf_symbol' => $this->utils->get_currency_symbol( 'CHF' ),
+				'eur_symbol' => $this->utils->get_currency_symbol( 'EUR' ),
+				'eur_position' => 'after',
 			);
 
 			$this->utils->hb_script_var( 'hb-front-end-booking-form-script', 'hb_booking_form_data', $booking_form_data );

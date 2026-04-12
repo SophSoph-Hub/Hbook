@@ -533,6 +533,7 @@ jQuery( document ).ready( function( $ ) {
 			$form.find( '.hb-search-fields-and-submit' ).slideUp( function() {});
 			$form.find( '.hb-searched-summary' ).slideDown();
 			$booking_wrapper.find( '.hb-accom-list' ).html( response.mark_up );
+			hb_apply_currency_to_prices( $booking_wrapper.find( '.hb-accom-list' ) );
 			var is_accom_selected = false;
 			var animate_accom_step = true;
 			if ( ( $form.find( '.hb-accom' ).length ) && ( $form.find( '.hb-accom' ).val() != 'all' ) ) {
@@ -1168,9 +1169,9 @@ jQuery( document ).ready( function( $ ) {
 			$booking_wrapper.find( '.hb-payment-info-wrapper' ).hide();
 			$booking_wrapper.find( 'input.hb-payment-type-null-price' ).prop( 'checked', true );
 		} else {
-			var charged_total_price = $payment_data.data( 'charged-total-price' );
-			var charged_deposit = $payment_data.data( 'charged-deposit' );
-			var charged_total_minus_deposit = $payment_data.data( 'charged-total-minus-deposit' );
+			var charged_total_price = hb_format_price_with_symbol( $payment_data.data( 'charged-total-price-raw' ) );
+			var charged_deposit = hb_format_price_with_symbol( $payment_data.data( 'charged-deposit-raw' ) );
+			var charged_total_minus_deposit = hb_format_price_with_symbol( $payment_data.data( 'charged-total-minus-deposit-raw' ) );
 			$booking_wrapper.find( '.hb-payment-info-wrapper' ).show();
 			$booking_wrapper.find( '.hb-payment-type-explanation-full_amount' ).html( charged_total_price );
 			$booking_wrapper.find( '.hb-payment-type-explanation-deposit_amount' ).html( charged_deposit );
@@ -1236,6 +1237,7 @@ jQuery( document ).ready( function( $ ) {
 			success: function( response ) {
 				$booking_wrapper.find( '.hb-loading-summary' ).hide();
 				$booking_wrapper.find( '.hb-summary-wrapper' ).html( response );
+				hb_apply_currency_to_prices( $booking_wrapper.find( '.hb-summary-wrapper' ) );
 				hb_format_date();
 				$booking_wrapper.find( '.hb-summary-wrapper' ).slideDown();
 				if ( hb_booking_form_data.is_admin != 'yes' ) {
@@ -1753,6 +1755,7 @@ jQuery( document ).ready( function( $ ) {
 	/* misc */
 
 	function format_price( price ) {
+		price = price * hb_get_currency_rate();
 		if ( hb_booking_form_data.price_precision == 'no_decimals' ) {
 			var formatted_price = Math.round( price );
 		} else {
@@ -1764,6 +1767,19 @@ jQuery( document ).ready( function( $ ) {
 		}
 		return price_parts.join( hb_booking_form_data.decimal_point );
 	}
+
+	/* re-run dynamic price updates when currency changes */
+	$( document ).on( 'hb_currency_changed', function() {
+		$( '.hbook-wrapper' ).each( function() {
+			var $wrapper = $( this );
+			if ( $wrapper.find( '.hb-options-form' ).length ) {
+				update_options_price( $wrapper );
+			}
+			if ( $wrapper.find( '.hb-payment-data-summary' ).length ) {
+				update_payment_info( $wrapper );
+			}
+		} );
+	} );
 
 	function disable_form_submission( $form ) {
 		$form.addClass( 'submitted' );

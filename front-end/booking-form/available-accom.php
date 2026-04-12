@@ -773,7 +773,7 @@ class HbAvailableAccom {
 				if ( $is_admin == 'yes' ) {
 					$output .= '<p>';
 					$output .= '<span class="hb-accom-title">' . $this->utils->get_admin_accom_title( $accom_id ) . '</span>';
-					$output .= '<span class="hb-accom-price"> - ' . $this->utils->price_with_symbol( $price ) . '</span>';
+					$output .= '<span class="hb-accom-price"> - ' . $this->utils->price_display( $price ) . '</span>';
 					$output .= '</p>';
 					$output .= '<p class="hb-price-breakdown">' . $price_breakdown . '</p>';
 				} else {
@@ -819,7 +819,7 @@ class HbAvailableAccom {
 					if ( get_option( 'hb_display_price' ) != 'no' ) {
 						$output .= '
 							<div class="hb-accom-price-total hb-clearfix">
-								<div class="hb-accom-price">' . $this->utils->price_with_symbol( $price ) . '</div>
+								<div class="hb-accom-price">' . $this->utils->price_display( $price ) . '</div>
 								<div class="hb-accom-price-caption">' . $msg;
 						if ( get_option( 'hb_display_price_breakdown' ) == 'yes' ) {
 							// View price breakdown

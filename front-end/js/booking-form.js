@@ -1774,7 +1774,7 @@ jQuery( document ).ready( function( $ ) {
 		$( '.hbook-wrapper' ).each( function() {
 			var $wrapper = $( this );
 			if ( $wrapper.find( '.hb-options-form' ).length ) {
-				update_options_price( $wrapper );
+				calculate_options_price( $wrapper );
 			}
 			if ( $wrapper.find( '.hb-payment-data-summary' ).length ) {
 				update_payment_info( $wrapper );

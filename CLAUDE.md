@@ -23,6 +23,7 @@ There is no build system, no npm/Composer dependency management, and no automate
 | `HbPriceCalc` | `utils/price-calc.php` | Complex rate/season/discount/fee price calculation |
 | `HbResa` | `utils/resa.php` | Reservation data model |
 | `HbResaSummary` | `utils/resa-summary.php` | Builds order summaries for frontend/emails |
+| `HbOptionsForm` | `utils/resa-options.php` | Renders the extra-services (options) form for booking |
 | `HbResaIcal` | `utils/resa-ical.php` | iCalendar (RFC 5545) sync with external calendars |
 | `HbStringsUtils` | `utils/strings-utils.php` | Multi-language string management |
 | `HbAccommodation` | `accom-post-type/accom-post-type.php` | `hb_accommodation` custom post type and meta boxes |
@@ -86,6 +87,8 @@ update_option( 'hb_eur_chf_rate', '0.96' );
 - `booking-form.js` listens for the `hb_currency_changed` jQuery event to re-run dynamic price recalculations (options, payment explanations)
 - `booking-form-render.php` passes `eur_chf_rate`, `chf_symbol`, `eur_symbol` into `hb_booking_form_data`
 - `resa-summary-render.php` passes the same data as `hb_currency_data` for the standalone recap page
+
+**Options / extra services**: Option prices in `utils/resa-options.php` also convert. `HbOptionsForm::get_option_display_name()` uses `price_display($price)` (not `price_with_symbol()`) for the frontend so each price label contains a `data-raw-price` span. On currency switch, `hb_apply_currency_to_prices()` updates the label prices and `calculate_options_price()` (triggered by `hb_currency_changed`) recomputes the options total. Admin-side option prices always show CHF via `price_with_symbol()`. Note: `get_option_display_name()` sanitizes the user-supplied option name internally with `wp_kses_post`; callers must **not** wrap its return value in `wp_kses_post()` or `esc_html()` again, as that would strip the `data-raw-price` span.
 
 **`wp_kses` and `data-raw-price`**: Any PHP output that goes through `wp_kses( $output, $this->utils->hb_allowed_html_tags() )` (used by `available-accom.php` and `details-form.php`) must have `data-raw-price` allowed on `span`. This is already added in `hb_allowed_html_tags()`. If you add new `price_display()` output to code that passes through a different `wp_kses` call, add `$allowed_html['span']['data-raw-price'] = true` there too (as done in `resa-summary.php`).
 

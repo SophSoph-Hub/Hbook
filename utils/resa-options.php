@@ -146,7 +146,7 @@ class HbOptionsForm {
 					}
 					$output_options_quantity .= '
 						<div class="' . esc_attr( 'hb-quantity-option' . $option_classes ) . '">
-							<label for="' . esc_attr( $option_markup_id ) . '">' . wp_kses_post( $this->get_option_display_name( $option, $is_admin, $price_options[ 'option_' . $option['id'] ], false, $option_max ) ) . '</label><br/>
+							<label for="' . esc_attr( $option_markup_id ) . '">' . $this->get_option_display_name( $option, $is_admin, $price_options[ 'option_' . $option['id'] ], false, $option_max ) . '</label><br/>
 							<input
 								type="number"
 								min="0"
@@ -175,12 +175,12 @@ class HbOptionsForm {
 									id="' . esc_attr( $option_markup_id ) . '"
 									name="' . esc_attr( $option_markup_id ) . '" ' . esc_html( $checked ) . '
 								/>
-								<label for="' . esc_attr( $option_markup_id ) . '">' . wp_kses_post( $this->get_option_display_name( $option, $is_admin, $price_options[ 'option_' . $option['id'] ] ) ) . '</label>
+								<label for="' . esc_attr( $option_markup_id ) . '">' . $this->get_option_display_name( $option, $is_admin, $price_options[ 'option_' . $option['id'] ] ) . '</label>
 							</span>
 						</div>';
 				} else {
 					$output_options_multiple .= '
-						<div class="' . esc_attr( 'hb-multiple-option' . $option_classes ) . '">' . wp_kses_post( $this->get_option_display_name( $option, $is_admin ) ) . '<br/>';
+						<div class="' . esc_attr( 'hb-multiple-option' . $option_classes ) . '">' . $this->get_option_display_name( $option, $is_admin ) . '<br/>';
 					$choices = $option['choices'];
 					foreach ( $choices as $i => $choice ) {
 						$option_choice_markup_id = 'hb-option-choice-' . $choice['id'] . '-multi-accom-' . ( $accom_no + 1 );
@@ -200,7 +200,7 @@ class HbOptionsForm {
 									id="' . esc_attr( $option_choice_markup_id ) . '"
 									name="' . esc_attr( $option_markup_id ) . '"
 									value="' . esc_attr( $choice['id'] ) . '" ' . esc_html( $checked ) . ' />
-								<label for="' . esc_attr( $option_choice_markup_id ) . '">' . esc_html( $this->get_choice_option_display_name( $choice, $is_admin, $price_options[ 'option_choice_' . $choice['id'] ] ) ) . '</label>
+								<label for="' . esc_attr( $option_choice_markup_id ) . '">' . $this->get_choice_option_display_name( $choice, $is_admin, $price_options[ 'option_choice_' . $choice['id'] ] ) . '</label>
 							</span>
 							<br/>';
 					}
@@ -264,6 +264,7 @@ class HbOptionsForm {
 		} else {
 			$display_name = $option['name'];
 		}
+		$display_name = wp_kses_post( $display_name ); // sanitize user-supplied name here
 
 		if ( ! $is_choice ) {
 			$display_name = '<b>' . $display_name . '</b>';
@@ -271,24 +272,25 @@ class HbOptionsForm {
 		if ( $price !== '' ) {
 			if ( $is_admin || ( get_option( 'hb_display_price' ) != 'no' ) ) {
 				if ( $price == 0 ) {
-					$display_price = $this->utils->get_string( 'free_option', $locale );
+					$display_price = esc_html( $this->utils->get_string( 'free_option', $locale ) );
 				} else {
-					$display_price = str_replace( '%price', $this->utils->price_with_symbol( $price ), $this->utils->get_string( 'price_option', $locale ) );
+					$price_formatted = $is_admin ? $this->utils->price_with_symbol( $price ) : $this->utils->price_display( $price );
+					$display_price = str_replace( '%price', $price_formatted, wp_kses_post( $this->utils->get_string( 'price_option', $locale ) ) );
 					if ( isset( $option['apply_to_type'] ) && ( $option['apply_to_type'] == 'quantity' || $option['apply_to_type'] == 'quantity-per-day' ) ) {
-						$display_price = str_replace( '%each', ' ' . trim( $this->utils->get_string( 'each_option', $locale ) ), $display_price );
+						$display_price = str_replace( '%each', ' ' . trim( esc_html( $this->utils->get_string( 'each_option', $locale ) ) ), $display_price );
 					} else {
 						$display_price = str_replace( '%each', '', $display_price );
 					}
 				}
 			} else if ( $max != -1 ) {
-				$display_price = str_replace( '%price', '', $this->utils->get_string( 'price_option', $locale ) );
+				$display_price = str_replace( '%price', '', wp_kses_post( $this->utils->get_string( 'price_option', $locale ) ) );
 				$display_price = str_replace( '%each', '', $display_price );
 			} else {
 				$display_price = '';
 			}
 			if ( $max != -1 ) {
-				$display_price = str_replace( '%max', $this->utils->get_string( 'max_option', $locale ), $display_price );
-				$display_price = str_replace( '%max_value', $max, $display_price );
+				$display_price = str_replace( '%max', esc_html( $this->utils->get_string( 'max_option', $locale ) ), $display_price );
+				$display_price = str_replace( '%max_value', esc_html( $max ), $display_price );
 			} else {
 				$display_price = str_replace( '%max', '', $display_price );
 			}

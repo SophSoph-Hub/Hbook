@@ -1321,6 +1321,8 @@ class HbUtils {
 
 		$resa_currency = isset( $resa['currency'] ) ? $resa['currency'] : get_option( 'hb_currency', 'CHF' );
 		$text = str_replace( '[resa_CCY]', $resa_currency, $text );
+		$iban = ( $resa_currency === 'EUR' ) ? get_option( 'hb_iban_eur', '' ) : get_option( 'hb_iban_chf', '' );
+		$text = str_replace( '[IBAN]', esc_html( $iban ), $text );
 
 		$text = str_replace( '[resa_persons]', $resa['adults'] + $resa['children'], $text );
 		$text = str_replace( '[resa_received_on]', $this->get_blog_datetime( $resa['received_on'] ), $text );
@@ -2422,6 +2424,8 @@ class HbUtils {
 				'[resa_coupon_code]',
 				'[resa_coupon_amount]',
 				'[resa_invoice_table]',
+				'[resa_CCY]',
+				'[IBAN]',
 				'[resa_price]',
 				'[resa_accom_list_price]',
 				'[resa_accom_list_price_per_night]',

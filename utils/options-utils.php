@@ -232,6 +232,18 @@ class HbOptionsUtils {
 						'class' => 'hb-small-field',
 						'default' => '0.95',
 					),
+					'hb_iban_chf' => array(
+						'label' => esc_html__( 'IBAN (CHF)', 'hbook-admin' ),
+						'caption' => esc_html__( 'IBAN for CHF bank transfers. Available in email templates with [IBAN].', 'hbook-admin' ),
+						'type' => 'text',
+						'default' => '',
+					),
+					'hb_iban_eur' => array(
+						'label' => esc_html__( 'IBAN (EUR)', 'hbook-admin' ),
+						'caption' => esc_html__( 'IBAN for EUR bank transfers. Available in email templates with [IBAN].', 'hbook-admin' ),
+						'type' => 'text',
+						'default' => '',
+					),
 				)
 			),
 		);

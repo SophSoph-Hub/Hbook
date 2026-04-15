@@ -95,8 +95,9 @@ update_option( 'hb_eur_chf_rate', '0.96' );
 **Currency in emails**: The customer's chosen currency (CHF or EUR) is captured at reservation creation time (`hb_create_resa` reads `hb-selected-currency` from the POST) and stored in the `currency` column of `wp_hb_resa` / `wp_hb_parents_resa`. Email templates can use:
 - `[resa_price]` — total price formatted in the customer's chosen currency
 - `[resa_CCY]` — the currency code: `CHF` or `EUR`
+- `[IBAN]` — the correct IBAN for the reservation's currency: reads `hb_iban_chf` (CHF) or `hb_iban_eur` (EUR) from `wp_options`. Both are configured under **Payment → Currency settings** in the WordPress admin.
 
-The server-side conversion for emails is handled by `HbUtils::price_in_resa_currency()` in `utils/utils.php`, which applies `hb_eur_chf_rate` when the stored currency is EUR. Payment gateways are unaffected — they read `get_option('hb_currency')` directly, not `$resa['currency']`.
+The server-side conversion for emails is handled by `HbUtils::price_in_resa_currency()` in `utils/utils.php`, which applies `hb_eur_chf_rate` when the stored currency is EUR. The `[IBAN]` and `[resa_CCY]` replacements happen in `replace_resa_vars_with_value()` immediately after `$resa_currency` is determined. Payment gateways are unaffected — they read `get_option('hb_currency')` directly, not `$resa['currency']`.
 
 ## Development Notes
 

@@ -692,6 +692,14 @@ input.hb-export-resa-date {
 		display: none;
 	}
 
+	/* Table, rows and cells all become block so they stack vertically */
+	.hb-resa-table,
+	.hb-resa-table tbody,
+	.hb-resa-table tr {
+		display: block;
+		width: 100%;
+	}
+
 	/* Each cell stacks as a block */
 	.hb-resa-table td {
 		box-sizing: border-box;

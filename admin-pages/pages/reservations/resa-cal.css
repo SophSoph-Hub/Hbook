@@ -420,3 +420,60 @@ hbdcob => hb-resa-day-checkout-blocked
 .hbd-confirmed .hbdlcd {
 	background: #5dc807;
 }
+
+@media screen and (max-width: 782px) {
+
+	/* Larger touch targets for previous / calendar-picker / next buttons */
+	.hb-resa-cal-commands a.button {
+		font-size: 22px;
+		height: 44px;
+		line-height: 42px;
+		min-height: auto;
+		padding: 0;
+		width: 44px;
+	}
+
+	/* Let the controls div size itself around the bigger buttons */
+	#hb-resa-accom-table td.hb-resa-cal-commands div.hb-calendar-controls {
+		max-height: none;
+		width: auto;
+	}
+
+	/* Month picker: stretch to almost full viewport width */
+	.hb-month-picker {
+		box-sizing: border-box;
+		height: auto;
+		left: 5px !important;
+		right: 5px;
+		width: calc(100vw - 40px) !important;
+	}
+
+	/* Month picker year-navigation buttons: bigger tap area */
+	.hb-month-picker-controls {
+		display: flex;
+		gap: 10px;
+		justify-content: center;
+		margin-top: 12px;
+	}
+
+	.hb-month-picker a.button {
+		height: 40px;
+		line-height: 40px;
+		min-height: 40px;
+	}
+
+	/* Month buttons: 3 per row, tall enough to tap comfortably */
+	.hb-month-picker a.hb-month.button {
+		box-sizing: border-box;
+		line-height: 38px;
+		margin: 3px 2px;
+		min-height: 40px;
+		width: calc(33.33% - 6px);
+	}
+
+	/* Calendar range text: wrap instead of overflow-hidden */
+	#hb-resa-accom-table td.hb-resa-cal-commands span.calendar-range {
+		white-space: normal;
+		word-break: break-word;
+	}
+}

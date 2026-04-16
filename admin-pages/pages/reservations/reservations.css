@@ -460,11 +460,12 @@ input.hb-export-resa-date {
 	.hb-sending-email-wrapper,
 	.hb-customer-edit-wrapper,
 	.hb-open-documents-wrapper {
-		max-width: 100%;
-	}
-	.hb-payments-logs-wrapper {
-		left: auto;
-		right: 0;
+		box-sizing: border-box;
+		left: auto !important;
+		position: static;
+		right: auto !important;
+		top: auto !important;
+		width: 100% !important;
 	}
 }
 
@@ -685,19 +686,88 @@ input.hb-export-resa-date {
 }
 
 @media screen and (max-width: 782px) {
+
+	/* Hide desktop header row */
 	.hb-resa-table-head-foot {
 		display: none;
 	}
+
+	/* Each cell stacks as a block */
 	.hb-resa-table td {
+		box-sizing: border-box;
 		display: block;
+		padding: 8px 12px;
+		width: 100%;
 	}
+
+	/* Column label shown via ::before pseudo-element */
+	.hb-resa-table td[data-label]::before {
+		color: #777;
+		content: attr(data-label);
+		display: block;
+		font-size: 10px;
+		font-weight: 600;
+		letter-spacing: 0.07em;
+		margin-bottom: 4px;
+		text-transform: uppercase;
+	}
+
+	/* ID cell acts as visual row header */
+	.hb-resa-id-column {
+		background: #f6f7f7;
+		border-top: 2px solid #c3c4c7;
+		padding-top: 10px;
+	}
+
+	/* Actions row: row-ending separator, icons inline */
 	.hb-resa-actions-column {
 		border-bottom: 3px solid #e1e1e1;
+		padding-bottom: 10px;
 	}
 	.hb-resa-actions-column .dashicons {
 		display: inline-block;
 		width: auto;
 	}
+	/* No label needed for the actions cell */
+	.hb-resa-actions-column::before {
+		display: none;
+	}
+
+	/* Filter inputs: full width */
+	.hb-resa-filter-id input,
+	.hb-resa-filter-alphanum input,
+	.hb-resa-filter-customer input,
+	.hb-resa-filter-customer select {
+		box-sizing: border-box;
+		max-width: 100%;
+		position: static;
+		top: auto;
+		width: 100%;
+	}
+	.hb-resa-filter-date input.hb-input-date {
+		width: calc(45% - 22px);
+	}
+
+	/* Stack bulk actions and pagination (they float on desktop) */
+	.hb-bulk-action-wrapper {
+		display: block;
+		float: none;
+		margin-bottom: 8px;
+	}
+	.hb-resa-pagination {
+		display: block;
+		float: none;
+	}
+
+	/* Stack add-payment form columns */
+	.hb-add-payment-column {
+		float: none;
+		margin-bottom: 12px;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	/* Blocked accommodations table */
 	.hb-add-blocked-accom-column {
 		width: 100%;
 	}

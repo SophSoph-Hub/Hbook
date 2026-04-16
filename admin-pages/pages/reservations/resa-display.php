@@ -348,7 +348,7 @@ class HbAdminPageReservationsDisplayHelper {
 				<!-- /ko -->
 			</td>
 
-			<td>
+			<td class="hb-resa-accom-column" data-label="<?php esc_attr_e( 'Accommodation', 'hbook-admin' ); ?>">
 				<!-- ko if: ! is_parent -->
 				<div data-bind="visible: editing_accom()"><b><?php esc_html_e( 'Current accom.:', 'hbook-admin' ); ?></b></div>
 				<div data-bind="html: accom"></div>
@@ -372,7 +372,7 @@ class HbAdminPageReservationsDisplayHelper {
 				<!-- /ko -->
 			</td>
 
-			<td>
+			<td class="hb-resa-info-column" data-label="<?php esc_attr_e( 'Information', 'hbook-admin' ); ?>">
 				<!-- ko if: status() != 'processing' -->
 				<div data-bind="visible: ! editing_resa_info()">
 					<div data-bind="html: resa_info_html"></div>
@@ -412,7 +412,7 @@ class HbAdminPageReservationsDisplayHelper {
 			</td>
 
 			<?php if ( $this->site_has_extras ) { ?>
-			<td>
+			<td class="hb-resa-extras-column" data-label="<?php esc_attr_e( 'Extras', 'hbook-admin' ); ?>">
 				<div data-bind="html: options_info, visible: ! editing_options()"></div>
 				<!-- ko if: status() != 'processing' -->
 				<?php if ( $this->user_can_edit() ) : ?>
@@ -437,7 +437,7 @@ class HbAdminPageReservationsDisplayHelper {
 			</td>
 			<?php } ?>
 
-			<td>
+			<td class="hb-resa-comment-column" data-label="<?php esc_attr_e( 'Comment', 'hbook-admin' ); ?>">
 				<!-- ko if: status() != 'processing' -->
 				<div data-bind="visible: origin_url != ''">
 					<a data-bind="attr: { href: origin_url }" target="_blank" class="hb-origin-url-link"><?php esc_html_e( 'View reservation', 'hbook-admin' ); ?></a>
@@ -459,7 +459,7 @@ class HbAdminPageReservationsDisplayHelper {
 			</td>
 
 			<?php if ( $this->user_can_view( 'read_resa_customer' ) ) { ?>
-			<td class="hb-resa-customer-column">
+			<td class="hb-resa-customer-column" data-label="<?php esc_attr_e( 'Customer', 'hbook-admin' ); ?>">
 				<!-- ko if: status() != 'processing' && customer_id() != 0 && ! is_child -->
 				<div data-bind="visible: ! editing_customer(), html: customer_info_markup"></div>
 				<?php if ( $this->user_can_edit() ) : ?>
@@ -508,7 +508,7 @@ class HbAdminPageReservationsDisplayHelper {
 			<?php } ?>
 
 			<?php if ( $this->user_can_view( 'read_resa_price' ) ) { ?>
-			<td class="hb-resa-price-column">
+			<td class="hb-resa-price-column" data-label="<?php esc_attr_e( 'Price / Payment', 'hbook-admin' ); ?>">
 				<div data-bind="html: price_markup"></div>
 
 				<!-- ko if: status() != 'processing' -->
@@ -742,7 +742,7 @@ class HbAdminPageReservationsDisplayHelper {
 			</td>
 			<?php } ?>
 
-			<td>
+			<td class="hb-resa-received-column" data-label="<?php esc_attr_e( 'Received on', 'hbook-admin' ); ?>">
 				<div data-bind="text: received_on_formatted"></div>
 				<div data-bind="visible: nb_emails_sent_text()"><a data-bind="text: nb_emails_sent_text, click: $root.fetch_email_logs" href="#"></a></div>
 				<div data-bind="visible: fetching_email_logs()"><?php esc_html_e( 'Fetching logs...', 'hbook-admin' ); ?></div>

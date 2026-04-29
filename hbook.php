@@ -559,10 +559,8 @@ class HBook {
 	}
 
 	public function create_plugin_admin_menu() {
-		if ( get_option( 'hb_valid_purchase_code' ) == 'yes' || strpos( site_url(), '127.0.0.1' ) || strpos( site_url(), 'localhost' ) ) {
-			$page = add_menu_page( esc_html__( 'Reservations', 'hbook-admin' ), esc_html__( 'Reservations', 'hbook-admin' ), 'read_resa', 'hb_reservations', array( $this, 'display_admin_page' ), 'dashicons-calendar-alt', '2.82' );
-			add_action( 'admin_print_styles-' . $page, array( $this, 'enqueue_scripts' ) );
-		}
+		$page = add_menu_page( esc_html__( 'Reservations', 'hbook-admin' ), esc_html__( 'Reservations', 'hbook-admin' ), 'read_resa', 'hb_reservations', array( $this, 'display_admin_page' ), 'dashicons-calendar-alt', '2.82' );
+		add_action( 'admin_print_styles-' . $page, array( $this, 'enqueue_scripts' ) );
 
 		$page = add_menu_page(
 			'HBook',

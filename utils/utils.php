@@ -1020,9 +1020,11 @@ class HbUtils {
 				$parents_resa[ $key ]['check_in'] = '';
 				$parents_resa[ $key ]['check_out'] = '';
 				$parents_resa[ $key ]['status'] = '';
+				$parents_resa[ $key ]['confirmed_on'] = null;
 				$children_resa_check_in = array_column( $children_resa, 'check_in' );
 				$children_resa_check_out = array_column( $children_resa, 'check_out' );
 				$children_resa_status = array_column( $children_resa, 'status' );
+				$children_confirmed_on = array_filter( array_column( $children_resa, 'confirmed_on' ) );
 				if ( count( array_unique( $children_resa_check_in ) ) == 1 ) {
 					$parents_resa[ $key ]['check_in'] = $children_resa_check_in[0];
 				}
@@ -1031,6 +1033,9 @@ class HbUtils {
 				}
 				if ( count( array_unique( $children_resa_status ) ) == 1 ) {
 					$parents_resa[ $key ]['status'] = $children_resa_status[0];
+				}
+				if ( $children_confirmed_on ) {
+					$parents_resa[ $key ]['confirmed_on'] = max( $children_confirmed_on );
 				}
 			}
 		}
@@ -1052,6 +1057,7 @@ class HbUtils {
 			$today = substr( current_time( 'mysql' ), 0, 10 );
 			$check_in_pos = '';
 			$check_out_pos = '';
+			$confirmation_pos = '';
 			$check_in_diff_days = 0;
 			$check_out_diff_days = 0;
 			if ( $resa['check_in'] ) {
@@ -1084,6 +1090,13 @@ class HbUtils {
 					}
 				}
 			}
+			if ( ! empty( $resa['confirmed_on'] ) ) {
+				$confirmed_on_date = substr( $resa['confirmed_on'], 0, 10 );
+				$confirmation_diff_days = $this->get_number_of_nights( $confirmed_on_date, $today );
+				if ( $confirmation_diff_days >= 0 ) {
+					$confirmation_pos = $confirmation_diff_days . '-after-confirmation';
+				}
+			}
 			foreach ( $email_templates as $email_template ) {
 				$trigger_details = '';
 				if (
@@ -1102,6 +1115,11 @@ class HbUtils {
 					)
 				) {
 					$trigger_details = $check_out_pos;
+				} else if (
+					$confirmation_pos &&
+					in_array( $confirmation_pos, $email_template['schedules'] )
+				) {
+					$trigger_details = $confirmation_pos;
 				}
 				if (
 					$trigger_details &&

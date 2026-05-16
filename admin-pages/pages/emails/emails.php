@@ -112,6 +112,7 @@ class HbAdminPageEmails extends HbAdminPage {
 				'schedule_after' => esc_html__( 'after', 'hbook-admin' ),
 				'schedule_in' => esc_html__( 'check-in', 'hbook-admin' ),
 				'schedule_out' => esc_html__( 'check-out', 'hbook-admin' ),
+				'schedule_confirmation' => esc_html__( 'confirmation', 'hbook-admin' ),
 				'schedule_check_in_day' => esc_html__( 'on check-in day', 'hbook-admin' ),
 				'schedule_check_out_day' => esc_html__( 'on check-out day', 'hbook-admin' ),
 				'schedule_invalid_days_number' => esc_html__( 'The number of days is not valid.', 'hbook-admin' ),
@@ -335,17 +336,23 @@ class HbAdminPageEmails extends HbAdminPage {
 								<input data-bind="value: edit_schedule_days" type="text" class="hb-email-schedule-days" />
 								<?php esc_html_e( 'days', 'hbook-admin' ); ?><br/>
 
-								<input data-bind="checked: edit_schedule_position" name="edit_schedule_position" id="edit_schedule_position_before" type="radio" value="before" />
-								<label for="edit_schedule_position_before"><?php esc_html_e( 'before', 'hbook-admin' ); ?></label>
-								&nbsp;&nbsp;
-								<input data-bind="checked: edit_schedule_position" name="edit_schedule_position" id="edit_schedule_position_after" type="radio" value="after" />
-								<label for="edit_schedule_position_after"><?php esc_html_e( 'after', 'hbook-admin' ); ?></label><br/>
+								<span data-bind="visible: edit_schedule_check_in_out() != 'confirmation'">
+									<input data-bind="checked: edit_schedule_position" name="edit_schedule_position" id="edit_schedule_position_before" type="radio" value="before" />
+									<label for="edit_schedule_position_before"><?php esc_html_e( 'before', 'hbook-admin' ); ?></label>
+									&nbsp;&nbsp;
+									<input data-bind="checked: edit_schedule_position" name="edit_schedule_position" id="edit_schedule_position_after" type="radio" value="after" />
+									<label for="edit_schedule_position_after"><?php esc_html_e( 'after', 'hbook-admin' ); ?></label>
+								</span>
+								<span data-bind="visible: edit_schedule_check_in_out() == 'confirmation'"><?php esc_html_e( 'after', 'hbook-admin' ); ?></span><br/>
 
 								<input data-bind="checked: edit_schedule_check_in_out" name="edit_schedule_check_in_out" id="edit_schedule_check_in_out_in" type="radio" value="in" />
 								<label for="edit_schedule_check_in_out_in"><?php esc_html_e( 'check-in', 'hbook-admin' ); ?></label>
 								&nbsp;&nbsp;
 								<input data-bind="checked: edit_schedule_check_in_out" name="edit_schedule_check_in_out" id="edit_schedule_check_in_out_out" type="radio" value="out" />
-								<label for="edit_schedule_check_in_out_out"><?php esc_html_e( 'check-out', 'hbook-admin' ); ?></label><br/>
+								<label for="edit_schedule_check_in_out_out"><?php esc_html_e( 'check-out', 'hbook-admin' ); ?></label>
+								&nbsp;&nbsp;
+								<input data-bind="checked: edit_schedule_check_in_out" name="edit_schedule_check_in_out" id="edit_schedule_check_in_out_confirmation" type="radio" value="confirmation" />
+								<label for="edit_schedule_check_in_out_confirmation"><?php esc_html_e( 'confirmation', 'hbook-admin' ); ?></label><br/>
 
 								<span data-bind="visible: ( edit_schedule_check_in_out() == 'in' ) && ( edit_schedule_position() == 'after' )">
 									<input id="scheduled_after_in_allow_after_out" type="checkbox" data-bind="checked: edit_schedule_only_before_out" />

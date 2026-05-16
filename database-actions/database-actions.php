@@ -1589,10 +1589,14 @@ class HbDataBaseActions {
 
 	public function update_resa_status( $id, $status ) {
 		$previous_status = $this->get_resa_status( $id );
-		$updated = $this->db->update( $this->resa_table, array(
+		$fields = array(
 			'status' => $status,
 			'updated_on' => current_time( 'mysql', 1 ),
-		), array( 'id' => $id ) );
+		);
+		if ( $status === 'confirmed' && $previous_status !== 'confirmed' ) {
+			$fields['confirmed_on'] = current_time( 'mysql', 1 );
+		}
+		$updated = $this->db->update( $this->resa_table, $fields, array( 'id' => $id ) );
 		if ( $updated ) {
 			$logs = array(
 				'resa_id' => $id,

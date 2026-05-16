@@ -4,7 +4,7 @@
  * Plugin Name: HBook
  * Plugin URI: https://maestrel.com/hbook/
  * Description: Bookings made easy for hospitality businesses.
- * Version: 2.1.4
+ * Version: 2.1.5
  * Author: Maestrel
  * Author URI: https://maestrel.com/
  */
@@ -32,7 +32,7 @@ class HBook {
 	private $stripe;
 
 	public function __construct() {
-		$this->version = '2.1.4';
+		$this->version = '2.1.5';
 
 		require_once plugin_dir_path( __FILE__ ) . 'database-actions/database-actions.php';
 		$this->hbdb = new HbDataBaseActions();

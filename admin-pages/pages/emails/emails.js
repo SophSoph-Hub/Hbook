@@ -229,23 +229,27 @@ function EmailTmpl( brand_new, id, name, to_address, reply_to_address, from_addr
 		if ( schedule ) {
 			var new_schedule = '';
 			new_schedule += self.edit_schedule_days() + '-';
-			if ( self.edit_schedule_days() != 0 ) {
-				new_schedule += self.edit_schedule_position() + '-';
-			}
-			new_schedule += self.edit_schedule_check_in_out();
-			if (
-				(
-					( self.edit_schedule_check_in_out() == 'in' ) &&
-					( self.edit_schedule_position() == 'after' ) &&
-					( ! self.edit_schedule_only_before_out() )
-				) ||
-				(
-					( self.edit_schedule_check_in_out() == 'out' ) &&
-					( self.edit_schedule_position() == 'before' ) &&
-					( ! self.edit_schedule_only_after_in() )
-				)
-			) {
-				new_schedule += '-always';
+			if ( self.edit_schedule_check_in_out() == 'confirmation' ) {
+				new_schedule += 'after-confirmation';
+			} else {
+				if ( self.edit_schedule_days() != 0 ) {
+					new_schedule += self.edit_schedule_position() + '-';
+				}
+				new_schedule += self.edit_schedule_check_in_out();
+				if (
+					(
+						( self.edit_schedule_check_in_out() == 'in' ) &&
+						( self.edit_schedule_position() == 'after' ) &&
+						( ! self.edit_schedule_only_before_out() )
+					) ||
+					(
+						( self.edit_schedule_check_in_out() == 'out' ) &&
+						( self.edit_schedule_position() == 'before' ) &&
+						( ! self.edit_schedule_only_after_in() )
+					)
+				) {
+					new_schedule += '-always';
+				}
 			}
 			if ( self.edit_schedule_days() != parseInt( self.edit_schedule_days() ) ) {
 				alert( hb_text.schedule_invalid_days_number );
@@ -278,15 +282,20 @@ function EmailTmpl( brand_new, id, name, to_address, reply_to_address, from_addr
 		if ( schedule ) {
 			var schedule = self.schedules()[ index ].split( '-' );
 			self.edit_schedule_days( schedule[0] );
-			self.edit_schedule_position( schedule[1] );
-			self.edit_schedule_check_in_out( schedule[2] );
 			self.edit_schedule_only_before_out( true );
 			self.edit_schedule_only_after_in( true );
-			if ( ( schedule.length == 4 ) && ( schedule[3] == 'always' ) ) {
-				if ( schedule[2] == 'in' ) {
-					self.edit_schedule_only_before_out( false );
-				} else {
-					self.edit_schedule_only_after_in( false );
+			if ( schedule[2] == 'confirmation' ) {
+				self.edit_schedule_position( 'after' );
+				self.edit_schedule_check_in_out( 'confirmation' );
+			} else {
+				self.edit_schedule_position( schedule[1] );
+				self.edit_schedule_check_in_out( schedule[2] );
+				if ( ( schedule.length == 4 ) && ( schedule[3] == 'always' ) ) {
+					if ( schedule[2] == 'in' ) {
+						self.edit_schedule_only_before_out( false );
+					} else {
+						self.edit_schedule_only_after_in( false );
+					}
 				}
 			}
 			self.editing_schedule( index );
@@ -369,10 +378,14 @@ function EmailTmpl( brand_new, id, name, to_address, reply_to_address, from_addr
 			if ( email_tmpl.editing_schedule() == 'adding' ) {
 				var new_schedule = '';
 				new_schedule += self.edit_schedule_days() + '-';
-				if ( self.edit_schedule_days() != 0 ) {
-					new_schedule += self.edit_schedule_position() + '-';
+				if ( self.edit_schedule_check_in_out() == 'confirmation' ) {
+					new_schedule += 'after-confirmation';
+				} else {
+					if ( self.edit_schedule_days() != 0 ) {
+						new_schedule += self.edit_schedule_position() + '-';
+					}
+					new_schedule += self.edit_schedule_check_in_out();
 				}
-				new_schedule += self.edit_schedule_check_in_out();
 				if (
 					( self.edit_schedule_days() != parseInt( self.edit_schedule_days() ) ) ||
 					( self.schedules.indexOf( new_schedule ) >= 0 )

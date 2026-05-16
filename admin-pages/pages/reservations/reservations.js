@@ -3811,7 +3811,9 @@ jQuery( document ).ready( function( $ ) {
 		resaViewModel.resa_detailed_displaying_all_children( false );
 		resaViewModel.selected_resa( resaId );
 	} );
-	$( '#hb-month-cal' ).hide();
+	$( '#hb-resa-cal-wrapper' ).hide();
+	$( '#hb-cal-view-timeline' ).removeClass( 'button-primary' );
+	$( '#hb-cal-view-monthly' ).addClass( 'button-primary' );
 
 	$( '#hb-cal-view-timeline' ).on( 'click', function() {
 		$( this ).addClass( 'button-primary' );

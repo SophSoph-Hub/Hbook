@@ -482,6 +482,14 @@ hbdcob => hb-resa-day-checkout-blocked
 	width: 20px;
 }
 
+.hb-mcal-legend-label {
+	background: #f0f0f0;
+	border: 1px solid #d0d0d0;
+	border-radius: 3px;
+	font-size: 12px;
+	padding: 2px 7px;
+}
+
 .hb-mcal-daynames {
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
@@ -554,8 +562,8 @@ hbdcob => hb-resa-day-checkout-blocked
 	cursor: pointer;
 	font-size: 11px;
 	font-weight: 600;
-	height: 22px;
-	line-height: 22px;
+	height: 24px;
+	line-height: 24px;
 	overflow: hidden;
 	padding: 0 5px;
 	pointer-events: auto;
@@ -583,6 +591,18 @@ hbdcob => hb-resa-day-checkout-blocked
 	border-bottom-right-radius: 0;
 	border-top-right-radius: 0;
 	padding-right: 2px;
+}
+
+.hb-mcal-ev-accom {
+	background: rgba(0, 0, 0, 0.22);
+	border-radius: 2px;
+	font-size: 9px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	margin-right: 4px;
+	padding: 1px 3px;
+	text-transform: uppercase;
+	vertical-align: middle;
 }
 
 .hb-mcal-ev-name {

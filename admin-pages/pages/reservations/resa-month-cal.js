@@ -6,12 +6,24 @@ var hbMonthCal = (function($) {
 	var _accomColors = {}, _year, _month, _onResaClick, _initialized = false;
 
 	var PALETTE = [
-		'#1565C0', '#2E7D32', '#B71C1C', '#6A1B9A',
-		'#00695C', '#E65100', '#1A237E', '#880E4F',
-		'#4E342E', '#37474F', '#827717', '#006064'
+		'#C0392B', '#2980B9', '#27AE60', '#8E44AD', '#D35400',
+		'#16A085', '#2C3E50', '#AD1457', '#6D4C41', '#1565C0',
+		'#00695C', '#E67E22', '#558B2F', '#4527A0', '#00838F',
+		'#E53935', '#5D4037', '#0277BD', '#2E7D32', '#880E4F'
 	];
 
-	var EH = 22, EMAR = 2, ETOP = 26, EBOT = 6;
+	var EH = 24, EMAR = 2, ETOP = 26, EBOT = 6;
+
+	// DJB2 hash — gives stable, visually distinct colors per customer
+	function colorForId(n) {
+		n = n | 0;
+		var h = 5381;
+		var s = String(n);
+		for (var i = 0; i < s.length; i++) {
+			h = ((h << 5) + h + s.charCodeAt(i)) & 0x7fffffff;
+		}
+		return PALETTE[h % PALETTE.length];
+	}
 
 	function d2s(d) {
 		return d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate());
@@ -83,12 +95,17 @@ var hbMonthCal = (function($) {
 				}
 			}
 
+			var ac = accoms[r.accom_id()];
+			var accomAbbr = ac ? (ac.abbr_name || ac.short_name || '') : '';
+			var customerId = r.customer_id();
+
 			evs.push({
 				id: r.id,
 				sCol: sCol, eCol: eCol,
-				color: _accomColors[r.accom_id()] || PALETTE[0],
-				title: r.id + (name ? '. ' + name : ''),
+				color: colorForId(customerId || r.id),
+				title: r.id + (name ? '. ' + name : '') + (accomAbbr ? ' [' + accomAbbr + ']' : ''),
 				name: name,
+				accomAbbr: accomAbbr,
 				contLeft: ci < wStartStr,
 				contRight: lastNight > wEndStr,
 				row: -1,
@@ -130,7 +147,7 @@ var hbMonthCal = (function($) {
 		h += '<button class="hb-mcal-next button" type="button">&rsaquo;</button>';
 		h += '</div>';
 
-		// Legend
+		// Accommodation filter badges (colors on bars = per client, not per accom)
 		var legendHtml = '';
 		for (var i = 0; i < all_accom_ids.length; i++) {
 			var aid = all_accom_ids[i];
@@ -138,8 +155,7 @@ var hbMonthCal = (function($) {
 			var ac = accoms[aid];
 			var aname = ac ? (ac.short_name || ac.name) : '' + aid;
 			legendHtml += '<div class="hb-mcal-legend-item">';
-			legendHtml += '<span class="hb-mcal-legend-color" style="background:' + (_accomColors[aid] || PALETTE[0]) + '"></span>';
-			legendHtml += '<span>' + aname + '</span>';
+			legendHtml += '<span class="hb-mcal-legend-label" title="' + aname + '">' + aname + '</span>';
 			legendHtml += '</div>';
 		}
 		if (legendHtml) h += '<div class="hb-mcal-legend">' + legendHtml + '</div>';
@@ -192,7 +208,9 @@ var hbMonthCal = (function($) {
 					h += '<div class="' + cls + '"';
 					h += ' style="left:' + left + '%;width:calc(' + width + '% - 2px);top:' + top + 'px;background:' + ev.color + '"';
 					h += ' data-resa-id="' + ev.id + '" title="' + ev.title.replace(/"/g, '&quot;') + '">';
-					h += '<span class="hb-mcal-ev-label">' + ev.id;
+					h += '<span class="hb-mcal-ev-label">';
+					if (ev.accomAbbr) h += '<span class="hb-mcal-ev-accom">' + ev.accomAbbr + '</span>';
+					h += ev.id;
 					if (ev.name) h += '<span class="hb-mcal-ev-name"> ' + ev.name + '</span>';
 					h += '</span>';
 					h += '</div>';

@@ -775,6 +775,53 @@ input.hb-export-resa-date {
 		width: 100%;
 	}
 
+	/* Action buttons: pill-shaped with icon + text label */
+	.hb-resa-actions-column {
+		padding-bottom: 14px;
+		padding-top: 10px;
+	}
+
+	.hb-resa-actions-column a.dashicons {
+		align-items: center;
+		border: 2px solid currentColor;
+		border-radius: 22px;
+		box-sizing: border-box;
+		display: inline-flex;
+		font-size: 18px;
+		gap: 5px;
+		height: 44px;
+		justify-content: center;
+		margin: 0 8px 8px 0;
+		min-width: 44px;
+		padding: 0 12px 0 9px;
+		vertical-align: top;
+		width: auto;
+	}
+
+	/* Text label from the title attribute */
+	.hb-resa-actions-column a.dashicons[title]::after {
+		content: attr(title);
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+		font-size: 13px;
+		font-weight: 600;
+		white-space: nowrap;
+	}
+
+	/* Icon size in action buttons */
+	.hb-resa-actions-column a.dashicons::before {
+		font-size: 20px;
+		line-height: 1;
+	}
+
+	/* Color per action type */
+	.hb-resa-actions-column a.dashicons-yes { color: #5dc807; }
+	.hb-resa-actions-column a.dashicons-no { color: #ff6344; }
+	.hb-resa-actions-column a.dashicons-trash { color: #dc3232; }
+	.hb-resa-actions-column a.dashicons-email-alt { color: #0073aa; }
+	.hb-resa-actions-column a.dashicons-media-default,
+	.hb-resa-actions-column a.dashicons-admin-page,
+	.hb-resa-actions-column a.dashicons-undo { color: #555; }
+
 	/* Blocked accommodations table */
 	.hb-add-blocked-accom-column {
 		width: 100%;

@@ -40,8 +40,8 @@ class HbAdminPageReservationsDisplayHelper {
 				?>
 			</select>
 			<div class="hb-cal-view-toggle">
-				<button type="button" id="hb-cal-view-timeline" class="button button-primary"><?php esc_html_e( 'Timeline', 'hbook-admin' ); ?></button>
-				<button type="button" id="hb-cal-view-monthly" class="button"><?php esc_html_e( 'Monthly', 'hbook-admin' ); ?></button>
+				<button type="button" id="hb-cal-view-timeline" class="button"><?php esc_html_e( 'Timeline', 'hbook-admin' ); ?></button>
+				<button type="button" id="hb-cal-view-monthly" class="button button-primary"><?php esc_html_e( 'Monthly', 'hbook-admin' ); ?></button>
 			</div>
 		</div><br/>
 

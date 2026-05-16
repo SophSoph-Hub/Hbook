@@ -421,6 +421,199 @@ hbdcob => hb-resa-day-checkout-blocked
 	background: #5dc807;
 }
 
+/* ========= Monthly Calendar ========= */
+
+.hb-cal-view-toggle {
+	margin-bottom: 10px;
+	margin-top: 4px;
+}
+
+.hb-cal-view-toggle .button {
+	margin-right: 4px;
+}
+
+#hb-month-cal {
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	max-width: 1440px;
+	width: 100%;
+}
+
+.hb-mcal-header {
+	align-items: center;
+	display: flex;
+	gap: 8px;
+	margin-bottom: 8px;
+}
+
+.hb-mcal-title {
+	font-size: 16px;
+	font-weight: 600;
+	min-width: 180px;
+	text-align: center;
+}
+
+.hb-mcal-header .button {
+	height: 30px;
+	line-height: 28px;
+	min-height: auto;
+	padding: 0 8px;
+}
+
+.hb-mcal-legend {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 10px;
+}
+
+.hb-mcal-legend-item {
+	align-items: center;
+	display: flex;
+	font-size: 12px;
+	gap: 5px;
+}
+
+.hb-mcal-legend-color {
+	border-radius: 2px;
+	display: inline-block;
+	flex-shrink: 0;
+	height: 12px;
+	width: 20px;
+}
+
+.hb-mcal-daynames {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.hb-mcal-dayname {
+	background: #f6f7f7;
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+	font-size: 11px;
+	font-weight: 600;
+	padding: 4px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.hb-mcal-week {
+	position: relative;
+}
+
+.hb-mcal-day-cells {
+	bottom: 0;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.hb-mcal-day {
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+	height: 100%;
+	padding: 3px 4px;
+}
+
+.hb-mcal-day-num {
+	display: block;
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+.hb-mcal-other-month .hb-mcal-day-num {
+	color: #b8bec7;
+}
+
+.hb-mcal-today {
+	background: #f0f7ff;
+}
+
+.hb-mcal-today .hb-mcal-day-num {
+	color: #0073aa;
+	font-weight: 700;
+}
+
+.hb-mcal-events-layer {
+	left: 0;
+	pointer-events: none;
+	position: absolute;
+	right: 0;
+	top: 26px;
+	z-index: 1;
+}
+
+.hb-mcal-event {
+	border-radius: 3px;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	font-size: 11px;
+	font-weight: 600;
+	height: 22px;
+	line-height: 22px;
+	overflow: hidden;
+	padding: 0 5px;
+	pointer-events: auto;
+	position: absolute;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.hb-mcal-event:hover {
+	filter: brightness(1.12);
+}
+
+.hb-mcal-event-unconfirmed {
+	opacity: 0.65;
+}
+
+.hb-mcal-cont-left {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	padding-left: 2px;
+}
+
+.hb-mcal-cont-right {
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	padding-right: 2px;
+}
+
+.hb-mcal-ev-name {
+	font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+	.hb-mcal-dayname {
+		font-size: 9px;
+		overflow: hidden;
+		padding: 3px 1px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.hb-mcal-day-num {
+		font-size: 11px;
+	}
+
+	.hb-mcal-ev-name {
+		display: none;
+	}
+
+	.hb-mcal-title {
+		font-size: 14px;
+		min-width: 130px;
+	}
+}
+
+/* ========= End Monthly Calendar ========= */
+
 @media screen and (max-width: 782px) {
 
 	/* Larger touch targets for previous / calendar-picker / next buttons */

@@ -531,6 +531,7 @@ class HBook {
 			wp_enqueue_script( 'jquery-ui-resizable' );
 			$this->utils->hb_enqueue_script( 'hb-resa-utils', '/admin-pages/pages/reservations/resa-utils.js' );
 			$this->utils->hb_enqueue_script( 'hb-resa-cal', '/admin-pages/pages/reservations/resa-cal.js' );
+			$this->utils->hb_enqueue_script( 'hb-resa-month-cal', '/admin-pages/pages/reservations/resa-month-cal.js' );
 			$this->utils->hb_enqueue_script( 'hb-resa-export', '/admin-pages/pages/reservations/resa-export.js' );
 			$this->utils->hb_enqueue_style( 'hb-resa-cal-style', '/admin-pages/pages/reservations/resa-cal.css' );
 			$this->utils->hb_enqueue_style( 'hb-admin-selectize', '/front-end/css/selectize.default.css' );

@@ -237,6 +237,7 @@ jQuery( document ).ready( function( $ ) {
 		}
 		hb_resa_cal_tables( $( '#hb-resa-cal-table' ).data( 'first-day'), displayed_accoms );
 		resaViewModel.redraw_calendar();
+		hbMonthCal.setDisplayedAccoms( accom_selected );
 	});
 
 	$( '#hb-resa-cal-wrapper' ).on( 'click', '.hb-go-to-previous-two-weeks, .hb-go-to-next-two-weeks', function() {
@@ -1416,6 +1417,7 @@ jQuery( document ).ready( function( $ ) {
 
 		this.redraw_calendar = function() {
 			hb_set_resa_cal( self.resa(), self.blocked_accom(), self.customers_list(), $( '#hb-resa-cal-table' ).data( 'first-day'), displayed_accoms );
+			hbMonthCal.refresh( self.resa(), self.customers_list() );
 		}
 
 		this.resa.subscribe( function() {
@@ -3803,6 +3805,29 @@ jQuery( document ).ready( function( $ ) {
 	}
 	hb_resa_cal_tables( hb_date_to_str( first_calendar_day ), displayed_accoms );
 	resaViewModel.redraw_calendar();
+
+	hbMonthCal.init( resaViewModel.resa(), resaViewModel.customers_list(), function( resaId ) {
+		resaViewModel.resa_detailed_all_children_link_visible( false );
+		resaViewModel.resa_detailed_displaying_all_children( false );
+		resaViewModel.selected_resa( resaId );
+	} );
+	$( '#hb-month-cal' ).hide();
+
+	$( '#hb-cal-view-timeline' ).on( 'click', function() {
+		$( this ).addClass( 'button-primary' );
+		$( '#hb-cal-view-monthly' ).removeClass( 'button-primary' );
+		$( '#hb-resa-cal-wrapper' ).show();
+		$( '#hb-month-cal' ).hide();
+		return false;
+	} );
+
+	$( '#hb-cal-view-monthly' ).on( 'click', function() {
+		$( this ).addClass( 'button-primary' );
+		$( '#hb-cal-view-timeline' ).removeClass( 'button-primary' );
+		$( '#hb-resa-cal-wrapper' ).hide();
+		$( '#hb-month-cal' ).show();
+		return false;
+	} );
 
 	var today = new Date();
 	var days_diff = Math.floor( ( today - first_calendar_day ) / ( 1000 *60 * 60 *24 ) );

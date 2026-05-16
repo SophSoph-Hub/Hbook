@@ -39,6 +39,10 @@ class HbAdminPageReservationsDisplayHelper {
 				}
 				?>
 			</select>
+			<div class="hb-cal-view-toggle">
+				<button type="button" id="hb-cal-view-timeline" class="button button-primary"><?php esc_html_e( 'Timeline', 'hbook-admin' ); ?></button>
+				<button type="button" id="hb-cal-view-monthly" class="button"><?php esc_html_e( 'Monthly', 'hbook-admin' ); ?></button>
+			</div>
 		</div><br/>
 
 		<div id="hb-resa-cal-wrapper">
@@ -47,6 +51,8 @@ class HbAdminPageReservationsDisplayHelper {
 				<table id="hb-resa-cal-table" class="hb-resa-cal-table"></table>
 			</div>
 		</div>
+
+		<div id="hb-month-cal"></div>
 
 	</div><!-- end .hb-resa-section -->
 

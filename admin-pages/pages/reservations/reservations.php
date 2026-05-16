@@ -349,6 +349,7 @@ class HbAdminPageReservations extends HbAdminPage {
 			'accoms' => $accom_info,
 			'hb_show_accom_num' => $show_accom_num,
 			'hb_text' => $hb_text,
+			'month_full_name' => $this->month_full_name,
 			'month_short_name' => $month_short_name,
 			'days_short_name' => $days_short_name,
 			'hb_price_precision' => get_option( 'hb_price_precision' ),

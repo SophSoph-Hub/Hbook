@@ -1424,9 +1424,9 @@ jQuery( document ).ready( function( $ ) {
 			setTimeout( function() {
 				var $detail = $( '#hb-resa-detail-section' );
 				if ( $detail.length ) {
-					$( 'html, body' ).animate( { scrollTop: $detail.offset().top - 20 }, 350 );
+					$( 'html, body' ).animate( { scrollTop: $detail.offset().top - 20 }, 400 );
 				}
-			}, 100 );
+			}, 200 );
 		}
 
 		this.mobile_open_detail = function( resa ) {
@@ -1441,7 +1441,13 @@ jQuery( document ).ready( function( $ ) {
 			self.resa_detailed_displaying_all_children( false );
 			self.selected_resa( resa.id );
 			self.email_resa( resa );
-			mobile_scroll_to_detail();
+			setTimeout( function() {
+				var $form = $( '#hb-resa-detail-section .hb-sending-email-wrapper' ).filter( ':visible' ).first();
+				var $target = $form.length ? $form : $( '#hb-resa-detail-section' );
+				if ( $target.length ) {
+					$( 'html, body' ).animate( { scrollTop: $target.offset().top - 20 }, 400 );
+				}
+			}, 250 );
 		}
 
 		this.resa.subscribe( function() {
@@ -3874,6 +3880,15 @@ jQuery( document ).ready( function( $ ) {
 	setTimeout( function() {
 		$( '#hb-resa-cal-scroller' ).scrollLeft( scroll_left );
 	}, 1000 );
+
+	// On mobile, move the detail section below the list so editing is accessible after tapping "Modifier"
+	if ( window.innerWidth <= 782 ) {
+		var $detailSection = $( '#hb-resa-detail-section' );
+		var $listSection   = $( '#hb-resa-mobile-list' ).closest( '.hb-resa-section' );
+		if ( $detailSection.length && $listSection.length ) {
+			$listSection.after( $detailSection );
+		}
+	}
 });
 
 var hb_new_admin_resas;

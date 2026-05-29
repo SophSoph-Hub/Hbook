@@ -844,9 +844,11 @@ input.hb-export-resa-date {
 	font-weight: 700;
 }
 
+/* Masquer le <br> et les montants secondaires dans la carte (disponibles dans "Modifier") */
+.hb-bc-price br,
 .hb-bc-price .hb-amount-with-security-bond,
 .hb-bc-price .hb-previous-price {
-	font-size: 0.75rem;
+	display: none;
 }
 
 .hb-bc-pay-status .hb-payment-status {

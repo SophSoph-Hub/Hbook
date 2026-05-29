@@ -687,61 +687,329 @@ input.hb-export-resa-date {
 
 @media screen and (max-width: 782px) {
 
-	/* Hide desktop header row */
+	/* ================================================================
+	   RESERVATION TABLE → CARD LAYOUT
+	   ================================================================ */
+
 	.hb-resa-table-head-foot {
 		display: none;
 	}
 
-	/* Table, rows and cells all become block so they stack vertically */
-	.hb-resa-table,
-	.hb-resa-table tbody,
-	.hb-resa-table tr {
+	.hb-resa-table {
+		background: transparent !important;
+		border: none !important;
 		display: block;
+	}
+
+	.hb-resa-table tbody {
+		display: block;
+	}
+
+	/* Each row becomes an individual card */
+	.hb-resa-table tr {
+		align-items: flex-start;
+		background: #fff;
+		border: 1px solid #e8edf2 !important;
+		border-radius: 16px;
+		box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+		display: flex !important;
+		flex-wrap: wrap;
+		margin-bottom: 14px;
+		padding: 16px;
+		position: relative;
 		width: 100%;
 	}
 
-	/* Each cell stacks as a block */
+	/* Reset all cell defaults from wp-list-table */
 	.hb-resa-table td {
+		background: transparent !important;
+		border: none !important;
 		box-sizing: border-box;
 		display: block;
-		padding: 8px 12px;
+		padding: 0;
+		width: auto;
+	}
+
+	/* No data-label ::before in card mode */
+	.hb-resa-table td[data-label]::before {
+		display: none;
+	}
+
+	/* ---- SECTION 1 : ID (gauche) + Statut (droite) ---- */
+
+	.hb-resa-id-column {
+		align-items: center;
+		color: #a0aec0;
+		display: flex;
+		flex: 1 1 auto;
+		font-size: 11px;
+		gap: 6px;
+		margin-bottom: 10px;
+		order: 1;
+	}
+
+	.hb-resa-id-column input[type="checkbox"] {
+		margin: 0;
+	}
+
+	.hb-resa-status-column {
+		flex: 0 0 auto;
+		margin-bottom: 10px;
+		order: 1;
+		text-align: right;
+	}
+
+	.hb-resa-status-column .hb-resa-status {
+		border-radius: 20px;
+		font-size: 0.75rem;
+		padding: 5px 12px;
+	}
+
+	/* ---- SECTION 2 : Nom de l'hébergement (pleine largeur) ---- */
+
+	.hb-resa-accom-column {
+		color: #2d3748;
+		font-size: 1.05rem;
+		font-weight: 700;
+		margin-bottom: 12px;
+		order: 2;
 		width: 100%;
 	}
 
-	/* Column label shown via ::before pseudo-element */
-	.hb-resa-table td[data-label]::before {
-		color: #777;
-		content: attr(data-label);
-		display: block;
-		font-size: 10px;
-		font-weight: 600;
-		letter-spacing: 0.07em;
-		margin-bottom: 4px;
-		text-transform: uppercase;
+	.hb-resa-accom-column a {
+		font-size: 11px;
+		font-weight: 400;
 	}
 
-	/* ID cell acts as visual row header */
-	.hb-resa-id-column {
-		background: #f6f7f7;
-		border-top: 2px solid #c3c4c7;
-		padding-top: 10px;
+	/* ---- SECTION 3 : Bloc dates (fond gris arrondi) ---- */
+
+	.hb-resa-check-in-out-column {
+		align-items: center;
+		background: #f4f6f9;
+		border-radius: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0 6px;
+		justify-content: space-between;
+		margin-bottom: 12px;
+		order: 3;
+		padding: 10px 14px;
+		width: 100%;
 	}
 
-	/* Actions row: row-ending separator, icons inline */
+	.hb-resa-check-in-out-column br {
+		display: none;
+	}
+
+	/* Check-in : aligné à gauche */
+	.hb-resa-check-in-out-column > span:nth-of-type(1) {
+		color: #2d3748;
+		flex: 1;
+		font-size: 0.95rem;
+		font-weight: 700;
+		order: 1;
+	}
+
+	/* Check-out : aligné à droite */
+	.hb-resa-check-in-out-column > span:nth-of-type(2) {
+		color: #2d3748;
+		flex: 1;
+		font-size: 0.95rem;
+		font-weight: 700;
+		order: 3;
+		text-align: right;
+	}
+
+	/* Nombre de nuits : centré en bleu */
+	.hb-resa-check-in-out-column > span:nth-of-type(3),
+	.hb-resa-check-in-out-column > span:nth-of-type(4),
+	.hb-resa-check-in-out-column > span:nth-of-type(5) {
+		color: #3182ce;
+		flex: 0;
+		font-size: 0.8rem;
+		font-weight: 700;
+		order: 2;
+		text-align: center;
+	}
+
+	/* Lien d'édition des dates */
+	.hb-resa-check-in-out-column > div {
+		font-size: 11px;
+		order: 4;
+		padding-top: 6px;
+		width: 100%;
+	}
+
+	/* ---- SECTION 4 : Informations & Extras ---- */
+
+	.hb-resa-info-column {
+		border-bottom: 1px solid #edf2f7;
+		color: #4a5568;
+		font-size: 0.88rem;
+		margin-bottom: 8px;
+		order: 4;
+		padding-bottom: 8px;
+		width: 100%;
+	}
+
+	.hb-resa-extras-column {
+		border-bottom: 1px solid #edf2f7;
+		color: #4a5568;
+		font-size: 0.88rem;
+		margin-bottom: 8px;
+		order: 4;
+		padding-bottom: 8px;
+		width: 100%;
+	}
+
+	/* ---- SECTION 5 : Prix & statut de paiement ---- */
+
+	.hb-resa-price-column {
+		align-items: flex-start;
+		border-bottom: 1px solid #edf2f7;
+		border-top: 1px solid #edf2f7;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		justify-content: space-between;
+		margin: 4px 0 12px;
+		order: 5;
+		padding: 10px 0;
+		width: 100%;
+	}
+
+	.hb-resa-price-column .hb-payment-status {
+		border-radius: 20px;
+		font-size: 0.75rem;
+		margin-top: 0;
+		padding: 5px 12px;
+	}
+
+	/* ---- SECTION 6 : Client, commentaire, e-mails ---- */
+
+	.hb-resa-customer-column {
+		background: #f8f9fa;
+		border-radius: 8px;
+		color: #4a5568;
+		font-size: 0.88rem;
+		margin-bottom: 8px;
+		order: 6;
+		padding: 10px;
+		width: 100%;
+	}
+
+	.hb-resa-comment-column {
+		color: #4a5568;
+		font-size: 0.88rem;
+		margin-bottom: 6px;
+		order: 6;
+		width: 100%;
+	}
+
+	.hb-resa-received-column {
+		color: #718096;
+		font-size: 0.82rem;
+		margin-bottom: 8px;
+		order: 6;
+		width: 100%;
+	}
+
+	/* ---- SECTION 7 : Boutons d'action (tuiles colorées) ---- */
+
 	.hb-resa-actions-column {
-		border-bottom: 3px solid #e1e1e1;
-		padding-bottom: 10px;
+		border-bottom: none;
+		border-top: 1px solid #edf2f7;
+		display: grid;
+		gap: 8px;
+		grid-template-columns: repeat(4, 1fr);
+		margin-top: 4px;
+		order: 7;
+		padding-bottom: 0;
+		padding-top: 12px;
+		width: 100%;
 	}
-	.hb-resa-actions-column .dashicons {
-		display: inline-block;
-		width: auto;
-	}
-	/* No label needed for the actions cell */
+
 	.hb-resa-actions-column::before {
 		display: none;
 	}
 
-	/* Filter inputs: full width */
+	.hb-resa-actions-column a.dashicons {
+		align-items: center;
+		border: none;
+		border-radius: 10px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		font-size: 18px;
+		gap: 5px;
+		height: 56px;
+		justify-content: center;
+		margin: 0;
+		min-width: 0;
+		padding: 0;
+		text-decoration: none;
+		transition: opacity 0.15s, transform 0.1s;
+		width: 100%;
+	}
+
+	.hb-resa-actions-column a.dashicons:active {
+		opacity: 0.75;
+		transform: scale(0.94);
+	}
+
+	.hb-resa-actions-column a.dashicons[title]::after {
+		content: attr(title);
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+		font-size: 10px;
+		font-weight: 600;
+		line-height: 1;
+		white-space: nowrap;
+	}
+
+	/* Taille icône dans les tuiles */
+	.hb-resa-actions-column a.dashicons::before {
+		font-size: 20px;
+		line-height: 1;
+	}
+
+	/* Surcharge des couleurs ::before définies globalement */
+	.hb-resa-table .hb-resa-actions-column a.dashicons-yes::before { color: #0d47a1; font-size: 20px; }
+	.hb-resa-table .hb-resa-actions-column a.dashicons-no::before  { color: #c62828; font-size: 20px; }
+
+	/* Couleur de fond par type d'action */
+	.hb-resa-actions-column a.dashicons-yes       { background: #e3f2fd; color: #0d47a1; }
+	.hb-resa-actions-column a.dashicons-no        { background: #fbe9e7; color: #c62828; }
+	.hb-resa-actions-column a.dashicons-email-alt { background: #efebe9; color: #4e342e; }
+	.hb-resa-actions-column a.dashicons-trash     { background: #fbe9e7; color: #c62828; }
+	.hb-resa-actions-column a.dashicons-media-default,
+	.hb-resa-actions-column a.dashicons-admin-page { background: #eceff1; color: #37474f; }
+	.hb-resa-actions-column a.dashicons-undo      { background: #f3e5f5; color: #6a1b9a; }
+
+	.hb-resa-action-spinner {
+		grid-column: 1 / -1;
+		text-align: center;
+	}
+
+	/* ---- CARTES PARENT / ENFANT ---- */
+
+	.hb-resa-table tr.hb-resa-parent {
+		background: #fafafa !important;
+		border-left: 3px solid #a0aec0 !important;
+	}
+
+	.hb-resa-table tr.hb-resa-child {
+		margin-left: 12px;
+		width: calc(100% - 12px);
+	}
+
+	/* Animations ajout / suppression */
+	.hb-resa-table tr.hb-resa-added   { background: #f0fae8 !important; }
+	.hb-resa-table tr.hb-resa-deleting { background: #ffeaea !important; }
+
+	/* ================================================================
+	   FILTRES, PAGINATION, FORMULAIRES
+	   ================================================================ */
+
 	.hb-resa-filter-id input,
 	.hb-resa-filter-alphanum input,
 	.hb-resa-filter-customer input,
@@ -752,22 +1020,22 @@ input.hb-export-resa-date {
 		top: auto;
 		width: 100%;
 	}
+
 	.hb-resa-filter-date input.hb-input-date {
 		width: calc(45% - 22px);
 	}
 
-	/* Stack bulk actions and pagination (they float on desktop) */
 	.hb-bulk-action-wrapper {
 		display: block;
 		float: none;
 		margin-bottom: 8px;
 	}
+
 	.hb-resa-pagination {
 		display: block;
 		float: none;
 	}
 
-	/* Stack add-payment form columns */
 	.hb-add-payment-column {
 		float: none;
 		margin-bottom: 12px;
@@ -775,66 +1043,23 @@ input.hb-export-resa-date {
 		width: 100%;
 	}
 
-	/* Action buttons: pill-shaped with icon + text label */
-	.hb-resa-actions-column {
-		padding-bottom: 14px;
-		padding-top: 10px;
-	}
+	/* ---- TABLEAU DES BLOCAGES ---- */
 
-	.hb-resa-actions-column a.dashicons {
-		align-items: center;
-		border: 2px solid currentColor;
-		border-radius: 22px;
-		box-sizing: border-box;
-		display: inline-flex;
-		font-size: 18px;
-		gap: 5px;
-		height: 44px;
-		justify-content: center;
-		margin: 0 8px 8px 0;
-		min-width: 44px;
-		padding: 0 12px 0 9px;
-		vertical-align: top;
-		width: auto;
-	}
-
-	/* Text label from the title attribute */
-	.hb-resa-actions-column a.dashicons[title]::after {
-		content: attr(title);
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-		font-size: 13px;
-		font-weight: 600;
-		white-space: nowrap;
-	}
-
-	/* Icon size in action buttons */
-	.hb-resa-actions-column a.dashicons::before {
-		font-size: 20px;
-		line-height: 1;
-	}
-
-	/* Color per action type */
-	.hb-resa-actions-column a.dashicons-yes { color: #5dc807; }
-	.hb-resa-actions-column a.dashicons-no { color: #ff6344; }
-	.hb-resa-actions-column a.dashicons-trash { color: #dc3232; }
-	.hb-resa-actions-column a.dashicons-email-alt { color: #0073aa; }
-	.hb-resa-actions-column a.dashicons-media-default,
-	.hb-resa-actions-column a.dashicons-admin-page,
-	.hb-resa-actions-column a.dashicons-undo { color: #555; }
-
-	/* Blocked accommodations table */
 	.hb-add-blocked-accom-column {
 		width: 100%;
 	}
+
 	.hb-blocked-accom-table .hb-table-head {
 		display: none;
 	}
+
 	.hb-blocked-accom-table .hb-table-data {
 		border-bottom: 1px solid #e5e5e5;
 		float: none;
 		min-height: 40px;
 		width: 100%;
 	}
+
 	.hb-blocked-accom-table .hb-table-data.hb-table-data-action {
 		text-align: left;
 	}

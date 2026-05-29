@@ -65,7 +65,7 @@ class HbAdminPageReservationsDisplayHelper {
 		if ( $this->user_can_view( 'read_resa_list' ) ) {
 	?>
 
-	<div class="hb-resa-section">
+	<div class="hb-resa-section" id="hb-resa-detail-section">
 
 		<h3><?php esc_html_e( 'Reservation details', 'hbook-admin' ); ?></h3>
 
@@ -209,8 +209,12 @@ class HbAdminPageReservationsDisplayHelper {
 
 		<?php $this->display_resa_pagination(); ?>
 
+		<div id="hb-resa-mobile-list" data-bind="foreach: { data: resa_paginated }">
+		<?php $this->display_resa_mobile_card(); ?>
+		</div>
+
 		<?php
-		$resa_table_class = 'wp-list-table widefat hb-resa-table';
+		$resa_table_class = 'wp-list-table widefat hb-resa-table hb-resa-list-table';
 		if ( $this->site_has_extras ) {
 			$resa_table_class .= ' hb-resa-table-has-extras';
 		}
@@ -867,6 +871,124 @@ class HbAdminPageReservationsDisplayHelper {
 
 		</tr>
 
+	<?php
+	}
+
+	private function display_resa_mobile_card() {
+	?>
+		<!-- ko if: ! is_child -->
+		<div class="hb-booking-card" data-bind="css: { 'hb-bc-cancelled': status() == 'cancelled' }">
+
+			<!-- En-tête : hébergement + badge statut -->
+			<div class="hb-bc-header">
+				<div class="hb-bc-property">
+					<span class="hb-bc-property-label"><?php esc_html_e( 'Hébergement', 'hbook-admin' ); ?></span>
+					<div class="hb-bc-property-name" data-bind="html: accom"></div>
+				</div>
+				<div class="hb-bc-status" data-bind="html: status_markup"></div>
+			</div>
+
+			<!-- Bloc dates -->
+			<!-- ko if: check_in() && check_in() != '' && check_out() && check_out() != '' -->
+			<div class="hb-bc-dates">
+				<div class="hb-bc-date-box">
+					<span class="hb-bc-date-label"><?php esc_html_e( 'Arrivée', 'hbook-admin' ); ?></span>
+					<span class="hb-bc-date-val" data-bind="text: check_in_formatted"></span>
+				</div>
+				<div class="hb-bc-duration">
+					<span data-bind="text: nb_nights"></span>&nbsp;<span data-bind="visible: nb_nights() == 1"><?php esc_html_e( 'nuit', 'hbook-admin' ); ?></span><span data-bind="visible: nb_nights() != 1"><?php esc_html_e( 'nuits', 'hbook-admin' ); ?></span>
+				</div>
+				<div class="hb-bc-date-box hb-bc-date-right">
+					<span class="hb-bc-date-label"><?php esc_html_e( 'Départ', 'hbook-admin' ); ?></span>
+					<span class="hb-bc-date-val" data-bind="text: check_out_formatted"></span>
+				</div>
+			</div>
+			<!-- /ko -->
+
+			<!-- Détails : voyageurs + extras -->
+			<!-- ko if: ! is_parent -->
+			<!-- ko if: adults() > 0 -->
+			<div class="hb-bc-details">
+				<div class="hb-bc-detail-item">
+					<span class="dashicons dashicons-groups"></span>
+					<span><span data-bind="text: adults()"></span>&nbsp;<?php esc_html_e( 'adultes', 'hbook-admin' ); ?><!-- ko if: children() > 0 -->, <span data-bind="text: children()"></span>&nbsp;<?php esc_html_e( 'enfants', 'hbook-admin' ); ?><!-- /ko --></span>
+				</div>
+				<?php if ( $this->site_has_extras ) { ?>
+				<!-- ko if: options_info() != '' -->
+				<div class="hb-bc-detail-item hb-bc-extras">
+					<span class="dashicons dashicons-cart"></span>
+					<span data-bind="html: options_info" class="hb-bc-extras-text"></span>
+				</div>
+				<!-- /ko -->
+				<?php } ?>
+			</div>
+			<!-- /ko -->
+			<!-- /ko -->
+
+			<!-- Prix + statut paiement -->
+			<?php if ( $this->user_can_view( 'read_resa_price' ) ) : ?>
+			<div class="hb-bc-payment">
+				<div class="hb-bc-price" data-bind="html: price_markup"></div>
+				<div class="hb-bc-pay-status" data-bind="html: payment_status, visible: ! is_child"></div>
+			</div>
+			<?php endif; ?>
+
+			<!-- Accordéon client & suivi -->
+			<?php if ( $this->user_can_view( 'read_resa_customer' ) ) : ?>
+			<!-- ko if: customer_id() != 0 && ! is_child -->
+			<details class="hb-bc-client">
+				<summary class="hb-bc-client-summary">
+					<span class="dashicons dashicons-admin-users"></span>
+					<span><?php esc_html_e( 'Client &amp; Suivi', 'hbook-admin' ); ?></span>
+					<span class="hb-bc-chevron dashicons dashicons-arrow-down-alt2"></span>
+				</summary>
+				<div class="hb-bc-client-body">
+					<div data-bind="html: customer_info_markup"></div>
+					<!-- ko if: nb_emails_sent_text() -->
+					<div class="hb-bc-email-status">
+						<span class="dashicons dashicons-email-alt"></span>
+						<a href="#" data-bind="text: nb_emails_sent_text, click: $root.fetch_email_logs"></a>
+					</div>
+					<!-- /ko -->
+					<!-- ko if: admin_comment() != '' -->
+					<div class="hb-bc-comment" data-bind="html: admin_comment_html"></div>
+					<!-- /ko -->
+				</div>
+			</details>
+			<!-- /ko -->
+			<?php endif; ?>
+
+			<!-- Barre d'actions -->
+			<!-- ko if: status() != 'processing' -->
+			<div class="hb-bc-actions">
+				<a href="#" class="hb-bc-btn hb-bc-btn-confirm" title="<?php esc_attr_e( 'Confirmer', 'hbook-admin' ); ?>"
+				   data-bind="click: $root.confirm_resa, visible: confirm_visible()">
+					<span class="dashicons dashicons-yes"></span>
+					<span><?php esc_html_e( 'Confirmer', 'hbook-admin' ); ?></span>
+				</a>
+				<a href="#" class="hb-bc-btn hb-bc-btn-cancel" title="<?php esc_attr_e( 'Annuler', 'hbook-admin' ); ?>"
+				   data-bind="click: $root.cancel_resa, visible: ! action_processing() && status() != 'cancelled'">
+					<span class="dashicons dashicons-no"></span>
+					<span><?php esc_html_e( 'Annuler', 'hbook-admin' ); ?></span>
+				</a>
+				<a href="#" class="hb-bc-btn hb-bc-btn-details hbdlcd" title="<?php esc_attr_e( 'Détails', 'hbook-admin' ); ?>"
+				   data-bind="attr: { 'data-resa-id': id }, visible: ! action_processing()">
+					<span class="dashicons dashicons-edit"></span>
+					<span><?php esc_html_e( 'Détails', 'hbook-admin' ); ?></span>
+				</a>
+				<a href="#" class="hb-bc-btn hb-bc-btn-delete" title="<?php esc_attr_e( 'Supprimer', 'hbook-admin' ); ?>"
+				   data-bind="click: $root.delete_resa, visible: ! action_processing()">
+					<span class="dashicons dashicons-trash"></span>
+					<span><?php esc_html_e( 'Suppr.', 'hbook-admin' ); ?></span>
+				</a>
+				<div data-bind="visible: action_processing()" class="hb-bc-spinner">
+					<span class="spinner"></span>
+				</div>
+			</div>
+			<!-- /ko -->
+
+		</div><!-- .hb-booking-card -->
+		<!-- /ko -->
 	<?php
 	}
 

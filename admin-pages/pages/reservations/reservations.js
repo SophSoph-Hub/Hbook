@@ -3481,6 +3481,18 @@ jQuery( document ).ready( function( $ ) {
 			return false;
 		});
 
+		$( '#hb-resa-mobile-list' ).on( 'click', '.hbdlcd', function() {
+			$( this ).blur();
+			self.resa_detailed_all_children_link_visible( false );
+			self.resa_detailed_displaying_all_children( false );
+			self.selected_resa( $( this ).data( 'resa-id' ) );
+			var $detail = $( '#hb-resa-detail-section' );
+			if ( $detail.length ) {
+				$( 'html, body' ).animate( { scrollTop: $detail.offset().top - 20 }, 350 );
+			}
+			return false;
+		});
+
 		this.hide_selected_resa = function() {
 			self.selected_resa( 0 );
 			self.resa_detailed_all_children_link_visible( false );

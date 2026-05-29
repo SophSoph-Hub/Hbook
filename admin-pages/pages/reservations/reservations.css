@@ -1074,8 +1074,9 @@ input.hb-export-resa-date {
 		padding: 14px;
 	}
 
+	/* !important requis : même spécificité que la règle tr {display:block} qui vient après */
 	#hb-resa-detail-section .hb-resa-table-head-foot {
-		display: none;
+		display: none !important;
 	}
 
 	#hb-resa-detail-section .hb-resa-table {
@@ -1083,6 +1084,11 @@ input.hb-export-resa-date {
 		display: block;
 		table-layout: auto;
 		width: 100%;
+	}
+
+	#hb-resa-detail-section .hb-resa-table thead,
+	#hb-resa-detail-section .hb-resa-table tfoot {
+		display: none !important;
 	}
 
 	#hb-resa-detail-section .hb-resa-table tbody {
@@ -1110,9 +1116,34 @@ input.hb-export-resa-date {
 		border-bottom: none !important;
 	}
 
-	/* Supprimer les labels data-label : se chevauchent en contexte table même avec display:block */
-	#hb-resa-detail-section td[data-label]::before {
-		display: none;
+	/* Labels data-label : maintenant que td est display:block, ::before fonctionne correctement */
+	#hb-resa-detail-section .hb-resa-table td[data-label]::before {
+		color: #a0aec0;
+		content: attr(data-label);
+		display: block;
+		font-size: 0.68rem;
+		font-weight: 700;
+		letter-spacing: 0.07em;
+		margin-bottom: 5px;
+		text-transform: uppercase;
+	}
+
+	/* Contenu visible : taille lisible sur mobile */
+	#hb-resa-detail-section .hb-resa-table td {
+		color: #2d3748;
+		font-size: 0.92rem;
+	}
+
+	/* Badge statut dans le détail */
+	#hb-resa-detail-section .hb-resa-status {
+		border-radius: 20px;
+		font-size: 0.78rem;
+		padding: 5px 12px;
+	}
+
+	/* Dates */
+	#hb-resa-detail-section .hb-resa-check-in-out-column span {
+		font-size: 0.92rem;
 	}
 
 	/* Tous les champs de formulaire : pleine largeur, pas de débordement */

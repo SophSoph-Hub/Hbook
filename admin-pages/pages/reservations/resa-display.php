@@ -960,6 +960,12 @@ class HbAdminPageReservationsDisplayHelper {
 			<!-- /ko -->
 			<?php endif; ?>
 
+			<!-- Date de réception -->
+			<div class="hb-bc-received">
+				<span class="dashicons dashicons-calendar-alt"></span>
+				<span><?php esc_html_e( 'Received on', 'hbook-admin' ); ?> : <span data-bind="text: received_on_formatted"></span></span>
+			</div>
+
 			<!-- Barre d'actions -->
 			<!-- ko if: status() != 'processing' -->
 			<div class="hb-bc-actions">

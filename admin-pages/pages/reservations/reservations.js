@@ -3352,32 +3352,26 @@ jQuery( document ).ready( function( $ ) {
 					console.log( textStatus + ' (' + errorThrown + ')' );
 				}
 			});
-			if ( sorting == 'check_in_date_asc' && self.resa_filter() == 'none' ) {
-				self.resa_filter( 'check_in_date' );
-				self.resa_filter_check_in_to( '' );
-			}
+			// Tri par date d'arrivée : trier sans forcer un filtre (les resas sans date vont en fin de liste)
 		});
 
 		this.resa_sorted = ko.computed( function() {
+
+			// Clé de tri pour date d'arrivée : les resas sans date valide vont toujours en fin de liste
+			function check_in_key( resa ) {
+				var ci = resa.check_in();
+				return ( ci && ci !== '0000-00-00' ) ? ci : '9999-99-99';
+			}
+
 			if ( self.resa_sort() == 'check_in_date_asc' ) {
 				return self.resa_filtered().slice().sort( function( a, b ) {
-					if ( a.check_in() > b.check_in() ) {
-						return 1;
-					} else if ( a.check_in() < b.check_in() ) {
-						return -1;
-					} else {
-						return 0;
-					}
+					var ka = check_in_key( a ), kb = check_in_key( b );
+					return ka > kb ? 1 : ka < kb ? -1 : 0;
 				});
 			} else if ( self.resa_sort() == 'check_in_date_desc' ) {
 				return self.resa_filtered().slice().sort( function( a, b ) {
-					if ( a.check_in() < b.check_in() ) {
-						return 1;
-					} else if ( a.check_in() > b.check_in() ) {
-						return -1;
-					} else {
-						return 0;
-					}
+					var ka = check_in_key( a ), kb = check_in_key( b );
+					return ka < kb ? 1 : ka > kb ? -1 : 0;
 				});
 			} else if ( self.resa_sort() == 'received_date_asc' ) {
 				return self.resa_filtered().slice().sort( function( a, b ) {

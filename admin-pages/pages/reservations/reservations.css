@@ -949,6 +949,24 @@ input.hb-export-resa-date {
 	padding-left: 8px;
 }
 
+/* --- Date de réception --- */
+.hb-bc-received {
+	align-items: center;
+	border-top: 1px solid #edf2f7;
+	color: #718096;
+	display: flex;
+	font-size: 0.8rem;
+	gap: 6px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+.hb-bc-received .dashicons {
+	color: #a0aec0;
+	font-size: 14px;
+	width: 14px;
+}
+
 /* --- Barre d'actions --- */
 .hb-bc-actions {
 	display: grid;

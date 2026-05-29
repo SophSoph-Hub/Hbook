@@ -1440,6 +1440,14 @@ jQuery( document ).ready( function( $ ) {
 			self.email_resa( resa );
 		}
 
+		// Empêche le scroll navigateur lors du changement de template email sur mobile
+		$( '#hb-resa-mobile-list' ).on( 'change', 'select', function() {
+			var savedScrollY = window.scrollY || window.pageYOffset;
+			setTimeout( function() {
+				window.scrollTo( 0, savedScrollY );
+			}, 0 );
+		});
+
 		this.resa.subscribe( function() {
 			self.redraw_calendar();
 		});

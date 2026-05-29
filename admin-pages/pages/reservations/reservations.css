@@ -835,13 +835,21 @@ input.hb-export-resa-date {
 	justify-content: space-between;
 	gap: 8px;
 	margin-bottom: 14px;
+	overflow: hidden;
 	padding: 10px 0;
+}
+
+.hb-bc-price {
+	flex-shrink: 0;
+	min-width: 0;
 }
 
 .hb-bc-price span[title] {
 	color: #2d3748;
+	display: block;
 	font-size: 1.15rem;
 	font-weight: 700;
+	white-space: nowrap;
 }
 
 /* Masquer le <br> et les montants secondaires dans la carte (disponibles dans "Modifier") */
@@ -851,12 +859,22 @@ input.hb-export-resa-date {
 	display: none;
 }
 
+.hb-bc-pay-status {
+	flex-shrink: 1;
+	min-width: 0;
+	text-align: right;
+}
+
 .hb-bc-pay-status .hb-payment-status {
 	border-radius: 20px;
 	display: inline-block;
 	font-size: 0.72rem;
-	margin: 0 2px 2px 0;
+	margin: 0 0 2px;
+	max-width: 100%;
+	overflow: hidden;
 	padding: 4px 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 /* --- Accordéon client --- */
@@ -1092,16 +1110,9 @@ input.hb-export-resa-date {
 		border-bottom: none !important;
 	}
 
-	/* Label de section (data-label) */
+	/* Supprimer les labels data-label : se chevauchent en contexte table même avec display:block */
 	#hb-resa-detail-section td[data-label]::before {
-		color: #a0aec0;
-		content: attr(data-label);
-		display: block;
-		font-size: 10px;
-		font-weight: 700;
-		letter-spacing: 0.08em;
-		margin-bottom: 6px;
-		text-transform: uppercase;
+		display: none;
 	}
 
 	/* Tous les champs de formulaire : pleine largeur, pas de débordement */

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Réservation - Loca-Sud66</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="booking-card">
+        <div class="card-header">
+            <div class="property-info">
+                <span class="property-label">Hébergement</span>
+                <h2 class="property-name">Hameau des Pins 3</h2>
+            </div>
+            <span class="badge badge-success">Confirmée</span>
+        </div>
+
+        <div class="booking-dates">
+            <div class="date-box">
+                <span class="date-title">Arrivée</span>
+                <span class="date-value">15/08/2026</span>
+            </div>
+            <div class="duration">
+                <i class="fa-solid fa-moon"></i>
+                <span>7 nuits</span>
+            </div>
+            <div class="date-box align-right">
+                <span class="date-title">Départ</span>
+                <span class="date-value">22/08/2026</span>
+            </div>
+        </div>
+
+        <hr class="separator">
+
+        <div class="booking-details">
+            <div class="detail-item">
+                <i class="fa-solid fa-users"></i>
+                <span><strong>Voyageurs :</strong> 4 Adultes, 2 Enfants</span>
+            </div>
+            <div class="detail-item">
+                <i class="fa-solid fa-broom"></i>
+                <span><strong>Ménage :</strong> Sans animaux</span>
+            </div>
+            <div class="detail-item">
+                <i class="fa-solid fa-bed"></i>
+                <span><strong>Services :</strong> Avec la literie</span>
+            </div>
+        </div>
+
+        <div class="payment-section">
+            <div class="price-box">
+                <span class="price-label">Tarif Total</span>
+                <span class="price-amount">1 346,00 €</span>
+            </div>
+            <span class="badge badge-danger">Non payée</span>
+        </div>
+
+        <details class="client-accordion">
+            <summary class="accordion-trigger">
+                <span><i class="fa-solid fa-user-gear"></i> Informations client & Suivi</span>
+                <i class="fa-solid fa-chevron-down arrow"></i>
+            </summary>
+            <div class="accordion-content">
+                <p><strong>ID Client :</strong> 1</p>
+                <p><strong>Nom :</strong> Sophie AUBERT</p>
+                <p><strong>Dernier échange :</strong> 21/05/2026 à 09:18</p>
+                <p class="email-status"><i class="fa-regular fa-envelope"></i> 3 e-mails envoyés</p>
+                <button class="btn-secondary"><i class="fa-solid fa-comment-dots"></i> Ajouter un commentaire</button>
+            </div>
+        </details>
+
+        <div class="action-bar">
+            <button class="action-btn btn-edit" title="Modifier la réservation">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <span>Éditer</span>
+            </button>
+            <button class="action-btn btn-email" title="Envoyer un e-mail">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </button>
+            <button class="action-btn btn-document" title="Voir les documents">
+                <i class="fa-solid fa-file-invoice"></i>
+                <span>Doc</span>
+            </button>
+            <button class="action-btn btn-delete" title="Supprimer">
+                <i class="fa-solid fa-trash-can"></i>
+                <span>Suppr.</span>
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>

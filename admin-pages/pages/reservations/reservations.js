@@ -1438,12 +1438,6 @@ jQuery( document ).ready( function( $ ) {
 
 		this.mobile_email_resa = function( resa ) {
 			self.email_resa( resa );
-			setTimeout( function() {
-				var $form = $( '#hb-resa-mobile-list .hb-booking-card[data-resa-id="' + resa.id + '"] .hb-bc-email-form' );
-				if ( $form.length ) {
-					$( 'html, body' ).animate( { scrollTop: $form.offset().top - 20 }, 300 );
-				}
-			}, 100 );
 		}
 
 		this.resa.subscribe( function() {

@@ -1044,40 +1044,162 @@ input.hb-export-resa-date {
 		display: none !important;
 	}
 
-	/* Section détail : tableau simple empilé (une seule résa à la fois) */
+	/* ---- Section détail : vue édition mobile ---- */
+
+	#hb-resa-detail-section {
+		background: #fff;
+		border: 1px solid #edf2f7;
+		border-left: 4px solid #3182ce;
+		border-radius: 12px;
+		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+		margin-top: 4px;
+		padding: 14px;
+	}
+
 	#hb-resa-detail-section .hb-resa-table-head-foot {
 		display: none;
 	}
 
-	#hb-resa-detail-section .hb-resa-table,
-	#hb-resa-detail-section .hb-resa-table tbody,
+	#hb-resa-detail-section .hb-resa-table {
+		border: none !important;
+		display: block;
+		table-layout: auto;
+		width: 100%;
+	}
+
+	#hb-resa-detail-section .hb-resa-table tbody {
+		display: block;
+	}
+
 	#hb-resa-detail-section .hb-resa-table tr {
+		border: none !important;
 		display: block;
 		width: 100%;
 	}
 
 	#hb-resa-detail-section .hb-resa-table td {
+		border: none !important;
+		border-bottom: 1px solid #f0f4f8 !important;
 		box-sizing: border-box;
 		display: block;
-		padding: 8px 12px;
-		width: 100%;
+		padding: 10px 0;
+		position: static !important;
+		white-space: normal !important;
+		width: 100% !important;
 	}
 
+	#hb-resa-detail-section .hb-resa-table td:last-child {
+		border-bottom: none !important;
+	}
+
+	/* Label de section (data-label) */
 	#hb-resa-detail-section td[data-label]::before {
-		color: #777;
+		color: #a0aec0;
 		content: attr(data-label);
 		display: block;
 		font-size: 10px;
-		font-weight: 600;
-		letter-spacing: 0.07em;
-		margin-bottom: 4px;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		margin-bottom: 6px;
 		text-transform: uppercase;
 	}
 
+	/* Tous les champs de formulaire : pleine largeur, pas de débordement */
+	#hb-resa-detail-section input[type="text"],
+	#hb-resa-detail-section input[type="number"],
+	#hb-resa-detail-section input[type="button"],
+	#hb-resa-detail-section select,
+	#hb-resa-detail-section textarea {
+		box-sizing: border-box;
+		max-width: 100%;
+	}
+
+	#hb-resa-detail-section .hb-input-edit-resa,
+	#hb-resa-detail-section .hb-select-edit-resa {
+		width: 100%;
+	}
+
+	/* Panels overlay (logs, email, client) : inline, pas d'absolute */
+	#hb-resa-detail-section .hb-payments-logs-wrapper,
+	#hb-resa-detail-section .hb-email-logs-wrapper,
+	#hb-resa-detail-section .hb-sending-email-wrapper,
+	#hb-resa-detail-section .hb-customer-edit-wrapper,
+	#hb-resa-detail-section .hb-open-documents-wrapper {
+		border: 1px solid #e2e8f0;
+		border-radius: 8px;
+		box-shadow: none;
+		left: auto !important;
+		margin-top: 8px;
+		position: static !important;
+		right: auto !important;
+		top: auto !important;
+		width: 100% !important;
+	}
+
+	/* Tableaux de logs (paiements, emails) : scroll horizontal si besoin */
+	#hb-resa-detail-section .hb-payments-logs-wrapper,
+	#hb-resa-detail-section .hb-email-logs-wrapper {
+		overflow-x: auto;
+		padding: 0;
+	}
+
+	#hb-resa-detail-section .hb-payments-logs,
+	#hb-resa-detail-section .hb-email-logs {
+		display: table;
+		min-width: 100%;
+	}
+
+	#hb-resa-detail-section .hb-payments-logs tr,
+	#hb-resa-detail-section .hb-email-logs tr {
+		display: table-row;
+	}
+
+	#hb-resa-detail-section .hb-payments-logs td,
+	#hb-resa-detail-section .hb-payments-logs th,
+	#hb-resa-detail-section .hb-email-logs td,
+	#hb-resa-detail-section .hb-email-logs th {
+		border: none !important;
+		display: table-cell;
+		padding: 6px 8px;
+		white-space: nowrap;
+		width: auto !important;
+	}
+
+	/* Colonnes d'ajout de paiement : empilées */
+	#hb-resa-detail-section .hb-add-payment-column {
+		float: none;
+		margin-bottom: 10px;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	/* Formulaire d'édition client : pleine largeur */
+	#hb-resa-detail-section .hb-customer-edit-wrapper {
+		padding: 12px;
+	}
+
+	/* Éditeur d'accommodation : pleine largeur */
+	#hb-resa-detail-section .hb-accom-editor {
+		width: 100%;
+	}
+
+	/* Boutons d'action dans la colonne actions */
 	#hb-resa-detail-section .hb-resa-actions-column a.dashicons {
 		display: inline-block;
-		margin-right: 8px;
+		font-size: 22px;
+		margin: 0 10px 8px 0;
 		width: auto;
+	}
+
+	/* Formulaire d'envoi d'email dans le détail */
+	#hb-resa-detail-section .hb-sending-email-wrapper h4 {
+		margin: 8px 0 10px;
+	}
+
+	#hb-resa-detail-section .hb-sending-email-wrapper input[type="text"],
+	#hb-resa-detail-section .hb-sending-email-wrapper select,
+	#hb-resa-detail-section .hb-sending-email-wrapper textarea {
+		width: 100%;
 	}
 
 	/* --- Filtres pleine largeur --- */

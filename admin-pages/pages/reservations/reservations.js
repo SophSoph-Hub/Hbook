@@ -2469,7 +2469,11 @@ jQuery( document ).ready( function( $ ) {
 
 		this.edit_price = function( resa ) {
 			resa.editing_price( true );
-			resa.price_tmp( format_price( resa.price() ) );
+			if ( resa.old_currency && typeof hb_eur_chf_rate !== 'undefined' && hb_eur_chf_rate > 0 ) {
+				resa.price_tmp( format_price( parseFloat( resa.price() ) * hb_eur_chf_rate ) );
+			} else {
+				resa.price_tmp( format_price( resa.price() ) );
+			}
 		}
 
 		this.cancel_edit_price = function( resa ) {
@@ -2603,12 +2607,19 @@ jQuery( document ).ready( function( $ ) {
 		}
 
 		this.save_price = function( resa ) {
-			if ( parseFloat( resa.price_tmp() ) != parseFloat( resa.price() ) ) {
+			// Pour les réservations EUR : convertir le prix entré (EUR) en CHF avant sauvegarde
+			var new_price_chf;
+			if ( resa.old_currency && typeof hb_eur_chf_rate !== 'undefined' && hb_eur_chf_rate > 0 ) {
+				new_price_chf = format_price( parseFloat( resa.price_tmp() ) / hb_eur_chf_rate );
+			} else {
+				new_price_chf = resa.price_tmp();
+			}
+			if ( parseFloat( new_price_chf ) != parseFloat( resa.price() ) ) {
 				resa.saving_price( true );
 				hb_resa_ajax({
 					data: {
 						'action': 'hb_update_resa_price',
-						'new_price': resa.price_tmp(),
+						'new_price': new_price_chf,
 						'resa_id': resa.id,
 						'nonce': $( '#hb_nonce_update_db' ).val()
 					},
@@ -2627,7 +2638,7 @@ jQuery( document ).ready( function( $ ) {
 								resa.parent_resa().price( response['parent_new_price'] );
 							}
 							resa.previous_price( format_price( resa.price() ) );
-							resa.price( format_price( resa.price_tmp() ) );
+							resa.price( new_price_chf );
 							if ( response['discount_status'] == 'updated' ) {
 								resa.global_discount_amount( response['discount_amount'] );
 								resa.global_discount_amount_type( 'fixed' );

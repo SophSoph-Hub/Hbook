@@ -533,6 +533,8 @@ class HbAdminPageReservationsDisplayHelper {
 				<?php endif; ?>
 				<div data-bind="visible: editing_price()">
 					<?php esc_html_e( 'Price:', 'hbook-admin' ); ?>
+					<!-- ko if: old_currency --><span class="hb-price-edit-currency"> EUR</span><!-- /ko -->
+					<!-- ko ifnot: old_currency --><span class="hb-price-edit-currency"> CHF</span><!-- /ko -->
 					<br/>
 					<input class="hb-input-edit-resa" data-bind="value: price_tmp" type="text" />
 					<a data-bind="click: $root.save_price, visible: ! saving_price()" href="#" class="button-primary"><?php esc_html_e( 'Save', 'hbook-admin' ); ?></a>

@@ -1437,17 +1437,13 @@ jQuery( document ).ready( function( $ ) {
 		}
 
 		this.mobile_email_resa = function( resa ) {
-			self.resa_detailed_all_children_link_visible( false );
-			self.resa_detailed_displaying_all_children( false );
-			self.selected_resa( resa.id );
 			self.email_resa( resa );
 			setTimeout( function() {
-				var $form = $( '#hb-resa-detail-section .hb-sending-email-wrapper' ).filter( ':visible' ).first();
-				var $target = $form.length ? $form : $( '#hb-resa-detail-section' );
-				if ( $target.length ) {
-					$( 'html, body' ).animate( { scrollTop: $target.offset().top - 20 }, 400 );
+				var $form = $( '#hb-resa-mobile-list .hb-booking-card[data-resa-id="' + resa.id + '"] .hb-bc-email-form' );
+				if ( $form.length ) {
+					$( 'html, body' ).animate( { scrollTop: $form.offset().top - 20 }, 300 );
 				}
-			}, 250 );
+			}, 100 );
 		}
 
 		this.resa.subscribe( function() {

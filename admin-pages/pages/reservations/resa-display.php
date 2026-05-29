@@ -987,6 +987,37 @@ class HbAdminPageReservationsDisplayHelper {
 			</div>
 			<!-- /ko -->
 
+			<!-- Formulaire d'envoi d'email (inline dans la carte) -->
+			<!-- ko if: preparing_email() -->
+			<div class="hb-bc-email-form">
+				<hr class="hb-bc-sep"/>
+				<h4 class="hb-bc-email-title"><?php esc_html_e( 'Send an email', 'hbook-admin' ); ?></h4>
+				<p>
+					<label><?php esc_html_e( 'Template', 'hbook-admin' ); ?></label>
+					<select data-bind="value: email_customer_template, options: email_templates_options, optionsText: 'name', optionsValue: 'id'" class="widefat"></select>
+				</p>
+				<p>
+					<label><?php esc_html_e( 'To', 'hbook-admin' ); ?></label>
+					<input type="text" data-bind="value: email_customer_to_address" class="widefat" />
+					<small><?php esc_html_e( 'Leave blank to send to the customer.', 'hbook-admin' ); ?></small>
+				</p>
+				<p>
+					<label><?php esc_html_e( 'Subject', 'hbook-admin' ); ?></label>
+					<input type="text" data-bind="value: email_customer_subject" class="widefat" />
+				</p>
+				<p>
+					<label><?php esc_html_e( 'Message', 'hbook-admin' ); ?></label>
+					<textarea rows="6" data-bind="value: email_customer_message" class="widefat"></textarea>
+				</p>
+				<p>
+					<a data-bind="click: $root.send_email_customer, visible: ! action_processing()" href="#" class="button-primary"><?php esc_html_e( 'Send', 'hbook-admin' ); ?></a>
+					<input type="button" disabled data-bind="visible: action_processing()" class="button-primary" value="<?php esc_attr_e( 'Sending...', 'hbook-admin' ); ?>" />
+					<a data-bind="click: $root.cancel_email_resa" href="#" class="button"><?php esc_html_e( 'Cancel', 'hbook-admin' ); ?></a>
+					<span data-bind="visible: email_sent" class="hb-bc-email-sent"><?php esc_html_e( 'Email sent.', 'hbook-admin' ); ?></span>
+				</p>
+			</div>
+			<!-- /ko -->
+
 		</div><!-- .hb-booking-card -->
 		<!-- /ko -->
 	<?php

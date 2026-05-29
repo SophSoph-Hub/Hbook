@@ -978,6 +978,56 @@ input.hb-export-resa-date {
 	padding: 6px 0;
 }
 
+/* --- Formulaire email inline dans la carte --- */
+
+.hb-bc-email-form {
+	margin-top: 4px;
+}
+
+.hb-bc-email-title {
+	color: #2d3748;
+	font-size: 0.95rem;
+	font-weight: 700;
+	margin: 0 0 10px;
+}
+
+.hb-bc-email-form label {
+	color: #718096;
+	display: block;
+	font-size: 0.78rem;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	margin-bottom: 4px;
+	margin-top: 6px;
+	text-transform: uppercase;
+}
+
+.hb-bc-email-form .widefat {
+	border: 1px solid #e2e8f0;
+	border-radius: 6px;
+	box-sizing: border-box;
+	font-size: 0.88rem;
+	padding: 8px;
+	width: 100%;
+}
+
+.hb-bc-email-form textarea.widefat {
+	resize: vertical;
+}
+
+.hb-bc-email-form p:last-child {
+	display: flex;
+	gap: 8px;
+	margin-top: 12px;
+}
+
+.hb-bc-email-sent {
+	align-self: center;
+	color: #2e7d32;
+	font-size: 0.85rem;
+	font-weight: 600;
+}
+
 /* ================================================================
    FIN MOBILE CARD STYLES
    ================================================================ */

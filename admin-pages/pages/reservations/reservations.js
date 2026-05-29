@@ -3883,6 +3883,21 @@ jQuery( document ).ready( function( $ ) {
 		$( '#hb-resa-cal-scroller' ).scrollLeft( scroll_left );
 	}, 1000 );
 
+	// Injecte les labels dans la section détail sur mobile (évite les chevauchements de td::before)
+	if ( window.innerWidth <= 782 ) {
+		resaViewModel.selected_resa.subscribe( function( resaId ) {
+			if ( ! resaId ) return;
+			setTimeout( function() {
+				$( '#hb-resa-detail-section .hb-resa-table tbody td[data-label]' ).each( function() {
+					var $td = $( this );
+					if ( ! $td.find( '.hb-mobile-td-label' ).length ) {
+						$td.prepend( '<div class="hb-mobile-td-label">' + $td.attr( 'data-label' ) + '</div>' );
+					}
+				} );
+			}, 150 );
+		} );
+	}
+
 	// On mobile, move the detail section below the list so editing is accessible after tapping "Modifier"
 	if ( window.innerWidth <= 782 ) {
 		var $detailSection = $( '#hb-resa-detail-section' );

@@ -1116,15 +1116,20 @@ input.hb-export-resa-date {
 		border-bottom: none !important;
 	}
 
-	/* Labels data-label : maintenant que td est display:block, ::before fonctionne correctement */
-	#hb-resa-detail-section .hb-resa-table td[data-label]::before {
+	/* Supprimer ::before/::after sur td : comportement cross-browser non fiable → overlap */
+	#hb-resa-detail-section .hb-resa-table td::before,
+	#hb-resa-detail-section .hb-resa-table td::after {
+		display: none !important;
+	}
+
+	/* Labels injectés via JS : vrais div, pas de pseudo-elements → zéro chevauche */
+	#hb-resa-detail-section .hb-mobile-td-label {
 		color: #a0aec0;
-		content: attr(data-label);
 		display: block;
 		font-size: 0.68rem;
 		font-weight: 700;
 		letter-spacing: 0.07em;
-		margin-bottom: 5px;
+		margin-bottom: 4px;
 		text-transform: uppercase;
 	}
 
@@ -1134,16 +1139,39 @@ input.hb-export-resa-date {
 		font-size: 0.92rem;
 	}
 
-	/* Badge statut dans le détail */
-	#hb-resa-detail-section .hb-resa-status {
-		border-radius: 20px;
-		font-size: 0.78rem;
-		padding: 5px 12px;
+	/* Cellule ID : fond gris, visuellement un header de la fiche */
+	#hb-resa-detail-section .hb-resa-id-column {
+		background: #f6f7f7;
+		border-radius: 6px;
+		font-size: 0.9rem;
+		font-weight: 600;
+		padding: 8px 10px !important;
 	}
 
-	/* Dates */
-	#hb-resa-detail-section .hb-resa-check-in-out-column span {
+	/* Badge statut : bien visible */
+	#hb-resa-detail-section .hb-resa-status {
+		border-radius: 20px;
+		font-size: 0.85rem;
+		padding: 6px 14px;
+	}
+
+	/* Dates : bien lisibles */
+	#hb-resa-detail-section .hb-resa-check-in-out-column > span {
+		display: block;
 		font-size: 0.92rem;
+		line-height: 1.6;
+	}
+
+	/* Nom hébergement : en gras */
+	#hb-resa-detail-section .hb-resa-accom-column > div {
+		font-size: 0.95rem;
+		font-weight: 700;
+	}
+
+	/* Prix : en gras */
+	#hb-resa-detail-section .hb-resa-price-column span[title] {
+		font-size: 1rem;
+		font-weight: 700;
 	}
 
 	/* Tous les champs de formulaire : pleine largeur, pas de débordement */

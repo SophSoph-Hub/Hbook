@@ -877,7 +877,7 @@ class HbAdminPageReservationsDisplayHelper {
 	private function display_resa_mobile_card() {
 	?>
 		<!-- ko if: ! is_child -->
-		<div class="hb-booking-card" data-bind="css: { 'hb-bc-cancelled': status() == 'cancelled' }">
+		<div class="hb-booking-card" data-bind="css: { 'hb-bc-cancelled': status() == 'cancelled' }, attr: { 'data-resa-id': id }">
 
 			<!-- En-tête : hébergement + badge statut -->
 			<div class="hb-bc-header">
@@ -961,22 +961,22 @@ class HbAdminPageReservationsDisplayHelper {
 			<!-- Barre d'actions -->
 			<!-- ko if: status() != 'processing' -->
 			<div class="hb-bc-actions">
-				<a href="#" class="hb-bc-btn hb-bc-btn-confirm" title="<?php esc_attr_e( 'Confirmer', 'hbook-admin' ); ?>"
+				<a href="#" class="hb-bc-btn hb-bc-btn-confirm"
 				   data-bind="click: $root.confirm_resa, visible: confirm_visible()">
 					<span class="dashicons dashicons-yes"></span>
 					<span><?php esc_html_e( 'Confirmer', 'hbook-admin' ); ?></span>
 				</a>
-				<a href="#" class="hb-bc-btn hb-bc-btn-cancel" title="<?php esc_attr_e( 'Annuler', 'hbook-admin' ); ?>"
-				   data-bind="click: $root.cancel_resa, visible: ! action_processing() && status() != 'cancelled'">
-					<span class="dashicons dashicons-no"></span>
-					<span><?php esc_html_e( 'Annuler', 'hbook-admin' ); ?></span>
+				<a href="#" class="hb-bc-btn hb-bc-btn-email"
+				   data-bind="click: $root.mobile_email_resa, visible: ! action_processing() && customer_id() != 0 && ! is_child">
+					<span class="dashicons dashicons-email-alt"></span>
+					<span><?php esc_html_e( 'Email', 'hbook-admin' ); ?></span>
 				</a>
-				<a href="#" class="hb-bc-btn hb-bc-btn-details hbdlcd" title="<?php esc_attr_e( 'Détails', 'hbook-admin' ); ?>"
-				   data-bind="attr: { 'data-resa-id': id }, visible: ! action_processing()">
+				<a href="#" class="hb-bc-btn hb-bc-btn-edit"
+				   data-bind="click: $root.mobile_open_detail, visible: ! action_processing()">
 					<span class="dashicons dashicons-edit"></span>
-					<span><?php esc_html_e( 'Détails', 'hbook-admin' ); ?></span>
+					<span><?php esc_html_e( 'Modifier', 'hbook-admin' ); ?></span>
 				</a>
-				<a href="#" class="hb-bc-btn hb-bc-btn-delete" title="<?php esc_attr_e( 'Supprimer', 'hbook-admin' ); ?>"
+				<a href="#" class="hb-bc-btn hb-bc-btn-delete"
 				   data-bind="click: $root.delete_resa, visible: ! action_processing()">
 					<span class="dashicons dashicons-trash"></span>
 					<span><?php esc_html_e( 'Suppr.', 'hbook-admin' ); ?></span>

@@ -690,7 +690,9 @@ input.hb-export-resa-date {
    ================================================================ */
 
 #hb-resa-mobile-list {
+	clear: both;
 	display: none;
+	margin-top: 16px;
 }
 
 .hb-booking-card {
@@ -698,8 +700,15 @@ input.hb-export-resa-date {
 	border: 1px solid #edf2f7;
 	border-radius: 16px;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+	cursor: pointer;
 	margin-bottom: 14px;
 	padding: 18px 18px 14px;
+	transition: box-shadow 0.15s, transform 0.1s;
+}
+
+.hb-booking-card:active {
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+	transform: scale(0.995);
 }
 
 .hb-bc-cancelled {
@@ -801,9 +810,20 @@ input.hb-export-resa-date {
 }
 
 .hb-bc-extras-text .hb-options-price,
-.hb-bc-extras-text .hb-options-price-per,
-.hb-bc-extras-text br {
+.hb-bc-extras-text .hb-options-price-per {
 	display: none;
+}
+
+.hb-bc-extras-text > *,
+.hb-bc-extras-text > div,
+.hb-bc-extras-text > p {
+	margin-bottom: 4px;
+}
+
+.hb-bc-extras-text br {
+	content: "";
+	display: block;
+	margin-bottom: 4px;
 }
 
 /* --- Section prix / paiement --- */
@@ -913,7 +933,7 @@ input.hb-export-resa-date {
 .hb-bc-actions {
 	display: grid;
 	gap: 8px;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(56px, 1fr));
 }
 
 .hb-bc-btn {
@@ -944,7 +964,8 @@ input.hb-export-resa-date {
 
 .hb-bc-btn-confirm  { background: #e3f2fd; color: #0d47a1; }
 .hb-bc-btn-cancel   { background: #fff8e1; color: #e65100; }
-.hb-bc-btn-details  { background: #e8f5e9; color: #1b5e20; }
+.hb-bc-btn-email    { background: #efebe9; color: #4e342e; }
+.hb-bc-btn-edit     { background: #e8f5e9; color: #1b5e20; }
 .hb-bc-btn-delete   { background: #fbe9e7; color: #c62828; }
 
 .hb-bc-spinner {

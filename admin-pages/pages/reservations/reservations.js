@@ -1420,6 +1420,30 @@ jQuery( document ).ready( function( $ ) {
 			hbMonthCal.refresh( self.resa(), self.customers_list() );
 		}
 
+		function mobile_scroll_to_detail() {
+			setTimeout( function() {
+				var $detail = $( '#hb-resa-detail-section' );
+				if ( $detail.length ) {
+					$( 'html, body' ).animate( { scrollTop: $detail.offset().top - 20 }, 350 );
+				}
+			}, 100 );
+		}
+
+		this.mobile_open_detail = function( resa ) {
+			self.resa_detailed_all_children_link_visible( false );
+			self.resa_detailed_displaying_all_children( false );
+			self.selected_resa( resa.id );
+			mobile_scroll_to_detail();
+		}
+
+		this.mobile_email_resa = function( resa ) {
+			self.resa_detailed_all_children_link_visible( false );
+			self.resa_detailed_displaying_all_children( false );
+			self.selected_resa( resa.id );
+			self.email_resa( resa );
+			mobile_scroll_to_detail();
+		}
+
 		this.resa.subscribe( function() {
 			self.redraw_calendar();
 		});
@@ -3481,16 +3505,17 @@ jQuery( document ).ready( function( $ ) {
 			return false;
 		});
 
-		$( '#hb-resa-mobile-list' ).on( 'click', '.hbdlcd', function() {
-			$( this ).blur();
-			self.resa_detailed_all_children_link_visible( false );
-			self.resa_detailed_displaying_all_children( false );
-			self.selected_resa( $( this ).data( 'resa-id' ) );
-			var $detail = $( '#hb-resa-detail-section' );
-			if ( $detail.length ) {
-				$( 'html, body' ).animate( { scrollTop: $detail.offset().top - 20 }, 350 );
+		$( '#hb-resa-mobile-list' ).on( 'click', '.hb-booking-card', function( e ) {
+			if ( $( e.target ).closest( '.hb-bc-actions, .hb-bc-client, a, button, input' ).length ) {
+				return;
 			}
-			return false;
+			var resaId = $( this ).data( 'resa-id' );
+			if ( resaId ) {
+				self.resa_detailed_all_children_link_visible( false );
+				self.resa_detailed_displaying_all_children( false );
+				self.selected_resa( resaId );
+				mobile_scroll_to_detail();
+			}
 		});
 
 		this.hide_selected_resa = function() {

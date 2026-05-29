@@ -3514,7 +3514,7 @@ jQuery( document ).ready( function( $ ) {
 		});
 
 		$( '#hb-resa-mobile-list' ).on( 'click', '.hb-booking-card', function( e ) {
-			if ( $( e.target ).closest( '.hb-bc-actions, .hb-bc-client, a, button, input' ).length ) {
+			if ( $( e.target ).closest( '.hb-bc-actions, .hb-bc-client, .hb-bc-email-form, a, button, input, select, textarea, label' ).length ) {
 				return;
 			}
 			var resaId = $( this ).data( 'resa-id' );

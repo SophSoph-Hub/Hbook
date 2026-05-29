@@ -353,6 +353,7 @@ class HbAdminPageReservations extends HbAdminPage {
 			'month_short_name' => $month_short_name,
 			'days_short_name' => $days_short_name,
 			'hb_price_precision' => get_option( 'hb_price_precision' ),
+			'hb_eur_chf_rate' => floatval( get_option( 'hb_eur_chf_rate', '0.95' ) ),
 			'hb_blocked_accom' => $hbdb->get_all_blocked_accom(),
 			'hb_customer_fields' => $customer_fields,
 			'hb_additional_info_fields' => $additional_info_fields,

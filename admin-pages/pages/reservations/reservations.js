@@ -466,7 +466,11 @@ jQuery( document ).ready( function( $ ) {
 		this.price_markup = ko.computed( function() {
 			var price = '';
 			if ( self.old_currency ) {
-				price = format_price( self.price() ) + ' ' + old_currency;
+				var rate = ( typeof hb_eur_chf_rate !== 'undefined' && hb_eur_chf_rate > 0 ) ? hb_eur_chf_rate : 0.95;
+				var eur_price = parseFloat( self.price() ) * rate;
+				price = '<span title="' + hb_text.price + '">';
+				price += format_price( eur_price ) + ' EUR';
+				price += '</span>';
 			} else {
 				price = '<span title="' + hb_text.price + '">';
 				price += hb_format_price( self.price() );

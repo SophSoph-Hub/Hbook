@@ -1341,6 +1341,10 @@ class HbUtils {
 		$text = str_replace( '[resa_CCY]', $resa_currency, $text );
 		$iban = ( $resa_currency === 'EUR' ) ? get_option( 'hb_iban_eur', '' ) : get_option( 'hb_iban_chf', '' );
 		$text = str_replace( '[IBAN]', esc_html( $iban ), $text );
+		$bic = ( $resa_currency === 'EUR' ) ? get_option( 'hb_bic_eur', '' ) : get_option( 'hb_bic_chf', '' );
+		$text = str_replace( '[BIC]', esc_html( $bic ), $text );
+		$address = ( $resa_currency === 'EUR' ) ? get_option( 'hb_address_eur', '' ) : get_option( 'hb_address_chf', '' );
+		$text = str_replace( '[Adresse]', nl2br( esc_html( $address ) ), $text );
 
 		$text = str_replace( '[resa_persons]', $resa['adults'] + $resa['children'], $text );
 		$text = str_replace( '[resa_received_on]', $this->get_blog_datetime( $resa['received_on'] ), $text );
@@ -2444,6 +2448,8 @@ class HbUtils {
 				'[resa_invoice_table]',
 				'[resa_CCY]',
 				'[IBAN]',
+				'[BIC]',
+				'[Adresse]',
 				'[resa_price]',
 				'[resa_accom_list_price]',
 				'[resa_accom_list_price_per_night]',

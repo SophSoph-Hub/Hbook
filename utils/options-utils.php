@@ -244,6 +244,30 @@ class HbOptionsUtils {
 						'type' => 'text',
 						'default' => '',
 					),
+					'hb_bic_chf' => array(
+						'label' => esc_html__( 'BIC (CHF)', 'hbook-admin' ),
+						'caption' => esc_html__( 'BIC/SWIFT for CHF bank transfers. Available in email templates with [BIC].', 'hbook-admin' ),
+						'type' => 'text',
+						'default' => '',
+					),
+					'hb_bic_eur' => array(
+						'label' => esc_html__( 'BIC (EUR)', 'hbook-admin' ),
+						'caption' => esc_html__( 'BIC/SWIFT for EUR bank transfers. Available in email templates with [BIC].', 'hbook-admin' ),
+						'type' => 'text',
+						'default' => '',
+					),
+					'hb_address_chf' => array(
+						'label' => esc_html__( 'Bank address (CHF)', 'hbook-admin' ),
+						'caption' => esc_html__( 'Bank address for CHF transfers. Available in email templates with [Adresse].', 'hbook-admin' ),
+						'type' => 'textarea',
+						'default' => '',
+					),
+					'hb_address_eur' => array(
+						'label' => esc_html__( 'Bank address (EUR)', 'hbook-admin' ),
+						'caption' => esc_html__( 'Bank address for EUR transfers. Available in email templates with [Adresse].', 'hbook-admin' ),
+						'type' => 'textarea',
+						'default' => '',
+					),
 				)
 			),
 		);
